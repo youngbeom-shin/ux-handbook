@@ -1,15 +1,11 @@
 ![Build Status](https://gitlab.com/pages/gitbook/badges/master/build.svg)
- 
----
 
-测试文本
+---
 
 Example [GitBook] website using GitLab Pages.
 
 Learn more about GitLab Pages at https://pages.gitlab.io and the official
 documentation https://docs.gitlab.com/ce/user/project/pages/.
-
-111
 
 ---
 

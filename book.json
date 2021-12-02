@@ -1,0 +1,104 @@
+{
+    "gitbook": "3.x.x",
+    "plugins": ["favicon", "-sharing","sharing-plus","youtubex", "-lunr", "-search","editlink","tbfed-pagefooter","rss","expandable-chapters-small","copy-code-button","anchors", "anchor-navigation-ex",
+        "search-plus"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "fontSettings": {
+            "family": "serif",
+            "size": 2
+        },
+        "youtubex": {
+            "embedDescription": {
+            "en": "Watch this video!",
+            "zh": "观看该视频:"
+    			}
+		}, 
+        "pageTop": {
+            "showLevelIcon": true,
+            "level1Icon": "fa fa-hand-o-right",
+            "level2Icon": "fa fa-hand-o-right",
+            "level3Icon": "fa fa-hand-o-right"
+        },      
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                
+            ]
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
+        },
+        "editlink": {
+            "base": "https://gitlab.cn/jihulab/product/design/design-handbook/-/tree/master",
+            "label": "编辑此页",
+            "multilingual": false
+        },
+        "rss": {
+            "title": "GitLab 中文 UX Handbook",
+            "description": "中文版GitLab UX Handbook",
+            "author": "极狐GitLab",
+            "site_url": "https://jihulab.pages.jihulab.com/product/design/design-handbook",
+            "feed_url":"https://jihulab.pages.jihulab.com/product/design/design-handbook",
+            "managingEditor": "https://jihulab.pages.jihulab.com/product/design/design-handbook",
+            "webMaster": "https://jihulab.pages.jihulab.com/product/design/design-handbook",
+            "categories": [
+              "UX",
+              "Handbook",
+              "GitLab"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy <a href='https://about.gitlab.com/handbook/engineering/ux/' target='_blank'>GitLab</a> 2021",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "expandable-chapters-small":{},
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": false,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop": true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        }
+    }
+}
