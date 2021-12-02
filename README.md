@@ -2,6 +2,8 @@
  
 ---
 
+测试文本
+
 Example [GitBook] website using GitLab Pages.
 
 Learn more about GitLab Pages at https://pages.gitlab.io and the official
