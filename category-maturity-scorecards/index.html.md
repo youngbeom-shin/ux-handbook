@@ -118,13 +118,13 @@ CMS 问题模板和 CMS Dovetail 模板都包含用于记录 CMS 期间遇到的
 提示：使用此 [Google Sheet](https://docs.google.com/spreadsheets/d/1w3GZNc11PSZ9sN_2II5SI3fwK4tH9LLSb2bci_o2mWg/edit#gid=0) ，其中包含已内置的计算。
 
 **第一步：**对于每个场景，输入测试参与者对每个相关问题的回答。
-![](/images/category-maturity-scorecards/cms_step1.png)
+![cms_step1](./cms_step1.png)
 
 **第二步：**将每个问题的总分取平均值，以提供场景分数。
-![](/images/category-maturity-scorecards/cms_step2.png)
+![cms_step2](./cms_step2.png)
 
 **第三步：**计算完所有场景分数后，您将获得总分。
-![](/images/category-maturity-scorecards/cms_step3.png)
+![cms_step3](./cms_step3.png)
 
 **第四步：**最后，在上面的图表中找到分数来确定结果等级和 CM 记分卡级别 - 3.93 平均值 = ‘B’ CM 记分卡等级 = 完成
 **最低通过率**百分比**：**最低通过率百分比有助于表明参与者必须在某个场景中成功达到最低要求的百分比。这也有助于指示可接受的场景故障级别。场景失败很重要，我们不能忽视它们，因此必须将它们作为标准的一部分来移动类别成熟度级别。如果研究期间任何场景的最低通过率百分比低于 80%，则研究应在最近的参与者处停止以节省资源。如果发生这种情况，则类别成熟度不能提高一个级别。当他们再次准备好时，团队应该接受这些学习、迭代和重新测试。还建议进行回顾以了解：
