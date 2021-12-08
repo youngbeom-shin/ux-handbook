@@ -16,9 +16,7 @@ description: "Guide on tools used within GitLab to find the data to support desi
 
 我们不应该完全依赖数据来做决定，但它应该是决策的一个重要输入。
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/J-USG9BKH-g" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+{%youtube%}J-USG9BKH-g{%endyoutube%}
 
 ## 将假设与影响结合起来
 
