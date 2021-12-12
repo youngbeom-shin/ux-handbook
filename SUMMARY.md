@@ -85,5 +85,11 @@
     * [如何进行UI代码的贡献](ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/index.html.md)
     * [修改代码的步骤指南](ux-resources/designers-step-by-step-guide-to-make-code-changes/index.html.md)
 * [用户体验记分卡](ux-scorecards/index.html.md)
+* [设计相关职位](/design-job-families/index.html.md)
+    * [产品设计师](/design-job-families/product-designer/index.html.md)
+    * [产品设计管理职位](/design-job-families/product-designer-management/index.html.md)
+    * [用户体验研究员](/design-job-families/ux-researcher/index.html.md)
+    * [用户体验研管理职位](/design-job-families/ux-research- manager/index.html.md)
+    * [用户体验研究协调员](/design-job-families/ux-research-coordinator/index.html.md)
 * [产品设计师入职培训](uxdesigner-onboarding/index.html.md)
 
