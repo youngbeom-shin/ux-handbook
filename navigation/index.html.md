@@ -10,30 +10,26 @@ description: "The UX team owns the navigation structures of the GitLab product. 
 - TOC
 {:toc .hidden-md .hidden-lg}
 
-The UX team owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation.
+UX团队负责 GitLab 产品的导航结构。如果您计划对 GitLab 导航提出更改建议，请审阅这些信息。
 
 ## GitLab 导航
 
-Navigation refers to both how the GitLab application is organized and how that organization is presented to users to enable them to move around the application. Navigation is important, because it
-affects the usability and discoverability of our products.
+导航指的是 GitLab 应用程序是如何组织的，以及如何向用户展示该组织以使他们能够在应用程序中实现跳转。导航很重要，因为它影响我们产品的可用性和发现性。
 
-We can think of our navigation as having two main types: **global navigation** (view projects, groups, account and user information) and **contextual navigation**
-(access content specific to each page, primarily product features within a project or group). There is more detail on this in our [Pajamas documentation of navigation](https://design.gitlab.com/regions/navigation).
+导航包括两个不同的部分:
 
-## Who Makes Navigation Changes
+* **顶部菜单**: 顶部的水平导航，包括全局链接，如你的待办事项、议题和跨项目和群组的合并请求。
+* **左侧边栏**: 取决于正在浏览的页面的上下文导航。
 
-Anyone can propose a navigation change by creating an issue, but a product team will have to take some ownership to get the change implemented. Typically this is the product team that owns the feature impacted by the navigation change.
-The [Editor](/handbook/engineering/development/dev/create-editor/) team owns navigation overall, so you should engage them in your proposed change.
+关于导航的更多细节可以在[Pajamas 文档](https://design.gitlab.com/regions/navigation)中找到。
 
-## How to Make Navigation Changes
+## 对左侧边栏进行修改
 
-1. Create your issue, and add as much detail as you can. You can create the issue in the [GitLab.com](https://gitlab.com/gitlab-org/gitlab) project.
-1. Label the issue with `UX`, `UI text`, `documentation`. Also add `Category:Navigation` label and mention the Static Site Editor team.
-1. Engage your UX partners in product design and research. If the team doesn't have a product designer, reach out to the UX Manager for the stage group.
-1. Engage your Technical Writer. Our docs often refer to navigation, so a documentation update is likely required.
-1. Follow the [product development workflow](/handbook/product-development-flow/#validation-phase-2-problem-validation) validation process to ensure you are solving a well understood problem and that the proposed change is understandable and non-disruptive to users. Consider doing navigation-specific research.
-1. Consider whether you need to communicate the change somehow, or if you will have an interim period in the UI where your nav item will live in more than one place.
-1. Kindly update this [navigation map in Mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1589571490215/261462d0beb3043979374623710d3f2d6cfec1cb) with your navigation change.
+任何人都可以通过使用[导航 - 左侧边栏建议](https://gitlab.com/gitlab-org/gitlab/-/issues\new?issuable_template=Navigation%20-%20Left%20Sidebar%20Proposals)议题模板来提出一个导航变更。拥有这个组件的产品团队负责实现更改。
+
+[Foundations](https://about.gitlab.com/handbook/product/categories/#foundations-group)团队拥有整体的导航，所以你应该让他们参与到你的修改建议中。
+
+当提议修改上下文导航中的顶级菜单项时，[Foundations 团队的产品设计经理](https://about.gitlab.com/handbook/product/categories/#foundations-group)是必须参与审批的[DRI](https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual)。
 
 [ux-guide]: https://docs.gitlab.com/ee/development/ux_guide/
 [ux-label]: https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=UX
