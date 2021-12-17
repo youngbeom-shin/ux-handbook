@@ -1,6 +1,3 @@
-# 类别成熟度计分卡
-原文：https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/
-
 # 介绍和目标
 类别成熟度 (CM) 记分卡是一种 [总结性评估](https://www.nngroup.com/articles/formative-vs-summative-evaluations/) ，它考虑了待完成工作 (JTBD) 所定义的整个体验，而不是通常通过 [可用性测试](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/usability-testing/) （即解决方案验证）来衡量的个人改进. 这个专门的过程提供了数据来帮助我们对产品的成熟度进行评级。
 此过程的目标是在时间和资源有限的情况下尽可能客观地生成数据。出于这个原因，这个过程比其他用户体验研究方法更严格，它更多地关注措施而不是思想和口头反馈。
@@ -172,6 +169,3 @@ CMS 问题模板和 CMS Dovetail 模板都包含用于记录 CMS 期间遇到的
 * C：在 3.14 - 3.63 之间
 * D：在 2 到 3.13 之间
 * F：小于 2
-
-
-#极狐GitLab文档
