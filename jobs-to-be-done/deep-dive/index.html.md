@@ -4,13 +4,6 @@ title: "Jobs to be Done (JTBD) Deep Dive"
 description: "There are more than a few frameworks for Jobs to be Done. The aim of this documentation is to adapt those frameworks to create a shared understanding that fits our needs."
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-{::options parse_block_html="true" /}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## 待完成的工作 (JTBD) 深入探讨
 
 现在有很多不同的 "待办事项"（JTBD）框架。本文档的目的是调整这些框架，并对适合我们 极狐GitLab 需求的 JTBD 流程形成共识。

@@ -4,12 +4,6 @@ title: "GitLab Navigation"
 description: "The UX team owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation."
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 UX团队负责 GitLab 产品的导航结构。如果您计划对 GitLab 导航提出更改建议，请审阅这些信息。
 
 ## GitLab 导航

@@ -4,11 +4,6 @@ title: "Writing a discussion guide for user interviews"
 description: "A discussion guide is a set of questions and topics that you would like to discuss with a participant during a user interview"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### How to write a discussion guide
 

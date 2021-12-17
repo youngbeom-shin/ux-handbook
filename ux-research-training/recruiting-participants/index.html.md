@@ -4,11 +4,6 @@ title: "Recruiting participants"
 description: "How to find the right participants for research studies at GitLab"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 At GitLab, our Research Coordinators work closely with those requesting research to make sure the people they are gathering feedback from are the right ones. If you are filling in for our Research Coordinator, use [this page](/handbook/engineering/ux/ux-research-coordination/research-coordinator-fill-in/) as a reference.
 

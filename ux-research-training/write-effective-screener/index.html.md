@@ -4,13 +4,6 @@ title: "How to write an effective screener"
 description: How to write an effective UX research screener at GitLab
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
-
 The questions in a screener have two conflicting goals:
 
  * They must elicit specific information about users.

@@ -5,12 +5,6 @@ description: "Kano model provides a simple and powerful way how to think about t
 ---
 
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Kano model
 
 The Kano model is a theory that ties product development with user satisfaction.

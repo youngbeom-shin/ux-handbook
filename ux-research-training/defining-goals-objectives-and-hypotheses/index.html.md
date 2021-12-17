@@ -4,11 +4,6 @@ title: "Defining goals, objectives, and hypotheses"
 description: "Conducting user research takes a significant amount of preparation before you even begin asking users anything."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 Conducting user research takes a significant amount of preparation before you even begin asking users anything. However, the time you spend creating alignment and developing a research plan pays off *tremendously* because it keeps you on track as you carry out your research.

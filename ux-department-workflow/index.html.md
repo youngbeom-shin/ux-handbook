@@ -4,11 +4,6 @@ title: "UX Department Workflow"
 description: "Our UX department includes designers, researchers, and technical writers from all around the world. Everyone brings their own unique cultures, experiences, and strengths"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Meet The UX Department
 

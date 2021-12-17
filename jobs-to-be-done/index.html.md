@@ -7,12 +7,6 @@ description: >-
   to accomplish.
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## JTBD Overview
 
 JTBD 是一个框架, 用于从客户试图实现的工作角度看待你的产品和解决方案。 这是关于了解人们想要实现的目标。它让我们从我们的业务中退后一步，了解我们所服务的人的目标。它打开了创新之门。

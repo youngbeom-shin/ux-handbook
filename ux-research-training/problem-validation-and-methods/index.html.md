@@ -4,11 +4,6 @@ title: "Problem Validation & Methods"
 description: "How to conduct problem validation research at GitLab"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 At GitLab, we practice both Problem Validation research and [Solution Validation](/handbook/engineering/ux/ux-research-training/solution-validation-and-methods/) research, depending on the questions we need answers to and where we are in the design process. The end result of these methods is a high degree of confidence which results in a better overall user experience. Generating solutions, developing the product experience, and launching to the market is much more effective when we start with a deep understanding of our customer problems. We leverage [Opportunity Canvases](/handbook/product/product-processes/#opportunity-canvas) to track quick iterations on levels of confidence, hypotheses, and lessons learned as our learning about the problem evolves. 
 

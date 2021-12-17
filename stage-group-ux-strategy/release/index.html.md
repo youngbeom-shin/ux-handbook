@@ -4,12 +4,6 @@ title: "Release UX Team"
 description: "The Release UX team's goal is to design simple, clean ways to make GitLab the tool of choice for deploying where, when, and how users want to."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 
 The [Release stage](/stages-devops-lifecycle/release/) includes all features that help you guarantee software delivery by automating the release and delivery of applications, shortening the delivery lifecycle, streamlining manual processes, and accelerating team velocity.

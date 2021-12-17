@@ -4,11 +4,6 @@ title: "How the UX Research team operates at GitLab"
 description: "How we decide what to research, spend our time, measure our success, and more"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 ## How we decide what to research

@@ -4,11 +4,6 @@ title: "Usability at GitLab"
 description: "How GitLab defines usability and measures it."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 The term "usability" can mean a variety of things. At GitLab, we use the following definition of usability when we conduct user research and design our product:
 

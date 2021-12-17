@@ -4,12 +4,6 @@ title: "CI/CD UX Team"
 description: "CI/CD UX team works to ensure the best experience for users of all knowledge levels to successfully apply continuous methods with no 3rd-party application or integration"
 ---
 
-## On this page
-
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Overview
 

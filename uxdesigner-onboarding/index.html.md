@@ -4,11 +4,6 @@ title: "Product Designer Onboarding"
 description: "Awesome! You're about to become a GitLab Product Designer! Below you'll find everything you need to start designing."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Getting started designing for GitLab
 

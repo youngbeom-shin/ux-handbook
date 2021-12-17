@@ -4,11 +4,6 @@ title: "Setting Up a Local Environment"
 description: "Tips and suggestions for setting up a local environment to write and preview GitLab product documentation."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 When you get started as a technical writer, one of your first tasks is to set up
 an environment on your computer for writing and previewing [GitLab documentation](https://docs.gitlab.com/).

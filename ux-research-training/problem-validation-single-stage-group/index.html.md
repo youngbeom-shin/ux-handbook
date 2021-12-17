@@ -4,11 +4,6 @@ title: "Problem Validation research for single-stage-group initiatives"
 description: "Problem Validation research for single-stage-group initiatives usually focuses on specific behaviors relating to one stage group, such as: How do Release Managers do their job?"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 Single-stage-group research initiatives deal with specific behaviors that relate to only one stage group, such as "How do Release Managers do their job?".
 

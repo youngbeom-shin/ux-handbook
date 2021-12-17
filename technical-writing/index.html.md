@@ -4,11 +4,6 @@ title: "Technical Writing Team"
 description: "The Technical Writing team continuously develops the GitLab product documentation to meet users' and administrators' needs."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## About Us
 

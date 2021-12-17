@@ -4,12 +4,6 @@ title: "Creating design evaluations in Qualtrics"
 description: "There are two methods we leverage at GitLab to evaluate designs. Each are done via Qualtrics."
 ---
 
-# On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 There are often situations when teams have more than one potential solution that meets user needs and is technically feasible. The question then becomes how to move forward when both designs could solve the problem. The goal of a design evaluation is to determine which solution users will prefer.
 
 There are two methods we leverage at GitLab to evaluate designs. Each are done via Qualtrics ([request Qualtrics access - internal link](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)): 

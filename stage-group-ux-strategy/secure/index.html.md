@@ -4,11 +4,6 @@ title: "Secure UX"
 description: "The Secure UX team helps provide the best UX in taking pre-emptive security measures before deploying code. The Protect UX team helps provide the best UX in keeping your app safe after code is in production."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### Overview
 Secure tools help your team follow and enforce security best practices effortlessly as part of the DevOps cycle. The Secure UX team’s goal is to provide the best experience in taking pre-emptive security measures before deploying your code, while the [Protect UX](/handbook/engineering/ux/stage-group-ux-strategy/protect/) team’s goal is to provide the best experience in keeping your application safe after your code is in production. See the [Sec UX](/handbook/engineering/ux/stage-group-ux-strategy/sec/) page for more about our team and how our two teams work together.

@@ -4,12 +4,6 @@ title: "Qualtrics Tips & Tricks"
 description: "How to use Qualtrics at GitLab to run surveys"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Creating a survey
 
 1. Select `Blank survey project`

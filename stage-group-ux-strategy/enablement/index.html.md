@@ -4,12 +4,6 @@ title: "Enablement UX Team"
 description: "The Enablement UX team focuses on making GitLab easier to install, use, and integrate, so that people can get started fast and without friction"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 The Product Designers for Enablement focus on Distribution, Ecosystem and Geo. While these are quite different areas with their own Jobs to Be Done, the over-arching theme is making GitLab easier to install, use, and integrate, so that people can get started fast and without friction and use GitLab where and when it works for them. GitLab believes that **everyone can contribute**, and this is central to our strategy.
 

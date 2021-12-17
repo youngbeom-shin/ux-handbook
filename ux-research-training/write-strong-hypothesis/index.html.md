@@ -4,12 +4,6 @@ title: "How to write a strong hypothesis"
 description: "A hypothesis is basically an assumption. It’s a statement about what you believe to be true today. It can be proven or disproven using research."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 <!-- blank line -->
 
 {%youtube%}i-LIu-zDOOM{%endyoutube%}

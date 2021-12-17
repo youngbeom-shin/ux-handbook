@@ -4,11 +4,6 @@ title: "Secure & Protect UX"
 description: "We’re designing an experience that enables contributors to commit their most secure work and to protect what they have in production."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### Overview
 We’re designing an experience that enables contributors to commit their most secure work and to protect what they have in production. This is done by merging security into the DevOps process, giving development teams more ownership, commonly referred to as DevSecOps. The experience brings cross-functional stakeholders together to make better, faster, and more security-oriented decisions. We are doing this by focusing the experience on automation, education, empowerment, and shifting security to the left.

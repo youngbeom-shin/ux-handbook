@@ -4,11 +4,6 @@ title: "Choosing a research methodology"
 description: "How to choose a research methodology: detail vs frequency, user characteristics, and fidelity of insight"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 When choosing the appropriate methodology for your research question, there are multiple factors to consider: the need to understand the details of an issue versus its frequency of occurring, the characteristics of your users and their usage, and the fidelity of your product or designs. Each of these factors will dictate which methodology is most appropriate for your research questions. We'll go into each of these factors in more detail.

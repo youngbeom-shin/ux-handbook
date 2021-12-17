@@ -4,11 +4,6 @@ title: "Documenting research findings"
 description: "The UX Research team uses Dovetail to document all the user insights discovered through GitLab’s UX research program"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### Documenting research findings
 The UX Research team uses [Dovetail](/handbook/engineering/ux/dovetail/) to document all the user insights discovered through GitLab’s UX research program. User insights can be gathered through methods such as user interviews, usability testing, surveys, card sorts, tree tests, customer conversations, and more.

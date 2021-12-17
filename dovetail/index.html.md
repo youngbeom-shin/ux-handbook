@@ -4,11 +4,6 @@ title: "Dovetail Tips & Tricks"
 description: "The GitLab UX Research team's guide to documenting insights in Dovetail"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### 开始使用Dovetail
 

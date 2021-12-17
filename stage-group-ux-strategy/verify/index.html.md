@@ -4,13 +4,6 @@ title: "Verify UX Team"
 description: "The Verify UX team's goal is to design simple and clean workflows to make GitLab the tool of choice for keeping strict quality standards for production code with automatic testing and reporting."
 ---
 
-## On this page
-
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 
 The [Verify stage](/stages-devops-lifecycle/verify/) includes all features that user automated testing and reporting to help keep strict quality standards for production code. It includes the foundation that allows delivery teams to fully embrace continuous development that automates builds, integration, and verification of their code while accelerating their team's velocity. Testing ranges from unit testing, load testing, all the way to accessibility and usability testing.

@@ -3,11 +3,6 @@ layout: handbook-page-toc
 title: "Strategic Research at GitLab"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### What is Strategic Research?
 

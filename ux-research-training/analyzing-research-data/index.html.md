@@ -4,11 +4,6 @@ title: "Analyzing and synthesizing user research data"
 description: "Guidelines for how to set yourself up for successful analysis and synthesis while you're conducting research sessions and after your interviews are complete"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 It can be tempting to complete a set of interviews or usability tests and think your research project is done. But without a process for systematically reviewing and making sense of the data you've collected, you risk leaving valuable insights on the table. The next step is to zoom out and look at your findings anew through a process called **research synthesis.**
