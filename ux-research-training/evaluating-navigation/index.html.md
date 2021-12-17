@@ -4,11 +4,6 @@ title: "Evaluating navigation"
 description: "When proposing navigation changes, it's important to proceed with high confidence. We evaluate how changes perform compared to our existing experience using a set of defined methods."
 ---
 
-# On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Evaluating navigation changes
 

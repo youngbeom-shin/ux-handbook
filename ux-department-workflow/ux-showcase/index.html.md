@@ -6,11 +6,6 @@ description: >-
   through various research findings and design solutions.
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## About UX Showcase
 

@@ -4,11 +4,6 @@ title: "Choosing a Research Method for Problem Validation"
 description: "At GitLab, problem validation encompasses generative research as well as descriptive and informative research."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 Problem validation research seeks to provide decision makers with a well understood and clearly articulated customer problem. At GitLab, problem validation encompasses generative research as well as descriptive and informative research. 

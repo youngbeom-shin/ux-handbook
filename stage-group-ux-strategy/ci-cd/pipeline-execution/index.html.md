@@ -4,12 +4,6 @@ title: "Pipeline Execution UX"
 description: "A documentation of the practices, objectives, achievements and plans of the Pipeline Execution UX team."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 
 The [Verify:Pipeline Execution Group](/handbook/engineering/development/ops/verify/pipeline-execution/) is focused on all the functionality with respect to Pipeline Execution, as part of GitLab Continuous Integration.

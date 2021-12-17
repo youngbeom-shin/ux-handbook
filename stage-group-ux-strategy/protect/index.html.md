@@ -4,12 +4,6 @@ title: "Protect UX"
 description: "The Protect UX team’s goal is to provide the best experience in keeping your application safe after your code is in production"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ### Overview
 The Protect stage includes all features that help you protect your applications and cloud infrastructure by giving you the ability to identify, catalogue, manage, and remediate threats, vulnerabilities, and risks. For more information about our principles and upcoming features, see our [Product Vision](/direction/protect/) page.
 

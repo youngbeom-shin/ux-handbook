@@ -4,11 +4,6 @@ title: "Solution Validation and Methods"
 description: "Solution validation research critically assesses if the product/feature/design has indeed solved the problem that was initially intended to be solved"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 At GitLab, we practice both Problem Validation and Solution Validation research, depending on the questions we need answers to and where we are in the design process. The end result of these methods is a high degree of confidence that results in a better overall user experience.

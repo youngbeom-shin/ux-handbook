@@ -3,11 +3,6 @@ layout: handbook-page-toc
 title: "Choosing a research method for Solution Validation"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### Why we employ solution validation
 Solution validation research critically assesses if the product/feature/design has indeed solved the problem that was initially intended to be solved. Essentially, this phase validates or negates the proposed solution(s) identified during the problem validation research.

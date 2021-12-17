@@ -4,12 +4,6 @@ title: "Mapping Jobs to be Done (JTBD)"
 description: "How do I create a job map? How do I validate a JTBD?"
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ##  绘制有待完成的工作(JTBD)
 
 ### 如何创建工作图?

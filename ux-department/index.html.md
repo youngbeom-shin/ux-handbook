@@ -5,11 +5,6 @@ description: >-
   用户体验部门将通过四个方面来支持极狐GitLab的产品设计工作：UX research、产品设计、技术协作以及 UX Foundation。
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## 你好！
 

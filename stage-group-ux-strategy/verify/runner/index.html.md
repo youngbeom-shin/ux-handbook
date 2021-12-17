@@ -4,12 +4,6 @@ title: "Runner UX"
 description: "The Runner UX team focuses on creating delightful experiences for you to run fast, scalable continuous integration pipelines on your on-premise infrastructure or the cloud."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 
 The [Runner group](/handbook/product/categories/#runner-group) is focused on all the functionality with respect to offering DevOps teams a build agent that works seamlessly on today's and tomorrow's market-leading computing platforms and the tools to eliminate CI build fleet operational complexity at enterprise scale.

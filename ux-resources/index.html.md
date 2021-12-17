@@ -4,12 +4,6 @@ title: "UX Resources"
 description: "This page includes information about UX Resources to help you do your job as a product desginer at GitLab."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 本页包括有关用户体验资源的信息，以帮助你完成你的工作。它并不打算成为一个包罗万象的清单，也不打算限制你在日常工作中可能采取的方法或途径。如果你认为缺少一些有用的东西，请提交一份MR!
 
 ## 用户体验团队的工作流程

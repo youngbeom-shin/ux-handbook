@@ -4,11 +4,6 @@ title: "Collecting Useful Data"
 description: "You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 ### Decide what kinds of insights to collect

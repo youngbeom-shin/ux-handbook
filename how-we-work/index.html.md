@@ -4,12 +4,6 @@ title: "How we work"
 description: "The UX Department works alongside the community, Product Managers (PMs), Frontend engineers (FE), and Backend engineers (BE) to design the GitLab product"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 用户体验部与社区、产品经理（PMs）、前端工程师（FE）和后端工程师（BE）一起工作。产品经理负责启动计划和设定产品方向。产品经理通过收集客户和用户的反馈来定义与功能相关的问题 "是什么 "和 "为什么"，他们给GitLab团队成员和更广泛的社区以建议和创造的空间。
 
 用户体验应该在流程的早期协助推动[产品愿景](/direction/)。我们通过进行[生成性研究](/handbook/engineering/ux/ux-research/)和促进与社区成员、客户、产品经理、前端和后端的讨论来告知这个愿景。在创建工作时，我们超越了事务性工作流和生成性工作流，而不仅仅是执行任务。

@@ -4,11 +4,6 @@ title: "Rapid Iterative Testing and Evaluation (RITE)"
 description: "Using the RITE methodology at GitLab"
 ---
 
-### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 [Rapid Iterative Testing and Evaluation (RITE)](https://uploads-ssl.webflow.com/5d7142044df04fbb477795a2/5ef34f1709bc2ec95a6d3089_ef8a91900840263a4036b0433a389b7097b2.pdf) is a [usability testing method](/handbook/engineering/ux/ux-research-training/usability-testing/) where you evaluate a solution to a usability problem multiple times in a rapid and iterative manner. The goal is to identify not just usability problems, but also to react quickly on identified issues and test new solutions that cater to them. The end result of a RITE study is an experience (along with solutions to usability issues) that has been fully usability tested. This translates to an experience that we can be **highly confident** about shipping (in the context of usability), which helps to remove uncertainty around whether a proposed solution will be usable.

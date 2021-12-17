@@ -4,12 +4,6 @@ title: "UX Research Training Resources"
 description: "The UX Research team at GitLab has created many resources to help guide Product Designers and Product Managers in conducting and analyzing user research."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## UX Training Resources
 The UX Research team at GitLab has created many resources to help guide Product Designers and Product Managers in conducting and analyzing user research. These resources are available throughout the GitLab handbook. In addition to the select few listed below, we also have a great list of [UX Research Resources](/handbook/engineering/ux/ux-research-training/ux-research-resources/).
 

@@ -4,12 +4,6 @@ title: "Data for Design Decisions"
 description: "Guide on tools used within GitLab to find the data to support design decisions."
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## 在GitLab使用数据进行设计决策
 
 数据是GitLab的设计师和研究人员了解用户行为的另一种方式。分析可以为整个产品开发流程提供有价值的输入。通过使用数据，我们可以了解和量化我们所运送的迭代的影响。

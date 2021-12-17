@@ -4,11 +4,6 @@ title: "How to do UI Code Contributions"
 description: "There are multiple opportunities to improve GitLab by doing small UI text changes or small CSS refactorings."
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## 为GitLab的主代码库做贡献
 

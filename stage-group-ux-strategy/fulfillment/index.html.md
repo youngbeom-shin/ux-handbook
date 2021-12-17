@@ -3,11 +3,7 @@ layout: handbook-page-toc
 title: Fulfillment UX Team
 description: "The Fulfillment UX team supports the Fulfillment section to provide customers a great experience with buying, upgrading and renewing GitLab."
 ---
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
 
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Overview
 

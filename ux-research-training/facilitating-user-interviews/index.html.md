@@ -4,11 +4,6 @@ title: "Facilitating user interviews"
 description: "When you conduct an interview, it’s crucial to build rapport with your participants. People are more likely to talk and let their guard down if they feel relaxed."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 <!-- blank line -->

@@ -5,11 +5,6 @@ window_title: "How to Write a Usability Testing Script | GitLab"
 description: "How to create a usability testing script at GitLab"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## What is a usability study?
 A usability study, or usability testing, employs a test script to ensure a systematic approach for:

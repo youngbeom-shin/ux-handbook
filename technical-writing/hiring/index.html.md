@@ -4,11 +4,6 @@ title: "Hiring Technical Writers"
 description: "The internal process for hiring Technical Writers at GitLab."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 # Hiring Technical Writers
 

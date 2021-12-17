@@ -4,12 +4,6 @@ title: "UX Heuristics"
 description: "Heuristics used by the UX team to evaluate our product."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## 介绍
 用户体验启发法是我们可以用来给产品的体验分级的准则。它们在设计时也很有用，因为你可以用它们来做设计决定，或者识别你的设计中仍需要工作的部分。
 

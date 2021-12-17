@@ -4,11 +4,6 @@ title: "Product Design Pairs - FY22-Q1/Q2"
 description: "Product designer pairs rotation schedule"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 了解更多关于 [结对设计](/handbook/engineering/ux/how-we-work/#pair-designing)的信息.
 

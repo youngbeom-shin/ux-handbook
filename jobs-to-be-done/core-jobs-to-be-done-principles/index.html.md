@@ -4,12 +4,6 @@ title: "待完成的核心工作(JTBD)原则"
 description: "待完成的工作（JTBD）着眼于一个解决方案如何融入用户的世界。其目的是在提出解决方案之前了解问题。"
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 
 ## 待完成的核心工作 (JTBD) 原则
 

@@ -4,13 +4,6 @@ title: "Product Design"
 description: "We support the business of GitLab by becoming experts in our stage group, educating ourselves about the entire product, and staying engaged with user and business goals"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-{::options parse_block_html="true" /}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## GitLab 的产品设计
 
 我们支持 GitLab 的业务，成为我们阶段小组的专家，学习关于整个产品的知识，并与用户和业务目标保持联系。我们与产品管理和开发部门的对应人员紧密合作。 

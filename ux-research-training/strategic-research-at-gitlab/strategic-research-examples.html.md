@@ -3,11 +3,6 @@ layout: handbook-page-toc
 title: "Strategic Research Examples"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ### What does strong Strategic Research look like?
 

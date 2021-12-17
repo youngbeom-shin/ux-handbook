@@ -4,12 +4,6 @@ title: "Release Management UX"
 description: "The Release Management UX team focuses on creating delightful experiences for all functionality related to Continuous Delivery and Release Automation."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 
 The [Release Management group](/handbook/product/categories/#release-management-group) is focused on all the functionality with respect to Continuous Delivery and Release Automation.

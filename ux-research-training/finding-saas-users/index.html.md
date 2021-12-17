@@ -4,11 +4,6 @@ title: "Finding SaaS users"
 description: "How we target research participants to meet specific criteria"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Finding SaaS (GitLab.com) users
 

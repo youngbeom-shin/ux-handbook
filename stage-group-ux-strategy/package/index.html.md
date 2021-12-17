@@ -4,11 +4,6 @@ title: "UX Vision: Package"
 description: "The Package UX team supports anyone who uses GitLab to build, test, and deploy software or would like to use a variety of package and/or image registries to manage dependencies"
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Overview
 The Package group works on the part of GitLab concerning the [Package stage](/handbook/product/categories/#package-stage), which integrates with GitLab's [CI/CD product](https://about.gitlab.com/direction/ops/). Our mission is to create a secure environment where both source code and dependencies can live by allowing you to publish, consume, and discover packages of a large variety of languages and platforms all in one place.

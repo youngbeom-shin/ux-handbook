@@ -4,12 +4,6 @@ title: "UX Scorecards"
 description: "The UX Scorecard is a process similar to a heuristic evaluation that helps identify usability issues and score a given experience."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Intro and goal
 
 The UX Scorecard is a way for us to identify and score the usability of an experience in our product based on a set of heuristics. We use UX Scorecards to gain an understanding of how a user interacts with our product and to quickly spot opportunities for improvement. 

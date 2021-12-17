@@ -4,11 +4,6 @@ title: "Measuring Onboarding User Experience"
 description: "Use this page to document onboarding UX Scorecard results."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
  ## Current Onboarding Scores

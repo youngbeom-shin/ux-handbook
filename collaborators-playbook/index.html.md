@@ -4,11 +4,6 @@ title: "Design collaborator's playbook"
 description: "This page acts as a quick reference of mental models for sync and async collaboration."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 ## Intro
 
