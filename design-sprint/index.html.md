@@ -111,4 +111,4 @@ RDS 参与者负责参与由主持人所列出的 RDS 活动。
 
 * [Auto DevOps Design Sprint](https://gitlab.com/groups/gitlab-org/-/epics/5939) ([Mural board](https://app.mural.co/t/gitlab2474/m/gitlab2474/1620201743714/70e65c50a153e5547a7bf7b99ad893acbdd55c1c))
 * [Configure Stage - Design Sprint (Kubernetes management focus)] ([Mural board](https://app.mural.co/t/gitlab2474/m/gitlab2474/1587639805836/1cfa64d51c6637a2b66c820abd2f598e045beea2))
-
+* [Growth — User's dashboard design sprint](https://gitlab.com/gitlab-org/gitlab/-/issues/342877) ([Mural board](https://app.mural.co/t/gitlab2474/m/gitlab2474/1629791420445/20b1b35f49cbd0e4a11e929fe1e1cc66e48e40bb?sender=mlatin2224))
