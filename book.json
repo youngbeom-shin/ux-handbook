@@ -80,7 +80,7 @@
         },
         "expandable-chapters-small":{},
         "anchor-navigation-ex": {
-            "showLevel": true,
+            "showLevel": false,
             "associatedWithSummary": false,
             "printLog": false,
             "multipleH1": true,
