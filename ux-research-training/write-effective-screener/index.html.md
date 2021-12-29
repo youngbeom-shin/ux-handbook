@@ -1,65 +1,67 @@
 ---
 layout: handbook-page-toc
-title: "How to write an effective screener"
-description: How to write an effective UX research screener at GitLab
+title: "如何写出有效的筛选器"
+description: 如何在GitLab编写有效的用户体验研究筛选器
 ---
 
-The questions in a screener have two conflicting goals:
 
- * They must elicit specific information about users.
- * They should also avoid revealing specific information about the study.
 
-**Step 1:** Define the traits of the participant(s) you are looking for
+筛选器中的问题有两个相互冲突的目标：
 
-When thinking about the users of your product, you will likely come up with a number of categories of ‘typical’ users. The more specific you can make your descriptions of your users, the better you will be at identifying people who match your user profile. It is important to note that job titles alone don’t fully reflect a person’s tasks, duties, or behaviors. The example below shows how you can turn user traits into screener questions.
+ * 它们必须引出关于用户的具体信息。
+ * 它们还应该避免透露有关研究的具体信息。
 
-| User trait                          | Screener question                                                                                                                                                                                                                                                                                                           |
+**第一步:** 界定你要找的参与者的特征
+
+当考虑到你的产品的用户时，你可能会想出一些 ‘典型’ 用户的类别。你对用户的描述越具体，你就越能识别出符合你用户特征的人。值得注意的是，仅凭工作岗位并不能完全反映一个人的任务、职责或行为。下面的例子显示了你如何把用户的特征变成筛选器问题。
+
+| 用户特质                          | 筛选器问题                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Takes long vacations                | What is the average duration of your personal trips? {::nomarkdown}<ol type="a"><li>1-2 days</li><li>3-6 days</li><li>7-13 days</li><li>14-20 days</li><li>21+ days</li></ol>{:/}     |
-| Takes multiple vacations each year  | How many personal trips have you taken in the past year? {::nomarkdown}<ol type="a"><li>1-2</li> <li>3-6</li> <li>7-10</li><li>12+</li><li>none</li></ol>{:/}                                                                                                                                                                                                                                              |
-| Takes vacations with other people   | Who do you travel with on the majority of your personal trips? {::nomarkdown}<ol type="a"><li>I travel solo</li> <li>With friends</li><li>With family</li></ol>{:/}                                                                                                                                                                                                                  |
-| Makes all the travel arrangements   | For personal trips, who is responsible for making the travel arrangements (flight, hotel, etc.)? {::nomarkdown}<ol type="a"><li>I am solely responsible</li><li>I share the duties with someone</li><li>Someone else makes the arrangements, but I make the decisions</li><li>Someone else is solely responsible</li></ol>{:/}                                                                 |
-| Prefers to stay at high-end resorts | For personal trips, what type of accommodations do you stay at the most? High-end resort (Auburge, Fairmont, etc.) {::nomarkdown}<ol type="a"><li>Budget hotels (Clarion, Comfort In, Motel 6, etc..)</li><li>Mid-price hotels (Tru, Windgate, Hampton Inn, etc.)</li><li>High end hotels (St. Regis, Autograph Collection, etc.)</li><li>Airbnb rentals Vrbo rentals </li><li>Other (text)</li></ol>{:/} |
+| 放长假                | 您个人旅行的平均时间是多少？ <ol type="a"><li>1-2 天</li><li>3-6 天</li><li>7-13 天</li><li>14-20 天</li><li>21+ 天</li></ol>    |
+| 每年有多个假期  | 在过去的一年中，你进行了多少次个人旅行？ <ol type="a"><li>1-2</li> <li>3-6</li> <li>7-10</li><li>12+</li><li>没有</li></ol>                                                                                                                                                                                                                                             |
+| 与其他人一起度假   | 在你的个人旅行中，你大多与谁一起旅行？ <ol type="a"><li>我独自旅行</li> <li>和朋友一起</li><li>和家人一起</li></ol>{:/}                                                                                                                                                                                                                  |
+| 做出所有的旅行安排   | 对于个人旅行，谁负责作出旅行安排（航班、酒店等）？ <ol type="a"><li>我将全权负责</li><li>我与某人分担职责</li><li>别人做安排，但我做决定</li><li>其他人全部负责</li></ol>                                                                 |
+| 更喜欢呆在高端的度假酒店 | 对于个人旅行，你最多住哪种类型的房间?高端度假(Auburge、Fairmont等) <ol type="a"><li>经济型酒店(Clarion、Comfort In、Motel 6等)</li><li>中档酒店(Tru、Windgate、Hampton Inn等)</li><li>高端酒店（瑞吉酒店、Autograph Collection等）。</li><li>Airbnb租房 Vrbo租房 </li><li>其他（text）</li></ol> |
 
-**Step 2:** Structure the screener like a funnel to narrow down participants, starting with broad questions and moving to more specific questions.
+**第二步:** 把筛选者组织成一个漏斗来缩小参与者的范围，从宽泛的问题开始，再转移到更具体的问题。
 
 <img src="screener_funnel.png" alt="Start with broad questions and move to more specific questions to narrow down participants">
 
-Our screeners are created in Qualtrics. If you don’t have access to Qualtrics, [request it](https://about.gitlab.com/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/). If you are using a different recruiting tool or unmoderated study platform, you will create the screener in those platforms.
+我们的筛选器是在 Qualtrics 中创建的。如果您无法访问 Qualtrics ，请[提交申请](https://about.gitlab.com/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/)。如果你正在使用不同的招聘工具或未经审核的研究平台，你将在这些平台上创建筛选器。
 
-**Tips:**
+**小贴士:**
 
- * Use brackets to indicate if an answer should terminate/reject a respondent.
- * Brackets can also be used to indicate when a question should be skipped.
- * If you need to use advanced logic to display questions and/or route respondents down a certain path based on their previous answers, Qualtrics is a great tool.
+ * 用方括号表示一个答案是否应该终止/拒绝一个被调查者。
+ * 方括号也可以用来表示什么时候应该跳过某个问题。
+ * 如果您需要使用高级逻辑来显示问题和/或根据应答者之前的回答将他们引导到特定的路径，Qualtrics 是一个很好的工具。
 
-**When crafting questions, keep the following in mind:**
+**在设计问题时，请牢记以下几点**
 
- * Ask open-ended questions about behavior, similar to the questions you ask in an interview. Yes/No questions lead participants to assume what you’re looking for.
+ * 问一些关于行为的开放式问题，就像你在面试中问的问题一样。是/否的问题会让参与者假设你在寻找什么。
 
-| Incorrect                                                                                                                             | Correct                                                                                                                                                                                                              |
+| 不正确                                                                                                                             | 正确                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Do you take two or more vacations per year?  {::nomarkdown}<ol type="a"><li>Yes [Reject]</li><li>No</li></ol>{:/}           | How many personal vacations do you take per year?{::nomarkdown}<ol type="a"><li>0 [Reject]</li><li>1 [Skip to question 4]</li><li>2 [Reject]</li><li>3 [Reject]</li><li>4+</li></ol>{:/}                        |
-| Are you traveling with a partner, friend, or family member?  {::nomarkdown}<ol type="a"><li>No, I’m traveling by myself [Reject]</li><li>Yes, I’m traveling with someone else</li></ol>{:/} | For this upcoming trip, who are you traveling with? {::nomarkdown}<ol type="a"><li>By myself [Reject]</li><li>With my spouse/partner</li><li>With my family (spouse/partner AND kids/external family)</li><li>With a friend</li><li>With a group of friends</li><li>I’m not sure [Reject]</li></ol>{:/} |
+| 你一年有两次或两次以上的假期吗?  <ol type="a"><li>是 [拒绝]</li><li>否</li></ol>           | 你每年有多少次个人休假？<ol type="a"><li>0 [拒绝]</li><li>1 [跳转到问题 4]</li><li>2 [拒绝]</li><li>3 [拒绝]</li><li>4+</li></ol>                        |
+| 你是否与伴侣、朋友或家人一起旅行?  <ol type="a"><li>不，我是自己一个人旅行 [拒绝]</li><li>是的，我在和别人一起旅行</li></ol> | 对于这次即将到来的旅行，你是和谁一起旅行？ <ol type="a"><li>自己 [拒绝]</li><li>与我的配偶/伴侣</li><li>与我的家人一起。</li><li>和一位朋友</li><li>和一群朋友</li><li>我不确定 [拒绝]</li></ol> |
 
 
- * Provide similar options to choose from to mitigate guessing the purpose of the study.
-     * To screen participants for their natural behavior, provide multiple options to mask what you’re looking for.
+ * 提供类似的选项供选择，以减少对研究目的的猜测。
+     * 为了筛选参与者的自然行为，提供多个选项来掩盖你正在寻找的内容。
 
-| Incorrect                          | Correct                                                                                                                                                                                                                                                                                                           |
+| 不正确                         | 正确                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Where did you purchase your upcoming flight from?  {::nomarkdown}<ol type="a"><li>Priceline  [Skip to question 5]</li><li>Expedia [Reject]</li><li>Other [Reject]</li></ol>{:/}             | Where did you purchase your upcoming flight from? {::nomarkdown}<ol type="a"><li>AlaskaAir.com</li><li>Delta.com [Reject]</li><li>United.com [Reject]</li><li>Priceline.com [Skip to question 5]</li><li>Spirit.com [Reject]</li><li>Expedia.com [Reject]</li><li>Other [Reject]</li></ol>{:/}                                                                                                                                                                                                                       |
+| 你在哪里买的即将到来的航班?  <ol type="a"><li>Priceline  [跳转到问题 5]</li><li>Expedia [拒绝]</li><li>Other [拒绝]</li></ol>             | 你在哪里买的即将到来的航班? <ol type="a"><li>AlaskaAir.com</li><li>Delta.com [拒绝]</li><li>United.com [拒绝]</li><li>Priceline.com [跳转到问题 5]</li><li>Spirit.com [拒绝]</li><li>Expedia.com [拒绝]</li><li>Other [拒绝]</li></ol>                                                                                                                                                                                                                       |
 
- * Use plausible distractor answers to conceal the subject of the study.
- * Avoid stand-out screener options, which indicate behavior that you’re looking for.
-     * Participants can look for answers that stand out from the other answer options.
-     * Using multi-select can allow for multi-guess without consequence.
- * Multiple correct answers are OK and can provide information about your participants you’d normally get from an interview.
+ * 使用似是而非的分心答案来掩盖研究的主题。
+ * 避免突出的筛选器选项，这表明你正在寻找的行为。
+     * 参与者可以寻找那些在其他答案选项中脱颖而出的答案。
+     * 使用多选择可以允许多次猜测而没有后果。
+ * 多个正确答案也是可以的，可以提供你通常从面试中得到的关于你的参与者的信息。
 
-| Incorrect                          | Correct                                                                                                                                                                                                                                                                                                           |
+| 不正确                          | 正确                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you needed to get to a meeting on the other side of downtown, about 2 miles away, which of the following would you consider doing to get to your meeting? {::nomarkdown}<ol type="a"><li>Walk</li><li>Hang glide</li><li>Swim</li><li>Crawl</li></ol>{:/}             |If you needed to get to a meeting on the other side of downtown, about 2 miles away, which of the following would you consider doing to get to your meeting? {::nomarkdown}<ol type="a"><li>Walk</li><li>Rent a bike</li><li>Rent a scooter</li><li>Take a Lyft</li></ol>{:/}                                                                                                                                                                                       |
+| 如果你需要去市中心的另一边开会，大约2英里远，你会考虑以下哪一种方式? <ol type="a"><li>步行</li><li>悬挂式滑翔翼</li><li>游泳</li><li>爬行</li></ol>             |如果你需要去市中心的另一边，大约2英里远的地方开会，你会考虑采取以下哪种方式去开会？ <ol type="a"><li>步行</li><li>共享单车</li><li>租借摩托车</li><li>搭乘网约车</li></ol>                                                                                                                                                                                      |
 
- * If you are looking for a specific behavior, you can ask for verification of that behavior by including a statement in the screener such as “As part of the session, you will be asked to share your screen and walk through a previous hotel reservation.” Give them the option to agree or disagree to share their information.
-     * This can guarantee your participant has completed the behavior you are looking for.
-     * This is helpful if you need to verify actions or usage to bucket participants into segments.
+ * 如果你正在寻找一个特定的行为，你可以通过在筛选器中包含一个声明来要求验证该行为，例如“作为会话的一部分，您将被要求共享您的屏幕并浏览之前的酒店预订。”让他们选择同意或不同意分享他们的信息。
+     * 这可以保证你的参与者完成了你想要的行为。
+     * 如果你需要核实行动或使用情况，把参与者分成几个部分，这很有帮助。
