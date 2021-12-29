@@ -9,13 +9,13 @@ description: "How to use Qualtrics at GitLab to run surveys"
 1. 选择`空白问卷项目`
 1. 为你的项目命名
 1. 进入调查问题。在屏幕的右侧，你会发现:
-    * [question type](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/question-types-overview/) 和格式 (选择答案的数量，定位等).
-    * [Validation](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/validation/) (强制受访者回答问题或要求他们在离开页面前考虑回答这个问题).
+    * [问题类型](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/question-types-overview/) 和格式 (选择答案的数量，定位等).
+    * [验证](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/validation/) (强制受访者回答问题或要求他们在离开页面前考虑回答这个问题).
     * Actions (如[分页符](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/add-page-break/)、[跳过逻辑](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/skip-logic/)和[显示逻辑](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/display-logic/)).
 1. 更新你的问卷的 `Look & Feel` .
-    * 请参考[Look & Feel settings](#styling-look--feel-settings)获得指导。
-1. 适当调整您的[Survey Options](https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-options-overview/)。
-1. 在[Tools](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/survey-tools-overview/)菜单下，你会发现许多有用的功能，例如:
+    * 请参考[Look & Feel 设置](#styling-look--feel-settings)获得指导。
+1. 适当调整您的[问卷选项](https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-options-overview/)。
+1. 在[工具](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/survey-tools-overview/)菜单下，你会发现许多有用的功能，例如:
     * `协作` - 允许您与另一个Qualtrics用户分享您的调查，以便您可以协同编辑或分析结果。
     * `拼写检查` - 只支持英文(美国)。
     * `生成测试反馈` - 在将调查发送给实际参与者之前，为您的调查生成自动的虚拟回答，以查看数据集和报告将是什么样子。
@@ -28,33 +28,34 @@ description: "How to use Qualtrics at GitLab to run surveys"
 ## 样式(外观和感官设置)
 
 以下设置应应用于您的问卷:
-1. 主题: Blank
-1. 排版: Modern
+
+1. 主题: 空
+1. 排版: 现代
 1. 通用
-    * 进度条: Without Text
-    * 进度条位置n: Top
+    * 进度条: 无文本
+    * 进度条位置: 顶部
 1. 样式
     * 主要的颜色: #554488
     * 次要的颜色: #554488
     * 字体: Arial   
-    * 前景对比度: Medium
-    * 问题间距: Compact
+    * 前景对比度: 中等
+    * 问题间距: 紧凑
     * 问题文本: 14px bold
     * 答案文本: 14px
 1. 动效
-    * 页面过渡: None
-    * 额外的复选框: Unticked
+    * 页面过渡: 无
+    * 额外的复选框: 取消勾选
 1. Logo
     * GitLab First Look Logo (存储在 UX Research library)
     * 样式: Banner
-    * 位置: Left
+    * 位置: 居左
     * 最大高度: 70px
     * 移动缩放: 66%
 1. 背景
-    * 背景类型: Color
+    * 背景类型: 颜色
     * 背景颜色: #ffffff
-    * 前景的对比: Medium
-    * 问题容器: Off
+    * 前景的对比: 中等
+    * 问题容器: 关闭
 
 ## 避免社交媒体的垃圾回复
 
@@ -66,13 +67,13 @@ description: "How to use Qualtrics at GitLab to run surveys"
 
 ### 在共享调查之前，防止垃圾邮件回复
 
-在分享你的调查之前，请使用以下方法来防止机器人和虚假参与者。注意,尽管Qualtrics有[验证码的问题](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/)和[欺诈检测功能](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/fraud-detection/)的帮助,但它们不足以阻止更复杂的机器人。
+在分享你的调查之前，请使用以下方法来防止机器人和虚假参与者。注意,尽管 Qualtrics 有[验证码的问题](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/)和[欺诈检测功能](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/fraud-detection/)的帮助,但它们不足以阻止更复杂的机器人。
 
 - 在调查的开始添加[验证码问题](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/)。
-- 启用所有[欺诈检测功能](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/fraud-detection/):防止多次提交，机器人检测，安全扫描监视器，和近似ID。
+- 启用所有[欺诈检测功能](https://www.qualtrics.com/support/survey-platform/survey-module/survey-checker/fraud-detection/):防止多次提交，机器人检测，安全扫描监视器，和近似 ID。
 - 添加一个“蜜罐”问题，一个对人类隐藏但对机器人“可见”的问题。有些机器人会回答这个问题，让你可以过滤掉他们或过滤掉他们的回答。
    1. 在你的调查中的某个地方添加一个**可选的**单选题（复选框）。问题和位置并不相关，因为它将被隐藏起来，不被人类发现。例如，"你是人类吗？" `[]是的`。
-   1. [添加以下JavaScript](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/)到该问题，替换现有的`Qualtrics.SurveyEngine.addOnload` function:
+   1. [添加以下 JavaScript](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/)到该问题，替换现有的`Qualtrics.SurveyEngine.addOnload` function:
       ```js
       Qualtrics.SurveyEngine.addOnload(function()
       {
@@ -81,7 +82,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
       ```
    1. 预览调查表，检查页面加载时问题是否被隐藏。
 - 添加一个**必选的**选择题，检查被调查者的注意力和逻辑。例如，直接说明他们应该选择哪个答案，或者问是哪一年。
-- 在多项选择题中加入不合逻辑的选项。例如，在问题“您使用这些工具中的哪一个进行代码检查?”“添加像`[]Tanuki Code`这样不合逻辑的选项。
+- 在多项选择题中加入不合逻辑的选项。例如，在问题“您使用这些工具中的哪一个进行代码检查?”“添加像 `[]Tanuki Code` 这样不合逻辑的选项。
 - 在调查的两个不同的点问同样的**必选**的问题。试着用简单的多项选择题，人们可以很容易地回答。例如，他们的职位或团队规模。
 - 对于以上三种类型的问题，如果你想根据受访者的回答来筛选他们，请参阅[在调查流程中筛选应答者](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/screen-out-management/#ScreeningOutRespondentsInTheSurveyFlow)部分的**调查外的应答者分支部分**。在添加该部分中描述的调查流逻辑之后，然后您可以决定[标记这些响应](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/screen-out-management/#FlaggingScreenedOutResponses)，以供以后分析或[立即丢弃他们](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/screen-out-management/#DiscardingScreenedOutResponses)。
 
@@ -100,11 +101,11 @@ description: "How to use Qualtrics at GitLab to run surveys"
 
 **注意:这些说明只适用于UX研究人员和研究协调员。**
 
-1. 选择 `Contacts` (右上角菜单).
-1. 选择 `Lists` (最左边的菜单).
+1. 选择 `联系人` (右上角菜单).
+1. 选择 `列表` (最左边的菜单).
 1. 选择 `GitLab First Look`
-1. 选择 `List Options`
-1. 从下拉菜单中, 选择 `Create Sample From List`. 
+1. 选择 `列表选项`
+1. 从下拉菜单中, 选择 `从列表中创建样本`. 
 1. 给你的样本取一个名字。
 1. 选择 你的样本量（你理想中的调查对象的人数）。
     * 明智的做法是先将你的调查发送给一小部分用户测试样本，以确保你能够收到你想要的回应。 
@@ -146,8 +147,10 @@ description: "How to use Qualtrics at GitLab to run surveys"
 
 **注意：这些说明只适用于用户体验研究人员和研究协调员。**
 
-当用户注册到GitLab First Look时，我们会自动收集以下嵌入式数据。
+当用户注册到 GitLab First Look 时，我们会自动收集以下嵌入式数据。
+
 1. `阶段组`
+
     * `1` - 管理
     * `2` - 计划
     * `3` - 创建
@@ -159,17 +162,23 @@ description: "How to use Qualtrics at GitLab to run surveys"
     * `9` - 安全
     * `10` - 保护
     * `11` - 启用 & 增长
+
 1. `研究类型` *(在2020年11月删除。这个问题的数据将存在于以前注册的用户，但不存在于新的小组成员。)*
+
     * `Beta测试`
     * `Cards sorts`
     * `设计评估`
     * `问卷`
     * `可用性测试`
     * `用户访谈`
+
 1. `GitLab 用户` - 此人是否为GitLab用户。
+
     * `Yes` - 此人是GitLab用户。
     * `No` - 此人不是GitLab用户。
+
 1. `岗位名称` - 此人的工作头衔是什么。
+
     * `后端工程师`
     * `设计师`
     * `DevOps 工程师`
@@ -192,26 +201,34 @@ description: "How to use Qualtrics at GitLab to run surveys"
     * `系统管理员/工程师`
     * `失业人员`
     * `其他`
+
 1. `组织规模` - 有多少人在用户的组织内工作？(2019年8月新增)
+
     * `0-10 人`
     * `11-100 人`
     * `101-500 人`
     * `501-1000 人`
     * `1001-10,000 人`
     * `10,000+ 人`
-1. `团队规模` - 有多少人在用户的团队中工作（2019年8月新增）。
+
+1. `团队规模` - 有多少人在用户的团队中工作（2019年8月新增）
+
     * `0 - 只有我一个人！`
     * `1-5 人`
     * `6-10 人`
     * `11-20 人`
     * `21-30 人`
     * `30+ 人`
+
 1. `SaaS (GitLab.com) 版本`
+
     * `免费版`
     * `高级版`
     * `旗舰版`
     * `不太清楚`
+
 1. `Self managed 版本`
+
     * `Core`
     * `Starter`
     * `Premium`
@@ -222,7 +239,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
 
 * 当使用 `嵌入式数据值` 时，Qualtrics 不会在您开始键入时自动补全该值。搜索功能也可能是杂乱无章的。因此，请确保你完整地输入数值，就像上面显示的那样。
 
-* 嵌入式数据字段过去是区分大小写的。对于绝大多数 Qualtrics 用户来说，嵌入式数据不再区分大小写，这意味着 “test” 和 “test” 将被视为同一个字段。然而，Qualtrics 仍然建议将匹配案例作为最佳实践，因为有一小部分账户没有进行此更改。
+* 嵌入式数据字段过去是区分大小写的。对于绝大多数 Qualtrics 用户来说，嵌入式数据不再区分大小写，这意味着 `Test` 和 `test` 将被视为同一个字段。然而，Qualtrics 仍然建议将匹配案例作为最佳实践，因为有一小部分账户没有进行此更改。
 
 * 并不是所有的嵌入式数据值都是在 GitLab 的 First Look 创建时创建的。因此，我们并不需要为每个用户提供完整的值。值得注意的是，用户的某些值可能会随着时间而改变。例如，有些人可能会换工作，这可能会影响他们的职位、组织和团队规模。因此，我们持有的关于用户的信息可能存在一些差异。我们计划通过定期要求 GitLab First Look 的成员检查并在必要时为他们更新我们的文件信息来降低这种风险。
 
@@ -233,7 +250,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
 
 可能有几个原因导致你的样本数低于预期。
 
-1. GitLab First Look的联系频率已经用完了。默认情况下，GitLab First Look 的成员每周收到的电子邮件不会超过一次，或者一个月收到四次以上。如果是这种情况，你将需要延迟发送你的调查(你可能只需要延迟一天发送你的调查-联系 UX 研究协调员确认)或在 GitLab First Look 之外寻找用户。
+1. GitLab First Look 的联系频率已经用完了。默认情况下，GitLab First Look 的成员每周收到的电子邮件不会超过一次，或者一个月收到四次以上。如果是这种情况，你将需要延迟发送你的调查(你可能只需要延迟一天发送你的调查-联系 UX 研究协调员确认)或在 GitLab First Look 之外寻找用户。
 1. 没有足够的符合你的采样标准的 GitLab First Look 成员。
 1. 你的取样标准有错误。
 
@@ -243,22 +260,22 @@ description: "How to use Qualtrics at GitLab to run surveys"
 
 **注意：这些说明只适用于用户体验研究人员和研究协调员。**
 
-在一些研究中，你希望根据一些标准来锁定特定的用户群体（例如，在过去30天内至少撰写了5个合并请求的用户）。如果可以生成一个符合特定标准的用户 ID 列表（通常来自[数据仓库](https://about.gitlab.com/handbook/business-ops/data-team/#-data-warehouse)），你可以使用该列表将这些用户的联系信息推送到Qualtrics中，并分发调查问卷。**注意，这只限于GitLab.com的用户，不包括自我管理的用户。**
+在一些研究中，你希望根据一些标准来锁定特定的用户群体（例如，在过去30天内至少撰写了5个合并请求的用户）。如果可以生成一个符合特定标准的用户 ID 列表（通常来自[数据仓库](https://about.gitlab.com/handbook/business-ops/data-team/#-data-warehouse)），你可以使用该列表将这些用户的联系信息推送到 Qualtrics 中，并分发调查问卷。**注意，这只限于GitLab.com的用户，不包括自我管理的用户。**
 
 1. 生成 GitLab.com 用户 ID 列表，并将其放入 Google Sheet 的第一列。第一列（A1）的第一个条目应该是 `id`，因为这证实了这是一个你想使用的 ID 列表。
 1. 特定表格(或标签)的名称应该是你想要命名的Qualtrics邮件列表，例如，`05/20 - CI Pipeline Prototype Testing`。**名称不能包含以下字符:`< >`。这样做将导致在转移到 Qualtrics 时出现错误。**
 1. 整个电子表格的文件名应该是`qualtrics_mailing_list.`，后面是你在上述步骤中使用的工作表/邮件列表的名称。所以保持我们之前的例子，`qualtrics_mailing_list.05/20 - CI Pipeline Prototype Testing`。
-1. 一旦一切准备就绪，将文件移到`QualtricsRequest`Google Drive文件夹中。
+1. 一旦一切准备就绪，将文件移到 `QualtricsRequest` Google Drive 文件夹中。
 1. 如果一切操作正确，在大约15分钟内，A1中的`id`条目应该变成`processing`。这意味着数据管道正在处理你的请求。
-1. A1将显示 `已处理`。 你的邮件列表现在应该在Qualtrics中了。
+1. A1将显示 `已处理`。 你的邮件列表现在应该在 Qualtrics 中了。
 1. 在文件名中加入 `processed_`，以便明确哪些文件已经完成，同时也使进程在未来尽可能快地执行。
-1. 该名单将显示为*UX研究和产品*目录的共享名单。您可以从Qualtrics的*联系人*部分访问该名单本身，或者您可以在发送电子邮件的过程中选择该名单。
+1. 该名单将显示为*UX研究和产品*目录的共享名单。您可以从 Qualtrics 的*联系人*部分访问该名单本身，或者您可以在发送电子邮件的过程中选择该名单。
  
 * 你在 Google Sheet 中指定的 GitLab.com 用户 ID 将作为嵌入式数据包含在 Qualtrics 邮件列表中。你可以用它来将你得到的任何回应与你的原始用户列表联系起来。
 
 ## 如何创建一个追踪链接
 
-你可能想用几种方法来推广一项调查，并跟踪哪种方法表现最好（例如。GitLab社交网站、UX团队社交网站、博客文章或gitlab.com内部的 banner）。你可以通过使用查询字符串来做到这一点。阅读[文档](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/)，或观看[短视频](https://share.getcloudapp.com/kpumEOvR)。
+你可能想用几种方法来推广一项调查，并跟踪哪种方法表现最好（例如。GitLab 社交网站、UX 团队社交网站、博客文章或 gitlab.com 内部的 banner）。你可以通过使用查询字符串来做到这一点。阅读[文档](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/passing-information-through-query-strings/)，或观看[短视频](https://share.getcloudapp.com/kpumEOvR)。
 
 ## 如何从我们的通讯录中删除联系人
 
@@ -267,6 +284,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
 UX研究协调员或其他具有 Qualtrics 管理员权限的团队成员必须在全球范围内删除联系人，以防止他们今后收到电子邮件。 
 
 要从你的目录中删除一个联系人。
+
 1. 登录您的Qualtrics账户
 1. 点击右上角的 "联系人 "标签
 1. 单击 "目录联系人
