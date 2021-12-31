@@ -32,9 +32,8 @@ UX Showcase 会每两周举行一次。会议时长一个小时，主持会议�
     - 和你的经理一起决定谁将在你的阶段组进行发言。
 - 每位演讲者都需要在演讲前填写当天的议程(附在会议邀请上)。
 
-<%= partial("includes/ux-showcase/schedule") %>
 
-<a href="https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/includes/ux-showcase/_schedule.md" class="btn btn-default btn-sm">Update schedule</a>
+<a href="https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/sites/handbook/source/includes/ux-showcase/_schedule.md" class="btn btn-default btn-sm">更新时间表</a>
 
 ## 会议发表
 
