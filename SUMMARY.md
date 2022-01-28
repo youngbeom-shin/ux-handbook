@@ -47,7 +47,7 @@
 * [UX部门工作流程](ux-department-workflow/index.html.md)
     * [ux-showcase](ux-department-workflow/ux-showcase/index.html.md)
 * [UX设计师](ux-designer/index.html.md)
-* [UX研究员](ux-research/index.html.md)
+* [GitLab的用户体验研究](ux-research/index.html.md)
 * [用户研究协调](ux-research-coordination/index.html.md)
     * [研究协调员-填报](ux-research-coordination/research-coordinator-fill-in/index.html.md)
 * [用户研究培训](ux-research-training/index.html.md)
