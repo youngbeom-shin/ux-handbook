@@ -14,6 +14,7 @@
     * [待完成的工作(JTBD)深度研究](jobs-to-be-done/deep-dive/index.html.md)
     * [绘制待完成的工作（JTBD）](jobs-to-be-done/mapping-jobs-to-be-done/index.html.md)
     * [确定待办事项的优先次序](jobs-to-be-done/prioritizing-jobs-to-be-done/index.html.md)
+* [用户体验部门的学习和发展](learning-and-development/index.html.md)
 * [GitLab导航](navigation/index.html.md)
 * [个人自述文件](one-pagers-christie-readme/index.html.md)
 * [Pajamas设计系统](pajamas-design-system/index.html.md)
