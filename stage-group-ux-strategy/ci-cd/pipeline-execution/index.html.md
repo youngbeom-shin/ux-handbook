@@ -1,98 +1,60 @@
 ---
 layout: handbook-page-toc
-title: "Pipeline Execution UX"
-description: "A documentation of the practices, objectives, achievements and plans of the Pipeline Execution UX team."
+title: "流水线执行的用户体验"
+description: "关于流水线执行用户体验团队的做法、目标、成就和计划的文件。"
 ---
 
-## Overview
 
-The [Verify:Pipeline Execution Group](/handbook/engineering/development/ops/verify/pipeline-execution/) is focused on all the functionality with respect to Pipeline Execution, as part of GitLab Continuous Integration.
-A key focus for the Pipeline Execution group is delivering features that achieve the outcome we track in our performance indicator.
+## 概述
 
-- **Pipeline processing**: processes responsible for transitions of pipelines, stages and jobs.
-- **Rails-Runner communication**: jobs queuing, API endpoints and their underlying functionalities related to operations performed by and for Runners.
-- **Job artifacts**: storage and management of artifacts is the gateway for many CI/CD features.
+[Verify:Pipeline Execution Group](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-execution/) 专注于与流水线执行有关的所有功能，作为 [GitLab 持续集成](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) 的一部分，这个用户体验团队负责以下类别的工作：
 
-## Pipeline Execution UX Plan
+- **[持续集成](https://about.gitlab.com/direction/verify/continuous_integration/)**: 使流水线易于运行是我们的首要重点，这适用于手动运行流水线以及在提交代码提交或合并请求时自动触发流水线。此外，我们希望提供数据来检查流水线的性能，这样你就可以优化 CI 配置，使你的流水线更有效地运行。
+- [**持续集成扩展**](https://about.gitlab.com/direction/verify/continuous_integration_scaling/): 在22财年，我们致力于实现 SaaS 优先。在验证阶段，这意味着要优先考虑持续集成的规模，并确保我们在 GitLab.com 上的用户使用可靠和可用的服务。
+- [**合并队列**](https://about.gitlab.com/direction/verify/merge_trains/): 合并队列是一个排队的合并请求列表，等待被合并到目标分支。每个合并请求中的修改都与先前的合并请求中的修改相结合，并在合并前进行测试。
 
-### Vision
+## 流水线执行 UX 计划
 
-The Pipeline Execution UX team is working on substantially improving the experience of the overall core areas within CI, including triggering a pipeline and analyzing its performance. Here are a few epics to support our plan:
+### 流水线执行下的类别愿景
+- **[持续集成](https://about.gitlab.com/direction/verify/continuous_integration/)**: 展望未来，我们有计划帮助你更好地监测和了解你的流水线 [epic#4794](https://gitlab.com/groups/gitlab-org/-/epics/4794). 拥有流水线活动的细节（如工作持续时间）将使你在流水线运行时看到正在发生的事情并作出反应。除了将数据简单地用于反应目的外，我们还计划为历史流水线分析提供一个可定制的用户界面，这样你就可以看到指导你规划和决策的趋势。 我们也很想创建一个整体的方法，通过 [gitlab#325529](https://gitlab.com/gitlab-org/gitlab/-/issues/325529) 在流水线成功时自动合并，这在[代码审查](https://about.gitlab.com/direction/create/code_review/)和持续集成之间提供了很好的协作。 
+- [**合并队列**](https://about.gitlab.com/direction/verify/merge_trains/): 我们的首要愿景项目是[合并队列应支持快进合并](https://gitlab.com/gitlab-org/gitlab/issues/35628)，因为这将消除经常需要手动重新设置的情况。我们从许多开发人员那里听说，他们每天的大部分时间都用于这项活动，有了这项功能，合并队列将为他们解决这个问题。
 
-- [3 Year Vision - Verify:Pipeline Execution](https://gitlab.com/groups/gitlab-org/-/epics/4793)
-- [1 Year Focus - Verify:Pipeline Execution](https://gitlab.com/groups/gitlab-org/-/epics/4794)
-- [3 Years Focus](https://gitlab.com/groups/gitlab-org/-/epics/4898)
-- [MR Widget Improvements for CI](https://gitlab.com/groups/gitlab-org/-/epics/4926)
-- [Improve GitLab CI/CD documentation](https://gitlab.com/groups/gitlab-org/-/epics/4899)
+### 正在进行的倡议
 
-### Ongoing Initiatives
+在22财年第三季度，我们专注于简化合并策略，以及改善与上述类别相关的各种功能的整体可用性。
 
-Currently we are working towards refining the merge trains related experience and exploring around providing users with an ability to monitor the performance of their running pipelines.
+- [14.3 Pipeline Execution UX tracking issue](https://gitlab.com/gitlab-org/gitlab/-/issues/335073)
+- [14.4 Pipeline Execution UX tracking issue](https://gitlab.com/gitlab-org/gitlab/-/issues/337486)
+- [14.5 Pipeline Execution UX tracking issue](https://gitlab.com/gitlab-org/gitlab/-/issues/336562)
 
-- [Merge Trains support for fast-forward merge](https://gitlab.com/groups/gitlab-org/-/epics/4911)
-- [Job ignores previous stage if cancelled and retried](https://gitlab.com/gitlab-org/gitlab/-/issues/207988)
-- [Design - Present information around running pipeline activities in GitLab CI](https://gitlab.com/gitlab-org/gitlab/-/issues/280773)
+## 我们如何工作
 
+### 用户体验和研发团队的合作
 
-## Our Customers
+产品经理和产品设计师使用 [流水线执行设计跟踪史诗](https://gitlab.com/groups/gitlab-org/-/epics/5866) 和定期同步来跟踪准备进行设计的议题，通常与一个季度的主题一致。
 
-Coming soon.
+在流水线执行组中，设计工作领先于开发。因此，设计者正在处理的问题只有在加入设计建议后才会被分配到一个里程碑，并且状态从 `workflow::design` 转移到 `workflow::planning breakdown`。
 
-## Our Process
+我们在每个里程碑中拿出~10%的生产能力（按权重计算）来处理 [UX 债务](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#ux-debt)议题，并在其 SLO 中解决这些议题。在 [流水线执行组页面](https://about.gitlab.com/handbook/engineering/development/ops/verify/pipeline-execution/#collaboration-with-ux-and-engineering) 上阅读更多关于用户体验和研发团队之间的合作。
 
-In the CI UX team, the planning happens on the milestone planning issue in collaboration with the Product Manager and the engineering team. 
+### 用户体验定义的完成（DoD）
 
-Since the designs are always provided a few milestones in advance to the implementation milestone, we track the progress of design issues by using the labels `pd::doing` and `pd::finished`. These labels indicate if an issue is being worked on by the product designer and the final design proposal has been added to the issue, respectively.
+我们使用 [CI/CD UX Definition of Done (DoD)](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/ci-cd/#ux-definition-of-done-dod) 作为评估议题准备情况的工具，并跟踪预期的交付物、目标和批准过程。
 
-Read about the process of Verify:Pipeline Execution team in detail [here](/handbook/engineering/development/ops/verify/pipeline-execution/#how-we-work).
+### UX 权重
 
-## CI UX DoD objectives
-A Definition of Done (DoD) serves as a tool for describing and tracking the expected deliverables, objectives, and the approval process. The DoD consists of a list applied by the Product Designer and Product Manager to issues or epics, in order align and track the entry and exit criteria for design work. This list should be flexible, making this process [efficient for their ways of working](https://about.gitlab.com/handbook/values/#efficiency-for-the-right-group).
+我们使用 [UX 权重定义](https://about.gitlab.com/handbook/engineering/ux/product-designer/#ux-weight-definitions) 来表示里程碑的生产能力。
 
-##### Entry Criteria for `workflow::design`
+### UX 债务和 UI 优化议题
 
-- Problem is well understood and has gone through the `workflow::problem validation`, if necessary.
-- Issue has a clear and well articulated problem background (why it is prioritised) description
-- User stories and acceptance criteria have been created
-- Edge cases were considered and described by PM and Product Designer
-- `UX` and `pd::doing` labels are added to the issue
-- Cross-team dependencies have been identified and documented, if applicable. Product Designer and Product manager from the concerned stage groups are notified
+CI 的 ~UX 债务和 ~UI 优化议题在[本史诗](https://gitlab.com/groups/gitlab-org/-/epics/4667)中被追踪。我们的目标是在每个里程碑中至少处理其中一个问题。
 
-##### Criteria for UX DoD (exit criteria for "workflow::design")
+## 跨阶段的合作
 
-- Prototypes for each applicable user story have been created
-  - Empty state
-  - Responsiveness
-  - Edge cases
-- Design proposal was ran and is aligned with engineering team to avoid non-feasible solutions and ensure the iteration in our development process.
-- Incremental design approach was applied to split the design problem into small problems and deliverables and an MVC solution is identified (UX to work with Engineering). New issues are created for the follow up user stories
-- If changes involve copy, `UI text` label has been added
-- Pajamas: component creation or update have been identified
-  - Pajamas issue is created. If a new component is proposed, consider notifying the UX team to avoid duplicate efforts and encourage collaboration
-- Marked as ready for engineering evaluation per user story moved into `workflow::planning breakdown`
-- Replace `pd::doing` with `pd::finished`
-
-##### Entry Criteria for `workflow::ready for development`
-
-- Scope has successfully exited `workflow::planning breakdown` 
-- User stories have been weighed and broken down into feasible iterations (smaller solutions)
-
-##### UX Weighting (optional)
-
-UX weighting is an optional process and should be applied accordingly to team needs.
-
-We add the weight to UX issues using the [storypoints system](https://www.nngroup.com/articles/ux-user-stories/):
-
-|  | S | M | L | XL | XXL (subject for breaking down) | XXXL (subject for breaking down) |
-| ------ | ------ | 
-| Points | 1 | 2 | 3 | 5 | 8 | 13 |
-
------
-
-## UX Debt and UI Polish Issues
-
-The ~UX Debt and ~UI Polish issues for CI are tracked in this epic: https://gitlab.com/groups/gitlab-org/-/epics/4667. Our goal is to work on a minimum of one of these issues each milestone.
-
-
-
-
+| 议题 | 范围 | 受影响的阶段性群组 |
+|-------|-------|-----------------------|
+| [Simplify merge strategies with `Auto merge`](https://gitlab.com/groups/gitlab-org/-/epics/6687) | Merge Widget, Settings Page | `group::source code` `group::code review` |
+| [Regular Merge button shows up when merge trains is enabled and pipeline for MR is waiting on a manual action](https://gitlab.com/gitlab-org/gitlab/-/issues/300663) | Merge widget | `group::code review` |
+| [Remove duplicate status indicators on pipeline index page](https://gitlab.com/gitlab-org/gitlab/-/issues/338192) | Pipeline Index Page, Pipeline Mini-graph | `group::pipeline authoring` |
+| [Support allow merging of MR when Pipeline must succeed is enabled in absence of pipeline](https://gitlab.com/gitlab-org/gitlab/-/issues/334281) | Merge widget | `group::source code` `group::code review` |
+| [New MR widget to catch CI jobs' duration regression before and MR is merged into the main branch](https://gitlab.com/gitlab-org/gitlab/-/issues/342517) | Merge widget | `group::source code` `group::code review` |
