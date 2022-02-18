@@ -1,62 +1,61 @@
 ---
 layout: handbook-page-toc
 title: Secure and Protect - JTBD
-description: The Jobs-to-be-Done that the Secure and Protect Group is striving to address.
+description: Secure 和 Protect 小组正在努力解决的待完成的工作。
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+## 概述
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+这个页面的目标是记录、共享和迭代待完成的任务(JTBD)以及它们在 Secure 和 Protect 阶段的相应任务声明。
 
-## Overview
+这些工作反映了用户体验团队如何构建安全和保护体验。结合起来，这些工作旨在提供一个统一的观点和对用户体验的共同理解。
 
-The goal of this page is to document, share and iterate on the Jobs to be Done (JTBD) and their corresponding job statements for the Secure and Protect stages. 
+这一页是一个活的文档;随着我们对用户的理解加深，以及产品方向发生变化，我们将更新 JTBD。
 
-These Jobs reflect how the UX team frames the Secure and Protect experience. Combined, these Jobs aim to provide a unified view and a shared understanding of the user experience.
+## 所有阶段的共同目标
 
-This page is a living document; as our understanding of our users deepens and as changes to the product direction take place, we will update our JTBDs.
+利用 JTBD 来:
 
-## Goals common to all stages
+- 了解我们用户的基本动机
+- 在阶段性小组内验证已确定的问题领域
+- 创造一种跨团队的共同语言，以便在致力于改善安全和保护的经验时进行更好的合作。
+- 为我们的利益相关者创建一个透明的视角，了解产品的当前和未来状态。
 
-Utilize JTBDs to:
+## 我们如何在 Secure 和 Protect 阶段中使用 JTBD
 
-- Understand our users' underlying motivations
-- Validate identified problem areas within the stage-group
-- Create a common language across teams for better collaboration when working on improving the experience for Secure and Protect
-- Create a transparent view for our stakeholders into the current and future state of the product.
+我们通过以下方式利用 JTBD 框架：
 
-## How we use JTBDs in Secure and Protect
+- 我们根据这些工作为[类别成熟度记分卡](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/)研究生成了现实的场景。
+- 我们使用它们为即将到来的工作排序，并创建产品路线图(参见示例:[2021年威胁洞察UX目标](https://gitlab.com/gitlab-org/gitlab/-/issues/294062))。
+- 我们在设计议题中引用工作说明，以说明解决方案旨在解决的用户目标。
+- 我们把它们作为一个指南针，使我们在共同的方向上对准 Secure 和 Protect 的目标，以帮助我们的用户。
+- 我们使用它们来识别类别之间的合作机会。
 
-We utilize the JTBDs framework in the following ways:
-- We generate realistic scenarios for [Category Maturity Scorecard](https://about.gitlab.com/handbook/engineering/ux/category-maturity-scorecards/) studies according to these Jobs.
-- We use them for prioritizing upcoming work and creating a product roadmap (see example: [2021 UX Goals for Threat Insights](https://gitlab.com/gitlab-org/gitlab/-/issues/294062)).
-- We reference Job Statements in Design issues, to state the user goal which the solution aims to resolve.
-- We use them as a compass to align ourselves on a common direction for how Secure and Protect is aiming to help our users.
-- We use them to identify collaboration opportunities between categories.
+## 我们在创建 JTBD 时使用的指导原则
 
-## Guiding principles we use in the creation of our JTBDs
+### 打破孤岛，坚持以用户为中心
 
-### Break down silos, and stay user-centric
-We want to use the JTBDs framework as a way of gaining a shared perspective on what the Secure and Protect user experience is, rather than thinking about it in a siloed, Category-focused, way. The user doesn’t care about our organizational structure, and so our grouping of Job Statements shouldn’t reflect that (i.e. you won’t see SAST/DAST/etc. Job Statements in our list). Striving to break free from [Conway’s Law](https://en.wikipedia.org/wiki/Conway%27s_law), we decided to instead group Job Statements primarily around broad user goals (i.e. Big Jobs), and then have each Category team interpret them as it fits their domain.
+我们希望将 JTBD 框架作为一种方式来获得对 "Secure 和 Protect" 用户体验的共同看法，而不是以一种孤立的、以类别为重点的方式来思考它。用户并不关心我们的组织结构，因此我们对工作陈述的分组不应反映这一点（即你不会在我们的列表中看到 SAST/DAST 等工作陈述）。为了摆脱[康威定律](https://en.wikipedia.org/wiki/Conway%27s_law)，我们决定主要围绕广泛的用户目标（即大工作）对工作陈述进行分组，然后让每个类别的团队根据自己的领域来解释这些陈述。
 
-### Mutually Exclusive and Collectively Exhaustive
-We aspire to create a single set of JTBDs for the entire stage, such that that set is mutually exclusive and collectively exhaustive. This means that there should be no overlap between Jobs, and that together all Jobs should exhaust the user goals that Secure and Protect should address.
+### 相互排斥和集体穷举
 
-### Validate JTBDs with Research
-It is important to form hypothetical Jobs to explicitly call out what goals we believe our users have. However hypothetical Job Statements are not actionable yet. They should be validated (or invalidated) through user research.
+我们希望为整个阶段创建一个单一的 JTBD 集合，这样的集合是相互排斥的，并且是集体穷举的。这意味着工作之间不应该有重叠，而且所有工作都应该穷尽 Secure 和 Protect 应该解决的用户目标。
+
+### 用研究来验证 JTBD
+
+重要的是，要建立假想的 Job，明确指出我们认为用户有什么目标。然而，假设的工作陈述还不能付诸行动。它们应该通过用户研究来验证(或作废)。
 
 ## JTBD
 
-### Job Hierarchy Diagram
-The Job hierarchy diagram represents the relationship between Jobs in a visual way. It focuses solely on Jobs, rather than on full Job Statements, to make the structure more easily digestible.
+### 工作层次图
 
-Note that most, but not all, Jobs fit under the Aspirational Job of “Safeguarding my applications from exploits”. Additional Jobs appear as satellites, supporting this core mission.
+职务层次图以直观的方式表示职务之间的关系。它只关注工作，而不是完整的工作陈述，以使结构更容易消化。
 
-[View Job Hierarchy Diagram in Mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1605789082819/395043ec677f981ce24743be8770829f9caa8770)
+请注意，大多数(但不是所有)工作都符合“保护我的应用程序免受漏洞攻击”这一理想职业。额外的工作以卫星的形式出现，支持这项核心任务。
 
-### Job Statements
+[在 Mural 中查看工作层次图](https://app.mural.co/t/gitlab2474/m/gitlab2474/1605789082819/395043ec677f981ce24743be8770829f9caa8770)
+
+### 工作陈述
 
 <%= partial("direction/secure/secure-jtbd-list", locals: { stage_key: "Secure and Protect" }) %>
 
