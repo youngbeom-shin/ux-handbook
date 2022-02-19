@@ -1,87 +1,86 @@
 ---
 layout: handbook-page-toc
-title: "Defining goals, objectives, and hypotheses"
-description: "Conducting user research takes a significant amount of preparation before you even begin asking users anything."
+title: "确定目标、目的和假设"
+description: "在你开始询问用户之前，进行用户研究需要做大量的准备工作。"
 ---
 
+在你开始询问用户之前，进行用户研究需要做大量的准备工作。然而，你所花的时间，即建立一致性和制定研究计划的时间，会得到 *极大的* 回报，因为它使你在进行研究的过程中保持在正确的轨道上。
 
+从一个好的问题 *和* 正确的问题开始，将确保你最终得到一个有用的答案。一个好的研究问题是具体的、可操作的、实用的。这意味着：
 
-Conducting user research takes a significant amount of preparation before you even begin asking users anything. However, the time you spend creating alignment and developing a research plan pays off *tremendously* because it keeps you on track as you carry out your research.
+* 用你现有的技术和方法是可以回答这个问题的。
+* 你有可能但不能保证能以足够的信心得出答案，从而在你所学的基础上做出决定。
 
-Starting with a good question *and* the right question will ensure you end up with a useful answer. A good research question is specific, actionable, and practical. That means:
-* It’s possible to answer the question using the techniques and methods available to you.
-* It’s possible but not guaranteed that you can arrive at an answer with a sufficient degree of confidence to base decisions on what you’ve learned.
+只有在确定了你的研究问题之后，你才能选择回答问题的最佳方式（例如，[使用哪种研究方法](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/choosing-a-research-methodology/)）。
 
-Only after you have identified your research question(s) can you select the best way to answer the question (for example, [which research method to use](/handbook/engineering/ux/ux-research-training/choosing-a-research-methodology/).
+如下图所示，创建研究假设、目标和目的有五个主要步骤。
 
-As the figure below shows, there are 5 main steps to creating research hypothesis, goals, and objectives. 
+![5 Main Steps to Creating Research Hypothesis, Goals, and Objectives](https://about.gitlab.com/images/uxresearch/Steps_to_create_hypothesis_goals_objectives.jpg)
 
-![5 Main Steps to Creating Research Hypothesis, Goals, and Objectives](/images/uxresearch/Steps_to_create_hypothesis_goals_objectives.jpg)
+#### 第1步 - 开始思考一个问题
+* 问问自己:
+    * 你目前对用户有什么看法？
+    * 你需要注意哪些组织或其他方面的障碍？
+    * 项目的商业目标是什么？
+    * 该研究需要回答什么问题？
+    * 我们试图学习什么？
+    * 研究 *必须* 达到什么目的？
+    * 是否存在任何[先前的研究](https://about.gitlab.com/handbook/engineering/ux/ux-research/#how-to-find-existing-research)？
+        * 之前的研究告诉我们什么？
 
-#### Step 1 - Start thinking of a problem
-* Ask yourself:
-    * What current beliefs do you have about the user?
-    * What organizational or other barriers do you need to be mindful of?
-    * What are the business objectives for the project?
-    * What questions does the research need to answer?
-    * What are we trying to learn?
-    * What *must* the research achieve?
-    * Does any [prior research](/handbook/engineering/ux/ux-research/#how-to-find-existing-research) exist? 
-        * What did prior research tell us?
-
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **开始思考一个问题** | **我们需要解答的问题** | **假设** | **目标** | **目的**
 | ------ | ------ | ------ | ------ | ------ | 
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. |
+| 让我们想象一下，一家连锁酒店已经注意到他们在过去几个季度的预订数量减少，但他们不确定原因。 |
  
-#### Step 2 - Start populating ‘Questions we need answers to’
-- This is meant to be a brain dump of all the answers you came up with from step 1. 
-- These aren't the questions you'll directly ask users - you'll get to that step later as you fill out your discussion guide. 
+#### 第2步 - 开始填充 ‘我们需要答案的问题’
+- 这是对你在第1步中得出的所有答案的一次头脑风暴。
+- 这些并不是你要直接问用户的问题--你会在后面填写讨论指南时进入这一步。 
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **开始思考一个问题** | **我们需要解答的问题** | **假设** | **目标** | **目的**
 | ------ | ------ | ------ | ------ | ------ | 
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | Are people not booking because they don’t like the hotels we have? Do we have issues with the website or app? Are our prices too high? Are we missing hotel amenities that customers are looking for?  |
+| 让我们想象一下，一家连锁酒店已经注意到他们在过去几个季度的预订数量减少，但他们不确定原因。 | 人们不预订是因为他们不喜欢我们的酒店吗？我们的网站或应用程序有问题吗？我们的价格是否过高？我们是否缺少客户正在寻找的酒店设施？ |
 
-#### Step 3 - Fill out the hypothesis
-- The research hypothesis is simply the assumption you have about the product/feature/experience. 
+#### 第3步 - 填写假设
+- 研究假设只是你对产品/功能/体验的假设。 
 
-- Read more about [how to write a strong hypothesis](/handbook/engineering/ux/ux-research-training/write-strong-hypothesis/).
+- 阅读更多关于[如何写出强有力的假设](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/write-strong-hypothesis/)。
 
-- Use the questions you listed in step 2 to guide you.
+- 使用你在第2步中列出的问题来指导你。
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **开始思考一个问题** | **我们需要解答的问题** | **假设** | **目标** | **目的**
 | ------ | ------ | ------ | ------ | ------ | 
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | Are people not booking because they don’t like the hotels we have? Do we have issues with the website or app? Are our prices too high? Are we missing hotel amenities that customers are looking for?  | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will result `in an increased number of hotel bookings`.
+| 让我们想象一下，一家连锁酒店已经注意到他们在过去几个季度的预订数量减少，但他们不确定原因。 | 人们不预订是因为他们不喜欢我们的酒店吗？我们的网站或应用程序有问题吗？我们的价格是否过高？我们是否缺少客户正在寻找的酒店设施？ | 我们相信 通过 `改善我们网站的用户在选择和决定入住我们的酒店时的体验` 将导致 `酒店预订数量的增加`.
 
-#### Step 4 - State the goal(s) for the research
-- Goals need to be specific enough so you’ll know when you’ve reached an answer, practical in that you could answer them within the scope of a study, and actionable in that you could act on your findings once you’ve completed your research study.
-- The goal is the central question that has to be answered by the research findings.
-- Always start goals using a verb such as identify, understand, learn, gauge, etc.
-- Limit the number of goals you define per project. Try to learn one or two things very well. This will help you connect your research to a design outcome and emerge with a clear understanding of one aspect of user behavior.
+#### 第4步 - 说明研究的目标
+- 目标需要足够具体，这样你就会知道你什么时候得出了答案；目标要实用，你可以在研究范围内回答这些问题；目标要可操作，一旦你完成了研究调查，就可以根据你的发现采取行动。
+- 目标是研究结果必须要回答的中心问题。
+- 始终使用动词来启动目标，如识别、理解、学习、衡量等。
+- 限制你在每个项目中定义的目标数量。试着把一两件事情学得很好。这将帮助你把你的研究与设计结果联系起来，并在出现时对用户行为的一个方面有一个清晰的认识。
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **开始思考一个问题** | **我们需要解答的问题** | **假设** | **目标** | **目的**
 | ------ | ------ | ------ | ------ | ------ | 
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | Are people not booking because they don’t like the hotels we have? Do we have issues with the website or app? Are our prices too high? Are we missing hotel amenities that customers are looking for?  | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will result `in an increased number of hotel bookings`. | Understand how people make their travel plans.
+| 让我们想象一下，一家连锁酒店已经注意到他们在过去几个季度的预订数量减少，但他们不确定原因。 | 人们不预订是因为他们不喜欢我们的酒店吗？我们的网站或应用程序有问题吗？我们的价格是否过高？我们是否缺少客户正在寻找的酒店设施？ | 我们相信 通过 `改善我们网站的用户在选择和决定入住我们的酒店时的体验` 将导致 `酒店预订数量的增加`. | 了解人们如何制定旅行计划。
 
-#### Step 5 - Create research objectives
-- A well written list of research objectives: 
-    * Delineate and align with the goal of the project.
-    * Define the overall high-level approach and the questions you might ask.
-    * Dictate the most suitable methods and tools at your disposal.
-    * Determine the outcomes you will get from the study.
-    * Need to be high level, but specific enough that research can provide a concise answer for each.
-- Create no more than 4 objectives per research effort. If you try to achieve more than 4 objectives in one study, you are doing too much, as each objective will represent up to a dozen questions/tasks in your discussion guide.
-- Review the list of the ‘Questions we need answers to’ and identify the themes you see there. Reference the 'Hypothesis' and the 'Goal(s)' you have previously written. 
+#### 第5步 - 创建研究目的
+- 一份写得很好的研究目的清单： 
+    * 描述并与项目的目标保持一致。
+    * 定义总体的高级方法和您可能会问的问题。
+    * 指定最适合你使用的方法和工具。
+    * 确定你将从研究中得到的结果。
+    * 需要有较高的水平，但要足够具体，以便研究能够为每个人提供一个简洁的答案。
+- 每项研究工作建立不超过4个目标。如果你试图在一项研究中实现4个以上的目标，你就做得太多了，因为每个目标在你的讨论指南中最多代表十几个问题/任务。
+- 回顾 ‘我们需要答案的问题’ 清单，确定你看到的主题。参考你之前写的 ‘假设’ 和 ‘目标‘。
 
-| **Start thinking of a problem** | **Questions we need answers to** | **Hypothesis** | **Goal** | **Objectives**
+| **开始思考一个问题** | **我们需要解答的问题** | **假设** | **目标** | **目的**
 | ------ | ------ | ------ | ------ | ------ | 
-| Let’s imagine that a hotel chain has noticed they have had a lower number of bookings in the last few quarters, but they are unsure why. | Are people not booking because they don’t like the hotels we have? Do we have issues with the website or app? Are our prices too high? Are we missing hotel amenities that customers are looking for?  | We believe `that by improving the experience of selecting and deciding which of our hotels to stay at` for `users of our website` will result `in an increased number of hotel bookings`.  | Understand how people make their travel plans. | Identify ways people start planning their travel and the tools they use. Understand what elements make it easy for people to plan travel and what elements make it difficult. |
+| 让我们想象一下，一家连锁酒店已经注意到他们在过去几个季度的预订数量减少，但他们不确定原因。 | 人们不预订是因为他们不喜欢我们的酒店吗？我们的网站或应用程序有问题吗？我们的价格是否过高？我们是否缺少客户正在寻找的酒店设施？ | 我们相信 通过 `改善我们网站的用户在选择和决定入住我们的酒店时的体验` 将导致 `酒店预订数量的增加`. | 了解人们如何制定旅行计划。 | 确定人们开始计划旅行的方式和他们使用的工具。了解哪些因素使人们计划旅行变得容易，哪些因素使旅行变得困难。 |
 
-The chart below shows the relationship between your research goal and the tasks and questions you will ask your participants in usability tests. 
+下面的图表显示了你的研究目标和你将在可用性测试中向参与者提出的任务和问题之间的关系。 
 
-![The relationship between your research goal and your tasks and questions](/images/uxresearch/Research_Goal_Obj_Questions.jpg)
+![The relationship between your research goal and your tasks and questions](https://about.gitlab.com/images/uxresearch/Research_Goal_Obj_Questions.jpg)
 
-This chart shows the relationship between your research goal and the interview questions you will ask your participants in user interviews. 
+这张图表显示了你的研究目标和你将在用户访谈中询问参与者的访谈问题之间的关系。
 
-![The relationship between your research goal and your interview questions](/images/uxresearch/Research_Goal_Obj_questions_interviews.jpg)
+![The relationship between your research goal and your interview questions](https://about.gitlab.com/images/uxresearch/Research_Goal_Obj_questions_interviews.jpg)
 
-As you can see, the more objectives you start out with, the more questions you will need to ask and the longer your research session will be. It's a good rule of thumb to not have the user session last longer than 1 hour. Our typical research sessions at GitLab last 30-45 minutes.
+正如你所看到的，你开始的目标越多，你需要问的问题就越多，你的研究会议就越长。一个好的经验法则是不要让用户会议持续超过1小时。我们在 GitLab 的典型研究会持续30-45分钟。
