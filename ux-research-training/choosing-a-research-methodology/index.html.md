@@ -1,33 +1,31 @@
 ---
 layout: handbook-page-toc
-title: "Choosing a research methodology"
-description: "How to choose a research methodology: detail vs frequency, user characteristics, and fidelity of insight"
+title: "选择研究方法"
+description: "如何选择一种研究方法:细节vs频率、用户特征和洞察力的保真度"
 ---
 
+当为你的研究问题选择适当的方法时，有多种因素需要考虑：需要了解问题的细节与问题发生的频率，你的用户的特点和他们的使用情况，以及你的产品或设计的保真度。这些因素中的每一个都将决定哪种方法最适合你的研究问题。我们将更详细地讨论这些因素中的每一个。
 
+#### 细节与频率的对比
 
-When choosing the appropriate methodology for your research question, there are multiple factors to consider: the need to understand the details of an issue versus its frequency of occurring, the characteristics of your users and their usage, and the fidelity of your product or designs. Each of these factors will dictate which methodology is most appropriate for your research questions. We'll go into each of these factors in more detail.
+首先要考虑的因素是，你是刚刚开始，想了解可能存在的问题，还是已经了解了用户面临的问题，想了解其严重程度或相对频率？
 
-#### Detail versus frequency
+如果你处于最初的探索阶段，重要的是能够深入了解你的问题。你要有能力提出详细的问题，跟进参与者的回答，并在有趣的切入点出现时偏离你的讨论指南。因此，深度访谈可能比调查或其他方法更可取，因为在后者中，你有一套固定的问题，而且没有跟进的能力。
 
-The first factor to consider is whether you are just starting out and wanting to get an idea of what problems may exist, or do you already have an understanding of the problems users are facing and you're looking to understand their severity or relative frequency?
+一旦你对你的用户所遇到的问题类型有了一个概念，你可能想了解这些问题在更广泛的人群中的普遍程度。要做到这一点，你需要一个适当大的用户样本，这样你就可以合理地相信你的发现能代表整个用户群体。在这种情况下，你可以向潜在的数百或数千名用户分发的调查是比较合适的。使用一个有固定答案选择的调查表，甚至可以对大量的回答进行简单分析。
 
-If you're in the initial discovery phase, it's important to be able to get into the weeds on your problem. You'll want the ability to ask detailed questions, follow up on participants' answers, and deviate from your discussion guide when interesting tangents present themselves. Thus, in-depth interviews are likely going to be preferable rather than a survey or other method where you have a fixed set of questions and no ability to follow up.
+#### 你的用户特点
 
-Once you have an idea of the types of issues your users are experiencing, you may want to understand how prevalent those issues are with the wider population. To do that, you need a suitably large sample of users so that you can be reasonably confident that your findings are representative of the user population as a whole. In this instance, a survey that you can distribute to potentially hundreds or thousands of users is a better fit. Using a survey with a fixed set of answer choices will allow for easy analysis of even a large number of responses.
+在设计你的研究时，你要考虑的下一件事是你的用户的行为特点或你想研究的具体行动。是所有的人都以同样的方式做这件事，还是根据他们的角色而有所不同？以管理员与普通用户为例。他们对产品的理解和使用可能会非常不同。在这种情况下，你要确保你招募的是不同角色的人。 
 
-#### Characteristics of your users
+使用情况是否随时间变化？也许你对研究人们如何学习使用一个新功能感兴趣。在用户学习该功能的过程中，与他们进行多次交谈，或者至少招募处于不同使用阶段的用户，这可能是一个好主意。
 
-The next thing you'll want to think about when devising your study is the characteristics of your users' behavior or specific actions you're looking to study. Do all people do the thing in the same way, or does it vary, perhaps based on their role? Take for example administrators versus regular users. Their understanding and usage of the product will likely be very different. In that case, you would want to be sure you recruit people in different roles. 
+重要的是要想一想，根据人们的身份或他们使用你的产品的方式，使用情况可能会有所不同，并尝试招募反映不同用途的人。
 
-Does usage change over time? Perhaps you're interested in studying how people learn to use a new feature. It might be a good idea to talk to users at multiple intervals as they learn the feature, or at least recruit users at different points on the spectrum of usage.
+#### 洞察力的真实性
 
-The important thing is to think about how usage might be different for people based on who they are or how they're using your product and try to recruit people that reflect that different usage.
+人们经常会问，他们应该在产品开发的哪个阶段进行用户体验研究。现实情况是，你可以在开发的每个阶段进行不同细节水平的研究。研究洞察力的真实性遵循设计的真实性。
 
-#### Fidelity of insight
+如果你在纸上手绘产品流程，你可以把它放在用户面前，让他们了解基本的、高层次的体验。关键字是“高水平”，你不会得到任何细节，你不应该尝试。如果你将这个流程变成一个高保真的原型，让用户可以点击一系列屏幕图像上的“热点”来推进流程，你可以获得更多细节，但仍然不如他们在生产界面上互动。
 
-People often ask at what stage of product development they should be conducting UX research. The reality is that you can conduct research at every stage of development with different levels of detail. The fidelity of research insights follows the fidelity of design. 
-
-If you have a hand drawn product flow on some pieces of paper, you can put that in front of users and get a basic, high level idea of how they comprehend the experience. The key phrase being *high level*, you won't get any detail and you shouldn't try. If you then turn that flow into a high fidelity prototype where users can click "hotspots" on a series of screen images to progress through the flow, you can get more detail, but still not as much as if they were interacting with a  production interface.
-
-The important thing to keep in mind is that you can do research at every stage of the development lifecycle, as long as you remain mindful of the limitations of what you can learn. However, even with these limitations, doing research at early stages is immensely valuable for providing product direction. Some information is so much better than no information.
+要记住的重要事情是，你可以在开发生命周期的每一个阶段进行研究，只要你能记住你能学到的东西的局限性。然而，即使有这些限制，在早期阶段进行研究对于提供产品方向是非常有价值的。有信息总比没有好。
