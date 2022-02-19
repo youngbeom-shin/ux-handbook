@@ -1,40 +1,40 @@
 ---
 layout: handbook-page-toc
-title: "Collecting Useful Data"
-description: "You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information."
+title: "收集有用的数据"
+description: "你可以使用你的研究目标来创建类别，你可以在做笔记时引用这些类别，以确保你捕捉到最重要的信息。"
 ---
 
+### 决定收集哪些类型的洞察力
+当你做笔记的时候，你很容易认为你听到和/或看到的一切都很重要，但这使得分析所有参与者的信息变得极其困难。你可以使用你的研究目标来创建类别，你可以在做笔记时引用这些类别，以确保你捕捉到最重要的信息。把重点放在“需要知道”的信息上，而不是“最好知道”的信息上。
 
+### 决定一个收集方法
+进行用户研究通常会得到大量的信息。为了在整个过程中保持条理，提前花些时间决定如何收集笔记。使用 Dovetail 将有助于整合您的数据，以及方便突出显示和标记内容。这样做可以通过添加他们自己的笔记和观察结果，使团队更容易协作，并且将所有东西收集在一个中心位置将保持组织和一致。
 
-### Decide what kinds of insights to collect
-As you take notes, it’s easy to think that everything you hear and/or see is important, but this makes it extremely difficult to analyze the information across all your participants. You can use your research objectives to create categories you can reference as you take notes to make sure you are capturing the most salient information. Focus on the need-to-know information, not the nice-to-know information.
+除了 Dovetail 之外，这里还有一些可以用来做笔记的资源，这取决于你正在进行的研究的类型:
 
-### Decide on a collection method
-Conducting user research often results in a pretty hefty amount of information. To stay organized throughout this process, spend some time upfront deciding how you’ll collect your notes. Using Dovetail will help consolidate your data as well as facilitates highlighting and tagging content. Doing this makes it easier for your team to collaborate by adding their own notes and observations, and collecting everything in a central place will keep things organized and consistent. 
+* [用户研究笔记指南](https://condens.io/user-research-note-taking/) 本指南向你展示了如何做好笔记来节省时间。它还比较了电子表格中笔记的替代方法，例如使用便利贴。
+* [用户访谈记录模板](https://docs.google.com/spreadsheets/d/1hnIqg-fnCYW2XKHR8RBsO3cYLSMEZy2xUKmbiUluAY0/edit#gid=0)
+* [可用性测试彩虹分析图](https://docs.google.com/spreadsheets/d/1bPg6op9Sk46lFVGaET-fruE0qz-ctNQsxbZKF-5lpn4/edit#gid=0). 这种方法使用模板化的彩色编码电子表格来记录参与者在测试中的表现。关于如何使用这种方法的详细介绍，请查看[这篇文章](https://userresearch.blog.gov.uk/2019/09/13/how-a-spreadsheet-can-make-usability-analysis-faster-and-easier/)，或观看[GitLab研究人员使用这种方法的经验视频](https://drive.google.com/file/d/1fYRTmaHZjMwDQfAnVpaEqHP1dByy1X5x/view?usp=sharing)（从7:00开始）。
 
-Here are some note-taking resources to use, in addition to Dovetail, depending on the type of study you're conducting:
+### 确定额外的记录员
+记笔记的最佳做法是在每个研究会议上有多个记笔记的人。有一个以上的记录员有助于:
 
-* [A guide to user research note taking](https://condens.io/user-research-note-taking/) This guide shows how to take good notes to save time later on. It also compares alternatives to note taking in a spreadsheet -- for example, using sticky notes.
-* [User Interview Note Taking Template](https://docs.google.com/spreadsheets/d/1hnIqg-fnCYW2XKHR8RBsO3cYLSMEZy2xUKmbiUluAY0/edit#gid=0)
-* [Usability Testing Rainbow Analysis Chart](https://docs.google.com/spreadsheets/d/1bPg6op9Sk46lFVGaET-fruE0qz-ctNQsxbZKF-5lpn4/edit#gid=0). This approach uses a templated and color-coded spreadsheet to record what participants did during the test. For a thorough walkthrough on how to use this method, check out [this article](https://userresearch.blog.gov.uk/2019/09/13/how-a-spreadsheet-can-make-usability-analysis-faster-and-easier/), or watch [this video of a GitLab researcher's experience using this method](https://drive.google.com/file/d/1fYRTmaHZjMwDQfAnVpaEqHP1dByy1X5x/view?usp=sharing) (starts at 7:00).
+* **获得洞察力并制定高质量的解决方案**, 因为观察者通过他们不同的专业观点来解释事件。
+* **让团队建设性地参与**, 因为大家都在一起了解可用性问题。
+* **一起产生顶级的研究结果，以迅速获得共识** 并激励团队修复问题。
+* **不同的人往往有不同的见解**
 
-### Identify additional notetakers
-A note-taking best practice is to have multiple note takers for each research session. Having more than one note-taker helps by:
+在用户体验研究的日历上安排你的会议，并在你的部门的 Slack 频道中推广它，可以成为吸引记录者的好方法。
 
-* **Gaining insights and developing high-quality solutions**, as observers interpret incidents through their diverse professional points of view.
-* **Engaging the team constructively**, as everyone understands usability problems together.
-* **Generating top findings together to get consensus quickly** and motivate the team to fix problems.
-* **Multiple people often capture different insights**
+### 使用来自社交媒体参与的数据
 
-Scheduling your session on the UX Research calendar and promoting it in your section’s Slack channels can be great ways of soliciting note-takers. 
+Twitter 和 LinkedIn 是与我们的用户接触的很好的平台，有时它们也可以被证明是用户反馈的金矿。然而，在使用从这些来源获得的数据时，我们应该谨慎行事，并遵循某些步骤，以避免得出有偏见的见解。重要的是要确保对反馈的分析不脱离其原始背景。
 
-### Using data from social media engagements
-Twitter and LinkedIn are great platforms for engaging with our users and sometimes they can also prove to be a goldmine for user feedback. However, when using data received from these sources, we should proceed with caution and follow certain steps to avoid arriving at biased insights. It's important to ensure the feedback is not analysed outside its original context.
-* Determine the frequency of the feedback. How often are similar statements made? By how many people? 
-* Analyze the feedback to separate opinion from fact. Analyze the factual statements to see if solutions are proposed. If they are, determine what additional work is needed (either design or problem validation) to take the solutions to the next level.
-* If a research project is currently underway and the feedback appears to be around the same topic, you can use it as an additional set of data to help triangulate the data from the research project.
-* As a follow-up, request the person providing feedback on a social media platform to sign-up for [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/) program and also share the relevant issuable template, depending if it is a feature request or a bug, so they could easily create an issue around their feedback.
+* 确定反馈的频率。类似的说法有多频繁？由多少人作出？ 
+* 对反馈进行分析，将意见与事实分开。分析事实陈述，看看是否有解决方案。如果是，确定需要哪些额外的工作(设计或问题验证)来将解决方案带到下一个层次。
+* 如果目前正在进行一个研究项目，而且反馈似乎是围绕着同一个主题，你可以把它作为一个额外的数据集，以帮助对研究项目的数据进行三角测量。
+* 作为后续行动，要求在社交媒体平台上提供反馈的人注册 [GitLab First Look](https://about.gitlab.com/community/gitlab-first-look/) 计划，同时分享相关的可发行模板，这取决于它是一个功能请求还是一个 bug，这样他们就可以轻松地围绕他们的反馈创建一个问题。
 
-For more information around the guidelines for engagement on social media platforms, visit the [Team Member Social Media Policy and Guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/) page.
+关于在社交媒体平台上的参与准则的更多信息，请访问[团队成员社交媒体政策和准则](https://about.gitlab.com/handbook/marketing/team-member-social-media-policy/)页面。
 
 
