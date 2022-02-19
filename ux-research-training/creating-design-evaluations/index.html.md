@@ -1,139 +1,140 @@
 ---
 layout: handbook-page-toc
-title: "Creating design evaluations in Qualtrics"
-description: "There are two methods we leverage at GitLab to evaluate designs. Each are done via Qualtrics."
+title: "在 Qualtrics 中创建设计评估"
+description: "我们在 GitLab 有两种方法来评估设计。每种方法都是通过 Qualtrics 完成的。"
 ---
 
-There are often situations when teams have more than one potential solution that meets user needs and is technically feasible. The question then becomes how to move forward when both designs could solve the problem. The goal of a design evaluation is to determine which solution users will prefer.
+经常有这样的情况：团队有一个以上的潜在解决方案，可以满足用户的需求，并且在技术上是可行的。这时的问题是，当两种设计都能解决问题时，如何继续前进。设计评估的目标是确定用户会更喜欢哪种解决方案。
 
-There are two methods we leverage at GitLab to evaluate designs. Each are done via Qualtrics ([request Qualtrics access - internal link](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)): 
-* [first-click testing](/handbook/engineering/ux/ux-research-training/creating-design-evaluations/#first-click-tests)
-* [preference testing](/handbook/engineering/ux/ux-research-training/creating-design-evaluations/#preference-tests)
-
-
-## How to plan a design evaluation study 
-When evaluating designs, it’s best to start by [creating a hypothesis](/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/) about an aspect of the design. 
-
-Consider the following questions as you determine your goals and objectives for the study: 
-* Where are you most and least confident? 
-* What will happen as a result of including certain elements in one design versus other variations?
-* What will determine whether this design is successful?
+我们在 GitLab 有两种方法来评估设计。每种方法都是通过 Qualtrics（[请求 Qualtrics 访问-内部链接](https://about.gitlab.com/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/)）进行的：
+ 
+* [首次点击测试](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/creating-design-evaluations/#first-click-tests)
+* [偏好测试](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/creating-design-evaluations/#preference-tests)
 
 
-After determining what you need to test, you then need to identify ways to measure the success of the design. That’s where design evaluation studies come in.
+## 如何计划设计评估研究 
+在评估设计时，最好先对设计的某个方面[创建一个假设](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/)。 
 
-Usability metrics help you answer questions about the usability of your design. Whether you have questions about findability or readability or you just want to know the preferred option, usability metrics can outline a clear goal for your study and improve your analysis.
-
-Common usability metrics include:
-* success rate
-* time on task
-* error rate
-* satisfaction
-* confidence
+在确定你的研究目标和目的时，请考虑以下问题：
+ 
+* 你在什么地方最自信和最不自信？
+* 在一个设计中包括某些元素与其他变化的结果会是什么？
+* 是什么决定了这种设计是否成功？
 
 
-NNGroup has a [great article](https://www.nngroup.com/articles/usability-metrics/) that can provide more insight into usability metrics.
+在确定了你需要测试的内容之后，你就需要确定衡量设计是否成功的方法。这就是设计评估研究的意义所在。
 
-## First-click tests
-First-click testing examines what a participant would click first in the interface to complete their intended task. It can be performed on a functioning website, a prototype, or a wireframe. It allows you to evaluate the effectiveness of the linking structure of your site/product, including the navigation, to see if users know how to get around and complete their intended task.
+可用性指标帮助你回答关于你的设计的可用性的问题。无论你有关于可寻性或可读性的问题，还是你只是想知道首选方案，可用性指标可以为你的研究勾勒出一个清晰的目标，并改善你的分析。
 
-### Tips for creating a first-click test
-* When creating tasks, focus on providing the participants with a problem to solve -- for example, “You are interested in finding out how much…how many…where to…” to foster a more natural interaction.
-* Instruct the participant to stay silent during this portion of the session. Since we are capturing time on task, any speaking by the participant can throw this metric off.
-* Make sure you know and have documented the correct path to complete each task, both for yourself and for your observers.  This will simplify note taking.
-* Track each click.
-* Time how long it takes the user to make this click. You can use the [Timing Question](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/timing/) in Qualtrics to do this.  Taking a long time to make that first click may indicate an issue with navigation that will need to be monitored or addressed.
-* After each task, assess whether the participant feels they were able to find the correct information using a satisfaction or confidence scale.
-* Next, assess the ease or difficulty of completing each task.  Using response scales here will aid analysis as well, but consider free-response options as well to provide additional context.
-* Thoroughly pilot your test prior to launch, so you will have time to address any issues.
-* It would be best not to tell the participant they are taking part in first-click testing.  
+常见的可用性指标包括：
 
-### How to use Qualtrics for first-click tests:
-A combination of [Descriptive Text](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/static-content/descriptive-text-and-graphic/), [Heatmap](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/specialty-questions/heat-map/), and [Timing](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/timing/) question types are used to create task scenarios and record the respondent’s first click on the image.
+* 成功率
+* 任务完成时间
+* 错误率
+* 满意度
+* 信心程度
 
-**Step 1:** After logging into Qualtrics, click on Projects in the top navigation and click the Create new project button at the top right of the page.
+
+NNGroup 有一篇[非常棒的文章](https://www.nngroup.com/articles/usability-metrics/)，可以提供更多关于可用性指标的见解。
+
+## 首次点击测试
+首次点击测试检查参与者在界面中首先会点击什么来完成他们的预期任务。它可以在一个正常运行的网站、一个原型或一个线框上进行。它允许你评估你的网站/产品的链接结构的有效性，包括导航，以了解用户是否知道如何绕过并完成他们的预期任务。
+
+### 创建首次点击测试的技巧
+* 当创建任务时，专注于为参与者提供一个问题来解决——例如，“你感兴趣的是找出多少……多少……在哪里……”以培养更自然的互动。
+* 指示参与者在这部分会议中保持沉默。因为我们要捕捉的是任务时间，所以参与者的任何发言都会影响这个指标。
+* 确保你知道并记录了完成每项任务的正确路径，无论是对你自己还是对你的观察员。 这将简化笔记工作。
+* 追踪每次点击。
+* 计算用户需要多长时间才能完成这次点击。你可以使用 Qualtrics 中的[时间问题](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/timing/)来做这个。 花费很长的时间进行第一次点击可能表明导航存在问题，需要进行监控或解决。
+* 每项任务结束后，用满意度或信心量表来评估参与者是否觉得他们能够找到正确的信息。
+* 接下来，评估完成每项任务的难易程度。 在这里使用反应量表也会有助于分析，但也要考虑自由回答的选项，以提供额外的背景。
+* 在启动前彻底试验你的测试，这样你就有时间解决任何问题。
+* 最好不要告诉参与者他们正在参加首次点击测试。 
+
+### 如何使用 Qualtrics 进行首次点击测试：
+综合使用[描述性文本](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/static-content/descriptive-text-and-graphic/)、[热图](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/specialty-questions/heat-map/)和[计时](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/timing/)问题类型来创建任务场景并记录受访者对图片的第一次点击。
+
+**步骤 1:** 登录 Qualtrics 后，点击顶部导航中的项目，并点击页面右上方的创建新项目按钮。
 
 ![Create a new project](create_a_new_project.png)
 
 
-*Note: If you plan to create your own survey from scratch, first you should select Create a new CoreXM and then Create your own survey.*
+*注意：如果您打算从头开始创建自己的调查，首先您应该选择创建一个新的 CoreXM，然后创建自己的调查。
 
 ![New CoreXM](Create_new_CoreXM.png)
 
-**Step 2:** Choose to create a blank project, or make a copy of the sample design evaluation survey in the UX Research & Product Library.
+**步骤 2:** 选择创建一个空白项目，或者复制用户体验研究和产品库中的设计评估调查样本。
 
 ![Sample design evaluation survey](survey_template.png)
 
-**Step 3:** Add your questions:
-* Use a ***Descriptive Text*** question to set up the task scenario:
-   * Create a new survey block
-   * Create a New Question
-   * From the Change Question Type dropdown, select ‘Descriptive Text’
+**步骤 3:** 添加您的问题:
+
+* 使用一个 ***描述性文本*** 问题来设置任务场景。
+   * 创建一个新的问卷模块
+   * 创建一个新的问题
+   * 从修改问题类型的下拉菜单中，选择 "描述性文本"。
 
 
-* Use the following steps to set up a ***Heatmap*** question:
-   1. Create a New Question
-   2. From the Change Question Type dropdown, select ‘Heat Map’
-   3. Click ‘Select a graphic to use for this question’
-   4. Select a graphic you’ve already uploaded to your Qualtrics account (or upload a new one from your computer)
-   5. Set the number of clicks each respondent may make on the image (‘1’ is the default)
-      * ***Note: If the respondent clicks more than the allowed number of times, their oldest click will be replaced with the newest one.***
-        * If you plan to analyze the data based on the user’s initial instinct (one click only), you should allow one click.
-        * If you want to evaluate multiple correct locations or see the user’s first click and last click, you should allow more than one click.
-   6. Click ‘Add Region’
-      * Adding regions will help you calculate the percentage of users who clicked in the correct location more efficiently.
-      * If you do not add regions for the correct locations, all the clicks will be grouped as "Other" in the data report from Qualtrics. 
-      * Regions are not required for a Heat Map question, but they can make reporting easier. 
-   7. Click and drag the region to move it, or click and drag the corners to resize it.
-   8. Click the text box beneath the region to type a region name (make sure to use a descriptive name as this name will not display to respondents, but will be used in your survey results).
+* 使用以下步骤来设置一个***热力图***问题。
+   1. 创建一个新的问题
+   2. 从修改问题类型的下拉菜单中，选择 "热力图"。
+   3. 点击 "选择一个图形用于这个问题"。
+   4. 选择一个你已经上传到 Qualtrics 账户的图形（或从你的电脑上上传一个新的）。
+   5. 设置每个受访者可以对图片进行的点击次数（默认为'1'）。
+      * **注意**：如果被调查者的点击次数超过了允许的次数，他们最新的点击将被替换。
+        * 如果你计划根据用户的最初直觉来分析数据（仅一次点击），你应该允许一次点击。
+        * 如果你想评估多个正确的位置或看到用户的第一次点击和最后一次点击，你应该允许超过一次点击。
+   6. 单击 "添加区域"。
+      * 添加区域将帮助你更有效地计算出在正确位置点击的用户的百分比。
+      * 如果您没有为正确的地点添加区域，那么在 Qualtrics 的数据报告中，所有的点击都会被归类为 "其他"。
+      * 区域不是热力图问题的必要条件，但它们可以使报告更容易。
+   7. 点击并拖动区域来移动它，或者点击并拖动角落来调整它的大小。
+   8. 单击区域下方的文本框，输入区域名称（确保使用描述性的名称，因为该名称不会显示给受访者，但会在您的调查结果中使用）。
 
 ![First-click test](first-click-test.png)
 
-* Create another block in your survey, and add a Text Entry question to have the user explain their motivation for clicking in a certain area. Example: Why did you click there? (open text)
-  * You can also use a [Multiple Choice](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/multiple-choice/) question to have them rate their level of confidence.
-    * Example: How confident are you that you clicked the correct location?
-      * Completely confident
-      * Somewhat confident
-      * Neutral
-      * Somewhat unsure
-      * Completely unsure
+* 在您的调查中创建另一个区块，并添加一个文本输入问题，让用户解释他们点击某个区域的动机。例如。你为什么点击那里？(开放文本)
+  * 你也可以使用[多选](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/multiple-choice/)问题，让他们评价自己的信心水平。
+    * 例子：你有多大把握点击了正确的位置？
+      * 完全有信心
+      * 有一点信心
+      * 中立的
+      * 有点不确定
+      * 完全不确定
 
 
 
-## Preference tests 
-Preference tests help you choose between design variations by asking users to select their preferred option. You can have the participant select a preference based on the appearance of the design, how well it communicates information, or other qualities that evaluate your hypothesis. The participant does not select their preference based on interacting with the design. If you want to gather data based on actions, conduct a Usability Test.
+## 偏好测试 
+偏好测试通过让用户选择他们的首选方案来帮助你在设计的变体之间进行选择。你可以让受试者根据设计的外观、它传达信息的能力、或者其他能够评估你的假设的品质来选择偏好。参与者并不根据与设计的互动来选择他们的偏好。如果你想根据行动来收集数据，可以进行可用性测试。
 
-Preference testing can be used to evaluate a variety of static designs: icons, one page mockups, color palettes, design components, and more. It is important to note that you should not use this method to test workflows or anything that requires interaction.
+偏好测试可以用来评估各种静态设计：图标、单页模拟图、调色板、设计组件等等。值得注意的是，你不应该用这种方法来测试工作流程或任何需要互动的东西。
 
-### Tips for creating preference tests:
-* Any visuals used must contain the full context for the design to be accurately assessed.
-* Screenshots must be large enough to be clearly viewed and read easily.
-* These tests are commonly used to measure aesthetic appeal, but participants can be instructed to judge designs based on their trustworthiness or how well they communicate a specific message or idea.
+### 创建偏好测试的技巧:
+* 任何使用的视觉效果必须包含完整的背景，以便对设计进行准确评估。
+* 截图必须足够大，以便清楚地查看和容易阅读。
+* 这些测试通常用于衡量审美吸引力，但也可以指示参与者根据设计的可信度或其传达特定信息或想法的程度来判断。
 
 
-### How to use Qualtrics for preference tests:
+### 如何使用 Qualtrics 进行倾向性测试:
 
-**Step 1:** After logging into Qualtrics, click 'Projects' in the top navigation, and then click the 'Create new project' button at the top right of the page.
+**步骤 1:** 登录 Qualtrics 后，点击顶部导航中的 "项目"，然后点击页面右上方的 "创建新项目 "按钮。
 
 ![Create a new project](create_a_new_project.png)
 
-***Note: If you plan to create your own survey from scratch, first select 'Create a new CoreXM' and then 'Create your own survey.'***
+***注意：如果你打算从头开始创建你自己的调查，首先选择 "创建一个新的 CoreXM"，然后选择 "创建你自己的调查 "***。
 
-**Step 2:** Choose to create a blank project or make a copy of the sample design evaluation survey in the UX Research & Product Library.
+**步骤 2:** 选择创建一个空白项目或复制用户体验研究和产品库中的设计评估调查样本。
 
 ![New CoreXM](Create_new_CoreXM.png)
 
-**Step 3:** Add your questions:
-Use the ‘Single Answer, Vertical, Graphic’ type of Multiple Choice question to set up a preference test. 
+**步骤 3:** 添加您的问题:
+使用“单一答案，垂直，图形”类型的多项选择题来设置偏好测试。
 
 ![Preference Test](preference-test.png)
 
 
-* Follow that question with a [Text Entry](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/text-entry/) question to understand why participants chose that option.
-   * Example questions:
-     * Why did you prefer that design?
-     * Why did you pick that option?
-     * Why did that option seem like the most [adjective] one?
-
-
-
+* 在这个问题之后，再加上一个[文本输入](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/text-entry/)问题，以了解参与者为什么选择那个选项。
+   * 问题示例:
+     * 你为什么喜欢这种设计?
+     * 你为什么选择这个选项?
+     * 为什么那个选项看起来是最 [形容词] 的一个？?
