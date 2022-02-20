@@ -1,140 +1,143 @@
 ---
 layout: handbook-page-toc
-title: "Evaluating navigation"
-description: "When proposing navigation changes, it's important to proceed with high confidence. We evaluate how changes perform compared to our existing experience using a set of defined methods."
+title: "评估导航"
+description: "当建议更改导航时，保持高度自信是很重要的。我们使用一组已定义的方法来评估与现有经验相比变更的执行情况。"
 ---
 
+## 评估导航变更
 
-## Evaluating navigation changes
+导航是支持我们其他体验的结构。用户依靠它来知道在哪里以及如何在我们的产品中完成他们最重要的任务。当我们建议对导航进行任何改变时，重要的是我们要有高度的信心。为了获得这种信心，我们使用一套确定的方法来评估这些建议的变化与我们现有的经验相比的表现。
 
-Navigation is the structure that supports the rest of our experiences. Users rely on it to know where and how to do their most important tasks in our product. When we propose any changes to navigation, it's important that we proceed with high confidence. To gain that confidence, we evaluate how those proposed changes perform compared to our existing experience using a set of defined methods. 
+这个页面提供了在高层次(导航产品的总体成功率)和详细层次(导航特定产品区域的成功率)评估导航时使用的指标。
 
-This page provides metrics to use when evaluating navigation at both the high level (overall success with navigating our product) and at the detailed level (success with navigating specific product areas).
+### 总体成功
 
-### Overall success
+为了评估我们的导航策略在一段时间内的成功程度，我们使用了一个两个问题的调查，评估 *语境* 和 *付出* 的概念。根据过去的研究，我们认为这两个概念是我们导航的最大挑战。 
 
-To evaluate the success of our navigation strategy at a high level over time, we use a two-question survey that evaluates the concepts of *Context* and *Effort*. Based on past research, we believe these two concepts are the biggest challenges with our navigation. 
+每个季度，我们会对符合 GitLab 使用最低标准的用户进行一次抽样调查。当我们将更改部署到导航时，我们使用这个调查来了解用户对这两个概念的态度如何随着时间的推移而改变。
 
-Once per quarter, we survey a sample of users that meet our minimum criteria for GitLab usage. As we deploy changes to navigation, we use this survey to understand how users' attitudes on those two concepts have changed over time. 
+重要的是要记住，导航变化，甚至多个变化放在一起，往往是微妙的，并不总是像功能变化那样被明确注意到。我们不能保证我们所做的导航变化会对用户如何看待我们的产品体验产生直接而有意义的影响。因此，这个成功指标将是一个滞后的指标，我们不应该期望它与我们所做的改变有直接的联系。
 
-It's important to remember that navigation changes, even multiple changes taken together, are often subtle and not always noticed as explicitly as feature changes. We cannot guarantee that navigational changes we make will have a direct and meaningful effect on how users perceive our product experience. Thus, this success metric will be a lagging indicator, and we should not expect it to move in direct connection to changes we make.
+#### 最低标准
 
-#### Minimum criteria
+重要的是，在我们调查时，人们对我们要评估的导航体验有足够的经验。在决定对谁进行调查时，我们使用以下标准：
 
-It's important that people have had sufficient experience with the navigation experience we're looking to evaluate when we survey them. We use the following criteria when deciding who to survey:
+- 他们成为 GitLab 用户的时间有多长。用户必须至少有90天的使用期。
+- 他们最近的 GitLab 活动和产品范围：用户必须在过去30天内至少在两个阶段记录了10个使用数据事件。
 
-- How long they've been a GitLab user: Users must have a minimum tenure of 90 days.
-- How recent was their GitLab activity & product breadth: Users must have recorded a minimum of 10 usage data events across at least two stages over the previous 30 days
+#### 执行
 
-#### Execution
+每个季度，我们从数据仓库中调出一份符合标准的新用户名单，并通过电子邮件向他们发送调查。每年向任何用户发送调查邮件的次数不得超过一次。结果将每季度公布一次。我们的目标是**每季度有两百个回复**。
 
-Each quarter, we pull a new list of users that meet the criteria from the data warehouse and send them the survey via email. No user is to be sent a survey email more than once a year. Results will be presented quarterly. We'll aim for **two hundred responses per quarter**.
+#### 内容
 
-#### Content
+我们向用户提出以下两个问题。每个用户的回答尺度是随机翻转的，所以有些用户会先看到最消极的回答选项（*非常困难*），而其他用户会看到最积极的（*非常容易*）。
 
-We ask users the following two questions. Response scales are flipped randomly per user, so that some users will see the most negative response option first (*Very difficult*), and others will see the most positive (*Very easy*). 
+**语境**  
+这个问题是为了衡量用户在产品不同区域之间移动时，觉得自己能够维持上下文并保持目标的程度。
 
-**Context**  
-This question is meant to measure how well users feel they can maintain context and stay oriented when moving between product areas.
+> *在整个GitLab中导航时，知道自己在哪里有多容易或多困难？*
 
-> *How easy or difficult is it to know where you are when navigating throughout GitLab?*
+> - 非常困难
+> - 困难
+> - 不容易也不难
+> - 顺利
+> - 非常顺利
 
-> - Very difficult
-> - Difficult
-> - Not easy or difficult
-> - Easy
-> - Very easy
+**付出**  
+这个问题是为了衡量用户往返于他们需要使用的东西的方便程度。
 
-**Effort**  
-This question is meant to measure how easy is it for users to get to and from the things they need to use.
+> *在GitLab中找到你需要使用的东西是容易还是困难？*
 
-> *How easy or difficult is it to find the things you need to use in GitLab?*
+> - 非常困难
+> - 困难
+> - 不容易也不难
+> - 顺利
+> - 非常顺利
 
-> - Very difficult
-> - Difficult
-> - Not easy or difficult
-> - Easy
-> - Very easy
+#### 分析报告
 
-#### Analysis
+为了了解用户的评分在各个季度之间可能发生的变化，我们首先要把反应量表转换成整数（1-5）。然后，我们可以取我们要比较的两个样本的平均分，并计算一个[双样本t检验](https://www.khanacademy.org/math/ap-statistics/two-sample-inference/two-sample-t-test-means/v/two-sample-t-test-for-difference-of-means)，以了解我们的两个平均值是否有足够的差异。
 
-To understand how users' ratings may have changed from quarter to quarter, we'll first convert the response scales into integers (1-5). We can then take the mean score for the two samples we want to compare and compute a [two-sample t-test](https://www.khanacademy.org/math/ap-statistics/two-sample-inference/two-sample-t-test-means/v/two-sample-t-test-for-difference-of-means) to understand if our two means are sufficient different enough from one another.
+需要注意的是，我们的反应量表是李克特量表，它是顺序值（也叫概念值），意味着我们无法知道不同反应选项之间的实际间隔。这与数字等区间值相比，后者的数值间隔相等，我们可以计算出数值之间的差异大小。在我们的分析中，我们将把数据从概念值（"非常容易"）转换成整数，但仅仅是为了分析的目的。区间数据的统计检验更简单、更稳健，[研究表明](https://www.researchgate.net/publication/41420484_LIkert_scales_levels_of_measurement_adn_the_laws_of_statistics)，把李克特量表数据当作区间数据来分析，产生的结果与序数分析没有意义上的区别。
 
-It's important to note that our response scales are Likert scales, which are ordinal values (also called conceptual values), meaning we can't know the actual intervals between different response options. This is compared to interval values like numbers, where values are spaced an equal distance apart and we can calculate the size of the difference between values. For our analysis, we will convert our data from conceptual values ('Very easy') to integers, but solely for the purposes of analysis. Statistical tests for interval data are simpler and more robust, and [research has shown](https://www.researchgate.net/publication/41420484_LIkert_scales_levels_of_measurement_adn_the_laws_of_statistics) that analyzing Likert scale data as if it were interval data produces results with no meaningful difference from ordinal analyses.
+**这意味着我们无法量化各季度之间情绪的改善程度，我们只能根据平均回复值来确信情绪有（或没有）改善。** 举个例子，假设我们给中点选项（"不容易或困难"）的数值为3，而下一个选项（"容易"）的数值为4。如果我们之前的平均值是3.2，而新的平均值是3.6，并且使用t检验判断样本有足够的差异，那么我们可以说我们有信心，与上一季度相比，平均回应值有所提高，但不是提高多少。这是因为数值只是我们概念值的占位符，我们无法衡量某件事情在*容易*和*非常容易*之间的 "距离"。数字4可能代表容易，但这并不意味着4.3代表比容易的30%。
 
-**This means we can't quantify by how much sentiment has improved from quarter to quarter, we can only be confident that it has improved (or not) based on the average responses.** To give an example, assume we give our midpoint option ('Not easy or difficult') a value of 3, and the next option ('Easy') a value of 4. If our previous mean value is 3.2 and our new mean value is 3.6, and the samples are judged sufficiently different using the t-test, then we can say we are confident that average response value has improved compared to the previous quarter, but not by how much it has improved. This is because the numerical values are only placeholders for our conceptual values and we can't measure the "distance" between something being *easy* and *very easy*. The number 4 may represent Easy, but that doesn't mean 4.3 represents 30% easier than Easy.
+### 评估个别项目
 
-### Evaluating individual projects
+当评估我们产品的特定领域和/或提议的改进的性能时，重要的是选择一个对现有经验和任何潜在改进都有意义的评估指标。判断一项改进是否成功的唯一公平方式是使用相同的方法来评估改进前和改进后的状态。这要由每个产品团队来决定哪种评价指标适合他们的工作。在这里，我们将描述几种可能性，并对它们何时适合使用给出一个想法。
 
-When evaluating the performance of specific areas of our product and/or proposed improvements, it's important to choose an evaluation metric that makes sense for both the existing experience and any potential improvements. The only fair way to judge the success of an improvement is to evaluate both the before and after states using the same method. It's up to each product team to decide which evaluation metric is appropriate for their work. Here we will describe several possibilities and give an idea of when they're appropriate to use.
+团队不需要使用单一的标准来衡量改进。团队应该放心地使用多个指标来衡量成功。如果在解决方案的体验中，每个指标都没有改善，这并不意味着团队不应该认为它是一种改善。利用收集到的数据，他们应该做出一个全面的、主观的决定，这个决定得到支持，但不是由所选择的指标决定的。
 
-Teams are not required to using a single criteria to measure improvement. Teams should feel comfortable triangulating success using multiple metrics. If every metric does not improve in the solution experience, that does not mean the team should not still consider it an improvement. Using the data collected, they should then make a holistic, subjective decision that is supported but not dictated by the metrics chosen.
+当使用涉及让用户完成任务的评估方法时，为每项任务定义一个截止时间是很重要的。这可以使我们在评估中更加客观，不会让参与者的挣扎或沮丧影响我们让人们工作的时间。每个参与评估的人都应该就截止时间达成一致。最简单的方法是让每个人都给出他们认为符合你定义的标准的用户完成任务所需的足够时间，然后再加上20%的缓冲时间。然而，如果一个参与者认为他们不能继续下去，你应该尊重这个决定，不要让他们继续下去。
 
-When using a evaluation method that involves having users complete tasks, it's important to define a cut-off time for each task. This allows us to be more objective in our evaluation and not let participants' struggles or frustration influence how long we let people work. Everyone involved in the evaluation should agree on the cut-off times. The simpliest method is to have everyone give what they feel is a sufficient amount of time for a user with your defined criteria to complete the task, and then add a 20% buffer. However, if a participant believes they cannot go on, you should respect that decision and not make them continue.
+#### 首次点击测试
 
-#### First-click testing
+[多项研究](https://blog.optimalworkshop.com/does-the-first-click-really-matter-treejack-says-yes/)表明，成功的首次点击是导航任务最终成功的一个有力指标。首次点击测试是直接部署的，无论是在有节制的还是无节制的环境中。
 
-[Multiple studies](https://blog.optimalworkshop.com/does-the-first-click-really-matter-treejack-says-yes/) have shown that a successful first click is a strong indicator of ultimate success for navigational tasks. First click testing is straightforward to deploy, either in a moderated or unmoderated setting.
+这有利于：
 
-This is good for:
+- 当你提出的解决方案是一个原型，用户不会有完全的自由来浏览他们选择的地方。
+- 当你提出的解决方案只有1-2个步骤，而不是涉及逐步点击的东西。
+- 当只有一个单一的方法来完成任务，而不是有多种选择。
 
-- When your proposed solution is a prototype where users won't have complete freedom to navigate wherever they choose.
-- When your proposed solution is only 1-2 steps and not something involving a progression of clicks.
-- When there's a singular method to complete the task and not a variety of options.
+要判断一个新的经验与现有的经验相比是否成功，你可以看一下：
 
-To judge the success of a new experience compared to an existing one, you can look at:
+- 成功的首次点击率百分比
+- 用户报告的信心度：
 
-- Successful first click %
-- User-reported confidence:
-> *How confident are you that you clicked the correct item?*
-> - Very confident
-> - Somewhat confident
-> - Not confident
+> *你有多大把握点击了正确的项目？*
 
-**Setting up a first-click test**
+> - 非常有信心
+> - 有一点信心
+> - 没有信心
 
-First, define tasks that you want your participants to complete. Then you can use the [template in Qualtrics](/handbook/engineering/ux/ux-research-training/creating-design-evaluations/) for creating a first-click test. You can conduct first-click tests moderated or unmoderated, though unmoderated is recommended to reach the recommended sample size, unless you have a compelling reason to conduct the sessions synchronously. Five tasks is an informal limit per participant. You should randomize the order of tasks if you have more than one (unless tasks are dependent on each other and only make sense in a certain order).
+**设置首次点击测试**
 
-**Recommended sample size:** 20-50 users, depending on perceived difficulty
+首先，定义你希望你的参与者完成的任务。然后你可以使用 [Qualtrics 中的模板](/handbook/engineering/ux/ux-research-training/creating-design-evaluations/) 来创建一个首次点击测试。你可以在有节制或无节制的情况下进行首次点击测试，但为了达到建议的样本量，建议采用无节制的方式，除非你有令人信服的理由同步进行这些环节。每个参与者有五个任务是一个非正式的限制。如果你有多个任务，你应该将任务的顺序随机化（除非任务是相互依赖的，只有在一定的顺序下才有意义）。
 
-#### Findability rate
+**建议的样本量：** 20-50个用户，取决于感知的难度
 
-A binary measure of whether a user was able to find a given item when given a task (0 = unable, 1 = able). You can then calculate the average findability overall and by task. You can also ask users about their perceived difficulty of the task. This is easy to measure and analyze. It can be done in a moderated test where you designate the outcome, or in an unmoderated test where you have the user self-report whether they were able to find the requested item. A findability test is not suitable for prototype solutions where users can only navigate through a defined flow.
+#### 可寻率
 
-This is good for:
+衡量用户在接受任务时是否能够找到某个项目的二进制指标（0=无法，1=能够）。然后，你可以计算出总体的和按任务的平均可找性。你也可以询问用户他们对任务的感知难度。这很容易测量和分析。它可以在你指定结果的有节制的测试中进行，也可以在无节制的测试中进行，即让用户自我报告他们是否能够找到所要求的项目。可找性测试不适合于用户只能通过定义的流程进行导航的原型解决方案。
 
-- When your proposed solution is full fidelity and it allows users to navigate anywhere
-- When you have multiple paths to find a given item.
-- When you have concerns that users may have difficulties after the initial click
+这有利于：
 
-To judge the success of a new experience compared to an existing one, you can look at:
+- 当你提出的解决方案是完全保真的，并且它允许用户在任何地方进行导航时
+- 当你有多条路径来寻找一个给定的项目时
+- 当你担心用户在初次点击后可能出现困难时
 
-- Successful findability %
-- User-reported difficulty:
-> *How easy or difficult was it to find what you were looking for?*
-> - Very difficult
-> - Difficult
-> - Not easy or difficult
-> - Easy
-> - Very easy
+要判断一个新的体验与现有的体验相比是否成功，你可以看一下：
 
-**Setting up a findability test**
+- 成功的可寻性百分比
+- 用户报告的难度：
 
-First, define tasks that you want your participants to complete. It's recommended to either evaluate tasks in a moderated session or by having unmoderated participants record themselves. This is because we can't be certain in an unmoderated session that participants correctly understand what "success" entails. If you need to do unmoderated testing and aren't able to record participants, then you should at record or do moderated sessions for a subset of participants to get an indication of how likely it is participants may misunderstand the success criteria. Five tasks is an informal limit per participant. You should randomize the order of tasks if you have more than one (unless tasks are dependent on each other and only make sense in a certain order).
+> *找到你要找的东西有多容易或多难？*
 
-**Recommended sample size:** 10-30 users, depending on perceived difficulty
+> - 非常困难
+> - 困难
+> - 不轻松也不困难
+> - 轻松
+> - 非常轻松
 
-#### Time on task / Number of clicks
+**设置一个可寻性测试**
 
-Both time on task and number of clicks are meant to be measures of efficiency rather than success. These measures are not suitable for prototype solutions where users can only navigate through a defined flow. In order to control for variability in measurement, these efficiency tests should only be conducted using unmoderated testing tools using their built-in measurement capabilities.
+首先，定义你希望参与者完成的任务。建议在有主持的会议中评估任务，或者让没有主持的参与者自己记录。这是因为我们不能确定在一个没有主持人的会议中，参与者是否正确理解了 "成功" 的含义。如果你需要做无主持的测试，而又无法记录参与者，那么你应该记录或为一部分参与者做有主持的会议，以了解参与者误解成功标准的可能性。每个参与者有五个任务是一个非正式的限制。如果你有多个任务，你应该将任务的顺序随机化（除非任务是相互依赖的，只有在一定的顺序下才有意义）。
 
-This is good for:
+**建议的样本量:** 10-30个用户，取决于感知的难度
 
-- When your proposed solution is full fidelity and it allows users to navigate anywhere
-- When you're more concerned with how quickly or easily a user can complete a task rather than how successful they are.
+#### 执行任务的时间/点击次数
 
-To judge the success of a new experience compared to an existing one, you can look at:
+任务时间和点击次数都是为了衡量效率而不是成功。这些测量方法不适合于用户只能通过定义的流程进行导航的原型解决方案。为了控制测量的变异性，这些效率测试应该只使用无主持的测试工具，利用其内置的测量功能进行。
 
-- Average number of clicks per task
-- Average time on task
-- 75th percentile per task for time on task or number of clicks. This represents the fastest 75% of users and is good for filtering outliers.
+这有利于:
+
+- 当你提出的解决方案是完全保真的，并且它允许用户在任何地方进行导航时
+- 当你更关心用户能多快或多容易完成一项任务，而不是他们有多成功
+
+要判断一个新的体验与现有体验相比是否成功，你可以看一下:
+
+- 每项任务的平均点击次数
+- 平均执行任务的时间
+- 每个任务的任务时间或点击次数的75%。这代表了最快的75%的用户，有利于过滤异常值
