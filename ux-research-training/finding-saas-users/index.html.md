@@ -1,39 +1,40 @@
 ---
 layout: handbook-page-toc
-title: "Finding SaaS users"
-description: "How we target research participants to meet specific criteria"
+title: "寻找SaaS用户"
+description: "我们如何锁定满足特定标准的研究参与者"
 ---
 
 
-## Finding SaaS (GitLab.com) users
+## 寻找SaaS（GitLab.com）用户
 
-### When to look for users in the data warehouse
+### 何时在数据仓库中寻找用户
 
-We have a variety of methods for identifying and [Recruiting participants for research studies](/handbook/engineering/ux/ux-research-training/recruiting-participants), including our [First Look user panel](https://about.gitlab.com/community/gitlab-first-look/) and recruiting via social media. However, there are situations where these methods aren't suitable and you need to be able to find users based on a very specific criteria backed by objective usage data rather than self-reported or inferred data. The best way to do this is to take advantage of the usage and demographic data we have in our data warehouse.
+我们有多种方法来识别和[为研究招募参与者](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/recruiting-participants)，包括我们的[First Look用户小组](https://about.gitlab.com/community/gitlab-first-look/)和通过社交媒体招募。然而，在有些情况下，这些方法并不适合，你需要能够根据客观的使用数据而不是自我报告或推断的数据支持的非常具体的标准来寻找用户。做到这一点的最好方法是利用我们的数据仓库中的使用和人口数据。
 
-**A non-exhaustive list of examples of when finding users via the data warehouse would be appropriate:**
-* You are looking for users with a certain volume of usage of a feature or stage rather than simply being users of a stage
-* You are looking for users that have interacted with a specific type of object or content on GitLab (ex: epics, snippets, wiki, etc.)
-* You need to understand the broader context of the group or project the user is working within (ex: users in groups with less than 30 users, users in Gold plan groups, users in projects with no repository usage)
+**在通过数据仓库寻找用户的时候，有一个非详尽的例子。**
 
-### Pre-requisites
+* 你正在寻找对某一功能或阶段有一定使用量的用户，而不仅仅是某一阶段的用户
+* 你正在寻找与 GitLab上 某一特定类型的对象或内容（例如：史诗、代码片段、wiki等）有过互动的用户。
+* 你需要了解用户所在的组或项目的大背景（例如：用户少于30人的组中的用户、premium计划组中的用户、没有使用仓库的项目中的用户）。
 
-1. You query the data warehouse using Structured Query Language (SQL). There are countless guides to learning SQL available for free on the Web. There are many different flavors of SQL, and the one we use is [Snowflake](https://docs.snowflake.com/en/index.html). However, most basic functionality is consistent among the major variations of SQL, so don't feel like you need to seek out Snowflake-specific resources.
-1. In order to query the data warehouse, you'll need [Editor access](/handbook/business-ops/data-team/platform/periscope/#editor-access) to Sisense (formerly Periscope). This requires completing an [access request](/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/).
-1. [Data for Product Managers](/handbook/business-ops/data-team/programs/data-for-product-managers/) provides an overview of how the gain access to the SQL Explorer in Sisense where you will write and execute your queries, as well as providing a high level over view of how the warehouse is structured.
-1. The Data team [documents individual data warehouse tables](https://dbt.gitlabdata.com/#!/overview) using a tool called dbt. Some tables are better documented and contain purpose descriptions and explanations of different columns, and some unfortunately do not. However, documentation does improve over time.
+### 前提条件
 
-### SaaS-specific tables
+1. 使用结构化查询语言(Structured query Language, SQL)查询数据仓库。在网络上有无数免费的学习 SQL 的指南。SQL 有许多不同的风格，我们使用的是[Snowflake](https://docs.snowflake.com/en/index.html)。然而，在 SQL 的主要变体中，大多数基本功能是一致的，所以您不需要寻找特定于 snowflake 的具体功能.
+1. 为了查询数据仓库，您需要[编辑访问](https://about.gitlab.com/handbook/business-ops/data-team/platform/periscope/#editor-access)Sisense(之前是 Periscope)。这需要完成一个[访问请求](https://about.gitlab.com/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/)。
+1. [产品经理的数据](https://about.gitlab.com/handbook/business-ops/data-team/programs/data-for-product-managers/)概述了如何访问 Sisense 中的 SQL 资源管理器，你将在那里编写和执行你的查询，并提供了一个关于仓库结构的高层次视图。
+1. 数据团队[记录各个数据仓库表](https://dbt.gitlabdata.com/#!/overview)使用一个叫做 dbt 的工具。有些表的记录比较好，包含了不同列的目的描述和解释，而遗憾的是有些却没有。然而，文档确实会随着时间的推移而改进。
 
-Our data warehouse contains data for a variety of different areas. For our purposes, we're interested in the data detailing user information and usage of GitLab.com (SaaS).
+### SaaS专用表
 
-Most of the tables housing data related to SaaS use the prefix `gitlab_dotcom_*`, though not all. A good starting point would be to explore the different tables with this prefix and look at what data they contain.
+我们的数据仓库包含各种不同领域的数据。就我们的目的而言，我们对详细说明用户信息和 GitLab.com（SaaS）使用情况的数据感兴趣。
 
-### Users Table
+大多数存放 SaaS 相关数据的表都使用前缀`gitlab_dotcom_*`，但不是全部。一个很好的起点是探索使用此前缀的不同表，并查看它们包含哪些数据。
 
-The our overall users table for SaaS is `gitlab_dotcom_users_xf`. It contains the most complete picture of individual users, including information such as account creation date, days active, role, and highest paid plan (if any). This should be your starting point and your source of truth. the `user_id` variable found in this table is our primary identifier for [GitLab.com](http://gitlab.com) users, and is used in other tables to identify the user with which a record is associated. For example, the `gitlab_dotcom_merge_requests_xf` table houses records of MRs created on GitLab.com, and contains a column called `author_id` to identify the author of a given MR. This `author_id` is a GitLab.com user ID, and you'd be able to connect the author of that merge request to the record in the users table (or any other table) using that `user_id` variable.
+### 用户表
 
-You can use this table to find GitLab.com user IDs for 100 users that created their account in the last seven days:
+我们的 SaaS 总体用户表是`gitlab_dotcom_users_xf`。它包含了个人用户的最完整情况，包括账户创建日期、活跃天数、角色和最高付费计划（如果有）等信息。该表中的 `user_id` 变量是 [GitLab.com](http://gitlab.com) 用户的主要标识符，并在其他表中用于识别与记录相关的用户。例如， `gitlab_dotcom_merge_requests_xf` 表包含了在 GitLab.com 上创建的 MR 的记录，并包含一个名为 `author_id` 的列，用来识别特定 MR 的作者。这个  "author_id " 是 GitLab.com 的用户 ID，你可以用这个 "user_id" 变量将合并请求的作者与用户表（或任何其他表）的记录联系起来。
+
+你可以使用这个表来查找在过去七天内创建账户的100个用户的用户id:
 
 ```sql
 SELECT user_id FROM analytics.gitlab_dotcom_users_xf
@@ -41,26 +42,27 @@ WHERE account_age >= 7
 LIMIT 100
 ```
 
-### Object Tables (projects, issues, merge requests, etc)
+### 对象表(项目、议题、合并请求等)
 
-We have a tables containing records for all of our "top level" objects in GitLab, among others:
-* projects
-* groups
-* issues
-* merge requests
-* epics
+我们有一个表，其中包含了 GitLab 中所有 "顶级 "对象的记录，还有其他的。
 
-If you can create it on GitLab.com, there is probably a table for it. These tables follow the same structure as other SaaS tables. For example:
+* 项目
+* 群组
+* 议题
+* 合并请求
+* 史诗
+
+如果你能在 GitLab.com 上创建它，可能会有一个表格。这些表遵循与其他SaaS表相同的结构。例如:
 
 - `gitlab_dotcom_issues_xf`
 - `gitlab_dotcom_epics_xf`
 - `gitlab_dotcom_merge_requests_xf`
 
-The records in these tables are not full fidelity. They may not include all data shown when the object is rendered in the interface. When you load an issue in the GitLab.com UI, you see comments and all sorts of metadata. Much of this data will not be found in the issues table in the warehouse, and is either not accessible or stored in seperate tables to keep tables to a reasonable size. Additionally, we do not expose data in the warehouse that would otherwise be private. For example, while you can see titles and descriptions for issues that are public on GitLab.com (just as you would if you viewed them on the Web), you will not be able to see that information for non-public issues.
+这些表格中的记录不是完全保真的。它们可能不包括对象在界面中呈现时的所有数据。当你在GitLab.com用户界面上加载一个问题时，你会看到评论和各种元数据。这些数据中的大部分不会在仓库中的问题表中找到，它们要么无法访问，要么存储在单独的表格中，以保持表格的合理大小。此外，我们不会在仓库中公开那些本来属于隐私的数据。例如，虽然你可以看到GitLab.com上公开的问题的标题和描述（就像你在网上查看它们一样），但你将无法看到非公开问题的这些信息。
 
-These tables are good for when you want to understand how many of something a user or a group has created or interacted with, or if you want to start with a certain type of entity (say, an issue that was promoted to an epic) and then see what users have interacted with such an entity. These tables do not provide event level data, so you will not necessarily be able to tell when or exactly how a user created or interacted with something, just that they did (or did not).
+当你想了解一个用户或一个团体创造了多少东西或与之互动时，或者你想从某种类型的实体（例如，一个被提升为史诗的议题）开始，然后看看哪些用户与这样的实体进行了互动，这些表格就很好。这些表格不提供事件级别的数据，所以你不一定能知道用户何时或如何创建或互动的，只是知道他们做了（或没有）。
 
-For example: You're researching issue weights and you want to find the user IDs for 100 users who have created an issue with a weight assigned in the last 30 days. You also need to know how many of those issues they've created over that period. You would use this query:
+比如说。你在研究议题的权重，你想找到 100 个在过去 30 天内创建了一个有权重的议题的用户的用户 ID。你还需要知道他们在这段时间内创建了多少个议题。你可以使用这个查询。
 
 ```sql
 SELECT
@@ -74,11 +76,11 @@ GROUP BY 1
 LIMIT 100
 ```
 
-### Stage Monthly Active Users
+### 阶段组月度活跃用户
 
-We don't log user IDs on specific event records, so you can't find out exactly when a certain user completed a specific action. However, we do log how many times per month and days per month a user interacts with different high level features and stages in the `gitlab_dotcom_monthly_stage_active_users` table. This is good for criteria where you're looking for "light" or "heavy" users of certain features or stages, or when you want to make sure you get users with at least some minimum recent usage of a stage.
+我们不在具体的事件记录中记录用户 ID，所以你无法准确地找到某个用户何时完成了某个特定的行动。然而，我们确实记录了用户每月与不同的高级功能和阶段互动的次数和天数。`gitlab_dotcom_monthly_stage_active_users` 表. 表格当你在寻找某些功能或阶段的“轻”或“重”用户时，或者当你想确保你的用户至少在某个阶段使用了最少的时间时，这是一个很好的标准。
 
-For example: You need to find user IDs for 50 users who interacted with CI pipelines at least 17 times OR on 9 different days in a certain month (or more accurately, the last 28 days of a certain month):
+比如说。你需要找到 50 个与 CI 流水线互动至少 17 次或在某月的 9 个不同日子（或更准确地说，某月的最后 28 天）的用户 ID。
 
 ```sql
 SELECT user_id
@@ -90,7 +92,7 @@ WHERE
 LIMIT 50
 ```
 
-### How to get help
+### 如何获得帮助
 
-* For questions on where you can find certain data in the warehouse, the #data channel on Slack can address them.
-* If you're a UX Researcher or Coordinator with SQL questions, reach out to [Jeff Crow](https://gitlab.com/jeffcrow) on Slack.
+* 对于在哪里可以找到仓库中的某些数据的问题，Slack上的#data频道可以解决这些问题。
+* 如果你是用户体验研究员或协调员，有SQL问题，请联系Slack上的[Jeff Crow](https://gitlab.com/jeffcrow)。
