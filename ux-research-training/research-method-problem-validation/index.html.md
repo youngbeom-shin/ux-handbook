@@ -1,39 +1,37 @@
 ---
 layout: handbook-page-toc
-title: "Choosing a Research Method for Problem Validation"
-description: "At GitLab, problem validation encompasses generative research as well as descriptive and informative research."
+title: "为问题验证选择研究方法"
+description: "在 GitLab，问题验证包含了生成性研究以及描述性和信息性研究。"
 ---
 
+问题验证研究旨在为决策者提供一个充分理解和明确阐述的客户问题。在 GitLab，问题验证包括生成性研究，以及描述性和信息性研究。
+
+ * **生成性研究**有助于加深对用户的了解，以发现解决方案和创新的机会。
+
+ * **描述性和信息性研究**从问题陈述开始，用来详细了解问题的背景。
+
+问题验证研究不仅仅是对终端用户进行的。通常，销售、支持和 TAM（技术客户经理）可以提供对客户行为的宝贵见解。他们通常与大量的客户互动，对客户的需求和他们所面临的问题有很好的了解。
 
 
-Problem validation research seeks to provide decision makers with a well understood and clearly articulated customer problem. At GitLab, problem validation encompasses generative research as well as descriptive and informative research. 
+### 生成性研究方法
 
- * **Generative research** helps develop a deeper understanding of users to uncover opportunities for solutions and innovation.
+要选择正确的**_生成_**研究方法，你需要确定研究的目的。问自己**_"我为什么要做这项研究？"_**你的答案将帮助你选择使用哪种方法。你还应该问自己[你需要多少细节，你需要什么样的参与者，以及你需要的洞察力的忠实度](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/choosing-a-research-methodology/)。 如果你仍然不确定，请与你的用户体验研究员联系。
 
- * **Descriptive and informative research** begins with a problem statement in mind and is used to gain a detailed understanding of the context of the problem. 
-
-Problem validation research is not only conducted with end users. Often, sales, support, and TAMs (technical account managers) can offer valuable insights into customer behavior. They typically interact with a large number of customers and have a well developed understanding of what needs customers have and what issues they have faced.
-
-
-### Generative research methods
-
-To choose the right **_generative_** research method, you need to identify the purpose for your research. Ask yourself **_“Why am I doing this research?”_** Your answer will help you choose which method to use. You should also ask yourself [how much detail you need, what kind of participants you need, and the fidelity of insight you require](/handbook/engineering/ux/ux-research-training/choosing-a-research-methodology/).  If you are still unsure, please reach out to your UX Researcher.
-
-|                                                  Overall Purpose for Research                                                  |            Research Method            |
+|                                                  研究的总体目标                                                  |            研究方法            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-| {::nomarkdown}<ul><li>Understand a phenomenon</li> <li>Expand a theory</li> <li>Challenge the dominant view</li> <li>Propose a new theory</li> <li>Justify the need for a new technology</li></ul>{:/} | [Diary study](https://www.nngroup.com/articles/diary-studies/)<br> [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
-| {::nomarkdown}<ul><li>Redesign a product</li> <li>Make a technology more usable/accessible/inclusive</li> <li>Innovate</li> <li>Solve a new problem</li></ul>{:/}                             | [Diary study](https://www.nngroup.com/articles/diary-studies/) <br>[Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
-| {::nomarkdown}<ul><li>Motivate change</li> <li>Empower people</li> <li>Increase visibility and scrutiny</li> <li>Apply a critical lens</li></ul>{:/}                                          | [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)<br> [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html) |
+| {::nomarkdown}<ul><li>理解一个现象</li> <li>Expand a theory</li> <li>对主流观点提出质疑</li> <li>提出一个新的理论</li> <li>证明对一项新技术的需求</li></ul>{:/} | [日记式研究](https://www.nngroup.com/articles/diary-studies/)<br> [背景调查](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
+| {::nomarkdown}<ul><li>重新设计一个产品</li> <li>使一项技术更加可用/可访问/包容</li> <li>Innovate</li> <li>解决一个新问题</li></ul>{:/}                             | [日记式研究](https://www.nngroup.com/articles/diary-studies/) <br>[背景调查](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
+| {::nomarkdown}<ul><li>激励变革</li> <li>增强人们的能力</li> <li>提高能见度和监督力度</li> <li>应用批判性视角</li></ul>{:/}                                          | [背景调查](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)<br> [深入访谈](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html) |
 
 
-### Descriptive and informative research methods
+### 描述性和信息性的研究方法
 
-To choose the right **_descriptive and informative_** research method, ask yourself, **_“What do I need to understand better?”_** Your answer will help you choose which method to use. If you are still unsure, please reach out to your UX Researcher.
+要选择正确的**_描述性和信息性_**研究方法，请问自己，**_"我需要更好地了解什么？"_**你的答案将帮助你选择使用哪种方法。如果你仍然不确定，请与你的用户体验研究员联系。
 
-|                                                  What I need to understand better                                                  |            Research Method            |
+|                                                  我需要更好地了解什么                                                  |            研究方法            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-| {::nomarkdown}<ul><li>How users perform in their natural environment</li> <li>What tools they use</li> <li>How their space is set up</li></ul>{:/} | [Contextual inquiry](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
-| {::nomarkdown}<ul><li>What users’ attitudes, beliefs, desires, and experiences are</li></ul>{:/}                             | [In-depth interview](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html)        |
-| {::nomarkdown}<ul><li>How users complete tasks over an extended period of time (hours, days or weeks)</li></ul>{:/}                                          | [Diary study](https://www.nngroup.com/articles/diary-studies/) |
-| {::nomarkdown}<ul><li>How my customers might solve product problems for themselves</li></ul>{:/}                                          | [Participatory design](https://uxmag.com/articles/participatory-design-in-practice) |
-| {::nomarkdown}<ul><li>What the entire experience is from the user’s standpoint</li></ul>{:/}                                          | [User journey mapping](https://www.nngroup.com/articles/journey-mapping-101/) |
+| {::nomarkdown}<ul><li>用户在自然环境中的表现如何</li> <li>他们使用什么工具</li> <li>他们的空间是如何设置的</li></ul>{:/} | [背景调查](https://www.usability.gov/how-to-and-tools/methods/contextual-interview.html)        |
+| {::nomarkdown}<ul><li>用户的态度、信念、欲望和经验是什么？</li></ul>{:/}                             | [深入访谈](https://www.usability.gov/how-to-and-tools/methods/individual-interviews.html)        |
+| {::nomarkdown}<ul><li>用户如何在一段较长的时间内（几小时、几天或几周）完成任务</li></ul>{:/}                                          | [日记式研究](https://www.nngroup.com/articles/diary-studies/) |
+| {::nomarkdown}<ul><li>我的客户如何解决自己的产品问题</li></ul>{:/}                                          | [参与式设计](https://uxmag.com/articles/participatory-design-in-practice) |
+| {::nomarkdown}<ul><li>从用户的角度来看，整个体验是什么？</li></ul>{:/}                                          | [用户旅程地图](https://www.nngroup.com/articles/journey-mapping-101/) |
