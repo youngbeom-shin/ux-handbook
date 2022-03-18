@@ -68,7 +68,7 @@
     * [单阶段小组问题验证](ux-research-training/problem-validation-single-stage-group/index.html.md)
     * [招募参与者](ux-research-training/recruiting-participants/index.html.md)
     * [研究见解](ux-research-training/research-insights/index.html.md)
-    * [问题验证与方法](ux-research-training/research-method-problem-validation/index.html.md)
+    * [为问题验证选择研究方法](ux-research-training/research-method-problem-validation/index.html.md)
     * [解决方案的验证及方法](ux-research-training/research-method-solution-validation/index.html.md)
     * [UX research shadowing](ux-research-training/research-shadowing/index.html.md)
     * [快速迭代测试和评估](ux-research-training/rite/index.html.md)
