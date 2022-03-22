@@ -69,7 +69,7 @@
     * [招募参与者](ux-research-training/recruiting-participants/index.html.md)
     * [研究见解](ux-research-training/research-insights/index.html.md)
     * [为问题验证选择研究方法](ux-research-training/research-method-problem-validation/index.html.md)
-    * [解决方案的验证及方法](ux-research-training/research-method-solution-validation/index.html.md)
+    * [选择解决方案验证的研究方法](ux-research-training/research-method-solution-validation/index.html.md)
     * [UX research shadowing](ux-research-training/research-shadowing/index.html.md)
     * [快速迭代测试和评估](ux-research-training/rite/index.html.md)
     * [解决方案验证和方法](ux-research-training/solution-validation-and-methods/index.html.md)
