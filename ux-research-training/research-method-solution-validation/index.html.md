@@ -1,18 +1,17 @@
 ---
 layout: handbook-page-toc
-title: "Choosing a research method for Solution Validation"
+title: "选择解决方案验证的研究方法"
 ---
 
+### 我们为什么采用解决方案验证
+解决方案验证研究批判性地评估了产品/功能/设计是否真的解决了最初想要解决的问题。从本质上讲，这一阶段验证或否定了在问题验证研究中确定的拟议解决方案。
 
-### Why we employ solution validation
-Solution validation research critically assesses if the product/feature/design has indeed solved the problem that was initially intended to be solved. Essentially, this phase validates or negates the proposed solution(s) identified during the problem validation research.
-
-To choose the right **solution validation** research method, you need to identify the purpose for your research. Ask yourself **_“What information do I need to learn to increase my confidence in the design?”_** Your answer will help you choose which method to use. If you are still unsure, please reach out to your UX Researcher.
+要选择正确的**解决方案验证**研究方法，你需要确定你的研究目的。问问自己**_"我需要了解什么信息来增加我对设计的信心？"_**你的答案将帮助你选择使用哪种方法。如果你仍然不确定，请与你的用户体验研究员联系。
 
 
-|                                                  Overall Purpose for Research                                                  |            Research Method            |
+|                                                  研究的总体目的                                                 |            Research Method            |
 |:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-| {::nomarkdown}<ul><li>Evaluate a change to a feature and/or process</li> <li>Evaluate how well a current design supports user’s goals</li></ul>{:/} | [Usability Testing](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)        |
-| {::nomarkdown}<ul><li>Understand how the current information architecture performs</li> <li>Learn if the current labels make sense to users</li> <li>Learn if users can find the information they need easily and quickly</li></ul>{:/}                             | [Tree Testing](https://www.optimalworkshop.com/learn/101s/tree-testing/) <br>[Card Sorting](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html)        |
-| {::nomarkdown}<ul><li>Identify usability concerns within a specific workflow</li> <li>Scope and track the effort of addressing usability concerns within a specific workflow</li></ul>{:/}                                          | [UX Scorecard](/handbook/engineering/ux/ux-scorecards/) |
-| {::nomarkdown}<ul><li>Verify that the first click a user makes on an interface is the intended starting point for a given workflow or a navigation element</li></ul>{:/}                                          | First Click Testing |
+| <ul><li>评估一项功能和/或流程的变化</li> <li>评估当前设计对用户目标的支持程度。</li></ul> | [可用性测试](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html)        |
+| <ul><li>了解当前信息体系结构的执行情况</li> <li>了解当前标签对用户是否有意义</li> <li>了解用户是否能够轻松快速地找到他们需要的信息</li></ul>                           | [树形图测试](https://www.optimalworkshop.com/learn/101s/tree-testing/) <br>[卡片分类法](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html)        |
+| <ul><li>识别特定工作流程中的可用性问题</li> <li>在特定工作流程中解决可用性问题的范围和跟踪工作。</li></ul>                                          | [用户体验记分卡](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) |
+| <ul><li>验证用户在界面上的第一次点击是否是特定工作流程或导航元素的预期起始点</li></ul>                                         | 首次点击测试 |
