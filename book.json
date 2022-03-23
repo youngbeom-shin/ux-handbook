@@ -55,7 +55,7 @@
             }
         },
         "editlink": {
-            "base": "https://gitlab.cn/jihulab/product/design/design-handbook/-/tree/master",
+            "base": "https://jihulab.com/jihulab/product/design/design-handbook/-/tree/master",
             "label": "编辑此页",
             "multilingual": false
         },
