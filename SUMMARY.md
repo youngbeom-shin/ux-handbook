@@ -72,7 +72,7 @@
     * [选择解决方案验证的研究方法](ux-research-training/research-method-solution-validation/index.html.md)
     * [用户体验监督](ux-research-training/research-shadowing/index.html.md)
     * [快速迭代测试和评估](ux-research-training/rite/index.html.md)
-    * [解决方案验证和方法](ux-research-training/solution-validation-and-methods/index.html.md)
+    * [解决方案的验证和方法](ux-research-training/solution-validation-and-methods/index.html.md)
     * [GitLab的战略研究](ux-research-training/strategic-research-at-gitlab/index.html.md)
     * [无主持的可用性测试](ux-research-training/unmoderated-testing/index.html.md)
     * [GitLab可用性](ux-research-training/usability/index.html.md)
