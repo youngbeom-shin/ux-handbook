@@ -1,40 +1,40 @@
 ---
 layout: handbook-page-toc
-title: "UX Research Shadowing"
-description: "All new Product Managers and Designers at GitLab should complete research shadowing as a part of their onboarding before conducting independent research."
+title: "用户体验监督"
+description: "GitLab 的所有新产品经理和设计师都应该在进行独立研究之前完成研究实习，这是他们入职的一部分。"
 ---
 
-## Intro
+## 介绍
 
-All new Product Managers and Product Designers should go through this research shadowing process as a part of their onboarding before conduting independent research.
+所有的新产品经理和产品设计师在进行独立研究之前，都应该把研究作为他们入职前的一部分。
 
-This research shadowing process is intended to ensure that stable counterparts have sufficient understanding to be able to undertake UX research independently. Counterparts will read through training materials and observe the execution of a UX research study all the way through from planning to analysis. They will be paired with a UX Researcher that can answer any questions they have and provide support during this process.
+这个研究监督过程的目的是确保同行有足够的理解，能够独立进行用户体验研究。对应人员将阅读培训材料，并观察用户体验研究从计划到分析的整个执行过程。他们将与一名用户体验研究员结成对子，该研究员可以回答他们的任何问题，并在此过程中提供支持。
 
-## Shadower process
+## 监督流程
 
-1. Identify the UX Researcher [assigned to your stage group](/handbook/product/categories/). This person will be your contact during this shadow process. Reach out to them and introduce yourself and let them know you’re starting research shadowing. 
-1. Read through the [UX Research Resources](/handbook/engineering/ux/ux-research-training/ux-research-resources/). Your researcher can answer any questions you may have.
+1. 确定用户体验研究员[分配到你的阶段组](https://about.gitlab.com/handbook/product/categories/)。这个人将是你在这个监督过程中的联系人。联系他们，介绍自己，让他们知道你开始监督研究。
+1. 请阅读 [UX 研究资源](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/ux-research-resources/)。你的研究人员可以回答你的任何问题。
 
-### Problem validation shadowing
-1. Once you start the shadow process, the researcher will identify an upcoming problem validation study they feel will be suitable for you to shadow. 
-   - If the researcher won’t be conducting any suitable research in the near future, they may coordinate with you to observe a study being conducted by another researcher.
-1. Once your researcher has identified an appropriate study, they’ll start including you on each part of the research process. This will include things like the research plan, discussion guide, etc.
-   - Read through these materials as they’re created, and ping the researcher with any questions you have.
-1. You’ll be added to research sessions as they’re scheduled. You’ll observe, take notes, and participate in any debrief that happens. Let the researcher know which sessions you’ll observe.
-   - You should attend at least two sessions. If you want to observe more than that you can work it out with the researcher.
-1. The researcher will include you on any analysis of the research and send you the final insights document.
-1. Once the study has concluded, the researcher will reach out for a final check-in. Use this time to ask any remaining questions you have. At this point, you should have enough understanding to conduct research on your own.
+### 问题验证监督
+1. 一旦你开始阴影过程，研究人员将确定一个即将开始的问题验证研究，即他们认为将适合你的监督研究。
+   - 如果研究人员近期不会进行任何合适的研究，他们可能会与你协调，观察另一个研究人员正在进行的研究。
+1. 一旦你的研究人员确定了一项合适的研究，他们就会开始让你参与研究过程的每个部分。这将包括诸如研究计划、讨论指南等内容。
+   - 仔细阅读这些材料的创建过程，并向研究人员提出任何问题。
+1. 你会被安排参加研究会议。你要观察，做笔记，并参与任何发生的汇报。让研究人员知道你将观察哪些会话。
+   - 你应该至少参加两次会议。如果你想观察更多，你可以和研究人员一起研究。
+1. 研究人员会让你参与任何研究分析，并向你发送最后的洞察文件。
+1. 一旦研究结束，研究人员会联系你进行最后的检查。利用这段时间，你可以提出任何剩余的问题。在这一点上，你应该有足够的了解来进行自己的研究。
 
-### Solution validation shadowing
-1. When conducting your first solo solution validation at GitLab, you will need to have a researcher (preferably from your group or section) shadow your first solution interview.
-   - This is to ensure you get feedback about your approach, and that a UX Researcher and your Product Design Manager are aware so they can support you.
-1. [Solution validation](/handbook/product-development-flow/#validation-phase-4-solution-validation) is conducted by the UX designer and PM counterpart.
-1. The role of research in solution validation is to provide an initial framework and to provide feedback on the goals of your study.
-1. After a researcher has shadowed your interview, they will provide written feedback to you and cc your Product Design Manager.
+### 解决方案验证监督
+1. 当你在 GitLab 进行第一次单独的解决方案验证时，你将需要一个研究员(最好是来自你的小组或部门)监督你的第一次解决方案访谈。
+   - 这是为了确保你得到关于你的方法的反馈，并且让用户体验研究员和你的产品设计经理知道，这样他们就可以支持你。
+1. [解决方案验证](https://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation) 是由产品设计师和项目管理人员进行的。
+1. 研究在解决方案验证中的作用是提供一个初始框架，并对您的研究目标提供反馈。
+1. 研究人员监督你的面试后，他们将提供书面反馈给你，并抄送给你的产品设计经理。
 
-## UX Researcher process
-1. When a new hire reaches out to you to start the research shadow process, start thinking about what upcoming research study would be suitable for the shadower to observe. If there are multiple new hires coming on around the same time you can batch them together to optimize your time and effort. The study you choose for shadowing should be somewhat “standard,” with as few atypical elements as possible. If you don’t have any suitable studies happening in approximately the next month and a half, you may need to transfer responsibility to another researcher. Ask your manager if you’re unsure.
-1. Once you’ve identified the study, start including the shadower on each part of the research process. Tag them in issues and share documents like the discussion guide with them. Be available to answer any questions they may have. The goal is that they have a clear idea how to execute each phase of the research process.
-1. As you schedule sessions, include the shadower on the invites. They should let you know what sessions they plan to observe, with a minimum of two.
-1. Be sure to include the shadower on any analysis documents as well as any findings produced.
-1. Once the study has concluded, reach out to the shadower for a final check-in. This is their last chance to ask whatever questions they still have. After this point the shadower will be considered ready to execute research on their own.
+## 用户体验研究员流程
+1. 当一个新员工向你提出开始研究监督程序时，开始考虑即将进行的研究适合监督人员观察。如果有多个新员工在同一时间加入，你可以把他们集中起来，以优化你的时间和精力。你选择的监督研究应该有点 "标准"，尽可能少有非典型的元素。如果你在未来大约一个半月内没有任何合适的研究，你可能需要将责任转移给另一位研究人员。如果你不确定，请询问你的经理。
+1. 一旦你确定了研究内容，就开始让监督员参与研究过程的每个部分。在议题中给他们打上标签，与他们分享讨论指南等文件。要随时回答他们可能有的任何问题。目的是让他们对如何执行研究过程的每个阶段有一个清晰的概念。
+1. 当你安排会议时，在邀请函上包括监督员。监督员应该让你知道他们计划观察哪些会议，至少有两个。
+1. 请确保在任何分析文件以及所产生的任何结果中加上监督员。
+1. 一旦研究结束，就联系监督员进行最后的检查。这是他们最后的机会可以提出他们现存的任何问题。在这一点上，他们将被认为已经准备好自己执行研究。
