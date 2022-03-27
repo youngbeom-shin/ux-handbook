@@ -2,13 +2,13 @@
 layout: handbook-page-toc
 title: UX Department
 description: >-
-  用户体验部门将通过四个方面来支持极狐GitLab的产品设计工作：UX research、产品设计、技术协作以及 UX Foundation。
+  用户体验部门将通过四个方面来支持 GitLab 的产品设计工作：UX research、产品设计、技术协作以及 UX Foundation。
 ---
 
 
 ## 你好！
 
-我们是 极狐GitLab 用户体验 (UX) 部门。我们包括四个领域来支持设计和构建 极狐GitLab 产品。
+我们是 GitLab 用户体验 (UX) 部门。我们包括四个领域来支持设计和构建 GitLab 产品。
 
 - [用户体验研究](/handbook/engineering/ux/ux-research/)
 - [技术写作](/handbook/engineering/ux/technical-writing/)
@@ -48,7 +48,7 @@ description: >-
 
 ## 职责范围
 
-- **Pajamas 设计系统:** 为确保每个人都能自信地为 极狐GitLab 做出贡献，我们为每个人提供正确的资源和专业知识。 该 [Pajamas](https://design.gitlab.com/) 设计系统是检验真理的一切人的需求的单一来源了解有助于 极狐GitLab UI。UX部门拥有视觉和交互设计。我们与各种类别合作，在功能实现期间使用Pajamas。
+- **Pajamas 设计系统:** 为确保每个人都能自信地为 GitLab 做出贡献，我们为每个人提供正确的资源和专业知识。 该 [Pajamas](https://design.gitlab.com/) 设计系统是检验真理的一切人的需求的单一来源了解有助于 GitLab UI。UX部门拥有视觉和交互设计。我们与各种类别合作，在功能实现期间使用Pajamas。
 - **导航:**导航是用户体验中极其重要的一部分。我们的目标是围绕用户如何看待我们的产品而不是我们的内部结构来设计导航结构。 [了解如何更改导航](/handbook/engineering/ux/navigation/).
 - **系统可用性量表:** 我们使用行业标准的 [系统可用性量表 (SUS)](/handbook/engineering/ux/performance-indicators/system-usability-scale/) 方法来衡量我们产品的. 我们的 UX 研究团队负责定义我们的流程并每季度运行一次调查，但所有 UX 和产品管理部门都负责获得 [行业领先的分数e](/company/strategy/#2-build-on-our-open-core-strength).
 - **UX 记分卡:** 随着我们平台的发展，我们希望不断评估各种任务和流程的用户体验，以确保随着时间的推移跟踪进度和改进。 [UX 计分卡](/handbook/engineering/ux/ux-scorecards/) 是我们实现这一目标的框架。

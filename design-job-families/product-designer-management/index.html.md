@@ -4,7 +4,7 @@ title: "Product Design Management"
 description: "Managers in the UX department at GitLab see the team as their product. While they are credible as designers and know the details of what Product Designers work on, their time is spent hiring a world-class team and putting them in the best position to succeed."
 ---
 
-# GitLab的产品设计管理职位
+# GitLab 的产品设计管理职位
 
 GitLab UX部门的经理将团队视为他们的产品。虽然他们是可靠的设计师，知道产品设计师工作的细节，他们的时间花在聘请世界级的团队，并把他们放在成功的最佳位置。他们拥有用户体验的交付承诺，并一直在寻求提高生产力。他们还必须跨部门协调以完成协作目标。
 
