@@ -79,6 +79,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "expandable-chapters-small":{},
+        "splitter",
         "anchor-navigation-ex": {
             "showLevel": false,
             "associatedWithSummary": false,
