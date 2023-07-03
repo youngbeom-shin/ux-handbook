@@ -52,6 +52,7 @@
     * [研究协调员-填报](ux-research-coordination/research-coordinator-fill-in/index.html.md)
 * [用户研究培训](ux-research-training/index.html.md)
     * [分析研究数据](ux-research-training/analyzing-research-data/index.html.md)
+    * [分析调研纪要](ux-research-training/analyzing-survey-verbatim/index.html.md)
     * [选择研究方法](ux-research-training/choosing-a-research-methodology/index.html.md)
     * [参加用户体验研究会议](ux-research-training/attending-a-research-event/index.html.md)
     * [收集有用的信息](ux-research-training/collecting-useful-data/index.html.md)
