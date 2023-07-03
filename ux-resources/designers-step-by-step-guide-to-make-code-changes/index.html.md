@@ -4,12 +4,6 @@ title: "Step by Step Guide to Make Code Changes"
 description: "This is a step-by-step guide for how to make code changes against the main GitLab codebase. This guide is meant to serve as a tutorial for anyone with semi-technical knowledge."
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## 这是什么？
 
 这是一个关于如何对 GitLab 主代码库进行代码修改的分步指南。本指南的目的是为任何具有半技术知识的人提供一个后续教程，让他们通过对用户界面的小改动（如文字改动）为 GitLab 做出贡献。这些修改是有意义的贡献，有助于提高 GitLab 的用户界面的一致性。

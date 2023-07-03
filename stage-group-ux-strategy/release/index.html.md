@@ -1,116 +1,118 @@
 ---
 layout: handbook-page-toc
-title: "Release UX Team"
-description: "The Release UX team's goal is to design simple, clean ways to make GitLab the tool of choice for deploying where, when, and how users want to."
+title: "发布用户体验团队"
+description: "发布用户体验团队的目标是设计简单明了的方法，使GitLab成为用户在任何地方、任何时间、任何方式进行部署的首选工具。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+## 概述
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+[发布阶段](https://about.gitlab.com/stages-devops-lifecycle/release/)包括所有帮助你保证软件交付的功能，通过自动发布和交付应用程序，缩短交付生命周期，精简人工流程，并加快团队速度。
 
-## Overview
+发布用户体验团队的目标是通过提供软件交付的最佳体验来实现这些复杂的流程。我们的设计任务是把简单、干净的方法带到最前沿，使 GitLab 成为用户在任何地方、任何时间、任何方式进行部署的首选工具。
 
-The [Release stage](/stages-devops-lifecycle/release/) includes all features that help you guarantee software delivery by automating the release and delivery of applications, shortening the delivery lifecycle, streamlining manual processes, and accelerating team velocity.
+我们最大的合作伙伴是 Ops 部分 ([验证](https://about.gitlab.com/direction/ops/#verify), [打包](https://about.gitlab.com/direction/ops/#package), [配置](https://about.gitlab.com/direction/configure/) 和 [监控](https://about.gitlab.com/direction/monitor/)), Dev 部分 ([管理:优化](https://about.gitlab.com/direction/dev/#manage-1)), 和 基础设施 ([交付](https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/)).
 
-The Release UX team's goal is to enable these complex flows by providing the best experience in software delivery. Our design mission is bring to the forefront simple, clean ways to make GitLab the tool of choice for deploying where, when, and how users want to.
+### 相关用户体验团队
 
-Our biggest partners are the stages under the Ops section ([Verify](/direction/ops/#verify), [Package](/direction/ops/#package), [Configure](/direction/configure/) and [Monitor](/direction/monitor/)), Dev section ([Manage:Optimize](/direction/dev/#manage-1)), and Infrastructure ([Delivery](/handbook/engineering/infrastructure/team/delivery/)).
+- [Daniel Fosco](https://gitlab.com/dfosco) - 高级产品设计师
+- [Rayana Verissimo](https://gitlab.com/rayana) - 产品设计经理
+- [Russell Dickenson](https://gitlab.com/rdickenson) - 高级技术撰稿人
+- [Will Leidheiser](https://gitlab.com/wleidheiser) - 高级用户体验研究员
+
+### 稳定的对接方
+
+其他职能团队的以下成员是我们稳定的对接方。
+
+- [Nicole Williams](https://gitlab.com/nicolewilliams) - 研发经理
+- [Chris Balane](https://gitlab.com/cbalane) - 高级产品设计师
+
+### 当前的工作重点
+
+了解发布阶段背后的战略和愿景的最好方法是阅读 [部署方向](https://about.gitlab.com/direction/deployment) 手册页。
+
+截至22财年第四季度，我们专注于改善客户的部署体验，实现对部署的更好跟踪和协调，包括：
+
+- [使部署和状态信息在环境页面上更容易阅读](https://gitlab.com/groups/gitlab-org/-/epics/6938)  
+- [跨项目共享生产环境](https://gitlab.com/groups/gitlab-org/-/epics/4276)
+
+你可以在 [Release Plan](https://gitlab.com/groups/gitlab-org/-/boards/1489550?label_name[]=devops%3A%3Arelease&label_name[]=group%3A%3Arelease&label_name[]=Next%20Up) 看板上的 `~ready-for-design` 和 `~design` 栏目下看到我们正在进行的 UX 工作，以及正在进行的 [里程碑规划议题](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues?scope=all&state=all&search=%22Planning+Issue%22)。
 
 ### Shared UX
 
-We divided the Release stage into dedicated experience groups to align with a similar [split](/handbook/product/categories/#release-stage) undertaken by our engineering and PM counterparts. In order to continuously deliver a seamless user experience, we share responsibility in the overal vision, goals, and research initiatives related to overlapping features. The Progressive Delivery & Release Management UX teams work closely together and have shared coverage in the following areas:
+从 GitLab 仓库发布代码的用户体验跨越了我们产品的许多领域和页面。为了提供无缝的用户体验，我们的团队包括以下方面:
 
+- 环境
+- 部署
+- 发布
+- 特性开关
 - gitlab-ci.yml
-- Environments
-- Merge requests
-- Issues
-- Project settings
-- User settings
-- Kubernetes
-- Runner
+- CI 流水线
+
+其他领域和页面也可能包括。 
+
+- 项目设置
+- 合并请求
+- 基础设施 & Kubernetes
+- Runners
 - Audit log
 
-## Our users
+更具体地说，发布阶段组负责 GitLab 产品的几个类别，您可以在 [手册页面](https://about.gitlab.com/handbook/product/categories/#release-group) 中看到这些产品。
 
-We have different user types we consider in our experience design effort. Even when a user has the same title, their responsibilities may vary by organization size, department, org structure, and role. Here are some of the people we are serving:
+### 类别用户体验概述
 
-- [Release Manager](/handbook/marketing/strategic-marketing/roles-personas/#rachel-release-manager)
-- [Software Developer](/handbook/marketing/strategic-marketing/roles-personas/#sasha-software-developer)
-- [Development Tech Lead](/handbook/marketing/strategic-marketing/roles-personas/#delaney-development-team-lead)
-- [DevOps Engineer](/handbook/marketing/strategic-marketing/roles-personas/#devon-devops-engineer)
-- [Product Manager](/handbook/marketing/strategic-marketing/roles-personas/#parker-product-manager)
-- QA
+**类别用户体验概述**是对发布组中的类别和功能的介绍，包括其界面和用户体验的例子。你可以观看下面的视频或阅读[本议题](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/101)中的内容。
 
-## Our customer
+这是一个活生生的文档，作为我们的用户体验如何工作的视觉参考，但它不是一个正式的真实来源。会定期审查和更新，但其中一些信息可能已经过时。
 
-The product vision for Release has become more focused on providing advanced administration capabilities for release coordination and deployment tracking in GitLab. This is to build on the data asset we have at GitLab that starts from users purchasing GitLab to build product fast in a continuously integrated way. We will expand this journey by helping them coordinate and deploy at scale.
+{%youtube%}S8iFdfPQmbw{%endyoutube%}
 
-Today, mono-repository projects deploying with Kubernetes are most able to take advantage of our offering. We are targeting customers needing to coordinate across many teams and groups to successfully deploy. Regulated industries are top benefactors of our offering.
+视频中的内容可以在[本期](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/101)中找到，在那里你可以看到每个功能的链接和截图。Figma 上也有 [完整的可视地图](https://www.figma.com/file/m86hcciGMQJ4RzvVq6Wlnu/Release-Stage---Categories-UX-Overview?node-id=0%3A1)。 
 
+### 我们的用户
 
-## Our UX strategy
+我们在设计体验时考虑了不同的用户类型。即使用户拥有相同的头衔，他们的职责也可能因组织规模、部门、组织结构和角色而有所不同。以下是我们所服务的一些人:
 
-We will commit to stay aligned on shared UX with the engineering groups as much as possible, being the conversation drivers with product managers and other counterparts.
+- [发布经理](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#rachel-release-manager)
+- [软件开发人员](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#sasha-software-developer)
+- [开发技术主管](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#delaney-development-team-lead)
+- [DevOps 工程师](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#devon-devops-engineer)
+- [产品经理](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#parker-product-manager)
+- [质量评估工程师](https://about.gitlab.com/handbook/product/personas/#simone-software-engineer-in-test)
 
-The Release UX team is working together to uncover customers' core needs, what our users’ workflows look like, and defining how we can make tasks easier. Our strategy involves the following actions:
+### 用户体验 策略 & 研究
 
-| Strategy | Cadence |
+我们将致力于尽可能与开发团队保持共享用户体验的一致，成为与产品经理和其他同行对话的驱动因素。
+
+发布 UX 团队正在一起工作，以发现客户的核心需求，我们的用户工作流程是什么样子的，并定义我们如何使任务变得更容易。我们的策略包括以下行动:
+
+| 策略 | Cadence |
 | -------- | ------- |
-| Jobs to be done framework | Quarterly |
-| [UX Scorecards and recommendations](/handbook/engineering/ux/ux-scorecards/) | Quarterly |
-| [Opportunity canvas](/handbook/product/product-processes/#opportunity-canvas) | Ad hoc |
-| Stakeholder interviews | Ad hoc |
-| User and customer interviews | Ad hoc |
+| Jobs to be Done 框架 | 每季度审查一次 |
+| [用户体验记分卡和建议](https://about.gitlab.com/handbook/engineering/ux/ux-scorecards/) | Ad hoc |
+| [机会画布](https://about.gitlab.com/handbook/product/product-processes/#opportunity-canvas) | Ad hoc |
+| 利益相关者访谈 | Ad hoc |
+| 用户和客户访谈 | Ad hoc |
 
-Visit [CI/CD UX](/handbook/engineering/ux/stage-group-ux-strategy/ci-cd/) page to read about the department strategy.
+访问 [CI/CD UX](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/ci-cd/) 页面，阅读有关部门的整体战略。
 
-#### Competitive analysis
+关于我们小组最近一直在进行的所有相关研究，请查看以下链接。
 
-In partnership with Product Managers, we participate in the heuristic evaluation of competitors focused on the user experience and feature set of their products. To ensure we maintain our ability to iterate quickly as a measure of efficiency, we rely on Product Managers to assess and identify missing features in our category epics, and translate them into the _competitive landscape_ section of our product category pages.
+- [Release UX - 研究报告汇编 - FY22 Q3-Q4](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/92)
+- [研究概要 – 共享的环境 & 部署](https://gitlab.com/gitlab-org/uxr_insights/-/issues/1254)
+- [Dovetail](https://dovetailapp.com/projects)
+- [用户体验研究资料库](https://gitlab.com/gitlab-org/ux-research/-/issues?scope=all&state=all)
 
-- [Release competitive analysis](https://gitlab.com/groups/gitlab-org/-/epics/2622)
+### Jobs to be Done
 
-As design practitioners, we help by analyzing the findings and gaining insights from the data collected to make informed UX decisions. We need the support of Product Managers and other [strategic counterparts](/handbook/product/categories/#release-stage) to better understand the business goals of the competitive analysis. Some of the [reasons](https://usabilitygeek.com/how-to-do-ux-competitor-analysis/) why we consider it important are to:
+查看所有 [发布阶段](https://about.gitlab.com/handbook/engineering/development/ops/release/jtbd/) JTBDs.
 
-- Help us solve usability problems, as per this [definition of usability](/handbook/engineering/ux/performance-indicators/#perception-of-system-usability).
-- Understand where our product stands in the market.
-- Inform the design process.
-- Know the strengths and weaknesses of our competition.
-- Have reliable evidence when making product changes.
-- Focus our efforts in a target market.
+### 团队会议
 
-### Other initiatives we value
+- **发布组每周**：每周一次，与工程团队开会，调整正在进行的开发工作
+- **发布用户体验/ PM 同步**：每周一次，设计师和产品经理之间的会议，以调整当前和未来的设计工作
+- **发布用户体验/前端同步**：每两周，设计和前端工程师会面，讨论正在进行的工作并分享反馈。
+- **CI/CD 用户体验会议**：每两周一次。会议讨论我们阶段性的用户体验共享工作，审查设计，并迭代我们的战略。
 
-- **Think Big sessions**: Every two weeks we brainstorm as a technical, product, and design team about our vision, roadmap, and all other components involved in creating a great experience for our GitLab customers. We aim to align on medium and long term goals.
-- **UX Vision**: Clarify and establish a shared understanding of our user experience foundations together with Product Managers.
-- **Improve the product overall user experience**: Partner up with other teams/individuals responsible for improving our product's UI, and bringing back knowledge to Pajamas and gitlab-ui.
-- **Share and learn**: Stay up to date with other design teams to learn from their experience.
+### 关注我们的工作
 
-### Our UX Scorecards
-
-#### Our Jobs To Be Done
-
-See all [Release stage](/handbook/engineering/development/ops/release/jtbd/) JTBDs.
-
-## Performance indicators
-
-- [Release performance indicators](/handbook/engineering/ux/stage-group-ux-strategy/release/release-management/#performance-indicators)
-
-
-### Stable counterparts
-
-The following members of other functional teams are our stable counterparts:
-
-- [Rayana Verissimo](https://gitlab.com/rayana) - Product Design Manager
-- [Suzanne Selhorn](https://gitlab.com/sselhorn) - Senior Technical Writer
-
-### Our team meetings
-
-- **PM/UX meeting**: Once a week.
-- **Verify/Release UX**: Every two weeks. Meeting to discuss our stages UX shared efforts, review designs, and iterate on our strategy.
-
-### Follow our work
-
-Our [Release (CD) UX YouTube channel](https://www.youtube.com/playlist?list=PL05JrBw4t0KoyqCjN4f79w0dYZusHLx15) includes UX Scorecard walkthroughs, UX reviews, group feedback sessions, team meetings, and more.
+[Release UX YouTube频道](https://www.youtube.com/playlist?list=PL05JrBw4t0KoyqCjN4f79w0dYZusHLx15)包括用户体验记分卡演练、用户体验审查、小组反馈会议、团队会议，以及更多。

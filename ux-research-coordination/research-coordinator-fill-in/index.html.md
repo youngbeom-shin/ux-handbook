@@ -4,11 +4,6 @@ title: "How to Fill In For a Research Coordinator"
 description: "This page details the steps required to execute a successful recruit from start to finish"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 There are times when you will play the role of Research Coordinator. This page details all of the ‘behind the scenes’ steps needed to execute a successful recruit from start to finish. Are you interested in how to work with our Research Coordinator? If so, you can find that information [here](https://www.google.com/url?q=https://about.gitlab.com/handbook/engineering/ux/ux-research-training/recruiting-participants/&sa=D&ust=1602108272868000&usg=AFQjCNE8hrspN3s2Uy2MuNSmZvxoAuuvQg).
 

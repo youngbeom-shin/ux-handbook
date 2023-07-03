@@ -4,11 +4,6 @@ title: "Research Insights"
 description: "Research insights are the collective findings and learnings that come from a research study."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 Research insights are the collective findings and learnings that come from a research study.  
 

@@ -1,57 +1,50 @@
 ---
 layout: handbook-page-toc
-title: "How to write a strong hypothesis"
-description: "A hypothesis is basically an assumption. It’s a statement about what you believe to be true today. It can be proven or disproven using research."
+title: "如何写出一个强有力的假设"
+description: "假设基本上是一种预设。它是一个关于你今天认为是真实的东西的声明。它可以通过研究来证明或反驳。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 <!-- blank line -->
-
 {%youtube%}i-LIu-zDOOM{%endyoutube%}
-
 <!-- blank line -->
 
-#### Video transcript
-When you hear a customer problem, it can be tempting to just dive right in and devise a solution. However, it’s important to remember there is never just one good solution to a problem. A problem can be solved in many different ways, depending on what we need to focus on.
+#### 视频转录
+当你听到一个客户的问题时，你很容易就会一头扎进去，想出一个解决方案。然而，重要的是要记住，一个问题永远不会只有一个好的解决方案。一个问题可以用许多不同的方式解决，这取决于我们需要关注什么。
 
-Users can also be unpredictable. What we think might solve their pain points may not actually even begin to address the problems they are facing. Therefore, it’s advisable to test your ideas before you start building a solution. A way in which you can do this is to write and test hypotheses.
+用户也可能是不可预知的。我们认为可能会解决他们的痛点的东西，实际上可能根本没有开始解决他们所面临的问题。因此，在你开始建立一个解决方案之前，最好先测试你的想法。一个可以做到这一点的方法是编写和测试假设。
 
-## What is a hypothesis?
+## 什么是假设?
 
-A hypothesis is basically an assumption. It’s a statement about what you believe to be true today. It can be proven or disproven using research.
+假设基本上是一种预设。它是一个关于你今天认为是真实的东西的声明。它可以通过研究来证明或反驳。
 
-A strong hypothesis is usually driven by existing evidence. Ask yourself: Why do you believe your assumption to be true? Perhaps your hunch was sparked by a passing conversation with a customer, something you read in a support ticket or issue, or even something you spotted in GitLab’s usage data.
+一个强有力的假设通常是由现有的证据驱动的。问问你自己。为什么你相信你的假设是真的？也许你的直觉是由与客户的一次谈话、你在支持工单或议题中读到的东西、甚至是你在 GitLab 的使用数据中发现的东西引发的。
 
-## How to structure a hypothesis
+## 如何构建一个假设
 
-There are lots of different structures for hypotheses, but a good approach is to use this simple statement:
+假设有很多不同的结构，但一个好的方法是使用这个简单的声明。
 
-We believe [doing this] for [these people] will achieve [this outcome].
+我们相信为 [这些人] [这样做] 会达到 [这种结果] 。
 
-The statement consists of three elements.
+该声明由三个要素组成。
 
-1. **`We believe [doing this]`** should detail your proposed solution to users’ problems.
+1. **`我们相信[这样做]`** 应详细说明你对用户问题的拟议解决方案。
 
-1. **`for [these people]`** should identify who you are targeting.
+1. **`为[这些人]`** 应确定你的目标是谁。
 
-1. **`will achieve [this outcome]`** is where you should document your measure of success. What is your expected result?
+1. **`将实现[这一结果]`** 是你应该记录你衡量成功的地方。你的预期结果是什么？
 
-For example:
+例如:
 
-We believe `storing information about how an incident was resolved, how long the resolution took, and what the outcome was in a way that’s easy` for `engineers responsible for incident management` to access will achieve `a 20% faster resolution time for incidents`. This is because referring to past incident information helps to inform potential solutions for remediation.
+我们相信， `以一种容易的方式` 让 `负责事故管理的工程师` 访问 `存储有关事故如何解决，解决需要多长时间，以及结果是什么的信息` ，将实现 `事故的解决效率提升20%`。这是因为引用过去的事件信息有助于通知可能的补救解决方案。
 
-When writing your hypothesis, focus on simple solutions first and keep the scope small. If you’re struggling to articulate your assumptions about users, it’s probably better to start with developing a better understanding of users first, rather than forming weak hypotheses and running aimless research studies.
+在编写假设时，首先关注简单的解决方案，并将范围缩小。如果你很难清楚地表达出你对用户的假设，那么最好从更好地理解用户开始，而不是形成一个薄弱的假设和进行无目的的研究。
 
-## Testing your hypothesis
+## 测试你的假设
 
-A good user research project creates conditions where you can see if your hypothesis seems to be true or false by evaluating both performance and attitudinal data. A simple binary metric (yes/no, pass/fail, etc.) is used to gather performance data. Attitudinal data, such as sentiments and opinions, helps you to describe your participants' experience.
+一个好的用户研究项目会创造条件，通过评估性能和态度数据，你可以看到你的假设似乎是真的还是假的。一个简单的二进制指标（是/否，通过/失败，等等）被用来收集性能数据。态度数据，如情感和意见，帮助你描述参与者的体验。
 
-A strong hypothesis is easy to test. It shouldn’t take you much time to design a research study to validate or invalidate your hypothesis.
+一个强有力的假说很容易被检验。你不应该花太多时间来设计一项研究，以验证或否定你的假设。
 
-If your hypothesis is invalidated by users, don’t feel disheartened. You’ve stopped precious Engineering time being spent on building a solution that simply doesn’t solve users’ problems. A good measure of being iterative is throwing something away because user research proved that it wasn’t going to work. You’re not always going to get things right the first time. We learn more about user needs as a result of testing multiple hypotheses and, in turn, we generate new ideas for future rounds of testing.
+如果您的假设被用户否定，不要感到沮丧。你已经不再把宝贵的研发时间花在构建一个根本不能解决用户问题的解决方案上。迭代的一个好方法是扔掉某些东西，因为用户研究证明它是行不通的。你不可能一次就把事情做好。通过测试多个假设，我们了解了更多关于用户需求的信息，反过来，我们为未来的测试产生了新的想法。
 

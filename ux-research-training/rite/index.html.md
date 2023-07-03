@@ -1,120 +1,119 @@
 ---
 layout: handbook-page-toc
-title: "Rapid Iterative Testing and Evaluation (RITE)"
-description: "Using the RITE methodology at GitLab"
+title: "快速迭代测试和评估（RITE）"
+description: "使用 GitLab 的 RITE 方法"
 ---
 
-### On this page
-{:.no_toc .hidden-md .hidden-lg}
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+[快速迭代测试和评估（RITE）](https://uploads-ssl.webflow.com/5d7142044df04fbb477795a2/5ef34f1709bc2ec95a6d3089_ef8a91900840263a4036b0433a389b7097b2.pdf)是一种[可用性测试方法](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/usability-testing/)，你以快速和迭代的方式多次评估一个可用性问题的解决方案。其目的不仅是为了发现可用性问题，而且是为了对发现的问题做出快速反应，并测试迎合这些问题的新方案。RITE 研究的最终结果是一个经过全面可用性测试的体验（以及可用性问题的解决方案）。这就转化为一种我们可以对发布(在可用性的环境下)高度自信的体验，这有助于消除关于所提议的解决方案是否可用的不确定性。
 
+### RITE 研究是如何工作的
+进行 RITE 研究非常简单，类似于传统的可用性测试。不同之处在于:
 
-[Rapid Iterative Testing and Evaluation (RITE)](https://uploads-ssl.webflow.com/5d7142044df04fbb477795a2/5ef34f1709bc2ec95a6d3089_ef8a91900840263a4036b0433a389b7097b2.pdf) is a [usability testing method](/handbook/engineering/ux/ux-research-training/usability-testing/) where you evaluate a solution to a usability problem multiple times in a rapid and iterative manner. The goal is to identify not just usability problems, but also to react quickly on identified issues and test new solutions that cater to them. The end result of a RITE study is an experience (along with solutions to usability issues) that has been fully usability tested. This translates to an experience that we can be **highly confident** about shipping (in the context of usability), which helps to remove uncertainty around whether a proposed solution will be usable.
-
-### How a RITE study works
-Conducting a RITE study is quite simple and is similar to conducting a traditional usability test.  The differences are: 1) the sample size, and 2) immediately addressing issues as they are found.  The diagram below illustrates the workflow to follow when conducting a RITE study.
+1. 样本量
+2. 发现问题后立即处理。下图说明了在进行 RITE 研究时需要遵循的工作流程
 
 <img src='RITE_workflow.png' ALT='Workflow to take for a RITE study'>
 
-To summarize:
-- **Step 1: Start with 3 participants**
-     - If issues are found, address them, and repeat Step 1 with 3 new participants
-     - If issues are NOT found, proceed to Step 2
-- **Step 2: Add 2 more participants**
-     - If issues are found, address them, and start at Step 1 again with 3 new participants
-     - If issues are NOT found after testing 5 total participants, the study is done!
+总结一下:
+
+- **第1步：从 3 名参与者开始**。
+     - 如果问题被发现，去解决它们，并与 3 个新的参与者重复步骤1
+     - 如果没有发现问题，继续进行第2步
+- **第2步：再增加 2 名参与者**。
+     - 如果发现问题，就解决这些问题，然后用3个新的参与者重新从步骤1开始。
+     - 如果在对总共5名参与者进行测试后没有发现问题，那么研究就结束了。
 
 
-### Elements of RITE
+### RITE 的要素
 
-In comparison to other usability testing protocols (here at GitLab and outside), RITE consists of the following elements:
+与其他可用性测试协议（在 GitLab 这里和外部）相比，RITE 包括以下内容：
 
-- **It’s rapid and iterative:** RITE tests are run regularly with a smaller number of participants. Each usability problem identified you aim to fix _immediately_ and _test again_ with a new set of participants. This process continues until no new usability issues are identified. 
+- **它是快速和迭代的：** RITE 测试是定期进行的，参与者的数量较少。每发现一个可用性问题，你都要 _立即解决_ ，然后用一组新的参与者 _再次测试_ 。这个过程一直持续到没有新的可用性问题被发现为止。
 
 
-- **Classification of issues:** To move quickly with the test sessions, usability problems identified in a session are categorized into the following categories:
+- **问题的分类：**为了快速推进测试环节，在一个环节中发现的可用性问题被归入以下类别:
 
-| Category | Description                                                                                                                                       | What to do                                                                               |
+| 类别 | 描述                                                                                                                                       | 该怎么做                                                                               |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-|     A    | Issues with an obvious cause and an obvious solution that can be implemented in the prototype quickly, such as text changes, re-labeling buttons. | Implement solutions immediately and this will be the version for the next test session.  |
-|     B    | Issues with an obvious cause and an obvious solution that can’t be implemented quickly/by the time of the next test session.                      | Start working on the solution to address these issues and test in an upcoming session.   |
-|     C    | Issues with no obvious cause or due to other factors, such as task instructions.                                                                  | Collect more data in the upcoming session until they can be promoted to Category A or B. |
+|     A    | 问题有明显的原因和明显的解决方案，可以在原型中快速实现，如文本更改，重新标记按钮。 | 立即实施解决方案，这将是下一次测试会议的版本。  |
+|     B    | 问题有明显的原因和明显的解决方案，不能快速实现 或 在下一个测试会议之前实现。                      | 开始研究解决这些问题的方案，并在即将到来的会议上进行测试。   |
+|     C    | 没有明显原因或由于其他因素造成的问题，如任务指引。                                                                  | 在即将到来的会议中收集更多的数据，直到他们可以提升到类别 A 或 B。 |
 
 
-- **Domain knowledge and decision making:** The decision makers of the team should be present or catch up on the session insights in order to quickly react on the learnings from each session. Domain knowledge is essential to estimate if the observed problems are likely to be a problem for others.
+- **领域知识和决策制定:**团队的决策者应该出席会议或了解会议的见解，以便从每次会议中迅速做出反应。领域知识对于评估所观察到的问题是否可能对其他人造成问题至关重要。
 
-### Roles and expectations to make RITE successful
-RITE studies promise a rapid and iterative process for evaluating and improving design prototypes. It can only succeed if all contributors to the process are aware of their responsibilities and follow the schedule (timing and scheduling are critical to a successful RITE study). Make sure to inform yourself of your individual responsibilities and decide with your team what schedule best fits you. 
+### 使 RITE 成功的角色和期望
+RITE 研究承诺为评估和改进设计原型提供一个快速和反复的过程。只有当该过程的所有参与者都意识到他们的责任并遵守时间表时，它才能成功（时间和日程安排对于成功的 RITE 研究至关重要）。确保你已知道你自己的个人职责，并和你的团队一起决定什么时间安排最适合你。
 
-- **Product Designer:** Make time to prepare a design prototype, set up a test in usertesting.com based on the prototype, and then launch it. Watch the sessions as soon as they are available and analyze insights. Share your observations in the team sync and decide what changes need to be made with the Product Manager. Document all identified usability problems by placing them into the three categories (A-C). Based on the learnings, you need time to work on future iterations. In the example schedule below, we aim to test two iterations per week, which means during this week, the majority of your time will be spent on running RITE. 
+- **产品设计师：**腾出时间准备一个设计原型，在 [usertesting.com](usertesting.com) 中根据原型设置测试，然后将它发布出来。尽快观看会议并分析洞察。在团队同步中分享你的观察结果，并与产品经理一起决定需要做哪些改变。将所有发现的可用性问题归入三个类别（A-C），记录下来。基于所学到的知识，你需要时间来进行未来的迭代工作。在下面的例子时间表中，我们的目标是每周测试两个迭代，这意味着在这一周内，你的大部分时间将用于运行 RITE。
 
-- **Product Managers:** While optional, make time to watch each research session as soon as a study gets picked up. Share your observations in the team sync, and decide what changes need to be made with the Product Designer for the next iteration. In the example schedule below, we aim to test two iterations per week.
+- **产品经理:**虽然是可选的，但只要一有研究，就可以花时间观看每个研究会议。在团队中同步分享您的观察结果，并决定在下一次迭代中需要与产品设计师进行哪些更改。在下面的示例计划中，我们的目标是每周测试两次迭代。
 
-- **Engineering:** Building great products is a team effort, and having exposure to real users regularly is crucial. While optional, it’s recommended to make time to watch some or all of the sessions and contribute your insights in the team sync. 
+- **研发工程师：**建立伟大的产品是一个团队的努力，定期接触真正的用户是至关重要的。虽然这是可选的，但建议抽出时间观看部分或全部会议，并在团队同步中贡献你的见解。 
 
-### Sample size
-The sample size for RITE studies is both unique and critical to follow. It's fairly simple: 
-- N = 3 for each iteration and N = 5 to complete the process.
+### 样本数量
+RITE 研究的样本量是固定的，也是关键的。需要遵循以下规则，很简单: 
 
-You only need 3 participants per iteration because as more iterations are made, the N increases, which provides that opportunity to capture additional usability issues. Over time, a larger number of users provides feedback on the product, and you fix the problems you identify as you go.
+- 每次迭代 N=3，完成这个过程 N=5。
 
-The RITE process is completed if you don’t identify any new usability issues in an iteration. However, a sample size of 5 participants is recommended to increase the likelihood of identifying the majority of usability issues. Therefore, if your iteration doesn’t bring in any new usability issues, add two more participants to ensure that all usability problems were identified. 
+每次迭代只需要 3 个参与者，因为随着迭代的进行，N 会增加，这提供了捕获额外可用性问题的机会。随着时间的推移，越来越多的用户会对产品提供反馈，而您也会修复您发现的问题。
 
-### Metrics
+如果你在一次迭代中没有发现任何新的可用性问题，RITE 过程就算完成了。然而，为了提高识别大多数可用性问题的概率，建议样本量为 5 人。因此，如果你的迭代没有带来任何新的可用性问题，再增加两个参与者以确保所有的可用性问题都能够被识别出来。 
 
-Since a RITE study is a usabity testing method, the same measures that are used for usability testing are used for RITE testing: Effectiveness, Eficiency, and Satisfaction.  The detailed measures to use can be found on the [usability testing](/handbook/engineering/ux/ux-research-training/usability-testing/#3-factors-to-measure) handbook page.
+### 指标
 
-### Number of tasks
+由于 RITE 研究是一种可用性测试方法，用于可用性测试的度量方法分也适用于 RITE 测试：有效性、效率和满意度。 使用的详细度量方法可以在[可用性测试](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/usability-testing/#3-factors-to-measure)手册页面上找到。
 
-There's no magic number when it comes to how many tasks to include. A guideline is to have [3 - 4 tasks](/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/#tasks) to ensure that participants don’t get tired and exhausted. Another aspect to consider is that unmoderated test sessions should be 15 - 20 minutes max and moderated sessions 60 minutes max. If you find your study may be too long for unmoderated testing, you might have to split your tasks across multiple usertesting.com sessions.
+### 任务的数量
 
-The key thing to remember when writing your tasks is [that they reflect realistic user goals](/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/#tasks). Taking the JTBD into account when creating your tasks helps keep the focus on user goals.
+当涉及到要包含多少任务时，并没有特殊的数字。一个准则是有 [3 - 4个任务](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/#tasks)，以确保参与者不会感到疲惫和疲惫。另一个需要考虑的方面是，没有主持人的测试环节应该最多 15 - 20 分钟，有主持人的环节最多 60 分钟。如果你发现你的研究对于无主持的测试来说可能太长了，你可能要在多个 usertesting.com 会议上分割你的任务。
 
-### A sample RITE study approach
+编写任务时要记住的关键是[它们反映了现实的用户目标](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/writing-usability-testing-script/#tasks)。在创建任务时考虑到 JTBD，有助于保持对用户目标的关注。
 
-A RITE study can take place in as little as a single day, or up to as long as it takes.  The below example spans 5 days and is merely used to illustrate the process. If your team prefers a different pace, feel free to adjust the timeline accordingly. The example schedule is built to fit unmoderated usability testing using usertesting.com. If you prefer to run a moderated session, allow additional time for recruiting.
+### 一个 RITE 研究方法的样本
 
-#### Day 1 - Preparation
-Gather your team, and agree on a timeline on the following:
+RITE 研究可以在短短的一天内进行，也可以在更长的时间内进行。 下面的例子跨度为 5 天，只是用来说明这个过程。如果您的团队喜欢不同的节奏，请随时相应调整时间表。这个例子的时间表是为了适应使用 usertesting.com 进行的非主持性可用性测试。如果你喜欢主持会议，请留出额外的时间用于招聘。
 
-- When will the test session go live in usertesting.com?
-- When will everyone watch the recordings?
-- When will you input insights in Dovetail, and who will do it?
-- How will you decide on the decisions and adjustments to make in the next iteration? For example, you might discuss async in Dovetail or use a sync meeting.
+#### 第一天 - 准备工作
+召集你的团队，并就以下内容商定一个时间表：
 
-Prepare prototypes and the test script (this should be the same or similar to what you used for the baseline usability test).
+- 测试环节何时在 usertesting.com 上线？
+- 大家什么时候看录像？
+- 你什么时候在 Dovetail 中输入洞察力，谁来做？
+- 你们将如何决定在下次迭代中要做的决定和调整?例如，您可以在 Dovetail 中讨论异步或使用同步会议。
 
-#### Day 2  - Test Day
-Run a pilot session, watch the recording, and adust your test plan as needed. 
+准备原型和测试脚本(这应该与你用于基线可用性测试的内容相同或类似)。
 
-Next, launch your test in usertesting.com to three participants.  Depending on how quickly the test comes back, analyze insights and organize identified usability problems using the [RITE classification](/handbook/engineering/ux/ux-research-training/rite/#elements-of-rite). Feel free to use a copy of [this Mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1613597941619/7b56a2a3ecbc2eb14889a7d0f66314b2a3517025). 
+#### 第二天 - 测试日
+运行一个试点会话，观看录像，并根据需要修正你的测试计划。
 
-#### Day 3 - Sync with team
-Everyone in the team should have a chance to watch the three sessions and become aware of the identified usability problems. Share your learnings and decide on the scope for the next session. Adjust and prepare your prototype accordingly. Remember that Category A issues should be fixed before the new test round.
+接下来，在 usertesting.com 上向三个参与者发起你的测试。 根据测试回来的速度，使用 [RITE 分类](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/rite/#elements-of-rite) 分析见解并组织所发现的可用性问题。请自由使用 [此 Mural](https://app.mural.co/t/gitlab2474/m/gitlab2474/1613597941619/7b56a2a3ecbc2eb14889a7d0f66314b2a3517025) 的副本。 
 
-#### Day 4 - Test Day
-Same as Day 2: Launch your test in usertesting.com with three participants. Analyze insights and classify identified issues. 
+#### 第三天 - 与团队同步
+团队中的每个人都应该有机会观看这三场会议，并意识到所发现的可用性问题。分享你们的学习成果并决定下一次会议的范围。相应地调整和准备你的原型。记住，A类问题应该在新一轮测试前得到解决。
 
-#### Day 5 - Sync with team
-Same as Day 3: Everyone in the team should have a chance to watch the session and contribute to deciding how to act upon the learnings. 
+#### 第四天 - 测试日
+与第二天相同：在 usertesting.com 启动你的测试，有三个参与者。分析洞察力并对发现的问题进行分类。
 
-You can repeat this process in the same milestone or in an upcoming one, depending on how long it takes to find solutions for issues in Category B, as well as other activities that need to be taken care of. Document usability issues in Category B (Issues with an obvious solution that can’t be implemented immediately) in GitLab for future planning of work. 
+#### 第五天 - 与团队同步
+与第三天相同：团队中的每个人都应该有机会观看会议，并为决定如何根据学习内容采取行动做出贡献。
 
-The process is considered complete when usability issues are no longer found in a sample of 5 participants, and you're confident that your solution is user friendly, which may not happen within one milestone. 
+你可以在同一个里程碑或即将到来的里程碑中重复这一过程，这取决于为 B类问题 找到解决方案所需的时间，以及其他需要处理的活动。在 GitLab 中记录 B类 的可用性问题（有明显解决方案但不能立即实施的问题），以便将来规划工作。
+
+当在 5 个参与者的样本中不再发现可用性问题，并且你确信你的解决方案是用户友好的时候，这个过程才算完成，而这可能不会在一个里程碑内发生。
 
 ---------------
 
-### Frequently Asked Questions
+### 常见问题
 
-**Can I conduct a RITE study in a single day?**
-Yes, it's certainly possible.  With careful planning, you can use usertesting.com to complete a RITE study in a single day, whether it's moderated or unmoderated.  The key is careful planning and scheduling.
+**我可以在一之天内进行 RITE 研究吗？**
+是的，这当然是可能的。 只要仔细计划，您可以使用 usertesting.com 在一天内完成 RITE 研究，无论是有节制的还是无节制的。 关键是仔细计划和安排。
 
-**Is it possible to make RITE testing my default usability testing method?**
-As long as the requirements are being met, of course!  You will have more confidence around the usability performance of an experience tested through RITE than through a traditional usability study.  Why? Because you tested your solutions along the way - and you know those perform well!
+**是否有可能使 RITE 测试成为我默认的可用性测试方法？**
+当然，前提是满足要求!与传统的可用性研究相比，通过 RITE 测试的体验的可用性性能更有信心。为什么?因为您一直在测试您的解决方案——您知道这些解决方案执行得很好!
 
-**I don't have time to run a clean test with 5 participants.  What should I do?**
-At that point, the test is no longer a RITE study and has the make up of a traditional usability study, where solutions that are addressed post-study are pushed out untested.  
+**我没有时间对 5 名参与者进行完整的测试。我该怎么办?**
+在这一点上，测试不再是 RITE 研究，而是具有传统的可用性研究组成，就是研究后提出的解决方案是没有经过测试就推出。 
 
 

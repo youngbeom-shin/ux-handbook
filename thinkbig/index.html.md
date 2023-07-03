@@ -4,98 +4,92 @@ title: "Think Big & Think Small Meetings"
 description: "The purpose of think big & think small meetings is to develop a shared understanding of goals by discussing vision, roadmap, research, design, and delivery of upcoming features."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Think Big
 
-### Purpose
+### 目的
 
-A Think Big is designed to create a shared understanding of purpose and goals with all members of a stage group. Everyone in the stage group is invited to participate in a facilitated discussion around vision, roadmap, user research, design, and delivery of upcoming product features.
+Think Big 设计的目的是让阶段组的所有成员对目的和目标有一个共同的理解。阶段组中的每个人都被邀请参加关于愿景、路线图、用户研究、设计和即将到来的产品功能的交付而进行的讨论。
 
-Think Big's are meetings that drive knowledge-sharing across the organization at the stage group and section [levels](/handbook/product/categories/#hierarchy). Participants are given the opportunity to review and ensure short-term activities are aligned with long-term goals. 
+Think Big 会议是指在阶段组和部门 [级别](https://about.gitlab.com/handbook/product/categories/#hierarchy) 推动知识共享的会议。参与者有机会审查并确保短期活动符合长期目标。
 
-Watch past recordings in the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+在 [GitLab Unfiltered YouTube频道](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) 观看过去的录音。
 
-### Cadence
+### 节奏
 
-Think Big meetings occur once a milestone (once a month).
+Think Big 会议在一个里程碑中举行一次（每月一次）。
 
-### When to opt for a Think Big
+### 什么时候选择 Think Big？
 
-Having a synchronous meeting with a large number of individuals may feel like it goes against [GitLab's Values](/handbook/values/) and culture. It is essential to evaluate the Think Big meetings regularly to ensure they are valuable to the team. Some questions to ask could include: 
+与许多人进行同步会议可能会让人觉得这违背了[GitLab 的价值观](https://about.gitlab.com/handbook/values/)和文化。有必要定期评估 Think Big 会议，以确保它们对团队有价值。可以问的问题包括:
 
-* Are the topics designed and delivered in a way that brings the team together?
-* Are the discussions harmonizing the group on the long-term strategy of the stage or group?
-* Having an entire team on a call for an hour can be considered expensive. Are the sessions a good use of everyone's time? 
-* Is everyone included in the conversation? Do all the participants in the session have an opportunity to discuss ideas or provide feedback?
-* Do the conversations evolve and consider feedback from the team to make the session optimal for its goal? 
-* Are the goals and outcomes of the sync discussion available to everyone after the session? 
+* 主题的设计和交付是否以一种将团队聚集在一起的方式进行?
+* 关于阶段组的长期战略的讨论是否协调了整个团队?
+* 让整个团队进行一小时的通话，可以说是很昂贵的。这些会议是否很好地利用了每个人的时间？
+* 每个人都被包括在对话中吗？所有参加会议的人都有机会讨论想法或提供反馈吗？
+* 对话是否不断发展，并考虑团队的反馈，使会议达到最佳目标？
+* 在会议结束后，同步讨论的目标和结果是否对每个人都可用?
 
-If any of the above questions are answered with a **"No"** it is a sign to reevaluate the topics, discussions, and structure of Think Big and iterate to ensure the team gets the most value out of the meeting as possible.
+如果上面的任何一个问题得到了“不”的回答，这就意味着要重新评估 Think Big 的主题、讨论和结构，并迭代以确保团队尽可能从会议中获得最大的价值。
 
-### General guidelines for facilitators
+### 主持人的一般准则
 
-* Think Big meetings should be conducted in groups of no more than 10-15 (to encourage participation).
-* The agenda template can be found by searching for `Think Big` in Google Drive.
-* Divide the meeting into modules with each module averaging 15 minutes. A full session can typically over three topics.
-* As the meeting starts, look for an ordered list of discussion topics in the agenda doc. This will be the order for participants to go in.
-* There are many ways to gather feedback in a synchronous meeting. An example is to use a round-robin, turn-based structure that gives everyone on the call an opportunity to share their thoughts quickly and efficiently. 
-   * The facilitator (usually a Product Designer) will kick off the meeting by quickly reviewing the guidelines and starting the 15-minute timer.
-   * The facilitator presents the problem or design by communicating what type of feedback they need. For more genuine reactions and feedback, keep the explanation as short as possible.
-   * Following the order in the agenda, participants take turns asking relevant questions and providing a single piece of feedback to the design. Each "turn" should be limited to about 1 minute.
-   * Repeat this turn-based process until time runs out or all the participants "pass".
-   * If you need inspiration for feedback, consider taking a [few different hats for a spin](https://www.mindtools.com/pages/article/newTED_07.htm)!
-* Action items from the meeting will be turned into issues with a think big label, such as `Package:ThinkBIG!`.
+* Think Big 会议应该以不超过10-15人的小组进行(以鼓励参与)。
+* 议程模板可以通过在 Google Drive 搜索 `Think Big` 找到。
+* 将会议划分为模块，每个模块平均15分钟。一个完整的会议通常包含三个主题。
+* 会议开始时，在议程文件中寻找一个有序的讨论主题清单。这将是与会者的顺序。
+* 在同步会议中，有许多方法可以收集反馈。一个例子就是使用轮询、回合制结构，让每个人都有机会快速、有效地分享他们的想法。
+   * 主持人（通常是一位产品设计师）将通过快速回顾准则和启动15分钟的计时器来启动会议。
+   * 主持人通过传达他们需要的反馈类型来提出问题或设计。为了获得更真实的反应和反馈，解释越简短越好。
+   * 按照议程中的顺序，参与者轮流提出相关问题，并对设计提供单一的反馈。每次 "轮流 "的时间应限制在1分钟左右。
+   * 重复这一回合制过程，直到时间耗尽或所有参与者 “pass” 。
+   * 如果你需要灵感来获得反馈，可以考虑["戴上不同的帽子"](https://www.mindtools.com/pages/article/newTED_07.htm)!
+* 会议的行动项目将变成带有 `think big` 标签的问题，如 `Package:ThinkBIG!`。
 
-### General guidelines for presenters
+### 演讲者的一般准则
 
-* Add the discussion items to the think big agenda doc ahead of the meeting and make sure you link to relevant issues, research insights, and prototypes.
-* There are many ways to gather feedback in a sync-meeting, one example is to use a Round Robin turn-based structure that gives everyone on the call an opportunity to share their thoughts quickly and efficiently.
-   * Try to be quick, as each turn should only last around 1 minute. During your turn, you can do a few things (in order of priority):
-      * Ask questions to the facilitator.
-      * +1 or -1 someone else's feedback.
-      * Provide **one(1)** piece of feedback.
-      * "Pass" - you can skip your turn.
-      * You officially end your turn by calling out the name of who is next.
+* 在会议前将讨论项目添加到 think big 议程文件中，并确保链接到相关议题、研究见解和原型。
+* 在同步会议中，有许多方法可以收集反馈，其中一个例子就是使用回合制(Round Robin)结构，让每个人都有机会快速有效地分享自己的想法。
+   * 尽量快速，因为每个回合应该只持续1分钟左右。在你的回合中，你可以做一些事情(按优先顺序):
+      * 向主持人提出问题。
+      * 对别人的反馈意见+1或-1。
+      * 提供**一(1)**条反馈。
+      * “Pass”——你可以跳过你的回合。
+      * 叫出下一个人的名字，然后你你的回合正式结束。
 
-### Suggested discussion items
+### 建议的讨论项目
 
-#### Research insights review
+#### 研究洞察力回顾
 
-After completing Problem or Solution Validation, Product Managers and Product Designers walk away with robust data about our customers and their needs. The Think Big meeting is a perfect forum for sharing the plan, process, and results of those research efforts. 
+在完成问题或解决方案验证之后，产品经理和产品设计师会带着关于客户及其需求的可靠数据离开。Think Big会议是一个分享计划、过程和研究成果的完美论坛。 
 
-Upcoming research discussions involve the entire team and give everyone involved in creating a product or feature an opportunity to raise questions to ask the users.
+即将到来的研究讨论涉及整个团队，并给每个参与创建产品或功能的人提出问题的机会，提出要问用户的问题。
 
-Reviewing past research initiatives and discovered UX-Research Insights with the whole team helps everyone understand what our users need and how the features being built will help them.
+与整个团队一起回顾过去的研究计划和发现的 UX-Research Insights ，帮助大家了解我们的用户需要什么，以及正在建立的功能将如何帮助他们。
 
-#### Epic overview
+#### 史诗的概述
 
-Reviewing a new epic with the whole team helps everyone understand the large scale vision and the logical breakdown formed. Having this conversation opens opportunities for the team to collaborate on how to break down large work into MVC deliverables in a logical and efficient order.
+与整个团队一起审查一个新的史诗有助于每个人理解大规模的愿景和形成的逻辑分解。进行这样的对话为团队提供了合作的机会，让他们知道如何以合理有效的顺序将大型工作分解成 MVC 的可交付成果。
 
-### Feedback during a Think Big
+### 在 Think Big 中的反馈
 
-*  Feedback should revolve around the areas the presented has pointed out.
-*  Feedback can be either positive, negative, or neutral. Helping a presenter know what **is** working is as important as what could be improved.
-*  One piece of feedback can build off of another person's feedback.
+*  反馈应围绕所提出的领域进行。
+*  反馈可以是积极的、消极的或中性的。帮助演讲者了解什么是可行的，与什么是可以改进的同样重要。
+*  一个反馈可以建立在另一个人的反馈之上。
 
-Remember, the goal is to capture a quantity of specific feedback. While it may be tempting to start discussions around the design choices and feedback, this activity doesn't make for a proper forum. The designer will follow up with reviews asynchronously afterward in the issue(s) to start discussions and conversations around the feedback.
+记住，我们的目标是获取一定数量的特定反馈。虽然围绕设计选择和反馈展开讨论很有诱惑力，但这种活动并不适合作为一个合适的论坛。设计师将在问题之后进行异步评论，并围绕反馈展开讨论和对话。
 
 ## Think Small
 
-A think big meeting may be accompanied by a think small meeting. While the think big focuses on divergent thinking about a problem and the solution space, the think small portion focuses on convergent thinking to help define the smallest step that the team can take today. 
+Think Big 会议可能伴随着 Think Small 会议。当 Think Big 侧重于对问题和解决方案空间的发散性思考时，Think Small 部分侧重于聚合性思考，以帮助确定团队今天可以采取的最小步骤。
 
-At GitLab, a great outcome of a Think Small meeting is having a small issue that solves a customer problem and gets them closer to the larger outcome discussed in the Think Big.
+在 GitLab，Think Small 会议的一个伟大成果是有一个小问题解决了客户的问题，使他们更接近 Think Big 中讨论的更大的成果。
 
-### General guidelines for facilitators
+### 主持人的一般准则
 
-* Start the meeting by doing a recap from Think Big:
-   * Review the User Personas you have discussed during the Think Big. Shortly revisit their needs and challenges. 
-   * Revisit some ideas for solutions that you have previously discussed.
-   * Review design files that may already exist for the solution.
-* Think about and discuss what could the team do in the next milestone to test these ideas.
-* Discuss what can be the hardest part of the problem to solve in order to get ready for the possible roadblocks
-* Define and agree on the steps to take.
+* 在会议开始时，做一个Think Big的总结。
+   * 回顾你在 Think Big 中讨论过的用户角色。不久之后，重新审视他们的需求和挑战。 
+   * 审查一些你之前讨论过的解决方案的想法。
+   * 审查可能已经存在的解决方案的设计文件。
+* 考虑并讨论团队在下一个里程碑中可以做些什么来测试这些想法。
+* 讨论一下问题中最难解决的部分，以便为可能出现的障碍做好准备
+* 界定并商定要采取的步骤。

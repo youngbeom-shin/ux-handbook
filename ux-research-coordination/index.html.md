@@ -4,11 +4,6 @@ title: "UX Research Coordination at GitLab"
 description: "Learn about how Research Coordinators work at GitLab"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 ### How many studies can a coordinator support per milestone?

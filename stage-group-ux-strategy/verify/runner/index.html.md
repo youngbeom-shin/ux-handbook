@@ -1,53 +1,51 @@
 ---
 layout: handbook-page-toc
 title: "Runner UX"
-description: "The Runner UX team focuses on creating delightful experiences for you to run fast, scalable continuous integration pipelines on your on-premise infrastructure or the cloud."
+description: "Runner 用户体验团队专注于为您创造愉悦的体验，在您的内部基础设施或云上运行快速、可扩展的持续集成流水线。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+## 概述
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+[Runner group](https://about.gitlab.com/handbook/product/categories/#runner-group) 专注于为 DevOps 团队提供在当今和未来市场领先的计算平台上无缝工作的构建代理，以及在企业规模上消除 CI 构建队列操作复杂性的工具的所有功能。
 
-## Overview
+TODO: 添加 Runner 工作量和成熟度级别的列表
 
-The [Runner group](/handbook/product/categories/#runner-group) is focused on all the functionality with respect to offering DevOps teams a build agent that works seamlessly on today's and tomorrow's market-leading computing platforms and the tools to eliminate CI build fleet operational complexity at enterprise scale.
+- 关于我们的用户体验愿景和战略，请看[验证用户体验战略](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/verify/)。
+- 关于产品愿景和使命，请看[Runner Group](https://about.gitlab.com/handbook/engineering/development/ops/verify/runner/)页面。
+- 为了了解运营阶段的内容，请看一下[产品愿景](https://about.gitlab.com/direction/ops/)。
 
-TODO: Add list of Runner capabilities and maturity level
+### 常用链接
 
-- For of our UX Vision and Strategy, take a look at the [Verify UX Strategy](/handbook/engineering/ux/stage-group-ux-strategy/verify/).
-- For the product vision and mission, take a look at the [Runner Group](https://about.gitlab.com/handbook/engineering/development/ops/verify/runner/) page.
-- For an understanding of what the Ops stage ecapsulates, take a look at the [product vision](/direction/ops/).
+| **产品设计师** | [Gina Doyle](https://about.gitlab.com/company/team/#gdoyle) |
 
-### Common links
+| **产品设计经理** | [Rayana Verissimo](https://about.gitlab.com/company/team/#rayana) |
 
-| **UX DRI** | [Rayana Verissimo](/company/team/#rayana) |
-| **Slack Channel** | [`#g_runner`](https://gitlab.slack.com/app_redirect?channel=g_runner) and [`#ux_ci-cd`](https://gitlab.slack.com/app_redirect?channel=ux_ci-cd) |
-| **Youtube playlist** | [Runner UX on Unfiltered](https://youtube.com/playlist?list=PL05JrBw4t0Kr1B8ktQVCMZbUkZbP-0RuE) |
+| **Slack 频道** | [`#g_runner`](https://gitlab.slack.com/app_redirect?channel=g_runner) and [`#ux_ci-cd`](https://gitlab.slack.com/app_redirect?channel=ux_ci-cd) |
 
-## UX Vision Map - What's next
+| **Youtube 播放列表** | [Runner UX on Unfiltered](https://youtube.com/playlist?list=PL05JrBw4t0Kr1B8ktQVCMZbUkZbP-0RuE) |
 
-We are working on adding depth and enriching the Runner features. Our next big items are:
+## 用户体验愿景图 - 下一步是什么
 
-TODO: Add list of next big items
+我们正在努力增加深度和丰富 Runner 的功能。我们的下一个大项目是：
 
-## Our customer
+TODO: 添加下一个大项目的列表
 
-TODO: Add customer info
+## 我们的客户
 
-### Competitive analysis
+TODO: 添加客户信息
 
-TODO: Add link to competitive analysis issue/epic
+### 竞对分析
 
-## Our Jobs To Be Done (JTBD)
+TODO: 添加竞对分析议题/史诗的链接
 
-See all [Runner Jobs To Be Done](/handbook/engineering/development/ops/runner/jtbd/).
+## 我们的 Jobs To Be Done (JTBD)
 
-## How we work
+查看全部 [Runner Jobs To Be Done](https://about.gitlab.com/handbook/engineering/development/ops/runner/jtbd/).
 
-TODO: Add how we work
+## 我们如何工作
 
-## UX Performance indicators
+TODO: 添加我们如何工作
 
-TODO: Add link to Ops performance indicators
+## 用户体验性能指标
+
+TODO: 增加与运营绩效指标相关的链接

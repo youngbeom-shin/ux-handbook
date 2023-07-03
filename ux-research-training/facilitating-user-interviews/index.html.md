@@ -1,101 +1,113 @@
 ---
 layout: handbook-page-toc
-title: "Facilitating user interviews"
-description: "When you conduct an interview, it’s crucial to build rapport with your participants. People are more likely to talk and let their guard down if they feel relaxed."
+title: "推动用户访谈"
+description: "成功进行用户访谈的技巧和窍门."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+## 本页内容
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+用户访谈是更好地了解用户的期望、态度和行为的一个好方法。虽然与用户交谈通常很容易，但获得有意义的见解却不是小事。下面我们提供了采访前、采访中和采访后需要考虑的提示。
 
+## 访谈之前
 
-<!-- blank line -->
-{%youtube%}-6U5p6A4WWE{%endyoutube%}
+**设定一个明确的目标，准备一个半结构化的访谈指南**
 
-<!-- blank line -->
+用户访谈不仅仅是一次谈话。你必须有一个明确的目标，说明你想收集什么样的信息，包括不应该收集的信息或超出范围的信息。所有这些都会在一个叫做["讨论指南模板"](https://drive.google.com/drive/search?q=%22discussion%20guide%20template%22)的谷歌文档中列出。
 
-#### Video transcript
+讨论指南可以用不同的方式设置，但为了让信息自然流动，你会想使用半结构化的格式。在半结构式讨论指南中，你有一套固定的问题，但这些问题的顺序和深度可以根据对话的流程而变化。
 
-**Build rapport**
+**找一个做笔记的伙伴**
 
-When you conduct an interview, it’s crucial that you are able to build rapport with your participants. People are more likely to talk and let their guard down if they feel relaxed. The quality of the interview and the data you collect will suffer if you are unable to earn a  participant’s trust. While it might sound obvious you should: greet participants by their name, smile - since a positive mood is contagious, be friendly and initiate small talk before transitioning into your interview.
+理想情况下，与另一个团队成员合作，支持并帮助你做笔记，这样你就有更多的空间专注于谈话。你的伴侣还可以想到其他的问题，并提醒你忘记的问题。
 
-**Let the participant do most of the talking**
+我们有一个[笔记模板](https://drive.google.com/drive/search?ths=true&q=User%20interview%20notes%20%5Btemplate%5D)，要求你提供重点领域，代表你想在面试中收集的重要信息。记录者不必记录用户说的每句话;相反，帮助他们提前了解什么是需要关注的重点。
 
-You should avoid talking about your own opinions. If you share too much of your own experiences, you risk influencing your participant’s answers. They will be less forthcoming and open if they disagree with your opinion, this may lead them to skew their answers and you’ll end up with inaccurate data.
+**给自己一个好心情，放松一下**
 
-Silence during interviews is sometimes hard to deal with. As tempting as it is to talk during these awkward moments, it’s actually better if you give participants the opportunity to fill these gaps. 
+当用户感到放松时，他们更有可能交谈并放下戒心。你可以通过自己的放松和好心情来做到这一点。利用面试前的5-10分钟，断开与其他工作的联系，做一些深呼吸，走动一下，听你最喜欢的歌曲，跳舞，大笑......或做其他任何能让你为有机会与陌生人交谈和了解新事物而感到兴奋的事情。
 
-Silence is a natural and important part of user interviews, it allows participants to pause and gather their thoughts. It gives them the sense that you’re waiting for them to say something and it usually encourages them to speak their thoughts out loud. By jumping in and filling that gap, you might interrupt a participant’s thoughts and miss out on a key insight.
+**减少干扰**
 
-**Remain neutral while demonstrating empathy**
+关闭你电脑上的通知，把手机调成静音，并关闭任何其他可能分散你对用户注意力的干扰。
 
-Remaining neutral is something that takes most people a lot of practice. When a participant has experienced a difficult or frustrating situation, our natural instinct is to empathize with them. However, we need to act sympathetically without leading the participant or making assumptions. 
+## 在访谈过程中
 
-For example: Imagine a DevOps Engineer tells you that he or she is responsible for incident management. They’ve had a rough week. They’ve been frequently woken up in the middle of the night to attend to incidents. 
+**遵循对话的节奏**
 
-As an empathetic human being, your natural reaction may be something like: “That must have been really frustrating for you!” but that would be leading the participant. Instead, you could show some concern by asking the participant to elaborate: “Can you tell me more about that?”. 
+每一次面试都由不同的阶段组成，这些阶段很重要，因为它们有助于用户在面试中感到舒适。
 
-You could even try a question like “How did that make you feel?” but only if the user hasn’t already indicated how he or she felt. By asking a question that relates to the participants’ feelings, you can show that you are listening and that you empathize with their situation.
+<img src='interview_arch.png' ALT='Different phases of a user interview'>
 
-**Be an attentive listener**
+**介绍:** 通过自我介绍，告知他们采访的目的，并询问他们是否有任何问题，确保用户感到舒适。欢迎和友好是有帮助的，所以当用户加入会议时，要微笑并看着他们。避免坐立不安和交叉双臂。
 
-Turn off your desktop notifications. Close down the million tabs that you have open and leave your phone in another room. It is crucial that you are not distracted during an interview.
+**热身:** 有时，用户在开始时有点紧张，因为他们不知道到底会被问到什么，以及他们能如何帮助你。为了缓解紧张，可以从简单的问题开始（如他们的角色、公司、他们典型的一天是什么样子，或者他们为什么想从事目前的工作）。
 
-Make the participant feel heard by nodding, looking at them directly through your camera and offering acknowledgments like “Hmm” and “I see”. Always let participants finish their thoughts. Do not interrupt them unless absolutely necessary.
+**核心问题:** 这是你的访谈的主要部分，所以重要的是掌握好时间，以确保你能覆盖所有的重要问题。如果出现有趣的事情，可以发散一些，只要你仍然可以设法获得主要问题的答案就可以了。
 
-The better we listen, the better data we can gather. Attentive listening is really important because participants take time out of their day to talk to us. It’s just plain good manners to give them our full attention and make them feel like they’re being heard.
- 
-**Be curious**
+**轻松问答:** 最后留出时间来回答用户可能提出的任何问题，或者给他们时间提供任何额外的反馈。尤其是 GitLab 的用户，他们往往会有一些关于他们的经验的事情想和你分享，你可不要错过。不要忘记感谢用户的时间和反馈。
 
-Even if you think you know the answer to a question - ask the question anyway. It’s not about what we know, it’s about trying to understand what the participant has to say on the subject. We need to be mindful of our own biases and assumptions and remain curious. Also, don’t assume participants wouldn’t know the answer to a question or will provide a poor response. Ask the question any way and see what they have to say.
- 
-**Don’t lead users**
+## 访谈的技巧
 
-A common concern that most people have when conducting user interviews is unintentionally leading a participant. If a participant says something that is unclear to you or that you want to follow-up on and you can’t quite find the right words on the spot. A simple technique is simply to repeat back what the participant has said with some intonation. 
+下面的提示指的是热身和核心问题部分，因为在访谈中，你在这些方面花费的时间最多。
 
-For example, imagine a participant said:
+**积极倾听**
 
-> “The interface isn’t intuitive”
+大部分的访谈应该是用户的陈述。你应该是那个倾听的人。如果你听到自己说了很多，那就把这当成是一个信号，把你的意识带回到用户那里，让用户更多的讲述。积极倾听鼓励用户继续交谈，你可以通过点头、眼神交流和简短的肯定陈述(“好的”、“我明白了”、“嗯……”)向他们表明你在倾听他们的谈话。
 
-The facilitator could say:
+拥抱可能出现的沉默，因为这是让用户多思考和反思的机会。允许这些沉默的时刻发生，而不是用其他问题或提示来填补。在沉默期间，继续专心致志地看着用户。
 
-> “Isn’t intuitive?”
+**保持开放和中立**
 
-This is especially useful when a participant uses a buzzword like “intuitive”. It’s important to dig into what the participant actually means when they use a word like this. As mentioned earlier, we must be mindful of using our own assumptions to interpret the meaning of “intuitive”. This simple technique encourages participants to continue talking, without unintentionally influencing their response.
- 
-**How to keep a user interview on track**
+在听取用户意见时，不要急于做出回应，即便这只是你头脑中的反应。一旦你开始回应，你就不会再认真听了。即使他们强烈批评你的工作，而你可能把他们的反馈当成是针对你个人的，也要抵制解释、教育或推销任何东西的冲动。敞开心扉地听，并把解释留给以后。
 
-As a moderator, it’s your job to keep the interview on track. Most participants are thrilled to speak to someone from GitLab and are keen to share their pain points and concerns surrounding the product. However, sometimes participants digress from the topics you want to discuss. Veering off-topic isn’t necessarily a bad thing. It only becomes problematic when it goes on for too long and isn’t satisfying the study’s objectives.
+**通过同理心建立信任**
 
-When this happens, politely interrupt the participant and say: “this is really interesting but I’m conscious of the time we have together today. There’s some other things I’d like to cover with you. Why don’t we move on and return to this a little later on”.
- 
-**Capture consistent data**
+用户需要先信任采访者，然后才能开诚布公，特别是对于比较敏感的话题。与一个完全陌生的人建立信任，在一次30或45分钟的访谈中可能很难做到。面试官可以通过培养同理心来与用户建立信任。采访者可以通过几种不同的方式显示他们对用户的同理心。
 
-Let’s say you’ve conducted around 2-3 user interviews and, so far, you feel you haven’t begun to capture the data that you need. It’s very tempting to introduce new questions halfway through a study, but this will make synthesizing your data incredibly difficult.
+- 认真对待用户的问题，积极的进行倾听
+- 在回答用户的个人故事时，考虑你的语气。
+- 确保你的身体语言与你和用户的对话类型相匹配
+- 在对话中自然地提出后续问题
+- 把他们说的话反馈给他们，然后确认他们的解释是正确的。
 
-When we synthesize data, we are looking for patterns in responses, this can be done by making sure we ask the same set of questions to every participant. 
+**提出精彩的问题**
 
-Having a certain insight from a single person when the other participants did not get a chance to share their thoughts can create inconclusive results - we don’t know if the insight is only relevant to that one person or whether other participants share the same opinion.
+- 优先考虑开放性问题，即任何不能用是、否、或也许来回答的问题。争取让问题以 "什么"、"什么时候"、"谁"、"哪里"、"为什么 "或 "如何" 开头，以获得更多细节。不要问 "你是否......"，而要问 "你如何...... "或 "你怎样......"？
+- 另一种你想避免的 "是/否" 的问题是面向未来的问题，要求用户预测未来行为。这些问题通常以 "你会...... "开始。(例如，"你会买这个吗？"或 "你会使用这个吗？"）。面向未来的问题的答案很少是准确的。相反，你要了解未被满足的用户需求，以及提议的功能对这些需求的支持程度（或对用户是否有价值，为什么）。
+- 不要问用户通常做什么，而是问他们具体的情况，以收集更准确的数据，比如他们最近经历或做某事的时间。询问极端情况或关键事件也很有帮助，这些情况是非常积极或非常消极的。人们往往能更好地记住极端情况。
+- 不要满足于第一个答案，要问后续问题。问 "为什么 "是一个深入研究的好方法，特别是在描述一个特殊的案例或问题时。一个流行的方法是多次询问_为什么?_，以获得核心内容。通常到了第5次，你就能找到问题的原因了。
 
-Instead, take a break from interviewing participants, and take some time to review your discussion guide. Remember, you can always reach out to a UX Researcher for advice. If you amend or introduce new questions in your discussion guide, then you will need to restart the process of interviewing participants from the beginning.
- 
-**Speaking fast and slow**
+**避免诱导性问题**
 
-Participants come from a wide range of backgrounds and their experiences can shape the depth of their answers. Some participants will speed through questions while others will take longer to ponder the question before they reply. That’s completely natural.
+为了确保你不会只听到你想从用户那里听到的东西，要避免那些将用户的想法定格在某个特定答案上的问题。发现引导性问题的一个方法是评估你的问题是否已经提供了一个答案。例如，"你喜欢这个新功能吗？"这意味着用户必须喜欢它，或者这个功能有什么值得喜欢的地方。你可能认为用户会直接说他们不喜欢，但人们更难不顺从地说 "不"。相反，要更公开地问："你对这个新功能的感觉如何？"
 
-For participants who speak fast. Talking slowly to them can have a calming effect. It indicates that you are not anxious and that you have the time to listen to them.
+你可以通过一个不包含任何引导性问题的优秀的讨论指南来最小化风险。
 
-For participants who speak slowly. As long as they are giving you good answers, don’t hurry them. Putting pressure on them could mean you lose out on discovering key insights. 
- 
-**And finally, be mindful of the time**
+**鼓励展示和讲述**
 
-Usually, time goes by very fast during interviews. Be respectful of the participant’s time and ensure you end the user interview at the time you have agreed.
+人们说他们做的事情和他们实际做的事情之间有很大的区别，特别是如果他们经常做的事情，并且在某种程度上已经自动化。尽可能地要求用户向你展示他们是如何完成任务的，因为这比他们的口头表达提供了更多的细微差别。
+此外，只依赖口头反馈会导致你投射出自己的期望。这意味着，当用户在描述某些东西时，你会让你以前的经验影响你如何解释这些话。获得额外的视觉线索有助于你减少偏见。
 
-### Note Taking Template
+**观察非语言线索**
 
-[User interview note-taking template](https://docs.google.com/spreadsheets/d/1hnIqg-fnCYW2XKHR8RBsO3cYLSMEZy2xUKmbiUluAY0/edit#gid=0). Used to collect raw observations on the participant’s behavior and emotional feedback to the questions, as well as take notes. You can also create a new file directly from the template on Google Drive, by selecting it from one the default styles.
+留意面部表情，不要犹豫，询问他们（例如，为什么用户翻白眼或对某事傻笑）。肢体语言可以告诉你，一个人是否感到厌烦，是否会从一些鼓励性的话语中受益，例如 "这太有帮助了 "或 "这是很有趣的反馈"。同样，如果他们感到恼火（在这种情况下，你可能会跳过这个问题，并在接下来的采访中避免类似的问题）或兴奋/热情（在这种情况下，你可能会问更多的后续问题，以了解更多），你可以做出调整。
 
-Refer to the [Documenting research findings page](/handbook/engineering/ux/ux-research-training/documenting-research-findings/) for more information on how to create insights and leverage Dovetail. 
+**尽量减少做笔记**
+
+与其做详细的笔记，不如把重点放在提出精彩的问题和积极倾听上。如果你试图做所有的事情，访谈就更难管理了。记住，你有录音，甚至可能有专门的记录员，还有你的大脑（它也可以容纳相当多的信息）。
+
+请参考[记录研究结果页面](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/documenting-research-findings/)，了解更多关于如何创建见解和利用 Dovetail 的信息。
+
+## 访谈结束后
+
+**减压并休息一下**
+
+面试需要你的精力。如果你在一天内进行多场面试，确保留出足够的时间在中间休息。 
+
+**快速记下你获取到的内容**
+
+面试后花些时间写下你从谈话中获得的想法和收获。令人印象深刻的是，我们不记笔记就能记住这么多信息;然而，如果你等到今天结束或者下次面试之后，你会忘记很多东西。
+
+## 访谈培训
+
+如果你对提高你的访谈技巧感兴趣，可以考虑报名参加[Interview Carousel](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/interview-carousel/)，这是一个由用户体验研究团队运营的轻量级面试培训项目。 

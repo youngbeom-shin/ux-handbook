@@ -4,11 +4,6 @@ title: "Competitor Evaluations"
 description: "Competitor evaluations help us understand how a competing product addresses the Jobs-To-Be-Done that our product also tries to address."
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 
 ## 什么是竞争对手评估？

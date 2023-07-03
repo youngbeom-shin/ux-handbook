@@ -4,13 +4,8 @@ title: "Remote Design Sprint"
 description: "The purpose of a Remote Design Sprint is to create a shared understanding and a solution to a problem following a specific process over a set timeframe. Remote Design Sprint process is based on [Google's Design Sprint methodology](https://designsprintkit.withgoogle.com/methodology/overview), and adjusted using [AJ&Smart's Remote Design Sprint 2.0](https://drive.google.com/file/d/16bwrAqHVf8qxovd87Q7LdzqwAgy7a6Rx/view)."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
 
-- TOC
-{:toc .hidden-md .hidden-lg}
-
-## 远程设计Sprint
+## 远程设计 Sprint
 
 ### 目的
 
@@ -20,19 +15,19 @@ description: "The purpose of a Remote Design Sprint is to create a shared unders
 
 远程设计 Sprint 过程是基于 [谷歌的设计冲刺方法](https://designsprintkit.withgoogle.com/methodology/overview), 并使用 [AJ&Smart 的远程设计冲刺2.0](https://drive.google.com/file/d/16bwrAqHVf8qxovd87Q7LdzqwAgy7a6Rx/view) 进行调整，以符合原始设计 Sprint 的创建者 Jake Knapp 的要求。
 
-### 何时选择远程设计Sprint
+### 何时选择远程设计 Sprint
 
 当你需要为一个大问题快速找到设计方案或方向时，你应该使用远程设计 Sprint。有时，这些问题跨越了多个阶段或小组。 
 
-### 如何进行远程设计Sprint
+### 如何进行远程设计 Sprint
 
 当要求进行远程设计 Sprint 时，与产品设计经理密切合作，收集必要的信息，以帮助产品管理对工作进行优先排序。清楚 RDS 参与者所需要的工作范围、持续时间和水平，并包括远程设计 Sprint 将如何为即将到来的里程碑更快地获得结果。
 
-### 谁应该参加远程设计Sprint
+### 谁应该参加远程设计 Sprint
 
-你应该把远程设计冲刺团队保持在5-7人左右。超过这个人数，主持人就很难管理，而少于这个人数则会限制解决问题所需的背景和知识的多样性。RDS 的参与者应该是每个参与团队的对应人员的组合，例如UX（产品设计师，研究员，技术作家），开发，产品管理，销售，客户支持。越多样化越好，但要确保他们与正在进行的挑战有关，并且他们有时间做出有效的贡献。
+你应该把远程设计冲刺团队保持在 5-7 人左右。超过这个人数，主持人就很难管理，而少于这个人数则会限制解决问题所需的背景和知识的多样性。RDS 的参与者应该是每个参与团队的对应人员的组合，例如UX（产品设计师，研究员，技术作家），开发，产品管理，销售，客户支持。越多样化越好，但要确保他们与正在进行的挑战有关，并且他们有时间做出有效的贡献。
 
-### 远程设计Sprint方法
+### 远程设计 Sprint 方法
 
 您的团队的可用性和需要解决的问题的优先级将决定您的远程设计Sprint的压缩程度。同步会议可以让你更快地完成练习。但是，可以异步地完成它们。
 
@@ -110,10 +105,10 @@ RDS 参与者负责参与由主持人所列出的 RDS 活动。
 
 * 便利贴(可选)
     * 如果你喜欢用便利贴记笔记，那么一定要有一些便利贴。好处是，他们会让你感觉自己更像是在一个研讨会，并有助于想法的流动。缺点是你必须数字化那些你想与 Mural 团队分享的内容。
-### 过去的远程设计sprint
+### 过去的远程设计 sprint
 
 过去的远程设计sprint列表:
 
 * [Auto DevOps Design Sprint](https://gitlab.com/groups/gitlab-org/-/epics/5939) ([Mural board](https://app.mural.co/t/gitlab2474/m/gitlab2474/1620201743714/70e65c50a153e5547a7bf7b99ad893acbdd55c1c))
 * [Configure Stage - Design Sprint (Kubernetes management focus)] ([Mural board](https://app.mural.co/t/gitlab2474/m/gitlab2474/1587639805836/1cfa64d51c6637a2b66c820abd2f598e045beea2))
-
+* [Growth — User's dashboard design sprint](https://gitlab.com/gitlab-org/gitlab/-/issues/342877) ([Mural board](https://app.mural.co/t/gitlab2474/m/gitlab2474/1629791420445/20b1b35f49cbd0e4a11e929fe1e1cc66e48e40bb?sender=mlatin2224))

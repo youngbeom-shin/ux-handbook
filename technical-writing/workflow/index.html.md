@@ -4,11 +4,6 @@ title: "Technical Writing workflows"
 description: "This document explains the workflows of the Technical Writing team."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 This document explains the workflows of the Technical Writing team.
 

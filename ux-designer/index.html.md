@@ -4,12 +4,6 @@ title: Product Designer Workflow
 description: "Here are some guidelines to help Product Designers manage their work at GitLab"
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Planning and managing capacity
 
 Product Designers are responsible for work assignments in their stage group and at the UX department level. These include supporting community contributions to their stage group, contributing to the [Pajamas Design System](https://design.gitlab.com/), reviewing other designers work, and more (see [Priorities](#priorities)). Product Designers are responsible for working with their stage peers and managers, as needed, to manage their capacity and complete their work on target and on time. Here are some guidelines to help Product Designers manage their work:

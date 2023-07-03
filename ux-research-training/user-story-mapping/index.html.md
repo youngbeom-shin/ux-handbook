@@ -4,10 +4,6 @@ title: "User story mapping"
 description: "User Story mapping is a powerful way to visualize how people are using your product or feature holistically and organize individual stories to that journey."
 ---
 
-## On this page
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ### What is user story mapping?
 
 User Story mapping is a powerful way to visualize how people are using your 

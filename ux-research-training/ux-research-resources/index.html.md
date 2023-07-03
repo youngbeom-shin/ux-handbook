@@ -4,12 +4,6 @@ title: "UX Research Resources"
 description: "Tools we use, how to find existing research, tracking research findings, and more."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 
 ## Research tools we use
 Product Managers, Product Designers, and UX Researchers have access to the tools below.  If you need access to any of these tools, please [open an access request](/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/).

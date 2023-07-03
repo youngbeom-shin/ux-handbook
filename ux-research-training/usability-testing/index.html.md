@@ -4,12 +4,6 @@ title: "Usability testing"
 description: "Conducting usability testing at GitLab"
 ---
 
-## 本页内容
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 
 可用性测试是评估具有代表性用户的产品体验的过程。目的是观察用户如何完成一组任务并了解他们遇到的任何问题。由于用户执行任务的方式经常与预期不同，因此这种定性方法有助于揭示用户为何以他们的方式执行任务，包括了解他们的动机和需求。在 GitLab，可用性测试是[解决方案验证](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/solution-validation-and-methods/)的一部分。
 

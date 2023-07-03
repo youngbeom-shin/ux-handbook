@@ -5,143 +5,92 @@ description: "The goal of Pajamas is to be the single source of truth for the ro
 we use to build the GitLab product"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+## 什么是 Pajamas 设计系统？
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+它位于 [design.gitlab.com](https://design.gitlab.com/) ，Pajamas 的目标是成为强大的 UI 组件库的单一真理来源。
+的目标是成为强大的 UI 组件库的单一可信来源，我们用它来构建 GitLab 产品。
+我们用来构建 GitLab 产品，包括使用和实施指南。
 
-## What is the Pajamas Design System?
+作为一个全面实施的设计系统，Pajamas 包括：
 
-Located at [design.gitlab.com](https://design.gitlab.com/), the goal of Pajamas 
-is to be the single source of truth for the robust library of UI components that 
-we use to build the GitLab product, including usage and implementation guidelines.
+- **用户体验/设计理念:** GitLab 有我们工作时所遵循的强大的基本原则，而 Pajamas 反映了这些价值观，帮助我们讲述如何构建产品并将“我们的工作方式”传递给外部世界的故事。
+- **贡献指南:**我们清楚地概述了任何人如何通过议题创建/讨论、组件文档、设计或代码对GitLab做出贡献。
+- **组件文档：**每个组件都包括交互（它如何工作）、视觉（它看起来如何）和使用（你应该如何使用它）的指南。
+- **页面布局：**我们明确记录了页面布局选项和我们的网格实现。
+- **内容指南:**我们为我们的用户界面提供与 GitLab 品牌标准一致的发音和音调的指导。
+- **无障碍准则：** 作为一家公司，GitLab 坚信，每个人都应该能够做出贡献。每个人都应该能够做出贡献。这意味着我们必须始终考虑如何 设计和编码，以支持我们的用户，无论其能力如何。
+- **开发者资源：**我们的组件包括基于 Vue.js 的前端实时代码片段和开发者文档。我们的组件包括实时代码片段和基于 Vue.js 的前端的开发人员文档。
+- **设计师资源：**我们提供了一些工具，使为 GitLab 设计变得更容易;例如我们的Sketch 模式库。
 
-As a fully implemented design system, Pajamas includes:
+## 为什么 Pajamas 很重要？
 
-- **UX/Design Philosophy:** GitLab has strong foundational principles by which 
-we work, and Pajamas reflects those values&mdash;helping to tell the story of 
-how we build products and translating “our way of working” to the outside world.
-- **Contribution Guidelines:** We clearly outline how anyone can contribute to 
-GitLab through issue creation/discussions, component documentation, designs, 
-and/or code.
-- **Component Documentation:** Every component includes guidelines for Interaction 
-(how it works), Visual (how it looks), and Usage (how you should use it).
-- **Page Layouts:** We clearly document page layout options and our grid implementation.
-- **Content Guidelines:** We provide voice and tone guidance for our UI that 
-aligns with GitLab’s brand standards.
-- **Accessibility Guidelines:** As a company, GitLab strongly believes that 
-everyone should be able to contribute. That means we must always consider how to 
-design and code in an adaptive way to support our users, regardless of their abilities.
-- **Developer Resources:** Our components include live code snippets and developer 
-documentation for our Vue.js based front end.
-- **Designer Resources:** We provide tools to make designing for GitLab easier&mdash;for 
-example, our Sketch pattern library.
+Pajamas 使任何人都可以对 GitLab 做出贡献。它允许产品、研发、UX 设计和贡献者更无缝地合作，并更快地改进我们的产品。
 
-## Why is Pajamas important?
+**它是高效的**
 
-Pajamas enables anyone to contribute towards GitLab. It allows Product, Engineering, 
-UX Design, and Contributors to work together more seamlessly and improve our product faster.
+- 产品设计师可以花更多的时间解决问题，而花更少的时间设计(和重新设计) UI 组件。组件可以重用，使设计工作可伸缩，并确保我们的 UI 保持[DRY](https://deviq.com/don-t-repeat-yourself/)。
+- 工程师可以参考设计文件，使他们能够轻松地消除设计和代码之间的不一致，而无需产品设计师的协助。
+- 工程师们可以找到编码和开发指南，这将使他们能够写出更好的代码，并更有效地遵循既定的实践。
+- 产品经理可以根据可用性指南快速提出解决方案。
 
-**It’s efficient.**
-- Product Designers can spend more time solving problems and less time designing 
-(and redesigning) UI components. Components can be reused, making design efforts 
-scalable and ensuring our UI stays [DRY](https://deviq.com/don-t-repeat-yourself/).
-- Engineers can reference design documentation that enables them to easily eliminate 
-inconsistencies between design and code without assistance from a Product Designer.
-- Engineers can find coding and development guidelines which will enable them to 
-write better code and conform to set practices more efficiently.
-- Product Managers can quickly propose solutions that follow documented usability 
-guidelines.
+**它创造了一个有凝聚力的产品**
 
-**It creates a cohesive product.**
-- GitLab Teams can make fast, continuous feature additions within their iterative 
-groups, while still maintaining consistency with other product areas.
-- GitLab Users can get up to speed more quickly on new features, because they 
-don’t need to spend time learning how to interact with inconsistent UI patterns.
-- Product Designers can feel more confident that their designs are visually 
-appealing, consistent, and on brand.
-- It enables Marketing and UX to create consistent experiences across GitLab 
-through a shared visual language.
+- GitLab 团队可以在他们的迭代团队中快速、持续地添加特性，同时仍然保持与其他产品区域的一致性。
+- GitLab 用户可以更快地掌握新功能，因为他们不需要花时间学习如何与不一致的 UI 模式进行交互。
+- 产品设计师可以对他们的设计在视觉上的吸引力、一致性和品牌感到更加自信。
+- 它使营销和用户体验部门能够通过共享的视觉语言在整个 GitLab 中创造一致的体验。
 
-**It helps GitLab communicate.**
-- We can more quickly envision and align on the details of how a proposed solution 
-might be implemented.
-- It proves to our customers and Contributors that we have a deep commitment to 
-improving the experience of our UI.
-- It improves alignment between departments through shared principles and personas.
+**它可以帮助 GitLab 进行交流**
 
-## Who can contribute?
+- 我们可以更迅速地设想和调整拟议解决方案的实施细节。
+- 它向我们的客户和贡献者证明，我们对改善我们的用户界面的体验有着深刻的承诺。
+- 它通过共同的原则和角色来提高部门之间的一致性。
 
-Everyone can contribute! Pajamas is a living system, meaning it continually evolves 
-to support new UI components and also deprecate outdated components. For this 
-evolution to be scalable, we encourage everyone to [contribute](https://design.gitlab.com/contribute/get-started) 
-ideas, designs, code, and bug reports.
+## 谁可以做出贡献？
 
-External contributions can be particularly valuable, because GitLab Contributors 
-have experiences and insights we may not have considered.
+每个人都可以做出贡献! Pajamas 是一个有生命力的系统，这意味着它在不断发展，以支持新的 UI 组件，同时淘汰过时的组件。为了使这种进化具有可扩展性，我们鼓励每个人[贡献](https://design.gitlab.com/contribute/get-started)想法、设计、代码和错误报告。
 
-We have specific rules around [design review](/handbook/engineering/ux/pajamas-design-system/design-review/).
+外部贡献可能是特别有价值的，因为 GitLab 贡献者有我们可能没有考虑到的经验和见解。
 
-## When do we add a new component to Pajamas?
+我们有围绕[设计审查](https://about.gitlab.com/handbook/engineering/ux/pajamas-design-system/design-review/)的具体规则。
 
-Not every component used in the GitLab product must be codified as part of the 
-design system, because sometimes we create components that are relevant for only 
-a specific use case in a distinct product area.
+## 我们什么时候给 Pajamas 添加一个新的组件？
 
-To learn more about when to add a new component to Pajamas, read our [component 
-lifecycle documentation](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas).
+并非每一个在 GitLab 产品中使用的组件都必须被编入设计系统，因为有时我们创建的组件只与不同产品领域的特定用例有关。
 
-## What is the component development lifecycle?
+要了解更多关于何时向 Pajamas 添加新组件的信息，请阅读我们的[组件生命周期文档](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas)。
 
-The goal of this process is to make it easy to: submit new designs (including 
-documentation), propose changes to existing designs, and translate component 
-designs into built components.
+## 什么是组件开发生命周期？
 
-To learn more about the stages of the component lifecycle, read our [component 
-lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+此过程的目标是简化以下操作:提交新的设计(包括文档)、对现有设计提出更改建议，以及将组件设计转换为构建组件。
 
-## Beautifying the GitLab UI
+要了解更多关于组件生命周期的阶段，请阅读我们的[组件生命周期文档](https://design.gitlab.com/get-started/lifecycle)。
 
-A design system is only valuable if it’s used consistently throughout the product 
-it supports. Because Pajamas is a new design system, we have to catch up the 
-existing product to using “single source of truth” Pajamas components.
+## 美化GitLab的用户界面
 
-To ramp up implementation, we commit to ensuring that:
+一个设计系统只有在它所支持的产品中被一致使用时才有价值。因为 Pajamas 是一个新的设计系统，我们必须赶上现有产品使用 "单一可信来源" 的 Pajamas 组件。
 
-- Building New Components: Starting in the 11.11 milestone, each stage group 
-commits to completing one Vue.js component per release within gitlab-ui, including 
-correct functionality and styling. The Product Designers in each stage group 
-will collaborate with the PM and Frontend Engineering Manager to determine 
-which component and how to prioritize.
+为了加快实施，我们承诺确保：
 
-## How do we measure success?
+- 构建新组件:从 11.11 里程碑开始，每个阶段组承诺在 gitlab-ui 中每个版本完成一个 Vue.js 组件，包括正确的功能和样式。每个阶段小组的产品设计师将与 PM 和前端工程经理合作，以确定哪些组件以及如何优先排序。
 
-There are two avenues of success in relation to a design system: adoption and 
-goal achievement. Providing metrics for both adoption and goal achievement provides 
-the organization with a tangible way to measure the overall success of a design 
-system over time.
+## 我们如何衡量成功?
 
-### Adoption
+与设计系统有关的成功有两个途径：采用和目标实现。为采用和实现目标提供衡量标准，为组织提供了一种有形的方式来衡量设计系统在一段时间内的总体成功。
 
-The value of a design system is only fully realized when the organization ships 
-product that uses its parts. A commitment to adopt is essential to ensuring that 
-the design system achieves the goals highlighted in this document.
+### 采纳
 
-To measure adoption, we:
+设计系统的价值只有在组织交付使用其部件的产品时才能完全实现。承诺采用是确保设计系统实现本文件中强调的目标的关键。
 
-- Track the status of individual components.
-- TBD
+为了衡量采用情况，我们：
 
-### Goal Achievement
+- 追踪各个组件的状态。
+- 待补充
 
-As design system adoption increases, we are able to measure the success of our 
-goals, which can be evaluated regularly at major adoption milestones (0%, 25%, 
-50%, 75%, 100%).
+### 目标的实现
 
-- The UX team sends surveys to Product Designers and Front-End Engineers to gather 
-data related to the time they spend building unique components.
-- We pull reports to determine the number of `UI polish` and 
-[`UX debt`](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-and-ux-debt) 
-issues to track trends over time. A reduction in overall issues affirms consistency 
-throughout the product.
+随着设计系统采用率的提高，我们能够衡量我们的目标是否成功，可以在主要的采用里程碑（0%、25%、50%、75%、100%）定期进行评估。
+
+- UX 团队向产品设计师和前端工程师发送调查问卷，收集他们花费在构建独特组件上的时间相关数据。
+- 我们通过报告来确定 `UI 打磨` 和 `UX 债务` 标签的数量。
+[UX debt](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-and-ux-debt)议题，以跟踪一段时间内的趋势。总体问题的减少肯定了整个产品的一致性。

@@ -4,12 +4,6 @@ title: "Progressive Delivery UX"
 description: "The Progressive Delivery UX team is focused on all functionality with respect to Continuous Delivery and Progressive Delivery."
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Overview
 
 The [Progressive Delivery](/direction/ops/#progressive-delivery) (PD) group is focused on all the functionality with respect to Continuous Delivery and Progressive Delivery.

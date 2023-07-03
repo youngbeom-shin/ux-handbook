@@ -5,8 +5,6 @@ description: Using unmoderated usability testing at GitLab.
 ---
 
 
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 At GitLab, we use [UserTesting.com](https://www.usertesting.com/) for certain unmoderated testing for [solution validation](/handbook/engineering/ux/ux-research-training/solution-validation-and-methods/) and [Category Maturity Scorecard studies](/handbook/engineering/ux/category-maturity-scorecards/). Unmoderated usability testing allows us to obtain evaluative feedback from our users very quickly, thereby allowing us to iterate faster in a more independent manner that requires fewer resources.
 

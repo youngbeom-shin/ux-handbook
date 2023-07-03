@@ -1,51 +1,55 @@
 ---
 layout: handbook-page-toc
-title: "Documenting research findings"
-description: "The UX Research team uses Dovetail to document all the user insights discovered through GitLab’s UX research program"
+title: "记录研究结果"
+description: "用户体验研究团队使用 Dovetail 来记录通过 GitLab 的用户体验研究项目发现的所有用户洞察。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+### 记录研究结果
+用户体验研究团队使用 [Dovetail](https://about.gitlab.com/handbook/engineering/ux/dovetail/) 来记录所有通过 GitLab 的用户体验研究项目发现的用户洞察力。用户洞察可以通过用户访谈、可用性测试、调查、卡片分类、树状测试、客户对话等方法收集。
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+#### 为什么我们要在 Dovetail 中记录研究？
+用户体验研究团队[一直面临着挑战](https://about.gitlab.com/blog/2019/07/10/building-a-ux-research-insights-repository/)，要找到最好的方法来创建易于消化和访问的研究报告。当使用 pdf，谷歌文档，甚至 GitLab 议题本身的方法时，跟踪和分享研究结果是比较困难的。此外，由于我们经常被要求快速地回忆我们在之前的研究中所学到的信息，所以阅读旧的报告、查看几页采访记录或重新观看视频记录来找到我们需要的信息可能会很枯燥。这个问题更加复杂，因为我们不断地制作研究报告，而且信息的内容也在无限增长。
 
-### Documenting research findings
-The UX Research team uses [Dovetail](/handbook/engineering/ux/dovetail/) to document all the user insights discovered through GitLab’s UX research program. User insights can be gathered through methods such as user interviews, usability testing, surveys, card sorts, tree tests, customer conversations, and more.
+Dovetail 的目标是使研究结果可搜索、简洁、易于参考。
 
-#### Why do we document research in Dovetail?
-The UX Research team has [always faced challenges](https://about.gitlab.com/blog/2019/07/10/building-a-ux-research-insights-repository/) in finding the best way to create research reports that are easy to digest and access. When using methods such as PDFs, Google docs, and even GitLab CE issues themselves, it was difficult to track and share study findings. Additionally, since we are often asked to readily recall information we've learned in prior studies, it can be tedious to read through old reports, look through pages of interview notes, or rewatch video recordings to find the information we need. This problem compounds, since we are continuously producing research reports and the wealth of information grows infinitely.
+Dovetail 可以帮助您识别在您的研究数据中出现的模式和主题，并将其转化为洞察力陈述。你可以通过[标注和突出显示原始数据](https://about.gitlab.com/handbook/engineering/ux/dovetail/#highlight-and-tag-content)来分析和总结研究结果。如果可以的话，请使用标签突出显示 GitLab 的相关功能/领域（例如，"合并请求"）以及发表评论的人物（例如，"Sasha：软件开发者"）。
 
-The goal of Dovetail is to make research findings searchable, concise, and easy to reference.
+下一步是为你的研究[创建洞察力陈述](https://dovetailapp.com/help/the-basics/insights/)，并用你在标签、高亮部分和图表中收集的证据来支持他们。在您创建了您的洞察力陈述之后，您可以使用 Dovetail 的[“演示模式”](https://dovetailapp.com/help/the-basics/insights/#view-insights-as-a-presentation)功能与您的团队和任何其他利益相关者分享您的发现。最后一步是在最初的用户体验研究中提供一个可以直接跳转到 Dovetail 项目的链接。查看这个[项目](https://dovetailapp.com/projects/838a723f-d93b-48c1-9ade-8b2bd692152c/readme)(仅提供内部链接)，作为这些步骤的一个很好的例子。
 
-Dovetail helps you identify patterns and themes that emerge across your research data and turn those into insight statements. You can analyze and synthesize research findings by [tagging and highlighting raw data](/handbook/engineering/ux/dovetail/#highlight-and-tag-content). Tag highlights with the feature/area of GitLab to which the highlight relates (for example, ‘Merge Requests’) and the persona (for example, ‘Sasha: Software Developer’) who made the comment, if possible. The next step is to [create insight statements](https://dovetailapp.com/help/the-basics/insights/) for your study and support them with the evidence you gathered in the tags, highlights, and charts. After you've created your insight statements, you can use Dovetail's ["presentation mode"](https://dovetailapp.com/help/the-basics/insights/#view-insights-as-a-presentation) feature to share your findings with your team and any other stakeholders. The last step is to provide a link to the Dovetail project directly in the original UX Research issue. Check out this [project](https://dovetailapp.com/projects/838a723f-d93b-48c1-9ade-8b2bd692152c/readme) (internal link only) as a great example of these steps.
+#### 什么是洞察力? 
+当我们进行研究时，我们有一系列的[目标和目的](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/)来指导我们调查研究问题。无论我们是在评估一个功能的可用性，进行探索性访谈，还是收集定量数据，研究都很可能会产生一系列与用户体验相关的观察、模式和行为。这项研究的原始数据是研究结果。
 
-#### What is an insight? 
-When we conduct research studies, we have a set of [goals and objectives](/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/) that guide us as we investigate the research question. Whether we're evaluating the usability of a feature, conducting exploratory interviews, or gathering quantitative data, the research study will likely result in a list of observations, patterns, and behaviors related to a user's experience. The raw data from the study are the research findings.
+单是一份调查结果的列表，往往不足以充分沟通用户如何概念化一个主题，或者他们为什么会经历某种挣扎。通过收集[分析和总结](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/)的研究数据,我们能够提取 *见解* 连接这些点之间的相关问题,并提供了额外的一层的理解。
 
-A list of findings, alone, is often not enough to fully communicate how users conceptualize a topic or why they experienced a certain struggle. Through [analysis and synthesis](/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/) of the data gathered in a research study, we are able to distill *insights* that connect the dots between related concerns and provide an additional layer of understanding. 
+有两种类型的见解:[可操作性和信息性](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/research-insights/)。
 
-There are two types of insights: [Actionable and Informative](/handbook/engineering/ux/ux-research-training/research-insights/).
+  - 可操作的见解是需要采取行动来解决的发现。这包括UI更改、功能添加，甚至进行额外的研究。所有这些见解都需要进行研究的人创建一个 GitLab 议题，该议题记录可操作的见解以及解决方案的建议路径。
+  - 信息性见解是提供对主题的额外见解的发现，但不需要采取行动，因为没有什么要解决的。信息性见解只在 Dovetail 中创建。
 
-  - Actionable insights are findings that require an action to be taken to resolve them. These can include UI changes, feature additions, and even conducting additional research.  All of these insights require the person conducting the research to create a GitLab issue that documents the actionable insight along with a proposed path for a solution.
-  - Informative insights are findings that provide additional insights into topics, but for which no action needs to be taken as there is nothing to resolve. Informative insights are created only in Dovetail.
+这些综合的研究结果演变成一个有凝聚力的洞察力集合，使利益相关者能够做出明智的决定。我们用可以在讨论中参考的证据来支持每一个见解，通常是以视频剪辑、访谈引文或统计数据的形式。
 
-These synthesized research findings evolve into a cohesive collection of insights that enables stakeholders to make informed decisions. We support each insight with evidence that can be referenced during discussions, typically in the form of video clips, interview quotes, or statistical data.
+#### 那么，它是如何工作的呢？
+在每项研究结束时，研究的主持人负责在 Dovetail 中记录研究情况。第一步是在 Dovetail 中创建一个新的项目，在与你的产品阶段相对应的文件夹下（例如：管理）。项目主页应该提供一个回到原始用户体验研究议题的链接。如果你想提供更多的背景，你可以描述研究中使用的研究方法和你可能拥有的关于研究参与者的任何背景信息。
 
-#### So, how does it work?
-At the end of each research study, the study's moderator is responsible for documenting the research in Dovetail. The first step is to create a new project in Dovetail, under the folder that corresponds to your product stage (e.g. Manage). The project homepage should provide a link back to the original UX Research issue. If you'd like to provide more context, you can describe the research methodology used in the study and any background information you may have about the research participants.
+#### 创造有用的洞察力
+重要的是要记住，洞察力往往需要背景，因为人们可能会孤立地阅读它们，并误解它们。当你在做研究报告时，重要的是要把听众放在心上，想一想你希望他们从研究中了解到什么。
 
-#### Creating useful insights
-It's important to remember that insights often need context, since people may read them in isolation and misinterpret them. As you work on reporting on your study, it's important to keep the audience in mind and think about what you'd like them to learn from the study.
+例如，你可能会发现记录所有对 GitLab 界面进行研究的心得（无论大小）是很有用的，可以解释为什么界面会随着时间的推移而改变。这就形成了一个记录，说明为什么以前的设计决策不理想，这对与新的团队成员讨论很有帮助。另一方面，对于设计评估或带有原型的测试来说，集中记录回答总体研究问题的见解可能更有意义，因为这些研究通常会在实施前导致额外的设计迭代。
 
-For example, you may find it useful to document all insights (big or small) from studies conducted on the GitLab interface to provide an explanation for why the interface has changed over time. This creates a record of why previous design decisions were not ideal, which can be helpful for discussions with newer team members. On the other hand, for design evaluations or tests with prototypes, it may be more relevant to focus on documenting the insights that answer the overarching research questions, since these studies often result in additional design iterations before implementation.
+在这两种情况下，在项目描述的顶部增加一个简短的 "背景" 部分，并提供一个相关设计作品的链接，可以帮助读者更好地了解研究的背景。
 
-In either case, adding a brief "context" section at the top of the project description and providing a link to the relevant design artifact can help the reader better understand the background of the study.
+#### 利用 Dovetail 的洞察力
+通过 Dovetail 进行搜索是熟悉 GitLab 用户和了解已经进行的研究的一个好方法。你可以通过洞察力、亮点、标签和图表进行搜索和过滤，找到与任何阶段、功能和研究类型相关的研究。
 
-#### Leveraging Dovetail insights
-Searching through Dovetail is a great way to get acquainted with GitLab users and learn about studies that have already been conducted. You can search and filter through insights, highlights, tags, and charts to find the research that is relevant to any stage, feature, and type of research.
+另一个方法是，如果你想看一下各阶段正在进行的研究的更高层次的概述，可以通过 Dovetail 中的 [GitLab 工作区主页](https://dovetailapp.com/home/)来查看（仅限内部访问）。
 
-Another approach is to look through the [GitLab workspace homepage](https://dovetailapp.com/home/) in Dovetail if you'd like to see a higher-level overview of research being conducted across the stages (internal access only).
+无论你是想更好地了解一个用户角色，了解功能的使用案例，收集解决问题的背景，还是计划未来的研究调查，Dovetail 都有适合你的东西。
 
-Whether you're looking to better understand a user persona, learn about use cases for features, gather context for solving a problem, or plan a future research study, Dovetail has something for you.
+#### 整理多项研究的见解
+也被称为桌面研究或二次研究。有时候，总结和整理现有的研究是很有帮助的，可以在特定的研究之外对用户有一个更广泛的了解。从过去的研究中得到的启示可以作为未来研究的基础，并提供一个关于用户行为和心理模型的高水平概述。 
+
+要记录多项研究的见解，可在单个 Dovetail 项目中标记主题并创建见解。创建一个单独的 Dovetail 故事或项目来总结多项研究的结果。在 GitLab 中创建一个议题，概述整理后的研究项目。在该议题中，添加相关的 Dovetail 链接和相关问题。
+
+#### 对参与者的信息进行保密
+在Dovetail中记录研究心得或研究问题时，**极为重要的是不要披露** 参与者的任何[个人身份信息（PII）](https://dataprivacymanager.net/what-is-personally-identifiable-information-pii/)。这是为了确保他们的反馈和身份是保密的，只提供给需要知道的人。例如，在给会议记录加上标题、记下会议摘要或使用引用时，不要用全名来指代参与者，而应使用 "参与者[编号]"或相应的用户角色。
 

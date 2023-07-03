@@ -1,44 +1,39 @@
 ---
 layout: handbook-page-toc
 title: "Protect UX"
-description: "The Protect UX team’s goal is to provide the best experience in keeping your application safe after your code is in production"
+description: "Protect 用户体验团队的目标是在你的代码进入生产后，提供最好的体验来保持你的应用安全"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+### 概述
+Protect 阶段包括帮助保护你的应用程序和云基础设施的所有功能，使你有能力识别、编目、管理和补救威胁、漏洞和风险。有关我们的原则和即将推出的功能的更多信息，请参阅我们的[产品愿景](https://about.gitlab.com/direction/protect/)页面。
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+虽然 [Secure UX](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/secure/) 团队的目标是在部署你的代码之前提供最好的体验，采取先发制人的安全措施，但 Protect UX团队的目标是在你的代码进入生产后提供最好的体验，保持你的应用程序安全。请参阅 [Sec UX](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/sec/) 页面，了解更多关于我们团队以及我们两个团队如何合作的信息。
 
-### Overview
-The Protect stage includes all features that help you protect your applications and cloud infrastructure by giving you the ability to identify, catalogue, manage, and remediate threats, vulnerabilities, and risks. For more information about our principles and upcoming features, see our [Product Vision](/direction/protect/) page.
+### 用户
 
-While the [Secure UX](/handbook/engineering/ux/stage-group-ux-strategy/secure/) team’s goal is to provide the best experience in taking pre-emptive security measures before deploying your code, the Protect UX team’s goal is to provide the best experience in keeping your application safe after your code is in production. See the [Sec UX](/handbook/engineering/ux/stage-group-ux-strategy/sec/) page for more about our team and how our two teams work together.
+Protect 阶段组的用户负责通过主动和被动的措施维护公司环境和/或应用程序的安全性。他们更愿意主动地从手工、重复的任务中抽象化，并转向自动化。
 
-### User
+Protect 阶段组的用户负责风险缓解、补救、在时间表和运行簿中记录其流程、与其他团队合作、满足合规标准并执行根本原因分析。
 
-The Protect user is responsible for maintaining the security of their company’s environments and/or applications, through both proactive and reactive measures. They prefer to be proactive by abstracting away from manual, repetitive tasks and moving towards automation. 
+通常情况下，这些用户角色是：
 
-The Protect user is responsible for risk mitigation, remediation, documenting their processes in timelines and runbooks, collaborating with other teams, meeting compliance standards, and performing root cause analyses. 
+- [安全分析员](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#sam-security-analyst) 
+- SecOps 工程师
 
-Typically, these user roles are: 
+### 用户体验记分卡 
 
-- [Security Analyst](/handbook/marketing/strategic-marketing/roles-personas/#sam-security-analyst) 
-- SecOps Engineer
+主要的 待完成的工作 (JTBD): 
 
-### UX scorecards 
-
-Primary Jobs To Be Done (JTBD): 
-- When I make sure my company’s applications aren’t vulnerable to bad actors, I want to monitor the traffic coming to my application and detect the possibility of an attack (SQL injection attempts, XSS attempts, vulnerability scanners, etc) so I can know what parts of the application I need to protect better. 
-- When a bad actor successfully attacks my system, I want to look at the WAF logs to determine the attack vector (how they got in) so I can secure the weak points in my application.  
-- When I want to make sure I’m being successful in my role, I want to be able to confirm if a data breach happened, if any systems went down as a result of an attack, to what extent our security controls negatively impact uptime or throughput, and how much maintenance did the security controls require this quarter, so I can track and meet my OKRs.
-- When I want to avoid putting out constant fires, I want to be proactive by creating tooling to understand events occurring in my application so I can catch security risks before they can be compromised.
-- When our proactive security measures fail, I want to prioritize incident response so I can keep our environments (and our customer data) safe.
-- When I’m optimizing my company’s processes, I want to make sure everyone is updating the runbooks so I can make sure the team is being efficient and following the same validated procedures.
-- When I want to demonstrate that a procedure is in place, I want to invest time in compliance so I can help our Security Compliance team provide information and assurance about our information security program to customers and remove security as a barrier to adoption by them.
-- When I’m conducting incident management, I need to communicate well with other teams and know when to involve them so I can put fixes in place quickly and efficiently.                   |
+- 当我确保我公司的应用程序不容易受到坏人的攻击时，我想监控来到我的应用程序的流量，并检测攻击的可能性（SQL 注入尝试、XSS 尝试、漏洞扫描等），这样我就可以知道我需要更好地保护应用程序的哪些部分。
+- 当一个坏人成功地攻击了我的系统时，我希望查看 WAF 日志来确定攻击向量(它们是如何进入的)，这样我就可以保护应用程序中的弱点。 
+- 当我想确保我的角色是否是称职时，我希望能够确认是否发生了数据泄露，是否有任何系统因攻击而瘫痪，我们的安全控制在多大程度上对正常运行时间或吞吐量产生了负面影响，以及本季度安全控制需要多少维护，以便我能够跟踪并达到我的 OKR。
+- 当我想要避免经常发生的问题时，我希望通过创建工具来了解应用程序中发生的事件，从而在安全风险被破坏之前抓住它们。
+- 当我们的主动安全措施失败时，我希望优先考虑事件响应，这样才能保证我们的环境（和我们的客户数据）安全。
+- 当我在优化公司流程时，我希望确保每个人都在更新运行手册，这样我才能确保团队是高效的，并遵循相同的验证程序。
+- 当我想要证明一个程序已经到位时，我想要在合规方面投入时间，这样我就可以帮助我们的安全合规团队向客户提供信息和信息安全程序的保证，并消除安全作为他们采用该程序的障碍。
+- 当我进行事件管理时，我需要与其他团队进行良好的沟通，并知道何时让他们参与进来，这样我才能快速有效地将修复措施落实到位。                  
 
 
-### Secure & Protect UX
-For more information about the Protect team and how we overlap and collaborate with the Secure team, see the [Sec UX](/handbook/engineering/ux/stage-group-ux-strategy/sec/) page.
+### Secure & Protect 用户体验
+关于保护团队的更多信息，以及我们如何与安全团队重叠和合作，请参阅 [Sec UX](https://about.gitlab.com/handbook/engineering/ux/stage-group-ux-strategy/sec/) 页面。
 

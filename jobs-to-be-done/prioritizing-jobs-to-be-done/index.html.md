@@ -4,12 +4,6 @@ title: "Prioritizing Jobs To Be Done"
 description: "How to determine which JTBD to focus on"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ### 优先考虑 JTBD
 
 通常情况下，一个类别的JTBD数量之多，会使我们很难知道该把设计和工程的精力集中在哪里。确定哪些JTBD对我们的客户来说是最关键的，最好的方法是采用用户研究。确定最关键的JTBD有助于为未来的研究、设计和产品需求做计划。确定这一重点的最流行的方法之一是利用调查，因为它们增加了你对特定类别的JTBD的正确列表的信心。

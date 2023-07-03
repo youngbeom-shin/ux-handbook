@@ -1,38 +1,32 @@
 ---
 layout: handbook-page-toc
-title: "Problem Validation research for single-stage-group initiatives"
-description: "Problem Validation research for single-stage-group initiatives usually focuses on specific behaviors relating to one stage group, such as: How do Release Managers do their job?"
+title: "单阶段小组进行的问题验证研究"
+description: "单一阶段组进行的问题验证研究通常集中在与一个阶段组有关的具体行为上，例如：发布经理是如何做他们的工作的？"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+单一阶段组的研究举措涉及只与一个阶段组有关的具体行为，如 "发布经理如何做他们的工作？"。
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+要想开始，请遵循产品手册中概述的[初始步骤](https://about.gitlab.com/handbook/product-development-flow/#validation-phase-2-problem-validation) 。
 
-Single-stage-group research initiatives deal with specific behaviors that relate to only one stage group, such as "How do Release Managers do their job?".
+### 对于用户访谈
+1. 对于用户访谈产品经理起草[讨论指南](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/discussion-guide-user-interviews/)。当指南的初稿完成后，用户体验研究员会审查并提供反馈。
+1. 同时，用户体验研究员开始在 Qualtrics 中制作一个筛选问卷。
+1. 筛选问卷完成后，用户体验研究员将使用[用户体验研究项目](https://gitlab.com/gitlab-org/ux-research/)中的可用模板打开一个 `招聘请求` 议题，并将其分配给[研究协调员](https://about.gitlab.com/handbook/engineering/ux/ux-research-coordination/)。
+1. 研究协调员将执行一项检查，以确保你的筛选器将能够准确过滤到你确定为目标参与者的人。如果有多轮审查，协调员将暂停活动，直到您的筛选标准的不确定性得到解决。
+1. 默认情况下，产品经理负责领导（主持）与用户的问题验证访谈。如果研究的性质复杂，用户体验研究员可以自愿主持。用户体验研究员可以自行决定他们将主持哪些研究，以及他们将同步或异步观察哪些研究。
+1. 领导访谈的人，以及随后向研究协调员提供他们的Calendly链接的人，负责在[用户体验研究日历](gitlab.com_kieqv96j35mpt8bdkcbriu2qbg@group.calendar.google.com)上创建用户访谈邀请。我们鼓励其他感兴趣的人（产品设计师、产品经理、用户体验研究员等）订阅该日历。
+1. 访谈结束后，用户体验研究员更新 `招聘请求` 。研究协调员将在面试后的两个工作日内报销参与者的费用。
+1. 产品经理和用户体验研究员协同工作，综合数据并确定 Dovetail 的趋势，从而形成洞察力。
+1. 用户体验研究员更新 `问题验证研究` 的问题，并在 Dovetail 中加入研究结果的链接，如果适用，在关闭 `问题验证研究` 的议题之前，将其取消标记为 `机密`。
 
-To get started, follow the [initial steps](/handbook/product-development-flow/#validation-phase-2-problem-validation) outlined in the Product handbook.
-
-### For user interviews
-1. Product Manager drafts the [discussion guide](/handbook/engineering/ux/ux-research-training/discussion-guide-user-interviews/). When a first draft of the guide is complete, the UX Researcher reviews and provides feedback.
-1. Simultaneously, the UX Researcher begins crafting a screening survey in Qualtrics.
-1. After the screening survey is created, the UX Researcher will open a `Recruiting request` issue using the available template in the [UX Research project](https://gitlab.com/gitlab-org/ux-research/) and assign it to the [Research Coordinator](/handbook/engineering/ux/ux-research-coordination/).
-1. The Research Coordinator will perform a sense check to make sure your screener will catch the people you’ve identified as your target participants. If there are multiple rounds of review, the Coordinator will pause activities until uncertainty about your screening criteria has been resolved.
-1. By default, Product Managers are responsible for leading (moderating) problem validation interviews with users. If the study is complex in nature, a UX Researcher may volunteer to moderate. UX Researchers have the discretion to decide which research studies they will moderate and which they will observe synchronously or asynchronously.
-1. The person who is leading the interviews, and who has subsequently supplied their Calendly link to the Research Coordinator, is responsible for creating user interview invites on the UX Research calendar (`gitlab.com_kieqv96j35mpt8bdkcbriu2qbg@group.calendar.google.com`). Other interested parties (Product Designers, Product Managers, UX Researchers, etc) are encouraged to subscribe to the calendar.
-1. After the interviews are concluded, the UX Researcher updates the `Recruiting request`. The Research Coordinator will reimburse participants for their time within 2 business days of the interview.
-1. Product Manager and UX Researcher work collaboratively to synthesize the data and identify trends in Dovetail, resulting in insights.
-1. UX Researcher updates the `Problem validation research` issue with links to findings in Dovetail and, if applicable, unmarks the `Problem validation research` issue as `confidential` before closing it.
-
-### For surveys
-1. The Product Manager drafts the survey. When a first draft of the survey is complete, the UX Researcher reviews and provides feedback.
-1. The UX Researcher enters the survey in Qualtrics.
-1. Once the survey has been entered into Qualtrics, the UX Researcher opens a `Recruiting request` issue using the available template in the [UX Research project](https://gitlab.com/gitlab-org/ux-research/) and assigns it to the relevant [Research Coordinator](/handbook/engineering/ux/ux-research-coordination/).
-1. The Research Coordinator distributes the survey to a sample of participants.
-1. The UX Researcher, will review the responses received so far and amend the survey if necessary. The UX Researcher should advise the Research Coordinator when to continue recruitment.
-1. The UX Researcher will keep the Research Coordinator informed of the survey's response rate and must notify them when they plan to close the survey (to ensure recruitment doesn't continue on a survey that has been closed).
-1. After the survey is closed, the UX Researcher updates the `Recruiting request` issue. The Research Coordinator will reimburse selected participants for their time (payment occurs on Tuesdays and Thursdays).
-1. Product Manager and UX Researcher work collaboratively to synthesize the data and identify trends, resulting in insights.
-1. UX Researcher documents insights in Dovetail.
-1. UX Researcher updates the `Problem validation` research issue with links to findings in Dovetail and, if applicable, unmarks the `Problem validation` research issue as `confidential` before closing it.
+### 对于问卷
+1. 产品经理起草问卷报告。当问卷表的初稿完成后，用户体验研究员会审查并提供反馈。
+1. 用户体验研究员在 Qualtrics 中输入问卷。
+1. 一旦问卷被输入 Qualtrics，用户体验研究员使用[用户体验研究项目](https://gitlab.com/gitlab-org/ux-research/)中的可用模板打开一个 `招聘请求` 议题，并将其分配给相关的[研究协调员](https://about.gitlab.com/handbook/engineering/ux/ux-research-coordination/)。
+1. 研究协调员将问卷表分发给参与者的样本。
+1. 用户体验研究员将审查到目前为止收到的反馈，并在必要时修改问卷。用户体验研究员应建议研究协调员何时继续招聘。
+1. 用户体验研究员将通知研究协调员问卷的回复率，并必须在计划结束调查时通知他们(以确保招聘不会在已结束的调查中继续进行)。
+1. 调查结束后，用户体验研究员更新 `招聘请求` 议题。研究协调员将报销选定参与者的时间费用（支付发生在星期二和星期四）。
+1. 产品经理和用户体验研究员协同工作，综合数据并确定趋势，从而形成洞察力。
+1. 用户体验研究员在 Dovetail 中记录洞察力。
+1. 用户体验研究员更新 `问题验证` 研究议题，并在 Dovetail 中加入研究结果的链接，如果适用，在关闭 `问题验证` 研究议题前将其取消标记为 `机密`。

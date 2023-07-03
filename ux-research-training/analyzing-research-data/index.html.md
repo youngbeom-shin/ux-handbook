@@ -1,55 +1,95 @@
 ---
 layout: handbook-page-toc
-title: "Analyzing and synthesizing user research data"
-description: "Guidelines for how to set yourself up for successful analysis and synthesis while you're conducting research sessions and after your interviews are complete"
+title: "分析和总结用户研究数据"
+description: "这是一份在你进行研究会议时以及访谈结束后，如何为成功的分析和总结做准备的指南。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+完成一组访谈或可用性测试，并认为你的研究项目已经完成，这是很诱人的。但是，如果没有一个系统地回顾和理解你所收集的数据的过程，你就有可能把有价值的见解留在桌上。下一步是通过一个叫做 "研究总结" 的过程来放大和重新审视你的发现。
 
+总结帮助我们收集所有的信息，将其组织成模式和主题，并将这些主题转化为[洞察力](https://www.google.com/url?q=https://about.gitlab.com/handbook/engineering/ux/ux-research-training/documenting-research-findings/&sa=D&ust=1601935799118000&usg=AFQjCNGlp0X-d0NX0x-pCEkHVjZy6mmULQ)。在这个过程结束时，你应该对你要回答的核心研究问题有了答案，并有证据证明或反驳你的[假设](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/)。
 
-It can be tempting to complete a set of interviews or usability tests and think your research project is done. But without a process for systematically reviewing and making sense of the data you've collected, you risk leaving valuable insights on the table. The next step is to zoom out and look at your findings anew through a process called **research synthesis.**
+以下是一些指导原则，说明在你进行研究会议时和访谈结束后，如何为自己设置成功的分析和总结。关于如何确保你的数据是有用的信息，请查看这些提示（链接即将推出）。
 
-Synthesis helps us take all of the info we've collected, organize it into patterns and themes, and translate those themes into [insights](https://www.google.com/url?q=https://about.gitlab.com/handbook/engineering/ux/ux-research-training/documenting-research-findings/&sa=D&ust=1601935799118000&usg=AFQjCNGlp0X-d0NX0x-pCEkHVjZy6mmULQ). At the end of this process, you should have answers to the core research questions you set out to answer and evidence that proves or disproves your [hypotheses](/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/).
+### 在访谈中：收集数据并与你的团队讨论
+在捕捉研究数据时，你要重点记录**观察**（你看到用户做了什么，或者你看到/听到他们遇到了什么问题）和**引语**（逐字记录的用户实际说的话，用引号表示）。你可能还想记下早期的**解释**（你认为用户所说或所做的事情意味着什么）和可能的**解决方案**（解决所发现问题的具体方法）。
 
-Below are some guidelines for how to set yourself up for successful analysis and synthesis while you're conducting research sessions and after your interviews are complete. For information on how to ensure your data is useful, check out these tips (link coming soon).
+虽然大部分的研究综合工作是在你完成所有的数据收集后进行的，但分析工作可以马上开始。在每个用户访谈结束后，与观察该环节的队友们一起汇报哪些内容是突出的。
 
-#### During interviews: Gather data and discuss with your team
-While capturing your research data, you'll focus on documenting **observations** (what you saw the user do, or what problems you saw/heard them experience) and **quotes** (the verbatim of what the user actually said, in quotation marks). You may also want to make notes on early **interpretations** (what you believe something a user said or did means) and possible **solutions** (concrete ways to solve the problems identified).
+趁着会议的新鲜感，捕捉这些洞察力，使整个过程更快、更容易。以小组的形式讨论观察结果也会带来更多深思熟虑的分析，减少[认知偏差](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)，并帮助你的团队对你正在调查的问题空间形成强有力的共识。
 
-While the bulk of research synthesis happens after you've finished gathering all your data, analysis can start right away. After every user interview, debrief with your teammates who observed the session about what stood out.
+### 访谈后：寻找模式和主题
 
-Capturing these insights while the session is fresh in your minds makes the overall process much faster and easier. Discussing observations as a group also leads to more thoughtful analysis, reduces [cognitive bias](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18), and helps your team form a strong shared understanding of the problem space you're investigating.
+**整合用户访谈数据**
 
+亲和图是在想法、引语或观察的集合中寻找主题的一种方法。这种方法可以帮助你快速地从定性数据中得出洞察力，并进行合作。传统上，这种方法是在空白的大墙上或白板上用便签来完成的。在 GitLab，我们使用一个叫做 [MURAL](https://mural.co/) 的工具来远程重现这种体验。
 
-#### After interviews: Find patterns and themes
+我们使用 Dovetail 来捕捉每个参与者会议的笔记，并存储整合数据后得出的见解。当你记录研究会议的数据时，请删除任何[个人识别信息](https://about.gitlab.com/handbook/support/workflows/pii_removal_requests.html#overview)或 PII（如名字和姓氏）。此外，Dovetail 还允许你在平台上[突出显示和标记](https://about.gitlab.com/handbook/engineering/ux/dovetail/#highlight-and-tag-content)你的笔记。
 
-**Synthesizing user interview data**
-Affinity diagramming is one way of finding themes in a collection of ideas, quotes, or observations. This method helps you draw out insights from qualitative data quickly and collaboratively. This is traditionally done in person with sticky notes on a large blank wall or whiteboard. At GitLab, we use a tool called [MURAL](https://mural.co/) to recreate this experience remotely.
+除了 Dovetail 之外，当你刚刚学习如何综合和分析你的数据时，MURAL 是一个非常有用的工具。
 
-We use Dovetail to capture notes from each participant session and to store the insights which result from synthesizing the data. Additionally, Dovetail has the option of allowing you to [highlight and tag](/handbook/engineering/ux/dovetail/#highlight-and-tag-content) your notes within the platform. However, MURAL is helpful when you are just learning how to synthesize and analyze your data.
+**1. 把你的笔记放到 MURAL 中**
 
-**1. Put your notes into MURAL**
-Don’t just copy your notes word for word into a sticky note in MURAL. Read through them and choose the most salient information to create a sticky note from. Best practice is to use one piece of information per sticky note. Have each contributor take one participant to create sticky notes for. At the end of this step, you should have groups of sticky notes for each participant.
+不要只是把你的笔记一个字一个字地复制到 MURAL 中的便条上。仔细阅读并选择最突出的信息来创建一个便条。最好的做法是每张便条使用一条信息。让每一位贡献者选择一位参与者来创建便条。在这一步骤结束时，你应该为每个参与者准备一组便条。
 
-**2. Cluster the data into themes**
-Once all your individual notes are in MURAL, begin by grouping similar stickies together. The themes you use should tie directly to your research hypotheses, research goals, and objectives. You can copy these right into your MURAL board so you can keep them top-of-mind while you group individual findings into broader themes. You might also reference the questions listed in this article to ask yourself and your team throughout the synthesis process.
-Here are some potential ways to group findings:
+**2. 将数据聚类为主题**
 
-* **Equivalence:** "This finding is the same as this other finding."
+一旦你所有的个人笔记都在 MURAL 中，就开始将类似的贴纸分组。你使用的主题应该与你的研究假设、研究目标和目的直接挂钩。你可以把这些内容直接复制到你的 MURAL 板上，这样你就可以在把个别发现归入更广泛的主题时，把它们放在心上。你也可以参考本文中列出的问题，在整个综合过程中向自己和团队提问。
+这里有一些潜在的方法来分组研究结果：
 
-* **Association:** Around the same area of the experience being analyzed, or "This finding is best considered at the same time as this other finding."
+* **等同性:** "这个发现和另一个发现是一样的。"
 
-* **Hierarchy:** Larger thematic trends which several findings support, or "This finding is an example of this other finding."
-As your groupings start to come together, use a text heading to write titles or catch phrases that summarize each cluster of similar stickies.
+* **协同:** 围绕着被分析的经验的同一领域，或"这个发现最好与其他发现同时考虑"。
 
-**3. Discuss and revise as needed**
-Organize and reorganize your findings into meaningful categories until everyone seems to be in agreement. See if you need to adjust any of your themes before moving onto the next step.
+* **层次结构:** 几个研究结果支持的较大的主题趋势，或 "这个研究结果是其他研究结果的一个例子"。
+当你的分组开始聚集在一起时，使用一个文本标题来写标题或短语，以总结每个类似贴纸的集群。
 
-You also need to check for possible bias. Try “[arguing the other side](https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9).” In other words, build a case from your research *against* your key insights to see if they still stand up.
+**3. 讨论并根据需要进行修改**
 
-**4. Distill findings into insights**
-Once you're happy with your groupings, distill your findings into [insight statements](http://www.designkit.org/methods/62) and put them in your [Dovetail](/handbook/engineering/ux/dovetail/#getting-started-with-dovetail) project. Insights you uncover should come from multiple sources in your research. Depending on how much research you did, the number of insights you uncover may vary. There are two types of insights, [actionable and informative](/handbook/engineering/ux/ux-research-training/research-insights/). 
+将你的发现整理成有意义的类别，直到每个人似乎都达成一致。在进入下一步之前，看看是否需要调整主题。
+
+你还需要检查是否存在偏见。[与另一方争论](https://uxdesign.cc/how-to-look-at-evidence-and-not-translate-it-into-your-own-agenda-9860171b7ba9)。换句话说，根据你的研究和你的关键观点建立一个案例，看看它们是否仍然站得住。
+
+**4. 将发现提炼成见解**
+
+一旦你对分组感到满意，将你的发现提炼成[洞察力陈述](http://www.designkit.org/methods/62)，并将它们放入你的[Dovetail](https://about.gitlab.com/handbook/engineering/ux/dovetail/#getting-started-with-dovetail)项目中。你发现的见解应该来自你研究中的多个来源。根据你做了多少研究，你发现的见解的数量可能会有所不同。有两种类型的见解，[可操作的和信息丰富的](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/research-insights/)。
+ 
+### 利用 Dovetail 进行研究总结
+
+[本视频](https://www.youtube.com/watch?v=mUCx_3HhRn0)（仅限团队成员）展示了上述这个多步骤的过程，即如何将已转入 Dovetail 和 MURAL 的信息，以便您能够识别、分析和发布新的研究见解。
+
+#### 在 Dovetail 中标记
+
+现在，你可以使用 Dovetail 来创建标签，帮助将你的用户数据提炼成[可操作的见解](https://about.gitlab.com/handbook/engineering/ux/ux-research-training/research-insights/#actionable-insights)的证据片断。虽然这很有用，但这也可能是有问题的。原因就在这里：
+
+- 这些标签不会从一个项目延续到另一个项目，因此很难在不同的项目中识别类似的见解。
+- 标签的标示方式并不一致。标签可以被标记为任何东西。这导致了大量的类似主题的标签，这使得在不同的项目中，很难通过洞察力进行搜索
+
+为了在 Dovetail 内正确管理研究洞察力，在创建您自己的标签时，有一些该做的和不该做的。
+
+##### 该做的
+
+-  先阅读所有内容
+    - 在标记你的数据之前，阅读你所有的记录和笔记，并观看所有的录音。在阅读了所有的数据后，所有的东西都在你的脑海中焕然一新，这将有助于创建有用和有意义的标签。
+- 使你的标签与你的研究假设相一致
+    - 每个标签的目标是将你的用户数据与你的研究目标联系起来。每个标签都应该与你的一个研究假设直接相关。
+- 要有一致性
+    - 当你确定你将使用什么标签时，请坚持使用它们。我们的标签越一致，就越容易在数据中找到趋势。
+- 少即是多
+    - 有5个你有信心的标签比有10个你没有信心的标签要好。作为一项指导原则，尽量将大多数研究限制在15个标签之内。
+- 想一想它们将如何被使用
+    - 假设有一天，除你自己之外的其他人会使用你的标签来识别类似的洞察力。一定要让他们很容易做到这一点。
+
+##### 不该做的
+
+- 不要使用完整的句子
+    - 一个标签应该是1-3个字的长度。使用多个不同的标签会比一个较长的标签产生更多有用的洞察力。
+- 不要使用表情符号 
+    - 表情符号自然比文字更模糊，而标签应该尽可能清晰。
+-   例如:
+
+| 不好的 | 好的  |
+| ----- | ------ |
+| `用户对导航感到困惑，无法完成任务.`   | `困惑`, `导航失败`, `任务失败` |
+| `🆕 功能是传达正在解决的问题和对新用户的价值` | `积极价值`  |
+| `对一些用户来说缺乏明确性` | `困惑`   |

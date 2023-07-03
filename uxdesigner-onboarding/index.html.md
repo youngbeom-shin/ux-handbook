@@ -1,115 +1,108 @@
 ---
 layout: handbook-page-toc
-title: "Product Designer Onboarding"
-description: "Awesome! You're about to become a GitLab Product Designer! Below you'll find everything you need to start designing."
+title: "产品设计师 Onboarding"
+description: "太棒了!你即将成为 GitLab 的产品设计师!下面你将找到开始设计所需的一切。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+## 开始为 GitLab 设计
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+太棒了!你即将成为 GitLab 的产品设计师!
+下面你将找到开始设计所需的一切。
+如果缺少什么，[请提出改进](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/engineering/ux/uxdesigner-onboarding/index.html.md)(与 GitLab 的所有内容一样)!
 
-## Getting started designing for GitLab
+在开始时你会感到非常缓慢，这是完全正常的。有很多信息一下子就被抛到了你面前。在 GitLab 工作的前几周，你的目标只是倾听、吸收，并尽可能多地提问。
 
-Awesome! You're about to become a GitLab Product Designer!
-Below you'll find everything you need to start designing.
-If something is missing, [add it](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/engineering/ux/uxdesigner-onboarding/index.html.md) (as goes with everything at GitLab)!
+如果你还没有，请阅读 [UX 手册](https:about.gitlab.com/handbook/engineering/ux)的主要部分和 [产品设计师](https:about.gitlab.com/handbook/engineering/ux/product-designer/) 部分。阅读[设计项目 README](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md)和它的[贡献指南][gitlab-design-contrib]也将帮助我们了解如何工作的所有细节。
 
-You will feel very slow in the beginning, which is perfectly normal. There is a lot of information being thrown at you all at once. Your goal for the first few weeks here at GitLab is simply to listen, absorb, and ask as many questions as possible. 
+## UX 伙伴
 
-If you haven't already, please read the main section of the [UX Handbook](/handbook/engineering/ux) and the [Product Designer](/handbook/engineering/ux/ux-designer/) section. Reading the [Design project README](https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md) and its [contribution guidelines][gitlab-design-contrib] will also help fill in all the details of how we work.
+你将被分配一个用户体验伙伴，以帮助你找到你的工作方式。你的伙伴会在第二周与你安排一次咖啡聊天。为了让你尽快适应，以便你能开始为团队的工作做出贡献，并改进 GitLab 这个产品，你将被分配到一个 onboarding 议题，提供一些关于如何浏览团队资源和公司资源的提示。
 
-## UX Buddy
+你的用户体验伙伴也将分配到你身边的前几个里程碑议题。尽管你应该随时向任何人寻求帮助，但你的好友是一个你可以专门依靠的人，你可以向他寻求帮助和指导。
 
-You will be assigned a UX Buddy to help you find your way around. Your buddy will schedule a coffee chat with you during your second week. To get you up to speed so you can start contributing to the team efforts and improving GitLab as a product, you will be assigned to an onboarding issue that provides a few tips on how to navigate around the team resources as well as company resources.
+### UX 伙伴的职责
 
-Your UX Buddy will also be assigned to your first few milestones issues alongside you. While you should feel free to ask anyone for help at anytime, your buddy is a dedicated person you can rely on for help and guidance.
+作为一个伙伴，你将负责在 [GitLab Design][gitlab-design] 项目下为新加入者创建一个 onboarding 议题。你可以使用 "UX Onboarding" 议题模板。你的部分职责是在部门内引导新的设计者，并在必要时促进阶段组内的顺利升级。我们创建了一个[带有议程模板的谷歌文档](https://drive.google.com/drive/u/1/search?q=UX%20Buddy%20(template))，你可以用来组织你的1:1会议。你应该在你和新加入者觉得合适的时候自由安排这些会议。在我们的手册中阅读更多关于[一般伙伴责任](https:about.gitlab.com/handbook/people-group/general-onboarding/onboarding-buddies/)。
 
-### UX buddy responsibilities
+## 设计工具
 
-As a buddy, you will be responsible for creating an onboarding issue for the new joiner under the [GitLab Design][gitlab-design] project. You can use the `UX Onboarding` issue template for that. Part of your responsibility is also to guide the new desiger around the department, as well as facilitating a smooth ramp-up within the stage group whenever necessary. We created a [Google Docs with a template agenda](https://docs.google.com/document/d/1sg4EtHBGTugxu-u2NSoH9LfE4zXT1ru1-Z3EiIXlohY) you can use to structure your 1:1s. You should feel free to structure those calls whenever you and the new joiner feel like it. Read more about [general buddy responsibilities](/handbook/people-group/general-onboarding/onboarding-buddies/) in our handbook.
+每个产品设计师都可以获得[Figma](https://www.figma.com/)的授权。其他需要的工具包括但不限于:[Framer](https://framer.com/)， [Origami by Facebook](http://origami.design/)，
+[Principle for Mac](http://principleformac.com/)，以及HTML/CSS/JS原型。
 
-## Design tools
+您的管理人员将能够向您提供设计工具licenses。当需要不同的工具时，通过在我们的文件中提出请求
+[organization issue tracker](https://gitlab.com/gitlab-com/organization/issues)。
 
-Every Product Designer gets a license to [Figma](https://www.figma.com/). Other tools as needed can include,
-but are not limited to: [Framer](https://framer.com/), [Origami by Facebook](http://origami.design/),
-[Principle for Mac](http://principleformac.com/), and HTML/CSS/JS prototyping.
+作为你日常工作的一部分，你将在[GitLab Design Repository][gitlab-design]工作。我们在这里存放设计文件，并与开发者分享它们，以便于实施开发。关于如何工作和为这个仓库做贡献的细节，请阅读[贡献指南][gitlab-design-contrib]。 
 
-Your manager will be able to provide you with designer tool licenses. When in need of different tools, request those by filing an issue on our
-[organization issue tracker](https://gitlab.com/gitlab-com/organization/issues).
+## GitLab 的特性
 
-As part of your day-to-day, you will be working in the [GitLab Design Repository][gitlab-design]. This is where we host design files and share them with developers for implementation. For details on how to work and contribute to this repo, read the [contribution guidelines][gitlab-design-contrib]. 
+作为一名产品设计师，对 GitLab 的[功能](https:about.gitlab.com/features/)有一个全面的了解是非常重要的，即使在你所分配的阶段组之外。此外，你应该了解产品的[方向](https:about.gitlab.com/direction/)，特别是在你的产品阶段组中。
 
-## GitLab features
+## GitLab 的版本和级别
 
-As a Product Designer, it's important to have a holistic understanding of GitLab [features](/features/), even outside of your assigned stage group. Additionally, you should understand the product [direction](/direction/), particularly within your product stage group.
+GitLab 是建立在一个开放的核心模型之上的。这意味着有两个版本的 GitLab。社区版（CE）和企业版（EE）。
 
-## GitLab versions and tiers
+GitLab 社区版是开源的，拥有 MIT Expat 许可证。GitLab 企业版建立在社区版的基础上：它使用相同的核心，但在此基础上增加了额外的特性和功能。这是在一个专有许可证下。
 
-GitLab is built on an open core model. That means there are two versions of GitLab: Community Edition (CE) and Enterprise Edition (EE).
+熟悉 CE 和 EE 之间的区别是一个非常棒的想法。作为 GitLab 的一名产品设计师，您可以访问 EE 中的所有功能。[CE 和 EE 中的级别在这里](https:about.gitlab.com/handbook/marketing/strategic-marketing/tiers/)。查看[特性比较](https:about.gitlab.com/pricing/self-managed/feature-comparison/)以了解每一级别中可用的特性。
 
-GitLab Community Edition is open source, with an MIT Expat license. GitLab Enterprise Edition is built on top of Community Edition: it uses the same core, but adds additional features and functionality on top of that. This is under a proprietary license.
+## GitLab 的设计
 
-It is a good idea to familiarize yourself with the differences between CE and EE. As a Product Designer here at GitLab, you will have access to all the features within EE. The [tiers within CE and EE are listed here](/handbook/marketing/strategic-marketing/tiers/). Review the [feature comparison](/pricing/self-managed/feature-comparison/) to understand the features available within each tier.
+熟悉这些设计资源。随着UI和文档的成熟，我们将继续将其巩固为所有产品设计的SSOT。
 
-## GitLab design
+* GitLab Figma UI Kit 用于建立高保真原型，并为实现 Pajamas 提供设计规范。它存在于 [GitLab Design][gitlab-design] 项目中，由两个文件组成： **pattern library** 和 **instance sheet**。通过阅读 [Figma UI Kit 文档](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md)了解如何使用和更新它。
 
-Familiarize yourself with these design resources. As the UI and documentation mature we will continue to solidify these as the SSOT for all product design.
+* [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) 是用 [Vue](https://vuejs.org/) 构建出来的组件的仓库。([查看该项目](https://gitlab.com/gitlab-org/gitlab-ui))
 
-* The GitLab Figma UI Kit is used to build high-fidelity mockups and provide design specs to implement Pajamas. It lives in the [GitLab Design][gitlab-design] project and is made up of two files, the **pattern library** and the **instance sheet**. Learn how to use and update it in by reading the [Figma UI Kit documentation](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/blob/main/doc/pajamas-ui-kit.md).
+* [Pajamas](https://design.gitlab.com) 是一个参考文档、交互示例和设计规范的设计系统。([查看项目](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
 
-* [GitLab UI](https://gitlab-org.gitlab.io/gitlab-ui/) is the repository that has the components built out in [Vue](https://vuejs.org/). ([View the project](https://gitlab.com/gitlab-org/gitlab-ui))
+## 创建议题
+随着你开始适应下来，你很可能需要创建或更新一个议题。
 
-* [Pajamas](https://design.gitlab.com) is the design system where documentation, interactive examples and design specs are referenced. ([View the project](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com))
+创建一个议题的工作流程：
 
-## Create issues
-As you begin to get settled in, you will most likely need to create or update an issue.
+* 访问 [GitLab.org 群组](https://gitlab.com/groups/gitlab-org/-/issues) 的议题列表。
 
-Workflow for creating an issue:
+* 搜索以确保这个议题不存在。
 
-* Visit the issues list from the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues).
+* 导航到你想添加议题的项目，点击**新建议题**。
 
-* Search to make sure the issue doesn't already exist.
+* 一般来说，大多数议题开始于 [CE 项目](https://gitlab.com/gitlab-org/gitlab-ce)。如果它只涉及一个 EE 特性，那么它应该归入 [EE 项目](https://gitlab.com/gitlab-org/gitlab-ee)。如果有疑问，就继续把它放在 CE 中开始，它也可以在以后被移动到 EE。
 
-* Navigate to the project you want to add the issue to, click **New Issue**.
+* 从**选择一个模板**的下拉菜单中选择一个模板，找到下面的**典型的议题**类型。
 
-* In general, most issues start in the [CE project](https://gitlab.com/gitlab-org/gitlab-ce). If it involves an EE only feature, it should go in the [EE project](https://gitlab.com/gitlab-org/gitlab-ee). If in doubt, go ahead and place it in CE to start, it can always be moved at a later time.
+* 填写所有相关部分。
 
-* Choose a template from the **Choose a template** dropdown and take a look at the **typical kinds of issues created** below.
+* 在议题中`@提到`某人，以引起人们的注意。在[这里](https:about.gitlab.com/company/team/)选择一个专家或随时在 Slack 的 #ux 频道中询问应该由谁来审查。不要因为担心你不熟悉对方或者因为对方的职级比你高，而顾忌让对方审查你的工作。如果这对他们来说不合适，他们会知道该把它转给谁，并且这样做。
 
-* Fill in all the relevant sections.
-
-* `@mention` someone in the issue to attract attention to it. Choose an expert [here](/company/team/) or feel free to ask in the #ux channel on Slack who it should be reviewed by. Do not worry that you are poking someone to review a job when you don't even know them and they might be much more senior than you, if it's not appropriate for them, they will know the right person to pass it along to and do that.
-
-Typical kinds of issues created:
+创建典型的议题：
 
 * Bug
 
-    * Use the bug template.
+    * 使用 Bug 议题模版
     
-    * Make sure it looks like a bug - otherwise ping one of the developers to confirm.
+    * 确保它看起来像一个 Bug --否则，请联系其中一个开发者来确认。
 
-    * Reproduce the bug.
+    * 复现该 Bug
 
-    * `@mention` the Product Manager (PM) responsible for that area of the product.
+    * `@提到`负责该产品领域的产品经理（PM）。
 
-* Proposed feature request
+* 功能提议的请求
 
-    * Use the feature request template.
+    * 使用功能请求模板。
 
-    * Focus on describing the problem as well as a solution.
+    * 专注于描述问题以及解决方案。
 
-    * Ask a PM for an opinion, involve frontend and backend engineers as well.
+    * 向PM征求意见，让前端和后端工程师也参与进来。
 
-## Relevant links
+## 相关链接
 
-- [Product Designer Handbook](/handbook/engineering/ux/ux-designer/)
-- [UX Department Handbook](/handbook/engineering/ux/)
-- [GitLab Research Project](https://gitlab.com/gitlab-org/ux-research)
-- [Engineering Handbook](/handbook/engineering/)
-- [Engineering Workflow Handbook](/handbook/engineering/workflow/)
-- [Product Handbook](/handbook/product/)
+- [产品设计师手册](https:about.gitlab.com/handbook/engineering/ux/product-designer/)
+- [用户体验部门手册](https:about.gitlab.com/handbook/engineering/ux/)
+- [GitLab 研究项目](https://gitlab.com/gitlab-org/ux-research)
+- [研发手册](https:about.gitlab.com/handbook/engineering/)
+- [研发工作流程手册](https:about.gitlab.com/handbook/engineering/workflow/)
+- [产品手册](https:about.gitlab.com/handbook/product/)
 
 [gitlab-design]: https://gitlab.com/gitlab-org/gitlab-design
 [gitlab-design-contrib]: https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md

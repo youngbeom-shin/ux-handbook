@@ -1,112 +1,102 @@
 ---
 layout: handbook-page-toc
-title: "Writing a discussion guide for user interviews"
-description: "A discussion guide is a set of questions and topics that you would like to discuss with a participant during a user interview"
+title: "编写用户访谈的讨论指南"
+description: "讨论指南是一套你想在用户访谈中与参与者讨论的问题和话题。"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
+### 如何撰写讨论指南
 
-- TOC
-{:toc .hidden-md .hidden-lg}
+{%youtube%}sXE8F5Vu1sA{%endyoutube%}
 
-### How to write a discussion guide
+#### 视频记录
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/sXE8F5Vu1sA" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+讨论指南是一套你想在用户访谈中与参与者讨论的问题和话题。它通常由介绍、热身问题、探索性问题和汇报组成。今天，我将指导你如何创建一个讨论指南。
 
-#### Video transcript
+**简介**
 
-A discussion guide is a set of questions and topics that you would like to discuss with a participant during a user interview. It typically consists of an introduction, warm-up questions, exploratory questions and a debrief. Today, I’m going to walk you through how to create a discussion guide.
+介绍自己，并让参与者知道在面试中会有什么期待。给他们一个提问的机会。大多数人以前都没有接受过采访，所以要花一些时间让他们放心。在采访之前，你应该已经取得了书面同意，以记录并可能分享你与参与者的对话。然而，最好再口头确认一下，被访者是否仍然愿意被录音和分享谈话内容。
 
-**Introduction**
+**热身问题**
 
-Introduce yourself and let the participant know what to expect during the interview. Give them a chance to ask questions. Most people won’t have been interviewed before so take some time to put them at ease. Prior to the interview, you should have already obtained written consent to record and possibly share the conversation you have with the participant. However, it’s a good idea to double check verbally that the participant is still happy to be recorded and for the conversation to be shared.
+首先，向参与者提出几个关于他们自己和他们工作的简单问题。这将帮助参与者习惯于回答问题的过程。这也是一个开始与受试者建立融洽关系的机会，这样当你开始问一些探索性的问题时，他们会更倾向于向你敞开心扉。仔细聆听，他们的回答可能有助于为他们以后的回答提供背景。你可以问一些热身问题：
 
-**Warm-up questions**
+* 在筛选调查中，你提到你是一名 DevOps 工程师。你在这个岗位上工作了多长时间？
+* 你的公司是做什么工作的？
+* 你一般的工作日都做些什么工作?
 
-Start by asking the participant a few easy questions about themselves and their job. This will help the participant get used to the process of answering questions. It’s also an opportunity to begin building rapport with the participant, so that they are more inclined to open up to you when you begin asking exploratory questions. Listen closely, their answers may help provide context for any later responses they give. Some warm-up questions you could ask are:
+**探索性问题**
 
-* On the screening survey, you mentioned that you are a DevOps Engineer. How long have you been in that role?
-* What kind of work does your company do?
-* What does your typical working day involve?
+当你开始写你的探索性问题时，你会想把问题归纳为共同的主题，这样你的采访就会自然流畅。当你开始组织你的问题时，为每个主题分配时间。这将有助于保持你的采访正常进行。从一般问题转向与你的研究目标有关的更具体的问题。例如，"你目前是如何进行这项工作的？"到 "这项工作最困难的部分是什么？"再到 "你目前的工作方式有什么可以改进的地方？"。同时，不要把你最重要的问题留到最后，以免用户在回答前面的问题时花费的时间超过你的预期。 
 
-**Exploratory questions**
+只要你认识到人们记忆力的局限性，问一些关于过去经历的问题是可以的。人类的记忆是容易出错的，人们往往很难记住具体的细节。例如，如果我问你三天前是否吃过早餐?你可以告诉我是还是不是。然而，如果我让你回忆一下你吃早餐花了多长时间，你可能很难给出答案，甚至可能会忍不住冒险猜测一下。问一些深入参与者一般经验和观点的问题，但不要强迫参与者提供他们无法提供的细节。否则，他们可能会试图编造自己的答案。
 
-When you start writing your exploratory questions, you’ll want to group questions into common topics, so that your interview naturally flows. As you begin to structure your questions, allocate time for each topic. This will help keep your interview on track. Move from general questions to more specific questions related to your research goals. For example ‘How do you currently go about this task? to ‘What’s the hardest part about task?’ to ‘What could be better about how you currently do this?’. At the same time, don’t leave your most important questions until the very end in case a user spends more time than you anticipate answering an earlier question.  
+参与者不能预测未来。如果你问他们这样的问题:“你会使用这个功能吗?”他们的回答可能并不能准确地反映他们实际会做什么。例如，有些人可能会说“不”，因为他们可能无法从描述中想象出功能是如何工作的。其他人可能会说“是”，因为他们不想排除将来某个时候该功能可能对他们有用的可能性。
 
-It’s okay to ask questions about past experiences, as long as you recognize the limitations of people’s memory. The human memory is fallible and it can often be difficult for people to remember specific details. For example, if I asked you whether you had breakfast three days ago? You could probably tell me yes or no. Yet, if I asked you to recall how long your breakfast took to eat, you’d probably struggle to provide an answer or you might even be tempted to hazard a guess. Ask questions which delve into participants’ general experiences and opinions but don’t press participants for details they can’t provide. Otherwise, they may be tempted to make up their answers.
+***视频中没有提到***
 
-Participants can’t predict the future. If you ask them a question like: 'Would you use this feature?' their response may not be an accurate reflection of what they would actually do. For example, some people might say ‘No’ because they might not be able to visualise how the feature would work from a description alone. Others might say ‘Yes’ because they don’t want to rule out the possibility that at some point in the future the feature might be useful to them.
+与其让人们思考他们将来会怎么做，不如问问他们现在在做什么和/或他们过去做过什么。不要问“你会使用这个功能吗?”而要问“你现在是如何完成这个任务的?”或者“你过去是如何完成这个任务的?”然而，如果你问的是过去的经历，要意识到记忆是有限制的。最好的做法是，不要询问两个月前发生的事情。在这种情况下，最好继续问关于现在的问题。
 
-***Not covered in the video***
+**汇报**
 
-Instead of asking people to think about how they might act in the future, ask them about what they are doing in the present and/or what they have done in the past. Instead of asking "Would you use this feature?" ask instead "How are you currently accomplishing this task?" or "How have you accomplished this task in the past?" However, if you are asking about past experience, be aware that there are limitations on memory. As a best practice, don't ask about past behavior that occurred more than 2 months ago. In those cases, it’s best to stick to asking about the present.
+感谢参与者的时间，并解释他们今天给你的反馈接下来会怎样。给受试者一个机会提出任何问题。如果你要为参与研究的受试者支付报酬，确保你与他们分享如何获得报酬的细节，以及他们何时可以得到报酬。把你的联系方式留给他们，以防他们有任何后续想法想与你分享。
 
-**Debrief**
+**在你的指南写完后**
 
-Thank the participant for their time and explain what happens next with the feedback they have given you today. Give the participant a chance to ask any questions. If you are paying a participant for taking part in your study, ensure you share details of how they will be paid and when they can expect payment. Leave your contact details with them in case they have any follow-up thoughts they want to share with you.
+一旦你写好了你的讨论指南，你应该和一个同事一起排练并测试你的指南。这将使你了解你的脚本需要多长时间才能完成，并将帮助你发现人们可能难以回答的任何问题。
 
-**After your guide is written**
+**技巧**:
 
-Once you have written your discussion guide, you should rehearse and test out your guide with a colleague. This will give you a sense of how long your script will take to run through, and it will help you spot any questions that people may have difficulty answering. 
-
-**Tips**:
-
-* Remember your discussion guide is just that: a guide. It’s a reference tool to help facilitate conversation. 
-* If a participant says something interesting that is not covered by your guide, listen to them and explore what they are saying. You may uncover something you hadn’t previously considered. 
-* Active listening is key. You should react to what your participant is saying.
+* 记住你的讨论指南只是一个指南。它是一个参考工具，帮助促进对话。
+* 如果一个参与者说了一些你的指南中没有涉及的有趣的事情，请听他们说，并探索他们所说的内容。你可能会发现一些你以前没有考虑过的东西。
+* 积极倾听是关键。你应该对你的参与者所说的话作出反应。
 
 
-### Example questions for user interviews
+### 用户访谈的问题示例
 
-* Ask open ended questions to keep a conversation flowing. 
-* Remember to probe participant’s answers. Ask: Why? Why not? Who? What? Where? When? How?
-* Never ask participants what they want.
-* Don't use all the questions below! Select a couple to use.
+* 提出开放性问题以保持对话的流畅性。
+* 记住要探究参与者的答案。问。为什么？为什么不呢？谁？什么人？在哪里？什么时候？怎么做？
+* 不要问参与者他们想要什么。
+* 不要使用下面所有的问题! 选择几个问题来使用。
 
-#### Warm-up questions
+#### 热身问题
 
-* What's your current role?
-* What made you become a [job title]?
-* How long have you held the role of [job title]?
-* What kind of work does your company do?
-* What does your typical working day involve?
-* What would you say are your top 3 tasks?
-* How long have you used GitLab?
-* What do you use GitLab for?
+* 你目前的角色是什么？
+* 是什么让你成为 [工作职位]？
+* 你担任 [职位名称] 的角色有多久了？
+* 你的公司是做什么工作的？
+* 你的典型工作时间是什么？
+* 你认为你最重要的三项工作是什么？
+* 你使用 GitLab 多长时间了？
+* 你用 GitLab 做什么？
 
-#### Exploratory questions
+#### 探索性问题
 
-* What are you trying to [achieve/get done]? Why?
-* How do you currently go about this [task/process]?
-* Can you show me how you currently do this?
-* Has anything about the way you do this changed over time? How? Why?
-* Do you anticipate [task/process] changing? Why?
-* What do you like about [task/process]?
-* What’s the hardest part about [task/process]?
-* What could be better about how you currently do this?
-* Tell me about the last time you tried to [task/process]
-* Why do you keep doing [task/process] Why is it important to you? 
-* How often do you do [task/process]?
-* How often do you experience [problem]?
-* What happens before/after you experience [problem]?
-* What work-arounds have you implemented to help you with this?
-* What are you currently doing to make this [task/process] easier? 
-* Are you looking for an alternative solution for [task/process]? Why? Why not?
-* How does this [task/process] impact other areas of your work?
-* Could you describe step by step how you do [task/process]?
-* What step is the most time-consuming? Why is that?
-* If you could remove one step from the process, which step would it be?
-* What other products have you tried? 
-* How did you hear about these other products? 
-* Why did you decide to try [product]?
-* What made you choose [product] in the end?
-* What do you like about [product]? 
-* What do you dislike about [product]?
-* What’s the hardest part about using [product]? 
-* How does the cost of [product] compare to the value it provides?
-* How important is [product] to your organization? How would you rate its level of important on a scale of 1 to 10 with 10 being most important?
+* 你想[实现/完成]什么？为什么？
+* 你目前是如何进行这项[任务/过程]的？
+* 你能告诉我你目前是怎么做的吗？
+* 你做这件事的方式有没有随着时间的推移而改变？如何改变？为什么？
+* 你预计[任务/过程]会改变吗？为什么？
+* 你喜欢[任务/过程]的什么？
+* 关于[任务/过程]最困难的部分是什么？
+* 你目前的工作方式有什么可以做得更好？
+* 告诉我你最后一次尝试[任务/过程]是什么？
+* 你为什么一直做[任务/过程]，为什么它对你很重要？
+* 你多长时间做一次[任务/过程]？
+* 你多长时间经历一次[问题]？
+* 在你遇到[问题]之前/之后会发生什么？
+* 你实施了哪些变通方法来帮助你解决这个问题？
+* 你目前正在做什么来使这个[任务/过程]更容易？
+* 你是否在为[任务/过程]寻找其他解决方案？为什么？为什么不呢？
+* 这个[任务/过程]如何影响你工作的其他方面？
+* 你能一步一步地描述你如何做[任务/过程]吗？
+* 哪一步是最耗时的？为什么是这样？
+* 如果你能从这个过程中删除一个步骤，会是哪个步骤？
+* 你还试过什么其他产品？
+* 你是如何听说这些其他产品的？
+* 你为什么决定尝试[产品]？
+* 是什么让你最终选择了[产品]？
+* 你喜欢[产品]的什么？
+* 你不喜欢[产品]的什么？
+* 使用[产品]最困难的部分是什么？
+* [产品]的成本与它提供的价值相比如何？
+* [产品]对你的组织有多重要？在1到10的范围内，你如何评价其重要程度，10为最重要？
