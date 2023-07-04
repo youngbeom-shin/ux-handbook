@@ -4,12 +4,6 @@ title: "分析调研纪要"
 description: "如何分析调研纪要的准则"
 ---
 
-## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 [纪要是提交给开放式问题的评论](https://goascribe.com/blog/verbatim-coding-for-survey-research/)（例如，”关于 GitLab 的可用性，你有什么想和我们分享的吗？”），这些问题通常在调查中提出，受访者可以以自由的形式输入他们的回答。纪要分析有助于我们理解不同的现象，比如通过在这些反馈中寻找主题来理解用户体验。
 
 纪要分析的过程通常称为“编码”，这与用编程语言编写计算机程序无关，而是描述了分配编码的过程，这些编码代表纪要分析试图传达的内容。
