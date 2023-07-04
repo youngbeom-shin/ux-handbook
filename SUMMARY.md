@@ -57,6 +57,7 @@
     * [选择研究方法](ux-research-training/choosing-a-research-methodology/index.html.md)
     * [参加用户体验研究会议](ux-research-training/attending-a-research-event/index.html.md)
     * [收集有用的信息](ux-research-training/collecting-useful-data/index.html.md)
+    * [社区对可行性洞察的贡献](ux-research-training/community-contributions-for-actionable-insights/index.html.md)
     * [创建设计评估](ux-research-training/creating-design-evaluations/index.html.md)
     * [定义目标、目的和假设](ux-research-training/defining-goals-objectives-and-hypotheses/index.html.md)
     * [用户访谈讨论指南](ux-research-training/discussion-guide-user-interviews/index.html.md)
