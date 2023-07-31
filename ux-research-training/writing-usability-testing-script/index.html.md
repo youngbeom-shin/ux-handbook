@@ -1,142 +1,152 @@
 ---
 layout: handbook-page-toc
-title: "Writing a website usability testing script"
-window_title: "How to Write a Usability Testing Script | GitLab"
-description: "How to create a usability testing script at GitLab"
+title: "编写网站可用性测试脚本"
+window_title: "如何编写可用性测试脚本 | GitLab"
+description: "如何在 GitLab 创建可用性测试脚本"
 ---
 
 
-## What is a usability study?
-A usability study, or usability testing, employs a test script to ensure a systematic approach for:
+## 什么是可用性研究?
+可用性研究或可用性测试采用测试脚本来确保更加系统地进行测试：
 
-* Testing whether users can carry out scripted tasks successfully
-* Finding what their preferences for completing a task are
-* Uncovering opportunities to improve the product
+* 测试用户能否成功执行脚本任务
+* 了解用户完成任务的偏好
+* 发现改进产品的机会
 
-## What is a website testing script?
-At the heart of a usability study stands the website testing script, or test script, which the moderator follows during test sessions in order to execute task based usability testing and ensure consistency.
+## 什么是网站测试脚本?
+可用性研究的核心是网站测试脚本（或称测试脚本），主持人在测试过程中要按照脚本执行基于任务的可用性测试，并确保一致性。
 
-A test script:
-* **Helps to make sure you will be covering what you set out to cover.** It helps to ensure that you meet your usability study research objectives and that you come out of the study with the answers you need to make progress on your project.
-* **Keeps you consistent between sessions.** It’s important to make sure you ask the same questions of all of your participants to maintain a rigorous methodology. It also makes your life easier during analysis.
-* **Assists with collaboration.** In particular, it helps others more easily review your work.
-* **Helps you keep time during sessions.** It’s important to keep your research sessions to the promised length.
+一个测试脚本:
 
-It is virtually impossible to practice solid usability study research without having a test script. Don’t go in without one.
+* **帮助确保你将涵盖所要涵盖的内容** 它有助于确保你满足可用性研究的研究目标，并在研究结束时得到你在项目中取得进展所需的答案。
+* **保持会话之间的一致性** 确保你问所有参与者相同的问题，以保持严格的方法是很重要的。这也让你的分析过程更轻松。
+* **协助协作** 特别是，它可以帮助其他人更容易地审查你的工作。
+* **帮助您在会议期间掌握时间** 重要的是，要将研究会议的时间控制在承诺的长度内。
 
-## How to write your first task based usability testing draft
-Use this [Usability Testing Script template](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit?usp=sharing) (internal access only) as your starting point for writing a first draft for your usability study:  
+如果没有测试脚本，要想进行扎实的可用性研究几乎是不可能的。如果没有脚本就不要去做这项工作。
 
-A usability study script typically follows 4 main parts:
-1. Introduction
-2. Warm-up questions
-3. Tasks
-4. Wrap-up questions and closing words
+## 如何撰写第一份基于任务的可用性测试草案
+使用本[可用性测试脚本模板](https://docs.google.com/document/d/1_5Qu2JR9QE5LE6cK4eq9yJs-nXv2rlWWifcjacaiWdI/edit?usp=sharing) （仅限内部访问）作为撰写可用性研究初稿的起点：  
 
-Here is a bit about each part (you may want to read this while going over the template).
+可用性研究脚本通常由四个主要部分组成：
 
-### Introduction
-This is where you introduce yourself and other attending members of the team. You also tell the participant of the usability study how the session is going to go and double check that you have their consent for recording and sharing the session.  
+1. 介绍
+2. 热身的问题
+3. 任务
+4. 总结问题和结束语
 
-Use the introduction to build rapport with the participant of the usability study. People are often hesitant, nervous, or even a little standoffish at the beginning of a research session. Simple comments such as "Oh, I've been to where you live and I loved it" can go a long way to making people feel comfortable and helping the study to run more smoothly.
+以下是每个部分的简介（您可能需要在阅读模板的同时阅读这些内容）。
 
-Remember to distance yourself from the solution you are testing. Do not present yourself as the person who is involved in creating the concept that’s being tested (even if you were). Emphasize that the participant won’t hurt your feelings regardless of what they say during the testing. Remind them that we are testing the experience and not them. Also remind them that the main purpose of this exercise is to receive their candid feedback.
+### 介绍
+在这个环节中，你要介绍自己和团队中的其他成员。你还要告诉可用性研究的参与者会议将如何进行，并仔细检查他们是否同意录制和分享会议内容。 
 
-#### Warm-up questions
-Warm-up questions are meant to further break the ice, as well as get relevant background information on the participant.
+利用介绍与可用性研究的参与者建立友好关系。在研究开始时，人们往往会犹豫、紧张，甚至有点冷漠。简单的一句话，比如 "哦，我去过您住的地方，我很喜欢那里"，就会让人感觉很舒服，从而帮助研究更顺利地进行。
 
-Here are some standard warm up questions to consider:
-* What’s your current role?
-* How long have you been in that role?
-* Do you have experience dealing with <topic of study>?
-* Have you ever used GitLab? If so, what for?
+记住，要与正在测试的解决方案保持距离。不要把自己表现成参与创建被测试概念的人(即使你参与了)。强调无论参与者在测试中说什么，他们都不会伤害你的感情。提醒他们，我们是在测试体验而不是他们本身。还要提醒他们，这项工作的主要目的是得到他们的坦诚反馈。
 
-**Tip 1**: Even if you don’t have anything you want to ask, have at least 2 quick questions here, as it will help to break the ice and make the participant feel more at ease. 
+#### 热身问题
+热身问题旨在进一步打破僵局，以及获取参与者的相关背景信息。
 
-**Tip 2**: Consider asking questions that will help you to understand the participant’s mental model and expectations prior to interacting with your designs (for example, "We have a page called Security Dashboard. What tasks would you expect to be able to accomplish with the help of that page?").
+下面是一些标准的热身问题:
 
-**Tip 3**: If needed and you have the time for it, you might include some additional interview questions here that would benefit either this study or a different one. (If it’s a different study, make sure it shares the same participant profile with this one!) In particular, consider asking questions that might be used later on as part of a persona or a JTBD study (for example, "What would you say are your top 3 tasks?").
+* 您目前的角色是什么?
+* 您在这个职位多久了?
+* 您有处理 <所研究的主题> 的经验吗?
+* 您使用过 GitLab 吗?如果是，为什么?
 
-#### Tasks
-This is the heart of the usability study script and the part that takes the longest to write. Usability studies usually (but not always) consist of 3-4 tasks.
+**技巧1** : 即使你没有什么要问的，在这里也至少要有两个快速的问题，因为这将有助于打破僵局，让参与者感到更放松。
 
-**How to define good tasks**  
-When sitting down to write your tasks, you should already have [defined your research goals, objectives and hypotheses](/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-hypotheses/). To form good usability tests, start by going over your research objectives that detail what you and your stakeholders want to get out of the study, and consider how to best translate them into user tasks.
+**技巧2** : 在与你的设计进行交互之前，考虑问一些问题，这将帮助你了解参与者的心理模型和期望(例如，“我们有一个名为安全仪表板的页面。你希望在这个页面的帮助下完成什么任务?”)。
 
-You should also have clear, agreed-upon measures to use when determining how a task, experience, or design/prototype performed. You need to define what Pass/Fail looks like, so you can determine when a participant has successfully completed the usability task.
+**技巧3** : 如果需要并且你有时间，你可以在这里包括一些额外的面试问题，这些问题对本研究或其他研究都有好处。(如果这是一个不同的研究，请确保它与这个研究共享相同的参与者资料!)特别是，考虑问一些可能在以后作为persona或JTBD研究的一部分使用的问题(例如，“您认为您最重要的三个任务是什么?”)。
+ 
 
-The key thing to remember when moving from objectives to tasks is that **your tasks should reflect realistic user goals**.
+#### 任务
+这是可用性研究脚本的核心，也是需要花费最长时间编写的部分。可用性研究通常(但不总是)由3-4个任务组成。
 
-For example, perhaps one of your objectives entails finding out whether users can quickly locate a CTA (call to action). But since no user ever goes into a website with the goal of locating a button, your task should never be, “Can you find and click the button?” Rather, it should be about *why* the participant might want to click the button in the first place (for example, “You want to enable feature X for your project. Can you do that please?”). 
+**如何定义好的任务**  
+当你坐下来写下你的任务时，你应该已经[定义了你的研究目标、目的和假设](/handbook/engineering/ux/ux-research-training/defining-goals-objectives-and-/)。要形成良好的可用性测试，首先要回顾你的研究目标，详细说明你和你的利益相关者希望从研究中获得什么，并考虑如何最好地将它们转化为用户任务。
+
+在确定如何执行任务、体验或设计/原型时，你还应该有明确的、公认的衡量标准。您需要定义什么是通过/失败，这样您就可以确定参与者何时成功地完成了可用性任务。
+
+当从目标转向任务时，要记住的关键一点是**你的任务应反映现实的用户目标**。
+
+例如，您的目标之一可能需要确定用户是否能够快速定位CTA(call to action)。但是，由于从来没有用户带着查找按钮的目的进入网站，所以你的任务永远不应该是:“您能找到并点击按钮吗?”相反，它应该是关于参与者 *为什么* 想要首先点击按钮 (例如，“假设您想要为您的项目启用X功能。请问你您如何才能做到?”)。
 	
-Another objective might be identifying potential improvements to the flow. Since real users don't generally go into websites with the sole purpose of finding faults in it, instead of asking the participant, “Can you please complete the following steps and tell me what we should improve?”, ask them to perform a task that would necessitate them attempting the flow, and observe them carefully to see where they fail, struggle, or hesitate.
+另一个目标可能是找出潜在的流程改进。由于真正的用户一般不会只为发现网站的缺陷而进入网站，因此与其询问参与者 "能否请您完成以下步骤并告诉我我们应该改进哪些方面？"，不如要求他们执行一项任务，让他们有必要尝试流程，并仔细观察他们，看看他们在哪里表现出失败、挣扎或犹豫。
 
-**Tip**: Avoid using any words that are in the UI. When a task is written with easily identifiable words in the UI, participants tend to look for those words in the UI to complete the task. 
+**提示**： 避免使用用户界面中的任何单词。如果任务编写时使用了用户界面中容易识别的单词，参与者往往会在用户界面中寻找这些单词来完成任务。
 
-Finally, pay close attention to how you phrase your tasks to avoid bias, leading the participant, and other common pitfalls. 
+最后，要密切注意你对任务的措辞，以避免引起偏见、引导参与者和进入其他常见的陷阱。
 
-* It is important to balance clarity and leading words when writing a scenario. The words you use should be words that are familiar to your participants. If you are not sure what those words should be, you should reach out a Researcher for guidance and feedback.
+* 在编写情境时，必须在清晰度和引导性词语之间取得平衡。您使用的词语应该是参与者熟悉的词语。如果您不确定应使用哪些词语，应联系研究员寻求指导和反馈。
 
-* If you use words which your participants use and still find they are scanning the interface to complete the task(s), change how you present the task. Start each task by asking the participant to describe the thing you are wanting them to do in the system and walk you through how they would normally do that task. Then you can use the words the participant has just used with you to direct them to do the task.
+* 如果你使用了参与者使用的词汇，但仍然发现他们在浏览界面来完成任务，那么改变你展示任务的方式。开始每项任务时，请参与者描述您希望他们在系统中做的事情，并向您介绍他们通常会如何完成该任务。然后你可以使用参与者刚刚和你一起使用的单词来指导他们完成任务。
 
-* It is imperative to ensure your participant fully understands the task given to them before they begin the task. As the facilitator, you have to balance the questions your participant asks when seeking clarification on the task, with not providing information which could be used to successfully complete the task.
+* 在任务开始之前，必须确保参与者完全理解交给他们的任务。作为引导者，你必须平衡参与者在寻求澄清任务时提出的问题，而不是提供可能用于成功完成任务的信息。
 
-* A usability study, or usability tests, should be focused on evaluating if the participant can accomplish the task given, not exploring how they might understand the task. If your participant can not proceed during some point of the task, ask them how they would normally proceed and encourage them to try that option.
+* 可用性研究或可用性测试的重点应该是评估受试者能否完成所给的任务，而不是探索他们如何理解任务。如果受试者在任务的某一阶段无法继续进行，应询问他们通常会如何进行，并鼓励他们尝试该选项。
 
-To learn more about writing good tasks, we highly recommend reading this helpful NN/g article:
-[Write Better Qualitative Usability Tasks: Top 10 Mistakes to Avoid](https://www.nngroup.com/articles/better-usability-tasks/).
+要了解更多关于如何写好任务的信息，我们强烈推荐您阅读这篇有用的 NN/g 文章：
+[编写更好的定性可用性任务： 应避免的十大错误](https://www.nngroup.com/articles/better-usability-tasks/).
 
-**How to structure each usability testing scenario**  
-For each task, consider whether some setup is required to provide context and appropriate motivation for the participant. If so, describe a relevant scenario prior to giving the task. Lets look at some usability test cases examples:  
+**如何构建每个可用性测试场景**  
+对于每项任务，考虑是否需要进行一些设置，以便为参与者提供背景和适当的动机。如果需要，请在布置任务前描述一个相关的场景。让我们来看一些可用性测试案例：  
 
-Scenario: “Let’s say this is a project you’re working on, and you just committed some new code.”  
-Task: “Please test to see whether that code contains any security vulnerabilities.”
+场景："假设这是您正在进行的一个项目，你刚刚提交了一些新代码"。 
 
-Then, consider adding some more specific questions and prompts that the moderator can utilize as the task unfolds, in case the participant doesn't bring up these topics on his or her own. Examples:
-* What are you seeing on this page?
-* What is this page about?
-* Is SAST running right now?
-* What would you do next, if anything?
+任务 "请测试该代码是否包含任何安全漏洞"。
 
-**Tip 1**: For each task, add a link in your script for the prototype/webpage that’s relevant for that task. Not only will it help your teammates who will review the script to understand what the task is about, but it will also allow you to quickly resend the relevant link should the participant need it again.
+然后，考虑添加一些更具体的问题和提示，主持人可以在任务展开时使用，以防与会者自己没有提出这些话题。例如
 
-**Tip 2**: Consider noting under each task, in light gray, ‘What we expect them to do’ (for example, "Follow the CI pipeline and go into the SAST job output") to remind the moderator of the possible paths for completing the task. This will assist the moderator in helping participants to recover, in case they fail a task which is a prerequisite for the following task.
+* 您在这一页上看到了什么？
+* 这一页是关于什么的？
+* SAST 正在运行吗？
+* 如果有的话，您下一步会怎么做？
 
-**How to order your tasks**  
-* If your tasks can build on top of each other in a sensible way, make sure you order your tasks to reflect that. For example, Task 1 could be around navigating to a certain page and Task 2 around reviewing that page.
-* Cluster together tasks that belong to the same topic or area of the product.
-* As a general rule, start with the tasks that matter most to you. It will take time mastering moderating usability sessions, and it is common to fall behind on time when you’re just starting out. Therefore, start with what matters most to you, and leave what’s merely nice to have to the end of the test.
+**提示 1**： 对于每项任务，请在脚本中添加与该任务相关的原型/网页链接。这不仅可以帮助审阅脚本的队友了解任务的内容，还可以让您在参与者再次需要时快速重新发送相关链接。
 
-#### Usability study wrap-up questions
-Here, you can get the participant’s broad impressions about what they saw and experienced. These are some standard questions to consider:
-* What do you think about this process you just went through?
-* How does what you just experienced with GitLab fare in comparison to the tool you normally use?
-* Anything else you’d like to add?
+**提示 2**： 考虑在每个任务下用浅灰色标注 "我们希望他们做什么"（例如，"按照 CI 流水线进入 SAST 作业输出"），以提醒主持人完成任务的可能路径。这将有助于主持人在与会者某项任务失败后及时帮助进行恢复，有时候该失败的任务可能是下一项任务的先决条件。
 
-You can also include qualitative survey questions. Make sure to follow up with "Why did you choose that answer?" For example:
-1. Completing the [insert task] was easy.
-     - I completely agree
-     - I somewhat agree
-     - I’m neutral
-     - I somewhat disagree
-     - I completely disagree
+**如何安排你的任务顺序**  
 
-Conclude the script with thanking your participant and mentioning when they are expected to get their compensation.
+* 如果你的任务能够以合理的方式相互叠加，确保你的任务顺序能够反映这一点。例如，任务 1 可以围绕导航到某个页面，而任务 2 则围绕查看该页面。
+* 将属于同一主题或产品领域的任务集中在一起。。
+* 一般来说，从对你来说最重要的任务开始。主持可用性测试需要时间，而且在刚开始的时候，在时间上落后是很常见的。因此，先从对你来说最重要的事情开始，把那些无关紧要的事情留到测试结束时再做。
 
-#### You've completed your draft script. Now what?
+#### 可用性研究总结问题
+在这里，你可以了解参与者对他们所看到和经历的大致印象。以下是一些需要考虑的标准问题:
 
-##### 1. Review your usability study draft
-Once your draft is more or less done, give it another read and ask yourself:
-- Does it cover the project’s objectives?
-- Does it make sense timewise? Estimating time will get easier with experience. Keep in mind that usability tests should normally take between 30-45 minutes.
+* 对于刚刚经历的这个过程，您有什么看法？
+* 与您通常使用的工具相比，您在 GitLab 上的体验如何？
+* 还有什么要补充的吗?
 
-##### 2. Let others review your draft
-Edit as needed based on feedback received from your stakeholders/teammates.
+你还可以加入定性调查问题。确保以 "您为什么选择这个答案？"作为后续问题。例如
 
-##### 3. Test the test
-Run a pilot test with a colleague or internal participant to make sure your task instructions are clear and that you’re keeping time. Edit as needed, and notify your stakeholders of any big changes.
+1. 完成 [插入任务] 很容易。
+     - 我完全同意
+     - 我有点同意
+     - 我保持中立
+     - 我有点不同意
+     - 我完全不同意
 
-### A crash course on remote, moderated usability testing
+在结束脚本时，向参与者表示感谢，并提及他们预计什么时候能拿到报酬。
+
+#### 您已经完成了脚本草案, 现在怎么办呢?
+
+##### 1. 审查可用性研究草案
+一旦你的草案差不多写好了，再读一遍，然后问自己:
+
+- 它是否涵盖了项目的目标?
+- 时间上合理吗？随着经验的积累，估算时间会越来越容易。请记住，可用性测试通常需要 30-45 分钟。
+
+##### 2. 让他人审阅你的草案
+根据从各方得到的反馈进行必要的编辑。
+
+##### 3. 测试可用性测试
+与同事或内部参与者一起进行试点测试，以确保你的任务指示明确，并且按时完成。根据需要进行编辑，并在有任何重大变化时通知相关人员。
+
+### 远程主持可用性测试速成班
 
 <!-- blank line -->
 {%youtube%}5MvpxvN9vLU{%endyoutube%}
@@ -144,4 +154,4 @@ Run a pilot test with a colleague or internal participant to make sure your task
 
 **Slides**
 
-[View the slides](https://drive.google.com/file/d/1AqmTX0atvxRsag5EIdyFduGRfzNQLjRC/view?usp=sharing)
+[观看幻灯片](https://drive.google.com/file/d/1AqmTX0atvxRsag5EIdyFduGRfzNQLjRC/view?usp=sharing)
