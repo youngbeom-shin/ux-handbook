@@ -1,109 +1,112 @@
 ---
 layout: handbook-page-toc
-title: "Research Insights"
-description: "Research insights are the collective findings and learnings that come from a research study."
+title: "研究见解"
+description: "研究见解是一项研究的集体发现和心得。"
 ---
 
 
-Research insights are the collective findings and learnings that come from a research study.  
+研究见解是一项研究的集体发现和心得。 
 
-At GitLab, we measure the impact of our research by:  
+在 GitLab，我们通过以下方式来衡量研究的影响力：  
 
-* Distinguishing an insight as “actionable” or "informative"
-* Making sure each actionable insight has a clear recommendation or action associated with it
-* Tracking the completion of actionable insights
-
-
-#### Informative insights
-Informative insights help us learn about something or someone and don’t result in immediate action. Instead, these insights help build knowledge about our users, industry, competitors, and so on. For example:
-
-* Most developers who took part in the survey were first introduced to GitLab while they were in school.
-* Developers use about three other applications in addition to GitLab as part of their jobs.
-
-When documenting informative insights, no special actions or processes need to be followed. These simply get documented into Dovetail, per the [standard process](/handbook/engineering/ux/ux-research-training/documenting-research-findings/).
+* 区分见解是 "可操作的" 还是 "有参考价值的"
+* 确保每个可操作的见解都有明确的建议或相关行动
+* 跟踪可操作见解的完成情况
 
 
-#### Actionable insights
-Actionable insights always have a follow-up action that needs to take place as a result of the research observation or data, and a clear recommendation or action associated with it. An actionable insight both defines the insight and clearly calls out the next step. For example:
+#### 信息性见解
+信息性见解帮助我们了解某事或某人，而不会立即采取行动。相反，这些洞察力有助于建立关于我们的用户、行业、竞争对手等的知识。例如:
 
-> Users weren't able to submit a merge request in the proposed design because they couldn't find the “Submit” button. They expected it to be located at the top of the page. Action: Iterate on the design to relocate the 'Submit' button to the top of the page and retest (link to Issue # XYZ).
+* 参与调查的大多数开发人员第一次接触 GitLab 是在学校。
+* 除了 GitLab 之外，开发人员还使用大约三个其他应用程序作为他们工作的一部分。
 
-> IT Admins want a way to view all of their teams' activity over time, in 15 min increments. IT Admins are being asked to report on this information as part of a new company policy. Action: Explore the feasibility of such a request (link to Issue # ABC).
-
-
-### How to document actionable insights
-Actionable insights need to be handled differently than informative insights. Actionable insights are tracked over time and will include follow-up, so document actionable insights in Dovetail and in GitLab as unique Issues. 
-
-When you document an actionable insight, its three main components are:
-
-1. The insight itself: often the problem, finding, or observation.
-1. The “why”: supporting evidence that supports the insight. Often, it’s describing why the problem is happening, or more details behind the finding or observation. 
-1. The action: the next step or action that needs to take place as a result of the research. The action should be clearly defined, achievable, and directly tied back to the insight.  
-
-Tips for writing an actionable insight:
-* Avoid using words like: consider, possibly, maybe, suggest, etc. People can interpret these actions as optional. 
-* Instead, use directive terminology, such as: conduct, explore, redesign, etc. These words contribute to a clear action that needs to be taken as a next step.
-
-To document actionable insights:
-
-* **Step 1:** In Dovetail, preface the actionable insight's title with 'ACTIONABLE:' and clearly describe the next action that needs to be taken.
-* **Step 2:** Create a unique issue in [GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/new) using the 'actionable_insight' issue template, which already has the `Actionable Insight` label to keep track of the progress being made regarding the next step(s). To streamline this process, add a link to the Dovetail insight in the GitLab issue, rather than typing out all the details again. (If you want to include details, you certainly can.)
-* **Step 3:** Add the appropriate `Group` (such as `~"group::source code"`) label to the issue.  This is done to identify and track actionable insights at the group level.
-* **Step 4:** Using the related issue feature, link these Actionable Insight issues back to the original Research Issue in the GitLab UX Research project.
-
-#### Who creates and manages actionable insights?
-Actionable insights are created and managed by the person closest to the research, which is typically the Product Manager, Product Designer, or UX Researcher.
-However, it’s ultimately up to the team to decide who manages actionable insights.
-
-#### How to manage actionable insights
-
-All discussions and decisions made about the actionable insight must be documented within the issue, because these issues are tracked as performance indicators. As we track actionable insights over time, it’s important to understand what kinds of decisions we’re making based on user research.
-
-When closing an actionable insight issue, it’s important to document why it was closed and whether the original action was acted upon.
-
-In some cases, no action will be taken for a number of reasons, such as low priority, too large of an effort, not technically feasible, and so on. Regardless of the reason, document the decisions in the issue when closing it.
-
-#### To what kinds of validation research do actionable insights apply?
-
-Both Problem Validation and Solution Validation need to follow the actionable insights documentation process if actionable insights are discovered. For example:
-
-* **Problem Validation:** If there are insights that result in additional research, a newly identified target for next steps, or an identified problem to address, those are actionable insights.
-* **Solution Validation:** If there are insights that uncover a usability issue, a pain point users may experience, or a design issue, those are actionable insights.
-
-The above examples have one thing in common regardless of the kind of research: the insight is actionable, and therefore, must be documented as such.
-
-Additionally, UX Scorecard testing can yield actionable insights. Since UX Scorecard testing is an expert review and/or heuristic evaluation, creating Dovetail insights may not be applicable. Instead, be sure to document the details in the GitLab issue using the actionable insight template in [GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/new).
+当记录信息深刻的见解时，不需要遵循特殊的操作或流程。这些只是按照[标准流程](/handbook/engineering/ux/ux-research-training/documentation-research-findings/)将文档化成 Dovetail 文件。
 
 
-### Why we track actionable insights
+#### 可执行见解
+可执行见解总是包含根据研究观察或数据需要采取的后续行动，以及与之相关的明确建议或行动。可执行见解既要定义见解，又要明确提出下一步行动。例如:
 
-Actionable insights are tracked at GitLab for:
+> 用户无法在提案设计中提交合并请求，因为他们找不到 “提交” 按钮。他们希望它位于这一页的顶部。行动:迭代设计，将 `Submit` 按钮移到页面顶部并重新测试(链接到议题 # XYZ)。
 
-* **Accountability:** If there’s something that needs to be done as a result of conducting research, it should be done. This process helps prevent those actionable insights from getting lost, dismissed, or taking too long to be acted upon.
-* **Measuring research impact:** Presently, it’s difficult to accurately measure the impact of a research project on the product. Tracking actionable insights allows us to refer back to a particular research project, see what actions were identified as a result of the research findings, and determine what action was taken within the product since those actions were identified.
+> IT管理员想要一种以15分钟为单位查看团队所有活动的方式。作为公司新政策的一部分，IT管理员被要求报告这些信息。行动:探索这样一个请求的可行性(链接到议题 # ABC)。
 
-The proposed data that will be tracked and possibly measured in the future:
 
-* Percentage of studies using the `Actionable Insight` label
-   * Total percentage of studies resulting in using the `Actionable Insight` label.
-   * Broken down by Problem Validation and Solution Validation
-   * (Sisense chart)
-* Number of total actionable insights
-   * Total number of Insights with the `Actionable Insight` label, both closed and open, across the total number of research studies conducted
-   * Broken down by Problem Validation and Solution Validation, if possible
-   * (Sisense chart)
-* Number of total actionable insights currently open, no activity (>1 month of no activity)
-   * Total number of actionable insights that have not seen activity in at least a month.  These actionable insights will be followed up to understand why there hasn’t been activity.
-   * (Sisense chart)
-* Number of total of actionable insights currently open, being addressed (activity <1 month ago)
-   * Total number of actionable insights that have seen activity within the past month.  It’s implied that these are actively being addressed in some way and not discarded.
-   * (Sisense chart)
-* Number of total of actionable insights closed, reason: addressed action
-   * Total number of actionable insights that have been closed because the action called out in the issue was addressed.  
-   * (Sisense chart)
-* Number of total of actionable insights closed, reason: not addressing w/ reason
-   * Total number of actionable insights that have been closed and not addressed, but there’s a reason associated with it.  
-   * (Sisense chart)
-Over time, once there's enough data, we might be able to slice this data at the stage/group level to help us understand what is (or isn't) working well. Based on what we learn, we’ll iterate on the approach.
+### 如何记录可执行见解
+可执行见解与信息性见解的处理方式不同。可执行见解会随着时间的推移而被追踪，并包含后续的行动，因此应将可执行见解作为独特的 "议题" 记录在 Dovetail 和 GitLab 中。
+
+在记录可执行见解时，其三个主要组成部分是:
+
+1. 见解本身：通常是指问题、发现或观察。
+1. “为什么”:支持这一观点的证据。通常，它描述的是问题发生的原因，或者发现以及观察背后的更多细节。
+1. 行动:研究结果需要采取的下一步行动。行动应明确定义，可实现，并与见解直接关联。  
+
+撰写可执行见解的技巧:
+
+* 避免使用这样的词:考虑，可能，也许，建议等。人们会将将这些执行理解为不是必须的。 
+* 相反，使用指导性术语，例如:引导、探索、重新设计等。这些词语有助于明确下一步需要采取的行动。
+
+记录可执行见解：
+
+* **步骤 1：** 在 Dovetail 中，在可执行见解的标题前加上 "ACTIONABLE:"，并清楚地描述下一步需要采取的行动。
+* **第 2 步：** 使用 "actionable_insight "问题模板在 [GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/new) 中创建一个唯一的议题，该议题需要打上 "Actionable Insight" 标签，目的是用于追踪下一步的进展情况。为了简化这一过程，请在 GitLab 议题中添加一个指向 Dovetail 见解的链接，而不是再次输入所有细节。(如果您想包含细节，当然可以）。
+* **第 3 步:** 向议题添加适当的 `Group`（如 `~"group::source code"`）标签。 这样做是为了在 group 级识别和追踪可执行的见解。
+* **第 4 步:** 使用相关问题功能，将这些可执行见解议题链接回 GitLab 用户体验研究项目中的原始研究议题。
+
+#### 谁来创建和管理可执行见解？
+可执行见解由最接近研究的人员创建和管理，通常是产品经理、产品设计师或用户体验研究员。
+
+不过，最终还是要由团队来决定由谁来管理可执行见解。
+
+#### 如何管理可执行见解
+
+所有关于可执行见解的讨论和决策都必须记录在议题中，因为这些议题会作为绩效指标进行追踪。随着时间的推移，我们在追踪可执行的见解时，必须了解我们根据用户研究做出了哪些决策。
+
+在关闭可执行见解的议题时，必须记录关闭的原因以及是否对原始操作采取了行动。
+
+在某些情况下，不采取任何行动的原因有很多，如优先级低、工作量太大、技术上不可行等。无论原因如何，在关闭议题时都要将决定记录在案。
+
+#### 可执行见解适用于哪些验证研究？
+
+如果发现了可执行的见解，问题验证和解决方案验证都需要遵循可执行见解文档流程。例如:
+
+* **问题验证:** 如果这些见解能带来额外的研究、新确定的下一步目标,或确定的要解决的问题，这些都是可执行的见解。
+* **解决方案验证:** 如果发现了可用性问题、用户可能遇到的痛点或设计问题，这些都是可执行的见解。
+
+无论哪种研究，上面的例子都有一个共同点:见解是可执行的，因此必须记录下来。
+
+此外，用户体验评分卡测试可以产生可执行的见解。由于用户体验评分卡测试是一种专家评审和/或启发式评估，因此创建多维见解可能并不适用。相反，请务必使用[GitLab.com](https://gitlab.com/gitlab-org/gitlab/-/issues/new)中的 actionable insight 模板在 GitLab issue 中记录详细信息。
+ 
+
+
+### 我们为什么要追踪可执行见解
+
+GitLab 追踪可执行见解，用于：
+
+* **问责制:** 如果通过研究发现了需要做的事情，就应该去做。这一流程有助于防止这些可执行的见解丢失、被忽略，或者过很久才被执行。
+* **衡量研究影响:** 目前，很难准确衡量研究项目对产品的影响。追踪可执行见解可以让我们回溯到特定的研究项目，看看研究结果确定了什么行动，并确定自这些行动被确定以来在产品中采取了什么行动。
+
+未来可能被追踪和测量的数据:
+
+* 使用 `Actionable Insight` 标签的研究百分比
+   * 使用 `Actionable Insight` 标签的研究总百分比
+   * 分为问题验证和解决方案验证
+   * (Sisense 图表)
+* 可执行见解的总数
+   * 在已开展的全部研究中，带有 `Actionable Insight` 标签的见解总数，包括关闭和开启见解
+   * 如果可能，按问题验证和解决方案验证进行分解
+   * (Sisense 图表)
+* 目前开启、无活动（>1 个月无活动）的可执行见解总数
+   * 至少一个月未开展活动的可执行见解总数。 我们将跟进这些可执行见解，来了解没有活动的原因。
+   * (Sisense 图表)
+* 目前开启的、正在处理（活动 <1 个月前）的可操作见解总数
+   * 过去一个月内有活动的可执行见解的总数。 这意味着这些见解正在以某种方式被积极处理，而不是被丢弃。
+   * (Sisense 图标)
+* 已关闭的可执行见解总数，原因:被标记执行
+   * 由于议题中要求采取的行动已得到解决而关闭的可执行见解总数。 
+   * (Sisense 图标)
+* 已关闭的 `Actionable Insight` 总数，原因：未解决 / 其他理由
+   * 已关闭且未处理但有相关原因的可执行见解总数。  
+   * (Sisense 图标)
+随着时间的推移，一旦有了足够的数据，我们也许就能在阶段/小组层面对这些数据进行切分，来帮助我们了解哪些方面做得很好。根据我们所学到的知识，我们将不断改进这种方法。
 
 
