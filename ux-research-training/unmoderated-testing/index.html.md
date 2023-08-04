@@ -1,88 +1,89 @@
 ---
 layout: handbook-page-toc
-title: Unmoderated usability testing
-description: Using unmoderated usability testing at GitLab.
+title: 无主持的可用性测试
+description: 在 GitLab 使用非主持的可用性测试。
 ---
 
 
 
-At GitLab, we use [UserTesting.com](https://www.usertesting.com/) for certain unmoderated testing for [solution validation](/handbook/engineering/ux/ux-research-training/solution-validation-and-methods/) and [Category Maturity Scorecard studies](/handbook/engineering/ux/category-maturity-scorecards/). Unmoderated usability testing allows us to obtain evaluative feedback from our users very quickly, thereby allowing us to iterate faster in a more independent manner that requires fewer resources.
+在GitLab，我们使用 [UserTesting.com](https://www.usertesting.com/) 为 [解决方案验证](/handbook/engineering/ux/ux-research-training/solution-validation-and-methods/) 和 [类别成熟度记分卡研究](/handbook/engineering/ux/category-maturity-scorecards/) 进行某些非主持测试。非主持的可用性测试使我们能够迅速从用户那里获得评价性反馈，从而使我们能够以更独立、消耗资源更少的方式加快迭代速度。
 
-### What is unmoderated usability testing?
-Unmoderated usability testing is defined as a way to conduct usability testing without a moderator being present.  That means the participant will go through all of the tasks/instructions/questions solo.  This is typically accomplished through a service that also has a panel of participants.  The output of an unmoderated usability study are videos, which have to be watched and analyzed by the person who kicked-off the research.
+### 什么是无主持的可用性测试?
+非主持可用性测试是被定义为一种在没有主持人在场的情况下进行可用性测试的方法。 这意味着参与者将独自完成所有任务/指令/问题。 这通常是通过同时拥有一个参与者小组的服务来实现的。 无主持可用性研究的产出是视频，必须由发起研究的人观看和分析。
 
-### GitLab and UserTesting.com
+### GitLab 和 UserTesting.com
 
-For awareness, we don’t have an unlimited amount of studies we can conduct with UserTesting.com Please consider that when launching studies on UserTesting.com.
+请注意，我们在 UserTesting.com 上进行的研究并不是无限的，请在启动 UserTesting.com 上的研究时考虑到这一点。
 
-### Pros and cons
+### 优点和缺点
 
-It’s important to note that there are pros and cons to using unmoderated testing, and those should be considered before deciding to go with unmoderated vs. moderated. To illustrate:
+需要注意的是，使用无主持测试有利也有弊，在决定使用无主持测试还是有主持测试之前，应该考虑这些因素。举例说明:
 
-**Unmoderated**
+**无主持**
 
-- Pros:
-    - Very fast turnaround time (hours)
-    - No coordination needed for scheduling or gratuities
-    - Large, diverse participant panel
-- Cons:
-    - Can’t talk to participants to get them back on track or to confirm if they understand the task
-    - Requires a clear set of tasks/instructions/questions
+- 优点:
+    - 极快的周转时间（小时）
+    - 无需协调日程安排或酬金
+    - 参与者的组成规模较大且多样化
+- 缺点:
+    - 无法与参与者交谈以使他们回到预设流程中或确认他们是否理解了任务
+    - 需要一套明确的任务/指令/问题
 
-**Moderated**
+**有主持**
 
-- Pros:
-    - Able to have discussions with participants and go deep into an observed behavior
-    - Can course correct if needed
-- Cons:
-    - Time consuming (weeks)
-    - Requires scheduling and gratuity coordination
+- 优点:
+    - 能够与参与者进行讨论，并对观察到的行为进行深入探讨
+    - 必要时可进行纠偏
+- 缺点:
+    - 耗时（周）
+    - 需要协调日程安排和酬金
 
-### Best practices for your study
+### 最佳研究实践
 
-- **Always launch your study with 1-2 participants first.** These serve as your pilot, and you’ll use these results to determine whether participants understand your tasks and questions. The worst thing you can do is launch the study with all 5-8 participants only to find out that they interpreted your tasks and questions in a different way than you intended.
-- **If you’re asking rating questions, ask "why did you rate it that way?"** Since we’re dealing with qualitative data, you’ll want to understand the *why* behind those ratings.
-- **Screen carefully and wisely.** Unmoderated testers get paid per study, so the more studies they take part in, the more they get paid. As a result, sometimes you’ll get participants who may have lied their way through the screener just to get a study. To reduce the chances of that from happening, there's a handbook page on [how to write an effective screener](/handbook/engineering/ux/ux-research-training/write-effective-screener/).
-- **Studies should not be too long**. A good guide is that the test should range between 15-20 mins. This can be gauged by going through the test in preview mode and with the small sample of 1-2 participants. For quicker tests consider using the [short test](https://help.usertesting.com/hc/en-us/articles/360055473112-Short-Tests-Beta-) format.
+- **一定要先让 1-2 名参与者参与研究** 这些将作为你的试点，你将利用这些结果来确定参与者是否理解你的任务和问题。最糟糕的情况是，你与所有 5-8 名参与者一起启动研究，却发现他们对任务和问题的理解与你的初衷不同。
+- **如果你要问评分问题，请问 "你为什么这样评分？"** 由于我们处理的是定性数据，因此你需要了解这些评分背后的 *原因* 。
+- **小心谨慎地筛选** 非主持测试人员按研究项目计算报酬，因此他们参与的研究项目越多，获得的报酬就越多。因此，有时你会遇到一些参与者，他们可能为了获得研究机会而在筛选过程中撒了谎。为了减少这种情况的发生，我们提供了一个关于[如何撰写有效的筛选器](/handbook/engineering/ux/ux-research-training/write-effective-screener/)的手册页面。
+- **研究时间不宜过长**. 一个好的指导是，测试时间应在 15-20 分钟之间。这可以通过预览模式下和 1-2 名参与者的小样本测试来衡量。如需快速测试，可考虑使用[简短测试](https://help.usertesting.com/hc/en-us/articles/360055473112-Short-Tests-Beta-) 格式。
 
-### Best practices for your prototype
+### 原型设计的最佳实践
 
-If using Figma for your prototype, there are a few tips to keep in mind before attaching the link to your test:
+如果使用 Figma 制作原型，在将链接附加到测试之前,请注意以下几点：
 
-- Set the prototype to `scale up and down` to fill the participant’s screen.
-- `Disable hotspots`. Often participants know to search for these which may bias testing results.
-- Even after disabling hotspots, the cursor changes while hovering over a clickable area in Figma. Try to provide some additional mock clickable options to users in the prototype to avoid making the main click option obvious for them.
-- `Hide the header and footer`. This will allow the participants to focus only on your prototype without seeing extra information.
-- Ensure that the sharing settings `allow the participant to view the prototype, and only the prototype`.
-- Participants are able to view the name of the prototype in the tab, so avoid including any priming information here.
+- 将原型调整为合适的缩放比例来让原型在参与者的屏幕上能够显示的更清楚.
+- `禁用点击区域` 参与者往往发现并查找这些点击区域，这可能会使测试结果出现偏差。
+- 即使禁用了点击区域，光标在 Figma 中悬停在可点击区域时也会发生变化。尝试在原型中为用户提供一些额外的模拟可点击选项，这样可以避免让用户明显的看到主要的点击选项。
+- `隐藏页眉和页脚`。这可以让与会者只关注你的原型，而不会看到额外的信息。
+- 确保共享设置 `允许参与者查看原型，且只能查看原型`。
+- 参与者可以在选项卡中查看原型的名称，因此请避免在此处包含任何引导信息。
 
-### Frequently Asked Questions
+### 常见问题
 
-- **How do I know if my study is a good candidate for unmoderated testing?** If your study doesn’t require you to explain details and if there’s low risk of participants veering off course, your study is probably a good candidate for unmoderated testing. If you have any questions as to whether a study is a good fit for unmoderated testing, ask your UX Researcher.
-- **What if I want to ask problem validation related questions?** UserTesting.com isn’t your best option. Instead, go through the [recruitment process](/handbook/engineering/ux/ux-research-training/recruiting-participants/) to identify participants through First Look or Respondant.
-- **How many participants should I request per study?** Since we’re using unmoderated for evaluation studies, the sample size should be between 5-8 participants per study.
+- **如何确定我的研究是否适合进行无主持测试？** 如果你的研究不需要你解释细节，而且参与者偏离方向的风险很低，那么你的研究很可能适合无主持人测试。如果你对某项研究是否适合无主持测试有任何疑问，请咨询你的用户体验研究员。
+- **如果我想问与问题验证相关的问题怎么办？** UserTesting.com 并不是你的最佳选择。取而代之的是，通过[招募流程](/handbook/engineering/ux/ux-research-training/recruiting-participants/)通过 First Look 来确定参与者。
+- **每项研究需要多少参与者？** 由于我们在评估研究中使用的是无主持方式，因此每项研究的样本量应在 5-8 人之间。
 
-- **Can I create a custom panel of existing GitLab users?** While it is possible to create a custom panel, we recommend using the UserTesting panel and use the screener questions that are already saved for you to screen for GitLab users in specific roles.
+- **我能否为现有 GitLab 用户创建一个自定义面板？** 虽然可以创建自定义面板，但我们建议使用 UserTesting 面板，并使用已为你保存的筛选器问题来筛选特定角色的 GitLab 用户。
 
-- **Can I screen for certain criteria?** Of course - whatever you want. The stricter the screener criteria, the less likely you are to find the participants you’re looking for.  Note that there are already some GitLab screening questions in UserTesting.com for you to utilize.  You can find them under the 'Saved Screener Questions' within UserTesting.com.
+- **我可以根据特定标准进行筛选吗？** 当然，你想要什么都行。筛选标准越严格，就越不可能找到你想要的参与者。 请注意，UserTesting.com 中已经有一些 GitLab 筛选问题可供你使用。 你可以在 UserTesting.com 中的 "保存的筛选问题 "下找到它们。
 
-- **How do the demographic filters work with all those checkboxes?** The way the demographic filters work is as follows: If no filter is selected, the pool of participants would include anyone in the UserTesting.com panel. When you start selecting filters, the pool of participants becomes specific to the filters you are looking for, hence a smaller pool of potential testers. Not selecting any filters does not exclude anyone from the study, on the contrary, you will target more participants in this manner. It's recommended to keep the demographic filters as general as possible and then use the screener questions to find the specific type of participant you are looking for.
+- **用户筛选器如何使用所有这些复选框？** 用户筛选器的工作方式如下： 如果没有选择过滤器，参与者池将包括 UserTesting.com 面板中的任何人。当你开始选择筛选条件时，参与者库就会针对你正在寻找的筛选条件，从而缩小潜在测试者的范围。不选择任何过滤器并不会将任何人排除在研究之外，相反，你将以这种方式针对更多的参与者。建议你尽量使用一般的用户筛选器，然后使用筛选器问题来寻找你要找的特定类型的参与者。
 
-- **Do I have to ask certain screening questions, to meet GitLab's requirements?** Yes.  At the very least, you must ask the 'Individual contributor licence agreement' screener question, which is already saved as a 'Saved Screener Question' within UserTesting.com.
+- **为了满足 GitLab 的要求，我必须提出某些筛选问题吗？** 是的。至少，你必须问 '个人贡献者许可协议' 筛选问题，这已经在 UserTesting.com 中保存为 '预选筛选问题'。
+ 
 
-- **I ended up with a not-so-great participant (for example, they didn’t meet the screening criteria, they weren’t very vocal, or they didn’t follow instructions, etc.). What do I do?** Within UserTesting.com, you have the ability to rate your participants on a 5-star scale.  If you rate them as 1-star, UserTesting.com Support will reach out to you and ask if you would like a replacement participant.  You can either say yes or ask for credit instead.
+- **我最终得到了一个不是很好的参与者（例如，他们不符合筛选标准，他们不太爱说话，或者他们不听从指令等）。我该怎么办？** 在 UserTesting.com 中，你可以对参与者进行 5 星评级。 如果你将他们评为 1 星，UserTesting.com 支持部门将与你联系，询问你是否需要更换参与者。 你可以说 "是"，也可以要求退款。
 
-- **Do I have to worry about how many times I use UserTesting.com?** You should be aware that we have a limited number of ‘units’ that we use within the year.  It’s not an unlimited number of units.  However, you are encouraged to utilize UserTesting.com as much as you need to.
+- **我需要担心使用 UserTesting.com 的次数吗？** 你需要知道的是，我们在一年内使用的 '单位' 数量是有限的。 并不是无限量的。 但是，我们鼓励你根据需要尽可能多地使用 UserTesting.com。
 
 
-- **How do I get an account?** Through an [Access Request](/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/). UserTesting.com seats are allocated only to Product Designers and UX Researchers at this time, since those are the disciplines that are closely involved with solution validation and Category Maturity Scorecard testing.
+- **怎样创建账户?** 通过 [请求访问](/handbook/business-ops/team-member-enablement/onboarding-access-requests/access-requests/)。UserTesting.com 的席位目前只分配给产品设计师和用户体验研究员，因为他们的工作内容与解决方案验证和类别成熟度记分卡测试密切相关。
 
-- **How do recruitment and gratuities work?** When recruiting through the UserTesting.com panel, gratuities are taken care of.  You don't have to worry about that step at all.
+- **招聘和酬金是如何计算的？** 通过 UserTesting.com 进行招聘时，我们会支付酬金。 你完全不必担心这一步。
 
-- **What’s the output of a UserTesting.com study?** Video clips and a summary of the data, if survey questions were asked.  Video clips can be downloaded to be used in Dovetail.
+- **UserTesting.com 研究的成果是什么？** 视频剪辑和数据摘要（如有调查问题）。 视频片段可下载到 Dovetail 中使用。
 
-- **I’m not finding the kinds of participants I need in the UserTesting.com panel.  What do I do?** Reach out to @asmolinski2.  It is possible to send First Look panelists a link to a UserTesting.com study, if you want to have a segment from that panel complete unmoderated studies.  Note that gratuities would have to be handled by the UX Researcher, though.
+- **我在 UserTesting.com 中找不到我需要的参与者类型。 我该怎么办？** 与 @asmolinski2 联系。 如果你想让 First Look 小组的成员完成未经审核的研究，可以向他们发送 UserTesting.com 研究的链接。 但请注意，酬金必须由用户体验研究员支付。
 
-- **What's a '[short test](https://help.usertesting.com/hc/en-us/articles/360055473112-Short-Tests-Beta-)'? I see this option in UserTesting when I'm building my study.** A 'short test' a feature in UserTesting that allows you to conduct short studies, consisting of 3-5 questions. These are perfect to answer lightweight research questions that you need an answer to. An example might be a first-click study where you want to learn where participants click within a screenshot or workflow. The length of the study should not exceed 5 mins. The benefit to using a short test: it consumes half the amount of credits a standard UserTesting study would consume.
-- **I have so many questions! Who can I reach out to with them?** First, try looking in [UserTesting.com's training materials](https://university.usertesting.com/page/get-started-with-usertesting) (UserTesting login required). If that doesn't help, ask in the Slack channel #ux_research_usertesting.
-- **Should we "Enable Participant View" in UserTesting.com?** Enabling this setting will capture the participant's facial expressions as they work though the study and give you more insight into how they feel. However it is not mandatory to enable this setting. Consider adding a multiple-choice (single select) question or verbal question asking them about the confidence in their action, if that is the data you were hoping to get on camera.
+- **什么是'[简短测试](https://help.usertesting.com/hc/en-us/articles/360055473112-Short-Tests-Beta-)'？我在 UserTesting 中建立研究时看到了这个选项。** '简短测试'是 UserTesting 的一项功能，它允许你进行由 3-5 个问题组成的简短研究。这些问题非常适合回答你需要回答的轻量级研究问题。例如，你可以进行首次点击研究，了解参与者在屏幕截图或工作流程中的点击位置。研究时间不应超过 5 分钟。使用简短测试的好处是：它消耗的积分是标准 UserTesting 研究消耗积分的一半。
+- **我有很多问题！我可以向谁咨询？** 首先，请尝试在 [UserTesting.com 的培训材料](https://university.usertesting.com/page/get-started-with-usertesting) 中查找（需要登录 UserTesting）。如果没有得到帮助，请在 Slack 频道 #ux_research_usertesting 中提问。
+- **我们应该在 UserTesting.com 中 "启用参与者视图 "吗？** 启用此设置可捕捉参与者在研究过程中的面部表情，让您更深入地了解他们的感受。但这并不是必须启用的设置。如果这是您希望在摄像机上获得的数据，可以考虑添加一个多选（单选）问题或口头问题，询问他们对自己行动的信心。
