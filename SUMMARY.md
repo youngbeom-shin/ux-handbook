@@ -1,5 +1,4 @@
 # Summary
-* [introduction](README.md)
 * [用户体验部门](ux-department/index.html.md)
 * [类别成熟度记分卡](category-maturity-scorecards/index.html.md)
 * [设计合作者playbook](collaborators-playbook/index.html.md)
