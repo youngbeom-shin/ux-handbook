@@ -2,105 +2,98 @@
 layout: handbook-page-toc
 title: UX Department
 description: >-
-  用户体验部门将通过四个方面来支持 GitLab 的产品设计工作：UX research、产品设计、技术协作以及 UX Foundation。
+  The GitLab UX department comprises four areas to support designing the
+  GitLab product: UX Research, Product Design, Technical Writing, and UX
+  Foundations
 ---
 
+#### On this page
+{:.no_toc .hidden-md .hidden-lg}
 
-## 你好！
+- TOC
+{:toc .hidden-md .hidden-lg}
 
-我们是 GitLab 用户体验 (UX) 部门。我们包括四个领域来支持设计和构建 GitLab 产品。
+## Hello!
 
-- [用户体验研究](/handbook/engineering/ux/ux-research/)
-- [技术写作](/handbook/engineering/ux/technical-writing/)
-- [产品设计](/handbook/engineering/ux/product-design/)
-- Foundations - [Pajamas](https://design.gitlab.com)
+我们是 GitLab 用户体验(UX)部门。我们由四个领域组成,以支持 GitLab 产品的设计和构建。
 
-我们的目标是使我们的产品易于使用，支持来自更广泛的 GitLab 社区的贡献，并为多元化的全球社区而构建。我们希望 GitLab 成为同类产品中最简单、最令人愉快的产品。
+- [用户体验研究](/handbook/product/ux/ux-research/)
+- [技术写作](/handbook/product/ux/technical-writing/)
+- [产品设计](/handbook/product/ux/product-design/)
+- 基础设施 - [Pajamas](https://design.gitlab.com)
 
-我们希望您能在这里找到您想要的东西。如果你不这样做， 请创建一个 [issue](https://gitlab.com/gitlab-org/gitlab-design/issues/new) 并给我们反馈
+我们的目标是使我们的产品易于使用,支持来自更广泛的 GitLab 社区的贡献,并针对全球多样化的社区进行构建。我们希望 GitLab 成为同类产品中最简单、最令人愉快的产品。
+
+我们希望你在这里找到所需要的信息。如果找不到,请创建一个[议题](https://gitlab.com/gitlab-org/gitlab-design/issues/new)并给我们反馈。
 
 ## 我们的工作方式
 
-- **我们支持从初学者到专家的所有用户** 我们认为，GitLab 软件对于初学者来说应该是无所畏惧的并且易于使用，而不会过度简化高级用户的重要功能。我们在每一步都与用户保持联系，帮助他们作为初学者快速学习，然后随着时间的推移成为专家。
-- **我们正在共同开发一种产品。** 我们非常注重确保无论我们的产品有多大，整个体验都保持凝聚力、一致和相互关联。
-- **我们是用户体验设计的谦逊推动者。** 每个人都是设计师；每个人都可以做出贡献。我们不是自负、喜怒无常的专家，他们独自掌握着用户愉悦的关键。我们鼓励产品经理、工程师和更广泛的 GitLab 社区为创造卓越的用户体验做出贡献。
-- **我们寻找小的变化和大的影响** 有时，最简单、最无聊的解决方案就是让用户成功所需的解决方案。我们希望我们的 UI 远离用户。我们反复工作以进行适度但有价值的更改，使用户更有效率、更快、更好地完成任务。
-- **我们是通过同理心获悉的。** 我们是人类，我们为人类设计，所以我们努力理解、自我意识和联系。我们很古怪，我们会在适当的时候将我们的怪癖引入设计。
-- **当我们发现易于解决的问题时，我们就有能力自己做出这些改变。** 如果更改将花费您不到 15 分钟的时间（例如，对我们的网站或产品中的缩微进行微小更改），则从 MR 而不是issue开始。通过自己进行更改，您将立即采取行动来改进我们的产品，并且您也可能会学到一项新技能！如果这看起来很简单，但您有疑问，请记住，在 UX 部门和整个公司中都有人可以帮助您更改代码。
+- **我们支持从初学者到专家的所有用户。** 我们相信 GitLab 软件应该对初学者来说不会令人生畏和难以接近,同时又不会过分简化对高级用户来说重要的功能。我们会一直陪伴用户,帮助他们快速地从初学者变成专家。
 
-详细了解我们 [如何](/handbook/engineering/ux/how-we-work/) 在部门内以及与跨职能合作伙伴合作。
+- **我们共同建立一个产品。** 我们非常注重确保无论我们的产品变得多大,整个体验都保持凝聚力、一致性和互联性。
 
-## 阶段组用户体验策略
+- **我们是用户体验设计的谦逊推动者。** 每个人都是设计师;每个人都可以贡献。我们不是孤傲、多变的专家、独自掌握着用户预约的钥匙。我们鼓励产品经理、工程师和更广泛的 GitLab 社区为创造卓越的用户体验做出贡献。
 
-在 [产品设计](/handbook/engineering/ux/product-design/) 手册页面中查看阶段组的团队结构和战略用户体验方向。
+- **我们寻找小的变化和大的影响。** 有时，最简单、最无聊的解决方案就是让用户成功所需的解决方案。我们希望我们的用户界面不会阻碍用户。我们通过迭代进行温和但有价值的改变,以使用户更高效、更快速、更好地完成任务。
+
+- **我们以同理心为指导。** 我们是人,我们为人设计,所以我们力求理解、自我意识和联系。我们有古怪的一面,在适当的时候会在设计中引入这种特质。
+
+- **当我们发现简单的问题时,我们有权力自己进行更改。** 如果一个更改花费你不到 15分钟 的时间(例如,对我们网站的细微更改或产品中的文案更改),那么请直接创建一个合并请求,而不是一个议题。通过自己进行更改,你可以立即采取行动来改进我们的产品,也可能学到新技能!如果看起来简单,但您有疑问,请记住UX部门和整个公司都有人可以帮助您进行代码更改。(即使是Sid也愿意提供帮助,如果您需要的话。)
+
+了解更多关于我们在部门内部以及与跨职能合作伙伴的[工作方式](/handbook/product/ux/how-we-work/)。
+
+### 持续学习
+我们一直在学习! 访问 [UX学习与发展页面](/handbook/product/ux/learning-and-development/),了解针对 UX 部门成员或任何想了解我们所做工作的人员的资源。
 
 ## 我们使用的用户画像
 
-现有的用户画像记录在 [用户画像指导手册](/handbook/marketing/strategic-marketing/roles-personas/) 中.
+现有用户画像在[手册](/handbook/product/personas/)中进行了记录。
 
-可以随时添加新角色或对现有角色的更新。
+可以随时添加新的用户画像或更新现有用户画像。
 
-用户画像应该是：
+用户画像应该是:
 
-- 通过研究作为依据
-- 由工作职位或特征驱动
+- 基于研究得出
+- 由职务或者产品功能驱动
 - 性别中立
 
 ## 职责范围
 
-- **Pajamas 设计系统:** 为确保每个人都能自信地为 GitLab 做出贡献，我们为每个人提供正确的资源和专业知识。 该 [Pajamas](https://design.gitlab.com/) 设计系统是检验真理的一切人的需求的单一来源了解有助于 GitLab UI。UX部门拥有视觉和交互设计。我们与各种类别合作，在功能实现期间使用Pajamas。
-- **导航:**导航是用户体验中极其重要的一部分。我们的目标是围绕用户如何看待我们的产品而不是我们的内部结构来设计导航结构。 [了解如何更改导航](/handbook/engineering/ux/navigation/).
-- **系统可用性量表:** 我们使用行业标准的 [系统可用性量表 (SUS)](/handbook/engineering/ux/performance-indicators/system-usability-scale/) 方法来衡量我们产品的. 我们的 UX 研究团队负责定义我们的流程并每季度运行一次调查，但所有 UX 和产品管理部门都负责获得 [行业领先的分数e](/company/strategy/#2-build-on-our-open-core-strength).
-- **UX 记分卡:** 随着我们平台的发展，我们希望不断评估各种任务和流程的用户体验，以确保随着时间的推移跟踪进度和改进。 [UX 计分卡](/handbook/engineering/ux/ux-scorecards/) 是我们实现这一目标的框架。
-- **类别成熟度记分卡：** 我们倾听用户的意见，并根据用户表现和反馈对产品的成熟度进行评分 [类别成熟度计分卡](/handbook/engineering/ux/category-maturity-scorecards/) 是我们用于这些评估的方法。
-- **技术文档:** 我们的用户需要可靠的文档，因为它有助于跟踪平台的所有方面并提高软件产品的质量。我们管理 [docs.gitlab.cn](https://docs.gitlab.cn/) 及相关的流程和工具。
-- **First Look:** 邀请用户参与我们所做的一切对我们来说很重要。 [First Look](https://about.gitlab.com/community/gitlab-first-look/) 是我们的用户参与和研究参与者招募计划，它使我们能够与用户建立联系并了解他们对我们产品的看法。
-- **UX Showcase:** 协作是我们的价值观之一。我们的UX Showcase每两周展示一次著名的用户体验项目，来自每个阶段组的产品设计师轮流分享他们的成就以收集反馈。
+- **Pajamas设计系统:** 为了确保每个人都能充满信心地为GitLab做出贡献,我们为每个人提供了正确的资源和知识。[Pajamas](https://design.gitlab.com/)设计系统是任何人都需要了解如何为GitLab UI做出贡献的唯一真实来源。UX部门拥有视觉和交互设计。我们与各个[类别](/handbook/product/categories/)合作,在功能实现期间利用Pajamas。
 
-## FY22 direction
+- **导航:** 导航是用户体验非常重要的一部分。我们的目标是围绕用户如何思考我们的产品来设计导航结构,而不是我们团队内部的构成。[了解如何更改导航](/handbook/product/ux/navigation/)。
 
-Continuing our focus in fiscal year 2021 (FY21), the UX direction for FY22 is still to offer a best-in-class user experience for all of the DevOps categories in which we compete. The difference this year is that we intend to tie those improvements to two industry standards:
+- **系统可用性量表:** 我们使用行业标准的[系统可用性量表(SUS)](/handbook/product/ux/performance-indicators/system-usability-scale/)方法来衡量我们产品的可用性。我们的 UX 研究团队负责定义我们的流程并每季度运行一次调查,但 UX 和产品管理的所有人都有责任实现[行业领先的分数](/company/strategy/#2-build-on-our-open-core-strength)。
 
-- McKinsey’s five-year study on [The business value of design](https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design) that resulted in the McKinsey Design Index (MDI)
-- Continued focus on improving our [System Usability Scale score](/handbook/engineering/ux/performance-indicators/#perception-of-system-usability)
+- **UX评分卡:** 随着我们平台的发展,我们希望继续评估各种任务和流程的用户体验,以确保我们可以跟踪进度和时间的改进。 [UX评分卡](/handbook/product/ux/ux-scorecards/)是我们实现这一目标的框架。
 
-### 设计的商业价值
+- **评估类别成熟度:** 我们倾听用户的反馈,并根据用户表现和反馈对我们的产品成熟度进行评级。 [评估类别成熟度](/handbook/product/ux/category-maturity/)概述了我们使用的方法。
 
-> “前四分之一的 MDI 评分者在五年期间的收入和股东总回报 (TRS) 增长速度大大快于其行业同行——在此期间，收入增长高出 32 个百分点，TRS 增长高出 56 个百分点。所有的。” - 麦肯锡公司关于 [设计商业价值](https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/the-business-value-of-design) 的报告。
+- **技术文档:** 我们的用户需要可靠的文档,因为它有助于跟踪平台的所有方面,并提高软件产品的质量。我们管理[docs.gitlab.com](https://docs.gitlab.com/),以及相关流程和工具。
 
-在对 300 多家上市公司进行的为期五年的研究中，麦肯锡发现了四个与财务业绩改善相关的 MDI 主题：
+- **First Look:** 邀请用户参与我们所做的一切对我们很重要。 [First Look](https://about.gitlab.com/community/gitlab-first-look/) 是我们的用户参与和研究参与者招募计划,通过它我们可以与用户联系并听取他们对我们产品的想法。
 
-- **分析领导力**，以与收入和成本相同的严谨态度来衡量和推动设计绩效。 
-- 使以用户为中心的设计成为每个人的责任的**跨职能人才**。
-- **持续迭代**，通过与最终用户的持续倾听、测试和迭代来降低开发风险。
-- 打破物理、数字和服务设计之间的内墙的**用户体验**。
+- **UX Showcase:** 协作是我们的价值观之一。 <%= data.ux_showcase.about %>
 
-作为 UX 从业者，我们非常关心创造出色的产品体验，因为我们知道它可以改善我们最终用户的日常生活。我们往往忘记的是，出色的用户体验还可以显着改善我们公司的财务状况。我们职责的很大一部分是倡导美观的设计和有效的设计实践。将这种宣传与收入影响联系起来可能是一种真正有效的方法，可以帮助公司做出重要的优先级决策。
+## 我们团队的一些成员
 
-### 系统可用性
+这个部分受到最近 Engineering Manager 自述文件的趋势的启发。 例如, [Hackernoon: 12个管理者自述文件(来自一些科技公司最好的文化)](https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe)。进一步了解我们团队中的人!
 
-自 20 财年第一季度以来，我们一直在[跟踪](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/#perception-of-system-usability)我们的[系统可用性量表](https://about.gitlab.com/handbook/engineering/ux/performance-indicators/system-usability-scale/)得分，因此我们现在对用户如何看待我们的产品体验有一个长期的看法。虽然我们的分数高于平均水平，但它却逐季下降。
+- [Christie Lenneville](/handbook/product/ux/one-pagers/christie-readme/) - 用户体验副总裁
+- [Valerie Karnes](https://gitlab.com/vkarnes/readme) - 产品设计总监
+- [Jacki Bauer](https://gitlab.com/jackib) - 产品设计经理
+- [Justin Mandell](https://gitlab.com/jmandell/readme) - 产品设计经理 
+- [Taurie Davis](https://gitlab.com/tauriedavis/readme/blob/master/README.md) - 高级产品设计经理
+- [Rayana Verissimo](https://gitlab.com/rayana/readme) - 产品设计经理
+- [Jeremy Elder](https://gitlab.com/jeldergl/view/blob/master/README.md) - 基础设施高级产品设计师
+- [Austin Regnery](https://gitlab.com/aregnery/dear-journal/-/blob/master/README.md) - 高级产品设计师
+- [Anne Lasch](https://gitlab.com/alasch/about-anne/-/blob/master/README.md) - 高级用户体验研究员- [Emily Bauman](https://gitlab.com/emilybauman/about-me/-/blob/master/README.md) - Senior Product Designer
+- [Will Leidheiser](https://gitlab.com/wleidheiser/about-will/-/blob/main/README.md) - Staff UX Researcher
 
-幸运的是，我们得到了执行团队的支持，适当关注可用性改进，目标是到24 财年末将其提高到 80。我们还进行了重要的用户研究，表明我们应该将精力集中在哪里才能产生最大的影响。
-
-### Actionable steps
-
-In alignment with the MDI themes and feedback from user research, the following is a list of where our UX team will focus in FY22 to improve our SUS score. Often, but not always, we will use this list as a starting place for our quarterly OKRs.
-
-It’s important to note that this list isn’t exhaustive. Instead, we've focused on areas that the UX team can achieve independently, while we still continue to collaborate with our product development partners on other company priorities.
-
-| MDI 主题 | 目标 | DRI | Epic 或 Issue 链接 |
-| --------- | ---- | --- | ------------------ |
-| User experience | 建立极狐GitLab产品调研基准线 | 申永范 | [Q1 issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/10463) / [Q3 Epic](https://gitlab.cn/groups/jihulab/product/design/-/epics/1) |
-
-
-## 认识我们的一些团队成员
-
-目前 极狐GitLab 有两位设计师，[申永范](https://gitlab.cn/Yongfan_Shen)是在产品研发团队负责产品功能设计和用户研究，[管震震](https://gitlab.cn/jeejeekwan)是在市场团队负责数字产品体验设计。在我们的日常工作中经常需要跨部门协作，需要和研发部门以及市场部门有密切的合作。以下是相关部门的同事以及负责的指责。如果需要获得相应团队伙伴的支持，建议在团队的project中创建相应的issue或者发送邮箱。
-
-- [Ben Lin](https://gitlab.cn/blin) - CTO 
-- [Qian Zhang](https://gitlab.cn/qianzhangxa) - Engineering VP
-- [Liang Peng](https://gitlab.cn/lpeng1991) - Product Manager 
-- [Louise Luo](https://gitlab.cn/louiseluo) - Head of Marketing
-- [Xinru Man](https://gitlab.cn/xrman) - Digital Marketing
-- [seraph zheng](https://gitlab.cn/seraph.zheng) -  IT Support
+[ux-guide]: https://docs.gitlab.com/ee/development/ux_guide/
+[ux-label]: https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=UX
+[ux-ready-label]: https://gitlab.com/groups/gitlab-org/issues?scope=all&state=opened&utf8=%E2%9C%93&label_name%5B%5D=UX+ready
+[gitlab-design-project-readme]: https://gitlab.com/gitlab-org/gitlab-design/blob/master/README.md
+[twitter-sheet]: https://docs.google.com/spreadsheets/d/1GDAUNujD1-eRYxAj4FIYbCyy8ltCwwIWqVTd9-gf4wA/edit
+[everyone-designer]: https://library.gv.com/everyone-is-a-designer-get-over-it-501cc9a2f434
+[pajamas]: https://design.gitlab.com
