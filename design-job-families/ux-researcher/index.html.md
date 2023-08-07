@@ -1,16 +1,16 @@
 ---
 layout: job_family_page
 title: "UX Researcher"
-description: "At GitLab, UX Researchers collaborate with our Product Designers, Product Managers and the rest of the community to assist in determining what features should be built, behave, and priorities."
+description: "在 GitLab，用户体验研究员与我们的产品设计师、产品经理和社区其他成员合作，协助确定应构建哪些功能、行为和优先级。"
 ---
 
-在GitLab，用户体验研究员与我们的产品设计师、产品经理和社区其他成员合作，协助确定应该建立什么功能，它们应该如何表现，以及应该有哪些优先事项。
+在 GitLab，用户体验研究员与我们的产品设计师、产品经理和社区其他成员合作，协助确定应构建哪些功能、行为和优先级。
 
 ## 职责
 
-* 成为你所分配的覆盖区域内的用户的专家：了解他们如何使用GitLab，他们的痛点，他们的工作流程等。
+* 成为你所分配的覆盖区域内的用户的专家：了解他们如何使用 GitLab，他们的痛点，他们的工作流程等。
 
-* 与GitLab的设计师、产品经理和工程师合作，开展广泛的研究项目。
+* 与 GitLab 的设计师、产品经理和工程师合作，开展广泛的研究项目。
 
 * 进行用户体验研究的所有阶段：识别、计划、推动、进行、分析和报告洞察力。
 
@@ -43,7 +43,7 @@ description: "At GitLab, UX Researchers collaborate with our Product Designers, 
 
 #### 中级工作职级
 
-UX研究员(中级)是一个[6级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
+UX研究员(中级)是 [6级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
 
 #### 中级岗位职责
 * 亲自发起并在您的阶段小组内或跨阶段小组进行研究，以建立对您的覆盖领域的深入基础知识。研究应该包括解决方案验证和问题验证项目的组合。
@@ -68,7 +68,7 @@ UX研究员(中级)是一个[6级](https://about.gitlab.com/handbook/total-rewar
 
 #### 高级工作职级
 
-高级用户体验研究员是[7级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
+高级用户体验研究员是 [7级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
 
 #### 高级岗位职责
 * 在你所分配的阶段小组和相邻的阶段小组中，亲自发起和开展研究项目，以建立你所覆盖领域的深入基础知识。研究应该包括问题验证、基础研究和战略研究项目。
@@ -103,7 +103,7 @@ UX研究员(中级)是一个[6级](https://about.gitlab.com/handbook/total-rewar
 
 #### 资深工作职级
 
-资深 UX 研究员是[8级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
+资深 UX 研究员是 [8级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
 
 **资深水平的市场合理性:**
 在 GitLab，工程师有一个正式的[双重职业轨道](https://about.gitlab.com/handbook/engineering/career-development/#individual-contribution-vs-management)，能够作为一个人的经理或个人贡献者继续成长和发展。
@@ -115,7 +115,7 @@ UX研究员(中级)是一个[6级](https://about.gitlab.com/handbook/total-rewar
 
 * 了解 GitLab:了解 GitLab 产品的技术、经验和特性。对你所分配的和相邻的阶段小组的方向和远景保持全面的了解。
 
-* 了解 GitLab用户:在不同的环境下对 GitLab 用户进行深刻的共情理解，了解他们的需求，并找出差距。
+* 了解 GitLab 用户:在不同的环境下对 GitLab 用户进行深刻的共情理解，了解他们的需求，并找出差距。
 
 * 商业敏锐性：在接触研究项目时，考虑团队的商业目标，以确保有一致性。
 
@@ -155,17 +155,17 @@ UX 首席研究员是[9级](https://about.gitlab.com/handbook/total-rewards/comp
 在 GitLab，工程部有一个正式的[双职业轨道](https://about.gitlab.com/handbook/engineering/career-development/#individual-contribution-vs-management)，能够作为一个人的经理或个人贡献者继续成长和发展。
 
 #### 首席岗位职责
-- 通过研究，建立一个知识库，使自己成为GitLab的思想领袖和主题专家。
+- 通过研究，建立一个知识库，使自己成为 GitLab 的思想领袖和主题专家。
 
 - 亲自发起和进行有意义的研究，跨越部门和阶段组，以建立 GitLab 的基础知识。研究应包括问题验证、基础研究和战略研究项目的组合。在可能的情况下，让其他研究人员参与到这些项目中来。
 
 - 了解 GitLab：了解 GitLab 产品的技术、经验和特性。保持对阶段和公司层面的方向和愿景的全面了解。
 
-- 了解 GitLab 用户:在不同的环境下对 GitLab 用户进行深刻的共情理解，了解他们的需求，并找出差距。强调使用多个部分的GitLab用户。
+- 了解 GitLab 用户:在不同的环境下对 GitLab 用户进行深刻的共情理解，了解他们的需求，并找出差距。强调使用多个部分的 GitLab 用户。
 
 - 商业敏锐性：在接近研究项目时考虑商业目标，以确保一致性和最大限度的应用见解。
 
-- 有效地优先考虑你的整体研究工作。在考虑影响、研究类型、更广阔的产品愿景和公司目标时，与部门主管、副总裁和c级高管保持一致。
+- 有效地优先考虑你的整体研究工作。在考虑影响、研究类型、更广阔的产品愿景和公司目标时，与部门主管、副总裁和C级高管保持一致。
 
 - 通过每年提交6个战略研究项目来展示思想领导力。
 
@@ -196,11 +196,11 @@ UX 首席研究员是[9级](https://about.gitlab.com/handbook/total-rewards/comp
 
 这个职位的候选人可以预期招聘过程将按照以下顺序进行。请记住，候选人可以在招聘过程的任何阶段被拒之门外。要了解更多关于可能进行面试的人的信息，请在我们的[团队页面](https://about.gitlab.com/company/team/)上找到他们的职位名称。
 
-* 被选中的候选人将被邀请与我们的全球招聘人员或招聘经理安排一次30分钟的[筛选电话](https://about.gitlab.com/handbook/hiring/interviewing/#screening-call)。在这个电话中，我们将讨论你的经历，了解你对用户体验研究职位的需求，讨论你的薪酬期望，你想加入GitLab的原因，并回答你的任何问题。
+* 被选中的候选人将被邀请与我们的全球招聘人员或招聘经理安排一次 30分钟 的[筛选电话](https://about.gitlab.com/handbook/hiring/interviewing/#screening-call)。在这个电话中，我们将讨论你的经历，了解你对用户体验研究职位的需求，讨论你的薪酬期望，你想加入 GitLab 的原因，并回答你的任何问题。
 
-* 下一步将是一个30分钟的会议，涉及一些基于场景的问题，将寻求了解你如何处理用户体验研究人员发现的常见情况。 
+* 下一步将是一个 30分钟 的会议，涉及一些基于场景的问题，将寻求了解你如何处理用户体验研究人员发现的常见情况。 
 
-* 之后，我们会邀请你录制一个案例研究演练视频。录制时间预计为**20-分钟，并在筛选电话的十天内**返回给我们。除了下面的细节，[GitLab Unfiltered YouTube播放列表上的讨论](https://youtu.be/VU2BKjGoer4)提供了我们正在寻找的东西的概述。  
+* 之后，我们会邀请你录制一个案例研究演练视频。录制时间预计为**20分钟，并在筛选电话的十天内**返回给我们。除了下面的细节，[GitLab Unfiltered YouTube播放列表上的讨论](https://youtu.be/VU2BKjGoer4)提供了我们正在寻找的东西的概述。  
 
 > ### 为什么我们要求提供预录的演示文稿
 > 
@@ -215,27 +215,27 @@ UX 首席研究员是[9级](https://about.gitlab.com/handbook/total-rewards/comp
 >
 > ### 我们正在寻找的是 
 > 
-> - 录音时间不超过20分钟，并在您的筛选电话完成后十天内返回给我们。 
+> - 录音时间不超过 20分钟，并在您的筛选电话完成后十天内返回给我们。 
 > - 理想情况下，你提交的一项研究应该与你在 GitLab 的工作相关。这可能是因为该研究涉及到你将在 GitLab 研究的[用户角色](https://about.gitlab.com/handbook/marketing/strategic-marketing/roles-personas/#user-personas)，该研究与DevOps或开发者工具行业有关，该研究与你面试的[阶段](https://about.gitlab.com/handbook/product/categories/#devops-stages)有关，是一项跨越多种方法的研究，或者是一项被认为性质复杂的研究。 
-> - 您可以使用[私人 Youtube 链接](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en)、[谷歌 Drive 链接](https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en)或[Loom 链接](https://www.loom.com/)共享录音。
+> - 您可以使用[私人 Youtube 链接](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en)、[谷歌 Drive 链接](https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en)或 [Loom 链接](https://www.loom.com/)共享录音。
 > - 你的演讲要针对上述每个主题。 
 > 
 > ## 一些有用的资源
 > 
-> - 不确定从哪里开始？请查看我们的[在Zoom中录制演讲的手册页面](https://about.gitlab.com/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom)。你只需要一个免费的 Zoom 账户就可以完成这个演示。
-> - 对我们的用户体验团队的工作类型感兴趣吗？请查看我们的[GitLab Unfiltered上的用户体验展示](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)，我们的[用户体验研究手册](https://about.gitlab.com/handbook/engineering/ux/ux-research/)，以及我们的[用户体验部门的手册](https://about.gitlab.com/handbook/engineering/ux/)。
+> - 不确定从哪里开始？请查看我们的[在 Zoom 中录制演讲的手册页面](https://about.gitlab.com/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom)。你只需要一个免费的 Zoom 账户就可以完成这个演示。
+> - 对我们的用户体验团队的工作类型感兴趣吗？请查看我们的 [GitLab Unfiltered 上的用户体验展示](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)，我们的[用户体验研究手册](https://about.gitlab.com/handbook/engineering/ux/ux-research/)，以及我们的[用户体验部门的手册](https://about.gitlab.com/handbook/engineering/ux/)。
 > - 我们在 GitLab 基于[low level of shame](https://about.gitlab.com/handbook/values/#low-level-of-shame)的理念合作。在这种情况下，这意味着我们不期望你的演讲是高度润色的。
 > - 是否有其他问题？想让招聘人员在招聘经理审查之前审查你的介绍吗？不要犹豫，请与进行筛选电话的招聘人员联系。 
 
-* 如果录音显示你过去的经历会使你在GitLab的职位上取得成功，我们会安排下一阶段的工作。
+* 如果录音显示你过去的经历会使你在 GitLab 的职位上取得成功，我们会安排下一阶段的工作。
 
-* 候选人将被邀请参加与用户体验研究总监的1小时面试。你将讨论你的职业，你作为用户体验研究员的经验，以及用户体验研究在GitLab的作用。 
+* 候选人将被邀请参加与用户体验研究总监的 1小时 面试。你将讨论你的职业，你作为用户体验研究员的经验，以及用户体验研究在 GitLab 的作用。 
 
-* 接下来的面试是与用户体验研究员的50分钟。总的来说，这次面试旨在了解你如何选择你的研究方法，如何展示结果，如何与更广泛的同行团队合作，以及如何确定你的研究是否产生了有意义的商业影响。这次面试还将着眼于了解你作为研究人员的软技能，以及你如何在现实世界中应用这些技能。
+* 接下来的面试是与用户体验研究员的 50分钟。总的来说，这次面试旨在了解你如何选择你的研究方法，如何展示结果，如何与更广泛的同行团队合作，以及如何确定你的研究是否产生了有意义的商业影响。这次面试还将着眼于了解你作为研究人员的软技能，以及你如何在现实世界中应用这些技能。
 
-* 然后，候选人将被邀请与产品设计经理或产品设计师进行50分钟的面试。在这次面试中，我们将重点关注你在案例研究报告中概述的研究的最终结果。我们想了解你要解决的问题（以及你如何确定这些问题），你的方法，以及你如何与更广泛的团队分享这些信息。这次面试是一个机会，让你更详细地了解你将参与的阶段，听取关于稳定的对应关系的不同观点，并提出你的任何问题。 
+* 然后，候选人将被邀请与产品设计经理或产品设计师进行 50分钟 的面试。在这次面试中，我们将重点关注你在案例研究报告中概述的研究的最终结果。我们想了解你要解决的问题（以及你如何确定这些问题），你的方法，以及你如何与更广泛的团队分享这些信息。这次面试是一个机会，让你更详细地了解你将参与的阶段，听取关于稳定的对应关系的不同观点，并提出你的任何问题。 
 
-* 最后一次面试是50分钟，由产品经理负责。这次面试的安排取决于之前面试的积极反馈。这次面试是一个机会，让你更详细地了解你将参与的阶段，听取关于稳定对应关系的不同观点，并提出你的任何最后问题。 
+* 最后一次面试是 50分钟，由产品经理负责。这次面试的安排取决于之前面试的积极反馈。这次面试是一个机会，让你更详细地了解你将参与的阶段，听取关于稳定对应关系的不同观点，并提出你的任何最后问题。 
 
 * 成功的候选人随后将通过 Zoom 获得录用通知。
 

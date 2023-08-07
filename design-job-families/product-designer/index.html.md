@@ -34,7 +34,7 @@ title: "产品设计师"
 
 #### 职务等级
 
-产品设计师是一个[6级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
+产品设计师是 [6级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
 
 ### 高级产品设计师
 
@@ -56,7 +56,7 @@ title: "产品设计师"
 
 #### 职务等级
 
-高级产品设计师为[7级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
+高级产品设计师为 [7级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
 
 ### 资深产品设计师
 
@@ -78,7 +78,7 @@ title: "产品设计师"
 
 #### 职务等级
 
-资深产品设计师为[8级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
+资深产品设计师为 [8级](https://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)。
 
 ## 专家
 
