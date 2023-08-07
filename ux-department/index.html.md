@@ -7,12 +7,6 @@ description: >-
   Foundations
 ---
 
-#### On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
-
 ## Hello!
 
 我们是 GitLab 用户体验(UX)部门。我们由四个领域组成,以支持 GitLab 产品的设计和构建。
