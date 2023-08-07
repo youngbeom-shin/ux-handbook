@@ -1,24 +1,23 @@
 ---
 layout: handbook-page-toc
-title: "Usability at GitLab"
-description: "How GitLab defines usability and measures it."
+title: "GitLab 的可用性"
+description: "GitLab 如何定义和衡量可用性。"
 ---
 
 
-The term "usability" can mean a variety of things. At GitLab, we use the following definition of usability when we conduct user research and design our product:
+可用性这个词可以有多种含义。在 GitLab,当我们进行用户研究和设计我们的产品时,我们使用以下对可用性的定义:
 
-**To be usable, an interactive system should be useful, efficient, effective, satisfying, and learnable.**
+**一个可用的交互系统应当有用、高效、有效、令人满意和容易学习。**
 
-* **Usefulness** is the degree to which our product enables a user to achieve his or her goals. 
+* **有用性** 是指我们的产品能够帮助用户达成他或她的目标的程度。
 
-* **Efficiency** is the quickness with which the user’s goal can be accomplished accurately and completely in a period of time.
+* **效率** 是指用户能够在一定时间内准确、完整地完成目标的速度。
 
-* **Effectiveness** refers to the extent to which the interactive system behaves in the way that users expect it to and the ease with which users can use it to do what they intend.
+* **有效性** 是指交互系统的行为方式符合用户的预期以及用户使用它实现目的的难易程度。
 
-* **Learnability** is a part of effectiveness and has to do with the user’s ability to operate the interactive system to some defined level of competence after some predetermined amount and period of training (which may be no time at all). It can also refer to the ability of infrequent users to relearn the system after periods of inactivity.
+* **学习性** 是有效性的一部分,与用户在一定的训练时间和数量后,能够掌握系统达到一定熟练程度的能力有关。它也可以指间歇性用户在长时间不使用后能够重新学习系统的能力。
 
-* **Satisfaction** refers to the user’s perceptions, feelings, and opinions of the product. 
+* **满意度** 是指用户对产品的感知、感受和见解。
 
 
-
-*Note: This definition is based on information from the [Handbook of Usability Testing](https://www.amazon.com/Handbook-Usability-Testing-Conduct-Effective/dp/0470185481) and the [International Usability and UX Qualification Board curriculum](https://uxqb.org/public/documents/CPUX-F_EN_Curriculum-and-Glossary.pdf).*
+*注：本定义基于 [可用性测试手册](https://www.amazon.com/Handbook-Usability-Testing-Conduct-Effective/dp/0470185481)和 [国际可用性与用户体验认证委员会课程](https://uxqb.org/public/documents/CPUX-F_EN_Curriculum-and-Glossary.pdf) 中的信息*。
